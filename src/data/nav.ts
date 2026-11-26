@@ -5,6 +5,7 @@ export const shopLinks: NavLink[] = [
   { href: "/#camcorders", label: "Camcorders" },
   { href: "/#audio", label: "Audio" },
   { href: "/#categories", label: "More gear" },
+  { href: "/price-list", label: "Price list" },
 ];
 
 export const helpLinks: NavLink[] = [

@@ -3334,7 +3334,7 @@ export const products: Product[] = [
       { title: "Weddings and vlogs", body: "Small, light and quick to set up when there's no second chance." },
     ],
     notFor:
-      "If you shoot professional film or broadcast work and need timecode, longer range and premium lavalier mics in a charging case, choose the Rode Wireless PRO (₦520,000).",
+      "If you shoot professional film or broadcast work and need timecode, longer range and premium lavalier mics in a charging case, choose the Rode Wireless PRO (₦500,000).",
     specs: [
       { label: "System", value: "Dual-channel: 2 transmitters and 1 receiver" },
       { label: "Transmission", value: "Series IV 2.4 GHz digital, 128-bit encryption, up to 260 m line of sight" },
@@ -3380,7 +3380,7 @@ export const products: Product[] = [
       {
         id: "standard",
         name: "Wireless GO (Gen 3) kit",
-        price: 320_000,
+        price: 300_000,
         includes: [
           "2 Wireless GO transmitters with built-in mics",
           "1 Wireless GO receiver",
@@ -3444,7 +3444,7 @@ export const products: Product[] = [
       { title: "Serious content creators", body: "Pro sound on camera or phone, with lavs ready in the box." },
     ],
     notFor:
-      "If you don't need timecode, the Lavalier II mics or the charging case, the Rode Wireless GO (Gen 3) (₦320,000) gives you the same capsules and 32-bit float backup for much less.",
+      "If you don't need timecode, the Lavalier II mics or the charging case, the Rode Wireless GO (Gen 3) (₦300,000) gives you the same capsules and 32-bit float backup for much less.",
     specs: [
       { label: "System", value: "Dual-channel: 2 transmitters and 1 receiver" },
       { label: "Transmission", value: "Series IV 2.4 GHz digital, 128-bit encryption, up to 260 m line of sight" },
@@ -3491,7 +3491,7 @@ export const products: Product[] = [
       {
         id: "standard",
         name: "Wireless PRO kit",
-        price: 520_000,
+        price: 500_000,
         includes: [
           "2 Wireless PRO transmitters with built-in mics",
           "1 Wireless PRO receiver",
@@ -3601,7 +3601,7 @@ export const products: Product[] = [
       {
         id: "standard",
         name: "NTH-100 headphones",
-        price: 300_000,
+        price: 350_000,
         includes: [
           "Rode NTH-100 studio headphones",
           "2.4 m detachable cable",
@@ -3665,7 +3665,7 @@ export const products: Product[] = [
       { title: "Content creators", body: "Monitor your audio while you record without sound leaking into the mic." },
     ],
     notFor:
-      "If you wear headphones all day and want over-ear Alcantara cushions with cooling gel, choose the Rode NTH-100 (₦300,000).",
+      "If you wear headphones all day and want over-ear Alcantara cushions with cooling gel, choose the Rode NTH-100 (₦350,000).",
     specs: [
       { label: "Type", value: "Closed-back, on-ear (supra-aural) studio headphones" },
       { label: "Driver", value: "40 mm dynamic, custom-matched, with resonant chamber" },
@@ -3775,7 +3775,7 @@ export const products: Product[] = [
       { title: "News and interviews", body: "Tight pickup that keeps the background quiet." },
     ],
     notFor:
-      "If you want a lighter shotgun that comes as a complete location kit with a boompole and windshield, choose the Rode NTG5 kit (₦750,000). For a lower budget, the Rode NTG4 (₦350,000) or NTG4+ (₦450,000) are good choices.",
+      "If you want a lighter shotgun that comes as a complete location kit with a boompole and windshield, choose the Rode NTG5 kit (₦750,000). For a lower budget, the Rode NTG4 (₦480,000) or NTG4+ (₦450,000) are good choices.",
     specs: [
       { label: "Type", value: "RF-bias condenser shotgun microphone, line-gradient" },
       { label: "Polar pattern", value: "Supercardioid" },
@@ -3886,7 +3886,7 @@ export const products: Product[] = [
       { title: "Interviews and broadcast", body: "Tight pickup with very low noise for clean voices." },
     ],
     notFor:
-      "If you want a slightly warmer broadcast tone and don't need the pistol grip kit, choose the Rode NTG3B (₦850,000). For a lower budget, the Rode NTG4 (₦350,000) or NTG4+ (₦450,000) are good choices.",
+      "If you want a slightly warmer broadcast tone and don't need the pistol grip kit, choose the Rode NTG3B (₦850,000). For a lower budget, the Rode NTG4 (₦480,000) or NTG4+ (₦450,000) are good choices.",
     specs: [
       { label: "Type", value: "RF-bias condenser shotgun microphone" },
       { label: "Polar pattern", value: "Supercardioid" },
@@ -4043,7 +4043,7 @@ export const products: Product[] = [
       {
         id: "ntg4",
         name: "NTG4 (phantom power)",
-        price: 350_000,
+        price: 480_000,
         includes: [
           "Rode NTG4 shotgun microphone",
           "RM5 microphone clip",
@@ -4118,7 +4118,7 @@ export const products: Product[] = [
       { title: "Event and wedding videographers", body: "Pad and safety channel for loud speeches and music." },
     ],
     notFor:
-      "If you record dialogue on a boompole into an XLR recorder or mixer, choose the Rode NTG4 (₦350,000) or NTG4+ (₦450,000).",
+      "If you record dialogue on a boompole into an XLR recorder or mixer, choose the Rode NTG4 (₦480,000) or NTG4+ (₦450,000).",
     specs: [
       { label: "Type", value: "On-camera shotgun microphone, pressure-gradient electret condenser" },
       { label: "Polar pattern", value: "Supercardioid" },
@@ -4170,6 +4170,2844 @@ export const products: Product[] = [
           "Foam windshield",
           "3.5 mm camera cable",
           "USB-C cable",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "rode-videomicro-ii",
+    brand: "Rode",
+    name: "Rode VideoMicro II",
+    category: "Audio",
+    tagline: "Better sound for any camera or phone.",
+    headline:
+      "A tiny, battery-free on-camera mic that gives your camera or phone clear, focused sound, with a shock mount that fits any shoe and cables for both cameras and phones in the box.",
+    summary:
+      "The VideoMicro II is Rode's smallest on-camera shotgun mic. It's 80 mm long, weighs 39 g with its mount, and runs on power from your camera or phone, so there's no battery to charge or forget. The supercardioid pattern picks up the person in front of the lens and cuts noise from the sides, and the Helix mount stops handling noise and lets you slide the mic forward or back to keep it out of shot.",
+    image: "/products/rode-videomicro-ii/main.png",
+    hero: "/products/rode-videomicro-ii/hero.jpg",
+    gallery: [
+      { src: "/products/rode-videomicro-ii/main.png", alt: "Rode VideoMicro II on its Helix mount with foam windshield" },
+      { src: "/products/rode-videomicro-ii/front.png", alt: "Front three-quarter view of the VideoMicro II" },
+      { src: "/products/rode-videomicro-ii/side.png", alt: "Side view of the VideoMicro II with its foam windshield" },
+      { src: "/products/rode-videomicro-ii/rear.png", alt: "Rear view of the VideoMicro II showing the 3.5 mm output" },
+    ],
+    stats: [
+      { value: "39 g", label: "With its mount" },
+      { value: "No battery", label: "Powered by your camera" },
+      { value: "80 mm", label: "Tiny and discreet" },
+      { value: "2 cables", label: "Camera and phone" },
+    ],
+    highlights: [
+      {
+        title: "Clear voice, not room noise",
+        body: "Your camera's built-in mic picks up everything around it. The VideoMicro II points where your lens points, so voices sound close and clear while traffic, fans and crowd noise fade into the background.",
+        image: "/products/rode-videomicro-ii/guitar.jpg",
+      },
+      {
+        title: "Small enough to leave on all day",
+        body: "At 80 mm long, it sits on top of a mirrorless camera, a phone rig or a gimbal without adding weight or getting in the way. It's light enough for long shoots and small enough to keep in your bag at all times.",
+        image: "/products/rode-videomicro-ii/rig.jpg",
+      },
+      {
+        title: "A mount that stops bumps and stays out of shot",
+        body: "The Helix isolation mount soaks up handling noise and camera motor noise. Slide the mic forward or back in the mount so it doesn't show up in wide-angle shots, and the cold-shoe foot fits any camera or rig.",
+        image: "/products/rode-videomicro-ii/skate.jpg",
+      },
+      {
+        title: "Ready for indoor and outdoor shoots",
+        body: "A foam windshield comes on the mic for indoor and light outdoor use. For windy days, add a furry windshield such as the Rode WS12, which fits snugly over the mic.",
+        image: "/products/rode-videomicro-ii/wind.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Beginner YouTubers and vloggers", body: "A big step up from your camera's built-in mic." },
+      { title: "Phone creators", body: "Plug into a phone with a headphone jack for reels and TikToks." },
+      { title: "Gimbal and small rigs", body: "Light enough that it won't upset your gimbal's balance." },
+      { title: "Events and B-roll", body: "Better ambient sound for weddings, parties and street shots." },
+    ],
+    notFor:
+      "If you want controls on the mic, like gain, a high-pass filter and a safety channel, or a USB mic for your computer, choose the Rode VideoMic NTG (₦350,000).",
+    specs: [
+      { label: "Type", value: "On-camera shotgun microphone, pressure-gradient electret condenser" },
+      { label: "Polar pattern", value: "Supercardioid" },
+      { label: "Frequency range", value: "20 Hz–20 kHz" },
+      { label: "Sensitivity", value: "−30 dBV (31.62 mV @ 94 dB SPL)" },
+      { label: "Signal-to-noise ratio", value: "79 dB" },
+      { label: "Max SPL", value: "110 dB SPL" },
+      { label: "Output", value: "3.5 mm TRS" },
+      { label: "Power", value: "Plug-in power from your camera or phone, no battery needed" },
+      { label: "Mount", value: "Helix isolation mount with cold-shoe foot" },
+      { label: "Size and weight", value: "80 mm long, 22 mm diameter; 24 g (39 g with mount)" },
+    ],
+    specsNote: "Figures are Rode's. Phones need a headphone jack, or a 3.5 mm to USB-C or Lightning adaptor.",
+    faqs: [
+      {
+        q: "Does it need batteries?",
+        a: "No. It runs on the small amount of power your camera or phone sends through the mic socket, so there's nothing to charge.",
+      },
+      {
+        q: "Will it work with my phone?",
+        a: "Yes. Use the TRRS cable that comes in the box for phones with a headphone jack. For iPhones and phones with only USB-C, you'll need a 3.5 mm adaptor, and we can supply the right one.",
+      },
+      {
+        q: "Will it work with my camera?",
+        a: "Yes, with any camera that has a 3.5 mm mic input, including Canon, Sony, Nikon, Fujifilm and Panasonic cameras.",
+      },
+      {
+        q: "Can I use it outdoors in the wind?",
+        a: "The foam windshield handles light breeze. For strong wind, add the furry Rode WS12 windshield, sold separately.",
+      },
+      {
+        q: "VideoMicro II or VideoMic GO II?",
+        a: "Both are light and battery-free. The VideoMic GO II has a longer tube for more focused sound and a USB-C output, so it also works as a USB mic for your computer or phone. Choose the VideoMicro II if you want the smallest and lightest mic.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "VideoMicro II",
+        price: 120_000,
+        includes: [
+          "Rode VideoMicro II on-camera microphone",
+          "Helix isolation mount with cold-shoe foot",
+          "Foam windshield",
+          "3.5 mm TRS cable for cameras",
+          "3.5 mm TRRS cable for phones",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "rode-videomic-go-ii",
+    brand: "Rode",
+    name: "Rode VideoMic GO II",
+    category: "Audio",
+    tagline: "Light as a feather. Works with everything.",
+    headline:
+      "An ultra-light on-camera shotgun mic that plugs into your camera, phone or computer, with a USB-C output for digital audio and no battery to charge.",
+    summary:
+      "The VideoMic GO II weighs just 33 g, yet its longer tube gives you more focused, natural sound than most compact mics. Plug it into a camera over 3.5 mm, or into a phone or computer over USB-C and it becomes a USB mic for podcasts, voice-overs and calls. It runs on power from whatever it's plugged into, and the Helix mount keeps handling noise out of your recordings.",
+    image: "/products/rode-videomic-go-ii/main.png",
+    hero: "/products/rode-videomic-go-ii/hero.jpg",
+    gallery: [
+      { src: "/products/rode-videomic-go-ii/main.png", alt: "Rode VideoMic GO II on its Helix mount with foam windshield" },
+      { src: "/products/rode-videomic-go-ii/side.png", alt: "Side view of the VideoMic GO II on its Helix mount" },
+      { src: "/products/rode-videomic-go-ii/rear.png", alt: "Rear of the VideoMic GO II showing the 3.5 mm and USB-C outputs" },
+      { src: "/products/rode-videomic-go-ii/box.png", alt: "What's in the box: VideoMic GO II, Helix mount, foam windshield and cable" },
+    ],
+    stats: [
+      { value: "33 g", label: "Ultra-lightweight" },
+      { value: "No battery", label: "Powered by your device" },
+      { value: "USB-C", label: "Digital audio output" },
+      { value: "15 dBA", label: "Low self-noise" },
+    ],
+    highlights: [
+      {
+        title: "Big sound from a tiny mic",
+        body: "Rode's acoustic design inside the 120 mm tube gives you focused, natural voices with very little self-noise. It picks up what's in front of the camera and pushes room noise and side sound into the background.",
+        image: "/products/rode-videomic-go-ii/small.jpg",
+      },
+      {
+        title: "Camera, phone or computer",
+        body: "Use the 3.5 mm output for cameras, or the USB-C output for phones, tablets and computers. Over USB it records in 24-bit, 48 kHz, so it doubles as a desk mic for podcasts, Zoom calls and voice-overs.",
+        image: "/products/rode-videomic-go-ii/desk.png",
+      },
+      {
+        title: "Great on your phone",
+        body: "Plug it straight into a USB-C phone and record clear audio for reels, TikToks and street interviews. Use the free Rode Capture or Rode Connect apps to adjust gain, add a high-pass filter and get even better sound.",
+        image: "/products/rode-videomic-go-ii/phone.png",
+      },
+      {
+        title: "Light enough for any rig",
+        body: "At 33 g it won't throw your gimbal off balance or weigh down a small camera. The Helix mount absorbs bumps and lets you slide the mic forward so it stays out of wide shots.",
+        image: "/products/rode-videomic-go-ii/campaign.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Vloggers and YouTubers", body: "Clean voice on camera and a USB mic for voice-overs." },
+      { title: "Phone content creators", body: "Plug straight into USB-C phones for clear social videos." },
+      { title: "Gimbal shooters", body: "So light your gimbal won't notice it." },
+      { title: "Online classes and calls", body: "A simple USB mic for your laptop when you're not filming." },
+    ],
+    notFor:
+      "If you want controls on the mic itself, like gain, a pad and a safety channel, choose the Rode VideoMic NTG (₦350,000).",
+    specs: [
+      { label: "Type", value: "On-camera shotgun microphone, pressure-gradient electret condenser" },
+      { label: "Polar pattern", value: "Supercardioid" },
+      { label: "Frequency range", value: "20 Hz–20 kHz" },
+      { label: "Sensitivity", value: "−31 dBV (28.78 mV @ 94 dB SPL)" },
+      { label: "Self-noise", value: "15 dBA" },
+      { label: "Max SPL", value: "110 dB SPL" },
+      { label: "Outputs", value: "3.5 mm TRS; USB-C digital audio (24-bit, 48 kHz)" },
+      { label: "Power", value: "Plug-in power over 3.5 mm, or USB power, no battery needed" },
+      { label: "Mount", value: "Helix isolation mount with cold-shoe foot" },
+      { label: "Size and weight", value: "120 mm long, 21.6 mm diameter; 33 g (56 g with accessories)" },
+    ],
+    specsNote: "Figures are Rode's. USB mode works with macOS 10.15, Windows 10, iOS 14, Android 9 and later.",
+    faqs: [
+      {
+        q: "Does it need batteries?",
+        a: "No. It takes power from your camera over 3.5 mm, or from your phone or computer over USB-C.",
+      },
+      {
+        q: "Will it work with my iPhone?",
+        a: "Yes. iPhone 15 and newer plug straight in over USB-C. Older iPhones with a Lightning port need a USB-C to Lightning cable, which we can supply.",
+      },
+      {
+        q: "Can I use it as a computer mic?",
+        a: "Yes. Plug it into a Mac or Windows computer over USB-C and it shows up as a USB mic for podcasts, livestreams, voice-overs and calls.",
+      },
+      {
+        q: "Can I use it outdoors in the wind?",
+        a: "The foam windshield handles light breeze. For strong wind, add a furry windshield such as the Rode WS11, sold separately.",
+      },
+      {
+        q: "VideoMic GO II or VideoMicro II?",
+        a: "The VideoMic GO II has a longer tube for more focused sound and a USB-C output. The VideoMicro II is smaller and only works over 3.5 mm. Choose the GO II if you also want a USB mic.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "VideoMic GO II",
+        price: 200_000,
+        includes: [
+          "Rode VideoMic GO II on-camera microphone",
+          "Helix isolation mount with cold-shoe foot",
+          "Foam windshield",
+          "3.5 mm camera cable",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "rode-videomic-pro-plus",
+    brand: "Rode",
+    name: "Rode VideoMic Pro+",
+    category: "Audio",
+    tagline: "Pro on-camera sound with every control you need.",
+    headline:
+      "A premium on-camera shotgun mic with a rechargeable battery, auto power on and off with your camera, and gain, filter and boost controls right on the mic.",
+    summary:
+      "The VideoMic Pro+ is built for filmmakers who want broadcast-quality sound straight into the camera. Its line-gradient design gives a tight, focused pickup with very low self-noise, and the Rycote Lyre suspension keeps bumps out of your audio. It runs on the included rechargeable battery, AA batteries or USB power, and switches itself on and off with your camera, so you never return home with a flat battery or a silent clip.",
+    image: "/products/rode-videomic-pro-plus/main.png",
+    hero: "/products/rode-videomic-pro-plus/hero.jpg",
+    gallery: [
+      { src: "/products/rode-videomic-pro-plus/main.png", alt: "Rode VideoMic Pro+ on its Rycote Lyre suspension mount" },
+      { src: "/products/rode-videomic-pro-plus/module1.jpg", alt: "Rode VideoMic Pro+ in use on a camera" },
+      { src: "/products/rode-videomic-pro-plus/module2.jpg", alt: "Rode VideoMic Pro+ on a camera rig" },
+    ],
+    stats: [
+      { value: "100 h", label: "Rechargeable battery" },
+      { value: "14 dBA", label: "Very low self-noise" },
+      { value: "3", label: "Ways to power it" },
+      { value: "Auto", label: "On and off with your camera" },
+    ],
+    highlights: [
+      {
+        title: "Focused, broadcast-quality sound",
+        body: "The line-gradient shotgun design picks up the person in front of the lens and rejects noise from the sides and back. With just 14 dBA of self-noise, quiet voices and room tone stay clean instead of hissy.",
+        image: "/products/rode-videomic-pro-plus/module1.jpg",
+      },
+      {
+        title: "Fix your sound on the mic",
+        body: "A two-stage high-pass filter (75 Hz or 150 Hz) cuts wind rumble and hum. The three-stage level control (−10, 0, +20 dB) matches the mic to your camera, and the +20 dB setting lets you turn down your camera's noisy preamp for cleaner audio. A high-frequency boost adds extra clarity to voices.",
+        image: "/products/rode-videomic-pro-plus/module2.jpg",
+      },
+      {
+        title: "Power that won't let you down",
+        body: "The included LB-1 rechargeable battery lasts up to 100 hours and charges over micro-USB. You can also run it on two AA batteries or straight from USB power, and auto power turns the mic on and off with your camera.",
+        image: "/products/rode-videomic-pro-plus/hero.jpg",
+      },
+      {
+        title: "Bump-proof Rycote suspension",
+        body: "The Rycote Lyre suspension isolates the mic from handling noise and camera vibration, and won't sag or break like rubber bands. The cold-shoe foot has a 3/8-inch thread, so it also fits boompoles and rigs.",
+        image: "/products/rode-videomic-pro-plus/main.png",
+      },
+    ],
+    idealFor: [
+      { title: "Filmmakers and documentary crews", body: "Clean dialogue straight into the camera." },
+      { title: "Wedding and event videographers", body: "Long battery life and controls for loud rooms." },
+      { title: "Run-and-gun shooters", body: "Auto power means you never forget to switch it on." },
+      { title: "YouTubers upgrading their sound", body: "A big step up from compact on-camera mics." },
+    ],
+    notFor:
+      "If you also want a USB mic for your computer or a mic that plugs straight into phones, choose the Rode VideoMic NTG (₦350,000).",
+    specs: [
+      { label: "Type", value: "On-camera shotgun microphone, line-gradient condenser" },
+      { label: "Polar pattern", value: "Supercardioid" },
+      { label: "Frequency range", value: "20 Hz–20 kHz" },
+      { label: "Sensitivity", value: "−33.6 dB re 1 V/Pa (21.20 mV @ 94 dB SPL)" },
+      { label: "Self-noise", value: "14 dBA" },
+      { label: "Max SPL", value: "133 dB SPL" },
+      { label: "Controls", value: "Two-stage high-pass filter (75/150 Hz), three-stage level (−10, 0, +20 dB), high-frequency boost, auto power" },
+      { label: "Output", value: "3.5 mm TRS" },
+      { label: "Power", value: "Rode LB-1 rechargeable battery (up to 100 hours), 2 × AA, or micro-USB" },
+      { label: "Mount", value: "Rycote Lyre suspension with cold-shoe foot and 3/8-inch thread" },
+      { label: "Size and weight", value: "111 × 66 × 170 mm; 122 g" },
+    ],
+    specsNote: "Figures are Rode's. Battery life depends on use.",
+    faqs: [
+      {
+        q: "What batteries does it use?",
+        a: "It comes with the Rode LB-1 rechargeable battery, which lasts up to 100 hours. You can also use two AA batteries, or power it over micro-USB from a power bank.",
+      },
+      {
+        q: "Will it work with my phone?",
+        a: "It's made for cameras. To use it with a phone you'll need a TRS to TRRS cable such as the Rode SC7, plus a USB-C or Lightning adaptor for phones without a headphone jack.",
+      },
+      {
+        q: "What does the +20 dB setting do?",
+        a: "It sends a stronger signal to your camera, so you can turn the camera's audio level down. Camera preamps are noisy, so this gives you cleaner sound.",
+      },
+      {
+        q: "Can I use it outdoors in the wind?",
+        a: "The foam windshield handles light breeze, and the high-pass filter cuts low rumble. For strong wind, add the Rode DeadCat VMP+ furry windshield, sold separately.",
+      },
+      {
+        q: "VideoMic Pro+ or VideoMic NTG?",
+        a: "The VideoMic Pro+ has lower self-noise, replaceable batteries and auto power with your camera. The VideoMic NTG is lighter and also works as a USB mic for computers and phones. Choose the Pro+ for camera-only filmmaking.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "VideoMic Pro+",
+        price: 480_000,
+        includes: [
+          "Rode VideoMic Pro+ on-camera microphone",
+          "Rycote Lyre suspension mount",
+          "Rode LB-1 rechargeable battery",
+          "Foam windshield",
+          "3.5 mm camera cable",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "rode-videomic-pro",
+    brand: "Rode",
+    name: "Rode VideoMic Pro",
+    category: "Audio",
+    tagline: "The on-camera mic that became the standard.",
+    headline:
+      "A light, focused on-camera shotgun mic with a high-pass filter, three-step gain and a Rycote shock mount, running for over 70 hours on one 9V battery.",
+    summary:
+      "The VideoMic Pro is the mic many filmmakers and vloggers start with when they get serious about sound. Its supercardioid condenser capsule picks up what's in front of the lens and turns down noise from the sides, so voices come through clean. At just 85 g it barely adds weight to your camera, and the built-in Rycote Lyre mount keeps handling bumps out of your audio.",
+    image: "/products/rode-videomic-pro/main.png",
+    hero: "/products/rode-videomic-pro/hero.jpg",
+    gallery: [
+      { src: "/products/rode-videomic-pro/main.png", alt: "Rode VideoMic Pro from the front left" },
+      { src: "/products/rode-videomic-pro/rear.png", alt: "Rode VideoMic Pro from the back, showing its controls" },
+      { src: "/products/rode-videomic-pro/hero.jpg", alt: "Filmmaker using a camera with a Rode VideoMic Pro outdoors" },
+    ],
+    stats: [
+      { value: "85 g", label: "Barely adds weight" },
+      { value: "70+ h", label: "On one 9V battery" },
+      { value: "14 dBA", label: "Low self-noise" },
+      { value: "3-step", label: "Gain control" },
+    ],
+    highlights: [
+      {
+        title: "Focused sound from the front",
+        body: "The supercardioid pattern points where your camera points. It picks up the person you're filming and rejects much of the noise around them, giving you clearer dialogue than your camera's built-in mic.",
+        image: "/products/rode-videomic-pro/main.png",
+      },
+      {
+        title: "Controls for real-world shoots",
+        body: "An 80 Hz high-pass filter cuts traffic rumble and air-conditioner hum. The three-step level control (−10, 0, +20 dB) matches the mic to your camera, and +20 dB lets you turn your camera's noisy preamp down.",
+        image: "/products/rode-videomic-pro/rear.png",
+      },
+      {
+        title: "Shock mount built in",
+        body: "The Rycote Lyre suspension isolates the mic from handling noise and camera vibration. Unlike rubber bands, it won't sag or snap over time.",
+        image: "/products/rode-videomic-pro/hero.jpg",
+      },
+      {
+        title: "Days of shooting on one battery",
+        body: "A single 9V battery runs the mic for over 70 hours. Spares are cheap and easy to find, so you can keep shooting all week.",
+        image: "/products/rode-videomic-pro/main.png",
+      },
+    ],
+    idealFor: [
+      { title: "Vloggers and YouTubers", body: "A big, simple upgrade over camera audio." },
+      { title: "Event and wedding shooters", body: "Light enough to leave on the camera all day." },
+      { title: "Film students", body: "The classic first pro on-camera mic." },
+      { title: "Interviews on location", body: "Focused pickup with a filter for outdoor rumble." },
+    ],
+    notFor:
+      "If you want a rechargeable battery and auto power on and off with your camera, choose the Rode VideoMic Pro+ (₦480,000).",
+    specs: [
+      { label: "Type", value: "On-camera shotgun microphone, line-gradient condenser" },
+      { label: "Polar pattern", value: "Supercardioid" },
+      { label: "Capsule", value: "0.50 inch" },
+      { label: "Frequency range", value: "40 Hz–20 kHz (high-pass filter at 80 Hz)" },
+      { label: "Sensitivity", value: "−32 dB re 1 V/Pa (20 mV @ 94 dB SPL)" },
+      { label: "Self-noise", value: "14 dBA" },
+      { label: "Max SPL", value: "134 dB SPL" },
+      { label: "Output impedance", value: "200 Ω" },
+      { label: "Controls", value: "80 Hz high-pass filter, three-step level (−10, 0, +20 dB)" },
+      { label: "Output", value: "3.5 mm TRS" },
+      { label: "Power", value: "9V battery, over 70 hours" },
+      { label: "Mount", value: "Rycote Lyre suspension with cold-shoe foot" },
+      { label: "Weight", value: "85 g" },
+    ],
+    specsNote: "Figures are Rode's. Battery life depends on the battery and use.",
+    faqs: [
+      {
+        q: "What battery does it use?",
+        a: "A standard 9V battery, which lasts over 70 hours. Use alkaline or lithium 9V batteries and carry a spare on long shoots.",
+      },
+      {
+        q: "Will it work with my phone?",
+        a: "It's made for cameras. To use it with a phone you'll need a TRS to TRRS cable such as the Rode SC7, plus a USB-C or Lightning adaptor for phones without a headphone jack.",
+      },
+      {
+        q: "VideoMic Pro or VideoMic Pro+?",
+        a: "Both sound great. The Pro+ adds a rechargeable battery, auto power with your camera, a two-step filter and a high-frequency boost. The VideoMic Pro is lighter and costs less.",
+      },
+      {
+        q: "Can I use it outdoors in the wind?",
+        a: "The foam windshield handles light breeze and the high-pass filter cuts low rumble. For strong wind, add a furry windshield such as the Rode DeadCat VMP, sold separately.",
+      },
+      {
+        q: "Does it fit on a boom pole?",
+        a: "Yes. The cold-shoe foot fits cameras and shoe mounts, and you can add a shoe adaptor to put it on a boom pole or light stand.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "VideoMic Pro",
+        price: 380_000,
+        includes: [
+          "Rode VideoMic Pro on-camera microphone",
+          "Rycote Lyre suspension mount",
+          "Foam windshield",
+          "3.5 mm camera cable",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "rode-ntg5",
+    brand: "Rode",
+    name: "Rode NTG5",
+    category: "Audio",
+    tagline: "Broadcast shotgun sound in a 76 g body.",
+    headline:
+      "A professional shotgun mic for boom and location work: natural, uncoloured sound, just 10 dBA of self-noise, and electronics protected against moisture.",
+    summary:
+      "The NTG5 is Rode's lightest professional shotgun mic, made for film sets, documentaries and broadcast. Round acoustic holes replace the usual slots along the tube, giving a natural sound that doesn't colour voices. At 76 g and 203 mm long, it's easy to hold on a boom pole all day, and RF-bias electronics with a protective coating keep it working in heat, humidity and rain.",
+    image: "/products/rode-ntg5/main.png",
+    hero: "/products/rode-ntg5/hero.jpg",
+    gallery: [
+      { src: "/products/rode-ntg5/main.png", alt: "Rode NTG5 in its pistol grip with windshield" },
+      { src: "/products/rode-ntg5/front.png", alt: "Rode NTG5 shotgun microphone on its own" },
+      { src: "/products/rode-ntg5/tube.jpg", alt: "Close-up of the NTG5's round acoustic holes" },
+      { src: "/products/rode-ntg5/location.jpg", alt: "Sound recordist using a Rode NTG5 on location" },
+      { src: "/products/rode-ntg5/beach.jpg", alt: "Rode NTG5 recording on a beach" },
+      { src: "/products/rode-ntg5/box.png", alt: "Rode NTG5 packaging" },
+    ],
+    stats: [
+      { value: "76 g", label: "Ultra-light body" },
+      { value: "10 dBA", label: "Very low self-noise" },
+      { value: "203 mm", label: "Short for a shotgun" },
+      { value: "RF-bias", label: "Weather-resistant electronics" },
+    ],
+    highlights: [
+      {
+        title: "Natural, uncoloured sound",
+        body: "Instead of long slots, the NTG5 uses round acoustic holes along its tube. The result is a clear, transparent sound with smooth off-axis pickup, so voices sound like the person speaking, even when they move off-mic.",
+        image: "/products/rode-ntg5/tube.jpg",
+      },
+      {
+        title: "Light enough for long days on the boom",
+        body: "At only 76 g and 203 mm, the NTG5 is one of the most compact pro shotgun mics you can buy. Boom operators feel the difference after a 12-hour shoot, and it suits small camera rigs too.",
+        image: "/products/rode-ntg5/location.jpg",
+      },
+      {
+        title: "Built for tough conditions",
+        body: "RF-bias circuitry and a conformal coating protect the electronics from moisture and humidity. It keeps sounding right in hot, humid weather where other condenser mics can crackle or fail.",
+        image: "/products/rode-ntg5/beach.jpg",
+      },
+      {
+        title: "Quiet enough for any scene",
+        body: "With 10 dBA of self-noise, quiet dialogue and room tone stay clean. A tight supercardioid pattern focuses on your subject and turns down the noise around them.",
+        image: "/products/rode-ntg5/main.png",
+      },
+    ],
+    idealFor: [
+      { title: "Boom operators", body: "Light, short and easy to aim all day." },
+      { title: "Film and TV sets", body: "Broadcast-grade dialogue with natural tone." },
+      { title: "Documentary crews", body: "Reliable in heat, humidity and outdoor shoots." },
+      { title: "Voiceover and studio work", body: "Clear, detailed speech with low noise." },
+    ],
+    notFor:
+      "The NTG5 needs an XLR input with 48V phantom power, like a recorder, mixer or pro camera. For a mic that plugs straight into a camera's 3.5 mm input, choose the Rode VideoMic NTG (₦350,000).",
+    specs: [
+      { label: "Type", value: "Shotgun microphone, RF-bias condenser" },
+      { label: "Polar pattern", value: "Supercardioid" },
+      { label: "Frequency response", value: "20 Hz–20 kHz" },
+      { label: "Sensitivity", value: "−23.5 dB re 1 V/Pa (66 mV @ 94 dB SPL)" },
+      { label: "Self-noise", value: "10 dBA" },
+      { label: "Max SPL", value: "130 dB SPL (1% THD)" },
+      { label: "Signal-to-noise ratio", value: "84 dB" },
+      { label: "Output impedance", value: "25 Ω" },
+      { label: "Output", value: "3-pin XLR" },
+      { label: "Power", value: "48V phantom power, 2 mA" },
+      { label: "Size and weight", value: "203 × 19 × 19 mm; 76 g" },
+      { label: "PG2-R pistol grip (kit)", value: "240 × 60 × 117 mm; 224 g" },
+    ],
+    specsNote: "Figures are Rode's.",
+    faqs: [
+      {
+        q: "What do I need to use it?",
+        a: "An XLR cable and a recorder, mixer, audio interface or camera with an XLR input and 48V phantom power. It won't work from a 3.5 mm camera input on its own.",
+      },
+      {
+        q: "Does it come as a kit?",
+        a: "Rode sells the NTG5 on its own and as a location kit with the PG2-R pistol grip, WS10 windshield and cable. Ask us on WhatsApp which version is in stock.",
+      },
+      {
+        q: "NTG5 or NTG3?",
+        a: "The NTG5 is shorter, lighter and quieter (10 dBA vs 13 dBA), with a flatter low end that suits location work. The NTG3 has a richer low end that many people like indoors and for voiceover.",
+      },
+      {
+        q: "Can I use it outdoors in wind?",
+        a: "The foam windshield handles light breeze. For real wind, use a furry cover or a blimp-style windshield, sold separately.",
+      },
+      {
+        q: "Is it good for voiceover?",
+        a: "Yes. Its high frequencies are clear and natural, and its low self-noise suits quiet recording rooms.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "NTG5",
+        price: 800_000,
+        includes: [
+          "Rode NTG5 shotgun microphone",
+          "Kit version adds the PG2-R pistol grip, WS10 windshield and XLR cable (ask us which is in stock)",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "rode-podmic-usb",
+    brand: "Rode",
+    name: "Rode PodMic USB",
+    category: "Audio",
+    tagline: "One broadcast mic for USB and XLR.",
+    headline:
+      "A rich-sounding dynamic broadcast mic with both USB-C and XLR outputs, built-in APHEX processing and a zero-latency headphone jack.",
+    summary:
+      "The PodMic USB is a dynamic mic for podcasts, streaming, gaming and voiceover. Plug it into your computer or phone over USB-C and it just works, with Rode's low-noise Revolution Preamp and APHEX processing making your voice sound polished. Later, connect the XLR output to a mixer or interface like a classic broadcast mic. It's built from metal, with a swing mount and pop filter included.",
+    image: "/products/rode-podmic-usb/main.png",
+    hero: "/products/rode-podmic-usb/hero.jpg",
+    gallery: [
+      { src: "/products/rode-podmic-usb/main.png", alt: "Rode PodMic USB in black" },
+      { src: "/products/rode-podmic-usb/white.png", alt: "Rode PodMic USB in white" },
+      { src: "/products/rode-podmic-usb/inputs.jpg", alt: "The PodMic USB's USB-C, XLR and headphone connections" },
+      { src: "/products/rode-podmic-usb/desk.jpg", alt: "Rode PodMic USB on a desk next to a computer" },
+      { src: "/products/rode-podmic-usb/mobile.jpg", alt: "Rode PodMic USB connected to a phone" },
+      { src: "/products/rode-podmic-usb/studio.jpg", alt: "Rode PodMic USB in a home studio" },
+      { src: "/products/rode-podmic-usb/box.jpg", alt: "Rode PodMic USB packaging" },
+    ],
+    stats: [
+      { value: "USB + XLR", label: "Two ways to connect" },
+      { value: "APHEX", label: "Built-in voice processing" },
+      { value: "0 ms", label: "Headphone monitoring delay" },
+      { value: "5 yr", label: "Rode warranty" },
+    ],
+    highlights: [
+      {
+        title: "Plug into anything",
+        body: "Use USB-C to connect to a Windows or Mac computer, an iPhone or an Android phone. Use the XLR output with a mixer or audio interface. One mic covers home, studio and travel.",
+        image: "/products/rode-podmic-usb/inputs.jpg",
+      },
+      {
+        title: "Warm, clear broadcast voice",
+        body: "The dynamic capsule gives speech a rich, full sound and ignores much of the room around you, which helps in untreated rooms. An internal pop filter and shock mount tame plosives and bumps, and an extra external pop filter is included.",
+        image: "/products/rode-podmic-usb/desk.jpg",
+      },
+      {
+        title: "Studio processing built in",
+        body: "Over USB, APHEX processing adds a noise gate, compressor, high-pass filter, Aural Exciter and Big Bottom. Use Rode's free software to pick a preset with VoxLab or fine-tune every setting.",
+        image: "/products/rode-podmic-usb/studio.jpg",
+      },
+      {
+        title: "Hear yourself with no delay",
+        body: "Plug headphones into the mic to hear yourself live, with zero latency and a volume knob on the mic. Great for podcasts, streams and recording voiceovers.",
+        image: "/products/rode-podmic-usb/mobile.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Podcasters", body: "Start on USB, grow into an XLR setup later." },
+      { title: "Streamers and gamers", body: "Rich voice with processing built in." },
+      { title: "Voiceover artists", body: "Clear speech that ignores room noise." },
+      { title: "Church and radio presenters", body: "Classic broadcast-mic look and sound." },
+    ],
+    notFor:
+      "If you'll only ever use an XLR mixer or interface, the Rode PodMic (₦280,000) gives the same broadcast style for less.",
+    specs: [
+      { label: "Type", value: "Dynamic broadcast microphone, end-address" },
+      { label: "Polar pattern", value: "Cardioid" },
+      { label: "Frequency range", value: "20 Hz–20 kHz" },
+      { label: "Sensitivity", value: "−57 dB re 1 V/Pa (1.4 mV @ 94 dB SPL)" },
+      { label: "Max SPL", value: "148 dB SPL" },
+      { label: "Self-noise", value: "26 dBA analogue; 19 dBA digital" },
+      { label: "Outputs", value: "USB-C, 3-pin XLR, 3.5 mm headphone jack" },
+      { label: "Digital audio", value: "24-bit, 48 kHz" },
+      { label: "Processing", value: "APHEX digital signal processing" },
+      { label: "Power over USB", value: "5V, 100 mA" },
+      { label: "Works with", value: "Windows 10 or later, macOS 10.15 or later, iOS and Android" },
+      { label: "Size and weight", value: "123 × 109 × 110 mm; 900 g" },
+    ],
+    specsNote: "Figures are Rode's.",
+    faqs: [
+      {
+        q: "Do I need an audio interface?",
+        a: "No. Plug it into your computer or phone over USB-C and it's ready. You can add an interface or mixer later and use the XLR output instead.",
+      },
+      {
+        q: "Does it work with my phone?",
+        a: "Yes. It works with iPhones and Android phones over USB. iPhones with a Lightning port need a Lightning to USB adaptor.",
+      },
+      {
+        q: "Do I need special software?",
+        a: "No, it works as soon as you plug it in. Rode's free software lets you choose voice presets and adjust the APHEX processing.",
+      },
+      {
+        q: "Does it need phantom power?",
+        a: "No. It's a dynamic mic, so the XLR output doesn't need phantom power. Over USB, it's powered by the cable.",
+      },
+      {
+        q: "What colours are there?",
+        a: "Black and white, at the same price. Tell us which you want on WhatsApp.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "PodMic USB",
+        price: 380_000,
+        includes: [
+          "Rode PodMic USB microphone with swing mount",
+          "External pop filter",
+          "USB-C cable",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "rode-ntg3",
+    brand: "Rode",
+    name: "Rode NTG3",
+    category: "Audio",
+    tagline: "The broadcast standard, in satin nickel.",
+    headline:
+      "A broadcast-grade RF-bias shotgun mic with a warm, natural voice, tight supercardioid pickup and very low noise, built to keep recording in humid, wet weather where ordinary condenser mics fail.",
+    summary:
+      "The NTG3 has been a favourite of film, TV and documentary sound crews for years. Its RF-bias design is highly resistant to moisture and condensation, so it keeps sounding clean on humid Lagos mornings, by the sea or in light rain. The supercardioid pattern focuses on your subject and rejects noise from the sides without colouring the sound, and self-noise of just 13 dBA keeps quiet voices clear. It comes in Rode's classic satin-nickel finish with a mount, foam windshield and storage tube.",
+    image: "/products/rode-ntg3/main.png",
+    hero: "/products/rode-ntg3/hero.jpg",
+    gallery: [
+      { src: "/products/rode-ntg3/main.png", alt: "Rode NTG3 shotgun microphone in satin nickel" },
+      { src: "/products/rode-ntg3/hero.jpg", alt: "Boom operator recording an interview with a Rode NTG3 shotgun mic" },
+      { src: "/products/rode-ntg3/tube.jpg", alt: "Rode NTG3 protective storage tube" },
+    ],
+    stats: [
+      { value: "13 dBA", label: "Ultra-low self-noise" },
+      { value: "RF-bias", label: "Moisture-resistant design" },
+      { value: "130 dB", label: "Max SPL" },
+      { value: "163 g", label: "Light enough for a boompole" },
+    ],
+    highlights: [
+      {
+        title: "Keeps working in humid, wet weather",
+        body: "Ordinary condenser mics can crackle, hiss or cut out when moisture gets in. The NTG3 uses RF-bias technology that is highly resistant to humidity and condensation, so it keeps recording clean dialogue on early-morning shoots, at the beach, in hot kitchens or in light rain. For crews who shoot outdoors in Nigeria's climate, that reliability is the reason to buy it.",
+        image: "/products/rode-ntg3/hero.jpg",
+      },
+      {
+        title: "Focused on your subject, not the noise",
+        body: "The tight supercardioid pattern picks up what you point it at and rejects sound from the sides and rear. Off-axis sound stays natural instead of turning hollow or tinny, so voices still sound right when the actor moves or the boom drifts slightly off target.",
+        image: "/products/rode-ntg3/main.png",
+      },
+      {
+        title: "Rich, warm broadcast sound",
+        body: "The NTG3 has the full, warm tone and fine detail that broadcasters and voice-over artists ask for. At just 13 dBA self-noise, quiet interviews and whispered lines stay clean, and 130 dB max SPL handles shouting and loud scenes without distortion. It runs on standard P48 phantom power through XLR.",
+        image: "/products/rode-ntg3/hero.jpg",
+      },
+      {
+        title: "Built tough, with a storage tube",
+        body: "The precision-machined metal body is made in Sydney and weighs just 163 g, so it sits easily on a boompole or camera rig. It comes with an RM5 mount, a foam windshield and a rugged storage tube that protects it in your bag between jobs. Add a furry windshield or blimp for strong wind.",
+        image: "/products/rode-ntg3/tube.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Film and TV crews", body: "Broadcast-grade dialogue on a boompole, indoors or out." },
+      { title: "Documentaries and outdoor shoots", body: "Reliable sound in humid weather, at the coast and in light rain." },
+      { title: "Voice-over and studio work", body: "A warm, detailed voice with very low noise." },
+      { title: "News and interviews", body: "Tight pickup that keeps the background quiet." },
+    ],
+    notFor:
+      "If you want the same mic in matte black so it doesn't reflect light on camera, choose the Rode NTG3B (₦850,000). For a lighter shotgun, the Rode NTG5 (₦800,000) weighs just 76 g. For an on-camera mic on a smaller budget, the Rode VideoMic NTG (₦350,000) is a good choice.",
+    specs: [
+      { label: "Type", value: "RF-bias condenser shotgun microphone, line-gradient" },
+      { label: "Polar pattern", value: "Supercardioid" },
+      { label: "Capsule", value: "0.50\"" },
+      { label: "Frequency range", value: "40 Hz–20 kHz" },
+      { label: "Sensitivity", value: "−30 dB re 1 V/Pa (31.6 mV @ 94 dB SPL)" },
+      { label: "Self-noise", value: "13 dBA" },
+      { label: "Max SPL", value: "130 dB SPL" },
+      { label: "Max output", value: "8.2 mV" },
+      { label: "Output impedance", value: "25 Ω" },
+      { label: "Power", value: "P48 phantom power" },
+      { label: "Connector", value: "3-pin XLR" },
+      { label: "Size and weight", value: "255 × 19 × 19 mm; 163 g" },
+      { label: "Finish", value: "Satin nickel" },
+    ],
+    specsNote: "Figures are Rode's. The NTG3 needs 48 V phantom power from a recorder, mixer, interface or camera with an XLR input. It has no battery option.",
+    faqs: [
+      {
+        q: "Will it work with my camera?",
+        a: "Yes, if your camera has an XLR input with 48 V phantom power, as most cinema and broadcast cameras do. For a DSLR or mirrorless camera, connect it through an XLR recorder or adaptor that supplies phantom power, such as a Zoom field recorder.",
+      },
+      {
+        q: "What does RF-bias mean for me?",
+        a: "It's the technology that makes the NTG3 highly resistant to moisture and condensation. Regular condenser mics can crackle or drop out in humid weather. The NTG3 keeps sounding clean, which makes it a safe choice for outdoor and coastal shoots.",
+      },
+      {
+        q: "Can I use it outdoors in the wind?",
+        a: "The included foam windshield handles a light breeze. For outdoor shoots in real wind, add a furry windshield or a blimp, sold separately. Ask us what fits.",
+      },
+      {
+        q: "Is it good for voice-over?",
+        a: "Yes. Its warm, detailed tone and 13 dBA self-noise make it a favourite for voice-over and narration, especially in rooms that aren't fully treated, because the tight pattern picks up less of the room.",
+      },
+      {
+        q: "What's the difference between the NTG3 and NTG3B?",
+        a: "They are the same microphone with the same sound. The NTG3 has a satin-nickel finish, while the NTG3B is matte black so it doesn't reflect light on camera.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "NTG3 shotgun mic",
+        price: 785_000,
+        includes: [
+          "Rode NTG3 shotgun microphone (satin nickel)",
+          "RM5 microphone mount",
+          "Foam windshield",
+          "Protective storage tube",
+          "Zip pouch",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "rode-podmic",
+    brand: "Rode",
+    name: "Rode PodMic",
+    category: "Audio",
+    tagline: "The classic podcast sound. Built like a tank.",
+    headline:
+      "A broadcast-quality dynamic mic made for podcasts, livestreams and voice work, with a rich, full voice, a built-in pop filter and shock mount, and an all-metal body with an integrated swing mount.",
+    summary:
+      "The PodMic gives you that warm, close-up 'radio' sound heard on the world's best podcasts. Its dynamic capsule focuses on your voice and picks up far less room echo and background noise than a condenser, which makes it ideal for untreated rooms, shared studios and multi-host shows. The internal pop filter tames plosives, the internal shock mount cuts desk bumps, and the swing mount lets you attach it straight to a boom arm. It connects by XLR to an interface, mixer or RØDECaster.",
+    image: "/products/rode-podmic/main.png",
+    hero: "/products/rode-podmic/hero.jpg",
+    gallery: [
+      { src: "/products/rode-podmic/main.png", alt: "Rode PodMic dynamic broadcast microphone in black" },
+      { src: "/products/rode-podmic/white.png", alt: "Rode PodMic in white" },
+      { src: "/products/rode-podmic/desk.jpg", alt: "Podcaster speaking into a Rode PodMic on a boom arm" },
+      { src: "/products/rode-podmic/studio.jpg", alt: "Two-person podcast set up with white Rode PodMics" },
+      { src: "/products/rode-podmic/close.jpg", alt: "Gamer streaming with a Rode PodMic" },
+    ],
+    stats: [
+      { value: "Dynamic", label: "Rejects room noise" },
+      { value: "Cardioid", label: "Focused on your voice" },
+      { value: "Built-in", label: "Pop filter and shock mount" },
+      { value: "All-metal", label: "Body and steel grille" },
+    ],
+    highlights: [
+      {
+        title: "That rich, warm podcast voice",
+        body: "The PodMic's dynamic capsule is tuned for speech. Speak close to it and you get the full-bodied, detailed 'radio' sound listeners expect from a professional show. It's just as good for voice-overs, livestreams on YouTube and Twitch, and online meetings.",
+        image: "/products/rode-podmic/desk.jpg",
+      },
+      {
+        title: "Made for real rooms",
+        body: "Most home studios and offices in Lagos aren't soundproofed. A dynamic mic like the PodMic picks up far less echo, fan noise and traffic than a condenser, so you can record a clean show in a normal room. With two or more hosts, each mic hears mostly its own speaker.",
+        image: "/products/rode-podmic/studio.jpg",
+      },
+      {
+        title: "Pop filter and shock mount built in",
+        body: "An internal pop filter softens hard 'p' and 'b' sounds, and an internal shock mount reduces bumps and vibration from the desk. The integrated swing mount screws straight onto a boom arm such as the Rode PSA1+ or a desk stand, with no extra holder needed.",
+        image: "/products/rode-podmic/close.jpg",
+      },
+      {
+        title: "Built to last for years",
+        body: "The robust all-metal body and stainless-steel mesh grille are made to survive daily recording, travel and the occasional knock. It needs no batteries or phantom power, so there's nothing to wear out. Choose classic black or white.",
+        image: "/products/rode-podmic/white.png",
+      },
+    ],
+    idealFor: [
+      { title: "Podcasters", body: "Solo shows and multi-host setups with a RØDECaster or mixer." },
+      { title: "Streamers and gamers", body: "Clear voice on stream without picking up your keyboard and room." },
+      { title: "Voice-over and radio", body: "A warm, close-up broadcast sound." },
+      { title: "Churches and studios", body: "Tough enough for daily use by different speakers." },
+    ],
+    notFor:
+      "The PodMic connects by XLR only, so you need an audio interface, mixer or RØDECaster. If you want to plug straight into a computer or phone, choose the Rode PodMic USB (₦380,000), which has both USB-C and XLR. For singing and recording instruments, a condenser like the Rode NT-USB+ (₦390,000) captures more detail.",
+    specs: [
+      { label: "Type", value: "Dynamic microphone, end-address" },
+      { label: "Polar pattern", value: "Cardioid" },
+      { label: "Frequency range", value: "50 Hz–15 kHz" },
+      { label: "Sensitivity", value: "−57 dBV (1.4 mV @ 94 dB SPL)" },
+      { label: "Output impedance", value: "320 Ω" },
+      { label: "Output", value: "3-pin XLR" },
+      { label: "Power", value: "None needed (no phantom power)" },
+      { label: "Mount", value: "Integrated swing mount; internal pop filter and shock mount" },
+      { label: "Size and weight", value: "172 × 109 × 62 mm; 937 g" },
+      { label: "Colours", value: "Black, white" },
+      { label: "Works with", value: "Rode PSA1, PSA1+ and DS1 stands" },
+    ],
+    specsNote: "Figures are Rode's. Like most broadcast dynamic mics, the PodMic has a low output, so use it with an interface or mixer that has plenty of clean gain, such as a RØDECaster.",
+    faqs: [
+      {
+        q: "Can I plug it straight into my laptop or phone?",
+        a: "No. The PodMic has an XLR output, so it needs an audio interface, mixer or RØDECaster between it and your computer. If you want USB, the PodMic USB (₦380,000) plugs straight in.",
+      },
+      {
+        q: "Does it need phantom power?",
+        a: "No. It's a dynamic mic, so it doesn't need phantom power or batteries. Turning phantom power on won't harm it.",
+      },
+      {
+        q: "Why does it sound quiet?",
+        a: "Broadcast dynamic mics have a low output, so they need more gain than a condenser. Speak close to the mic, about a fist's width away, and use an interface or mixer with plenty of clean gain. We can suggest a good match.",
+      },
+      {
+        q: "Does it come with a cable or stand?",
+        a: "The PodMic comes on its own. You'll need an XLR cable and a boom arm or desk stand. The Rode PSA1+ boom arm is a popular pairing, and we can add both to your order.",
+      },
+      {
+        q: "Which colours do you have?",
+        a: "The PodMic comes in black and white. Tell us which you want on WhatsApp and we'll confirm stock.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "PodMic",
+        price: 280_000,
+        includes: ["Rode PodMic dynamic microphone (black or white, ask us which is in stock)"],
+      },
+    ],
+  },
+  {
+    slug: "rode-nt-usb-plus",
+    brand: "Rode",
+    name: "Rode NT-USB+",
+    category: "Audio",
+    tagline: "Studio sound. Just plug in.",
+    headline:
+      "A professional USB condenser mic with a studio-grade capsule, Rode's low-noise Revolution Preamp and built-in APHEX processing, plus zero-latency headphone monitoring. Plug it into a computer, phone or tablet and record.",
+    summary:
+      "The NT-USB+ brings the sound of a studio condenser mic to your desk without an interface. Its cardioid capsule captures voices, singing and acoustic instruments with clarity and detail, and the high-gain Revolution Preamp keeps recordings clean and quiet. Built-in APHEX processing, including a compressor, noise gate and Aural Exciter, can polish your sound using Rode's free apps. A headphone output with volume and mix controls lets you hear yourself with no delay. It comes with a desk stand and a pop filter, so you can start recording straight away.",
+    image: "/products/rode-nt-usb-plus/main.png",
+    hero: "/products/rode-nt-usb-plus/hero.jpg",
+    gallery: [
+      { src: "/products/rode-nt-usb-plus/main.png", alt: "Rode NT-USB+ USB microphone on its tripod stand" },
+      { src: "/products/rode-nt-usb-plus/front.png", alt: "Rode NT-USB+ from the front with pop filter" },
+      { src: "/products/rode-nt-usb-plus/rear.png", alt: "Rear of the Rode NT-USB+ with headphone and mix controls" },
+      { src: "/products/rode-nt-usb-plus/box.jpg", alt: "What's in the box: NT-USB+, pop filter, tripod, ring mount and USB-C cable" },
+      { src: "/products/rode-nt-usb-plus/podcast.jpg", alt: "Podcaster recording at a desk with the Rode NT-USB+" },
+      { src: "/products/rode-nt-usb-plus/music.jpg", alt: "Musician recording guitar with the Rode NT-USB+" },
+    ],
+    stats: [
+      { value: "Plug-in", label: "USB-C, no interface needed" },
+      { value: "24-bit", label: "48 kHz recording" },
+      { value: "APHEX", label: "Built-in processing" },
+      { value: "0 ms", label: "Latency-free monitoring" },
+    ],
+    highlights: [
+      {
+        title: "Studio condenser sound over USB",
+        body: "The NT-USB+ uses a studio-grade condenser capsule with a tight cardioid pattern, so it captures vocals, voice-overs, podcasts and acoustic guitar with the detail you'd expect from a professional studio mic. Rode's ultra-low-noise Revolution Preamp gives plenty of clean gain, and it records at 24-bit/48 kHz.",
+        image: "/products/rode-nt-usb-plus/music.jpg",
+      },
+      {
+        title: "Works with computer, phone and tablet",
+        body: "It's class-compliant, so it works on Windows and Mac with no drivers, and with Android phones and iPads over USB-C. It's ready for Zoom, Teams, OBS, GarageBand, Audacity and any recording app. iPhones with a Lightning port need an Apple Lightning-to-USB-C cable, sold separately.",
+        image: "/products/rode-nt-usb-plus/phone.jpg",
+      },
+      {
+        title: "Pro processing, one click away",
+        body: "Inside the mic is APHEX audio processing, including a compressor, noise gate, high-pass filter, Aural Exciter and Big Bottom, the same tools used in pro studios. Turn them on in Rode's free RØDE Central, RØDE Connect or RØDE Reporter apps for a polished, radio-ready sound without extra software.",
+        image: "/products/rode-nt-usb-plus/central.jpg",
+      },
+      {
+        title: "Hear yourself with no delay",
+        body: "Plug your headphones into the mic itself to hear exactly what you're recording with zero latency. Dedicated controls set the headphone volume and the mix between your mic and the computer's audio, which is perfect for singing along to a backing track or monitoring a call.",
+        image: "/products/rode-nt-usb-plus/controls.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Home studios and musicians", body: "Vocals and acoustic instruments, straight into your laptop." },
+      { title: "Podcasters and YouTubers", body: "Broadcast-quality voice with built-in processing." },
+      { title: "Remote workers and teachers", body: "Clear voice on Zoom, Teams and online classes." },
+      { title: "Voice-over artists", body: "Clean, detailed recordings without an interface." },
+    ],
+    notFor:
+      "As a condenser, the NT-USB+ picks up more of a noisy or echoey room than a dynamic mic. If you record in an untreated room or want the classic broadcast sound, the Rode PodMic USB (₦380,000) may suit you better. If you already have an interface and want an XLR studio mic, look at the Rode NT1 (₦420,000).",
+    specs: [
+      { label: "Type", value: "Condenser USB microphone, pressure gradient" },
+      { label: "Polar pattern", value: "Cardioid" },
+      { label: "Frequency range", value: "20 Hz–20 kHz" },
+      { label: "Max SPL", value: "118 dB SPL (10% THD)" },
+      { label: "Dynamic range", value: "97 dB" },
+      { label: "Resolution", value: "24-bit / 48 kHz" },
+      { label: "Connection", value: "USB-C (class compliant)" },
+      { label: "Headphone output", value: "3.5 mm, zero-latency, with volume and mix controls" },
+      { label: "Processing", value: "APHEX compressor, noise gate, high-pass filter, Aural Exciter, Big Bottom" },
+      { label: "Power", value: "USB bus power, 5 V 500 mA" },
+      { label: "Compatibility", value: "macOS 10.14+, Windows 10+, iOS 14+, Android 11+" },
+      { label: "Size and weight", value: "184 × 62 × 50 mm; 540 g (730 g with accessories)" },
+    ],
+    specsNote: "Figures are Rode's. The APHEX processing is switched on and adjusted through Rode's free apps.",
+    faqs: [
+      {
+        q: "Do I need an audio interface?",
+        a: "No. The NT-USB+ has its own preamp and converter. Plug the USB-C cable into your computer, phone or tablet and it's ready to record.",
+      },
+      {
+        q: "Will it work with my phone?",
+        a: "Yes, with Android phones and iPhones or iPads that have a USB-C port. For older iPhones with a Lightning port, you'll need an Apple Lightning-to-USB-C cable, sold separately.",
+      },
+      {
+        q: "Is it good for singing?",
+        a: "Yes. It's a studio condenser, so it captures vocals and acoustic instruments with plenty of detail. The zero-latency headphone output lets you hear yourself clearly while you sing along to a track.",
+      },
+      {
+        q: "NT-USB+ or PodMic USB?",
+        a: "Choose the NT-USB+ for music, vocals and detailed voice recording in a reasonably quiet room. Choose the PodMic USB for podcasting and streaming in a noisy or echoey room, because a dynamic mic picks up less of the background.",
+      },
+      {
+        q: "Do I need special software?",
+        a: "No. It works with any recording, streaming or meeting app. Rode's free apps, RØDE Central, RØDE Connect and RØDE Reporter, let you turn on the APHEX processing and update the firmware.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "NT-USB+",
+        price: 390_000,
+        includes: [
+          "Rode NT-USB+ USB microphone",
+          "Pop filter",
+          "Desktop tripod stand",
+          "Ring mount",
+          "USB-C to USB-C cable",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "rode-wireless-go-ii",
+    brand: "Rode",
+    name: "Rode Wireless GO II",
+    category: "Audio",
+    tagline: "Two mics. One tiny receiver. Zero cables.",
+    headline:
+      "A dual-channel wireless mic system with two clip-on transmitters and one receiver, so you can record two people at once on a camera, phone or computer, up to 200 m away.",
+    summary:
+      "The Wireless GO II is one of the most trusted wireless mic kits for interviews, vlogs and content creation. Clip a transmitter on each speaker, plug the receiver into your camera, phone or laptop, and you're recording. Each transmitter has a built-in mic and a 3.5 mm input for a lavalier, and can record onboard as a backup. Record both people mixed together or on separate channels, and use the receiver as a USB-C audio interface for your computer or phone.",
+    image: "/products/rode-wireless-go-ii/main.png",
+    hero: "/products/rode-wireless-go-ii/hero.jpg",
+    gallery: [
+      { src: "/products/rode-wireless-go-ii/main.png", alt: "Rode Wireless GO II receiver and two transmitters" },
+      { src: "/products/rode-wireless-go-ii/set.png", alt: "Wireless GO II receiver with screen beside a transmitter" },
+      { src: "/products/rode-wireless-go-ii/interview.jpg", alt: "Two people in a seated interview wearing Wireless GO II transmitters" },
+      { src: "/products/rode-wireless-go-ii/reporter.jpg", alt: "Presenters talking to camera with Wireless GO II clipped on" },
+      { src: "/products/rode-wireless-go-ii/vlog.jpg", alt: "Couple vlogging on a phone with Wireless GO II" },
+      { src: "/products/rode-wireless-go-ii/podcast.png", alt: "Two-person podcast recorded on a laptop with Wireless GO II" },
+    ],
+    stats: [
+      { value: "2", label: "Transmitters, record two people" },
+      { value: "200 m", label: "Range, line of sight" },
+      { value: "7 hrs", label: "Battery per unit" },
+      { value: "30 g", label: "Per transmitter" },
+    ],
+    highlights: [
+      {
+        title: "Record two people at once",
+        body: "Two transmitters connect to one receiver, so you can mic up both sides of an interview, a co-hosted show or a couple's vlog. Record both voices mixed together, or switch to split mode and put each person on their own channel so you can balance them later in editing.",
+        image: "/products/rode-wireless-go-ii/interview.jpg",
+      },
+      {
+        title: "Camera, phone or computer",
+        body: "The receiver connects to cameras through the 3.5 mm output, and to computers, Android phones and iPhones through USB-C, where it works as a digital audio interface. That means the same kit works for YouTube, TikTok, Zoom, live streams and professional shoots.",
+        image: "/products/rode-wireless-go-ii/vlog.jpg",
+      },
+      {
+        title: "A strong, stable signal",
+        body: "Rode's Series IV 2.4 GHz digital transmission is encrypted and reaches up to 200 m with a clear line of sight. It holds up well in busy places like events, markets and city streets, and a safety channel can record a quieter backup to protect you from sudden shouts or loud moments.",
+        image: "/products/rode-wireless-go-ii/reporter.jpg",
+      },
+      {
+        title: "Tiny, clip-on and all-day ready",
+        body: "Each transmitter weighs just 30 g and clips onto a shirt, collar or pocket. Use the built-in mic, or plug in a lavalier for a cleaner look on camera. Each unit runs for up to 7 hours on a charge, and the transmitters can record onboard as a backup if the signal ever drops.",
+        image: "/products/rode-wireless-go-ii/fitness.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Interviews and talk shows", body: "Two guests, each on their own clear channel." },
+      { title: "Vloggers and content creators", body: "Clip on and shoot on your phone or camera." },
+      { title: "Journalists and event coverage", body: "Reliable wireless sound up to 200 m away." },
+      { title: "Online classes and podcasts", body: "Plug into a laptop over USB-C and record." },
+    ],
+    notFor:
+      "If you want the newest model for less, the Rode Wireless GO (Gen 3) (₦300,000) adds 32-bit float backup recording and longer range. For film and TV work with timecode and lavalier mics included, choose the Rode Wireless PRO (₦500,000).",
+    specs: [
+      { label: "Type", value: "Dual-channel digital wireless mic system (2 transmitters, 1 receiver)" },
+      { label: "Mic capsule", value: "Pre-polarised pressure transducer, omnidirectional" },
+      { label: "Frequency range", value: "50 Hz–20 kHz" },
+      { label: "Max SPL", value: "112 dB SPL" },
+      { label: "Self-noise", value: "22 dBA" },
+      { label: "Transmission", value: "Series IV 2.4 GHz digital, 128-bit encryption" },
+      { label: "Range", value: "Up to 200 m (line of sight)" },
+      { label: "Inputs", value: "Built-in mic; 3.5 mm TRS lavalier input on each transmitter" },
+      { label: "Outputs", value: "3.5 mm TRS analog; USB-C digital audio" },
+      { label: "Battery", value: "Built-in rechargeable, up to 7 hours; charges by USB-C" },
+      { label: "Weight", value: "Transmitter 30 g; receiver 32 g" },
+      { label: "Size", value: "44 × 45.3 × 18.3 mm (transmitter)" },
+      { label: "Computer support", value: "macOS 10.11+, Windows 10+" },
+    ],
+    specsNote: "Figures are Rode's. Range depends on line of sight and how busy the area is with other wireless signals.",
+    faqs: [
+      {
+        q: "Will it work with my phone?",
+        a: "Yes. Connect the receiver to an Android phone or a USB-C iPhone with a USB-C cable, or to a Lightning iPhone with Rode's SC15 cable, sold separately. You can also use the 3.5 mm output with a TRRS cable.",
+      },
+      {
+        q: "Will it work with my camera?",
+        a: "Yes. The included 3.5 mm cable plugs into the mic input of most DSLR, mirrorless and video cameras. You can mount the receiver on the camera's hot shoe.",
+      },
+      {
+        q: "Can I use just one transmitter?",
+        a: "Yes. Use one transmitter for solo videos and keep the second as a spare, or use both when you need to record two people.",
+      },
+      {
+        q: "Wireless GO II or Wireless GO (Gen 3)?",
+        a: "Both record two people. The Gen 3 is the newer model and adds 32-bit float backup recording, GainAssist and longer range, and it costs less on our price list. Choose the GO II if you prefer this model or already use one.",
+      },
+      {
+        q: "Can I add a lavalier mic?",
+        a: "Yes. Each transmitter has a 3.5 mm input for a lavalier, such as the Rode Lavalier GO, for a more discreet look on camera.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "Wireless GO II kit",
+        price: 470_000,
+        includes: [
+          "2 Wireless GO II transmitters with built-in mics",
+          "1 Wireless GO II receiver",
+          "3 furry windshields",
+          "3 USB-C to USB-A cables",
+          "3.5 mm TRS cable for cameras",
+          "Carry pouch",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "rode-nt-usb",
+    brand: "Rode",
+    name: "Rode NT-USB",
+    category: "Audio",
+    tagline: "The studio mic that plugs straight in.",
+    headline:
+      "A studio-quality USB condenser mic for singing, voice-over, podcasting and streaming, with zero-latency headphone monitoring, a pop filter and a desk tripod in the box.",
+    summary:
+      "The NT-USB brings studio-grade condenser sound to your computer, with no interface needed. Its cardioid capsule captures voices and acoustic instruments with clarity and warmth, and the headphone output on the mic lets you hear yourself with no delay. Dedicated controls set the headphone volume and the mix between your mic and the computer's sound. It comes with a pop filter, a desktop tripod and a ring mount, so you can start recording straight away.",
+    image: "/products/rode-nt-usb/main.png",
+    hero: "/products/rode-nt-usb/hero.jpg",
+    gallery: [
+      { src: "/products/rode-nt-usb/main.png", alt: "Rode NT-USB microphone on its desktop tripod" },
+      { src: "/products/rode-nt-usb/front.png", alt: "Rode NT-USB from the front" },
+      { src: "/products/rode-nt-usb/back.png", alt: "Rode NT-USB with its pop filter attached" },
+      { src: "/products/rode-nt-usb/hero.jpg", alt: "Rode NT-USB on a desk beside a keyboard and monitor" },
+    ],
+    stats: [
+      { value: "Plug-in", label: "USB, no interface needed" },
+      { value: "0 ms", label: "Latency-free monitoring" },
+      { value: "Cardioid", label: "Focused on your voice" },
+      { value: "In the box", label: "Pop filter and tripod" },
+    ],
+    highlights: [
+      {
+        title: "Studio condenser sound over USB",
+        body: "The NT-USB uses a studio-grade condenser capsule, so vocals, voice-overs and acoustic guitar sound full, clear and detailed. It plugs straight into a USB port and works with any recording, streaming or meeting app, with no drivers to install.",
+        image: "/products/rode-nt-usb/hero.jpg",
+      },
+      {
+        title: "Hear yourself with no delay",
+        body: "Plug headphones into the mic itself to hear exactly what you're recording, with zero latency. One knob sets the headphone volume and the other sets the mix between your voice and the computer's playback, which is ideal for singing along to a beat or monitoring a call.",
+        image: "/products/rode-nt-usb/front.png",
+      },
+      {
+        title: "Ready to record out of the box",
+        body: "A pop filter clips onto the mic to soften hard 'p' and 'b' sounds, and the desktop tripod puts the mic at mouth height on your desk. The ring mount lets you move it onto a standard mic stand or boom arm whenever you want.",
+        image: "/products/rode-nt-usb/back.png",
+      },
+      {
+        title: "Built to last",
+        body: "Like all Rode studio mics, the NT-USB is designed and made in Sydney, Australia, with a solid build that stands up to daily use in home studios, churches and offices.",
+        image: "/products/rode-nt-usb/main.png",
+      },
+    ],
+    idealFor: [
+      { title: "Home studios and singers", body: "Vocals and acoustic instruments, straight into your laptop." },
+      { title: "Podcasters and YouTubers", body: "Clean, studio-quality voice recording." },
+      { title: "Streamers", body: "Clear voice on stream with easy monitoring." },
+      { title: "Remote work and online teaching", body: "A big step up from a laptop or headset mic." },
+    ],
+    notFor:
+      "The newer Rode NT-USB+ (₦390,000) records at 24-bit, adds built-in APHEX processing and works with phones over USB-C, and it costs less on our price list. If you record in a noisy or echoey room, the dynamic Rode PodMic USB (₦380,000) picks up less of the background.",
+    specs: [
+      { label: "Type", value: "Condenser USB microphone, pressure gradient, side address" },
+      { label: "Capsule", value: "0.50\"" },
+      { label: "Polar pattern", value: "Cardioid" },
+      { label: "Frequency range", value: "20 Hz–20 kHz" },
+      { label: "Max SPL", value: "110 dB SPL" },
+      { label: "Resolution", value: "16-bit / 48 kHz" },
+      { label: "Connection", value: "USB" },
+      { label: "Headphone output", value: "3.5 mm, zero-latency, with volume and mix controls" },
+      { label: "Power", value: "USB bus power" },
+      { label: "Size and weight", value: "184 × 62 × 50 mm; 520 g" },
+    ],
+    specsNote: "Figures are Rode's. The NT-USB works with Windows and Mac computers without extra drivers.",
+    faqs: [
+      {
+        q: "Do I need an audio interface?",
+        a: "No. The NT-USB has its own converter and headphone output. Plug it into a USB port on your computer and it's ready to record.",
+      },
+      {
+        q: "Is it good for singing?",
+        a: "Yes. It's a studio condenser, so it captures vocals with plenty of detail, and the zero-latency headphone output lets you hear yourself clearly while you record.",
+      },
+      {
+        q: "Will it work with my phone?",
+        a: "The NT-USB is made mainly for computers. If you want to record on a phone or tablet over USB-C, the newer NT-USB+ is the better choice.",
+      },
+      {
+        q: "NT-USB or NT-USB+?",
+        a: "The NT-USB+ is the newer model, with 24-bit recording, built-in APHEX processing and USB-C, and it costs less on our price list. Choose the NT-USB if you want this classic model.",
+      },
+      {
+        q: "Can I put it on a boom arm?",
+        a: "Yes. Use the included ring mount to attach it to a standard mic stand or a boom arm such as the Rode PSA1+.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "NT-USB",
+        price: 400_000,
+        includes: [
+          "Rode NT-USB USB microphone",
+          "Pop filter",
+          "Desktop tripod stand",
+          "Ring mount",
+          "USB cable",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "rode-nt1",
+    brand: "Rode",
+    name: "Rode NT1",
+    category: "Audio",
+    tagline: "One of the world's quietest studio mics.",
+    headline:
+      "A large-diaphragm studio condenser mic with just 4.5 dBA self-noise, giving vocals, voice-overs and instruments a warm, detailed, professional sound.",
+    summary:
+      "The NT1 is a favourite in home and professional studios for its incredibly low noise and smooth, detailed sound. Its 1\" HF1 capsule captures every nuance of a vocal or acoustic instrument, while self-noise of only 4.5 dBA means quiet passages stay clean and clear. The capsule is mounted on an internal shock mount to cut handling and stand noise. It connects by XLR to any interface, mixer or RØDECaster with phantom power, and it's designed and made in Sydney, Australia.",
+    image: "/products/rode-nt1/main.png",
+    hero: "/products/rode-nt1/hero.jpg",
+    gallery: [
+      { src: "/products/rode-nt1/main.png", alt: "Rode NT1 studio condenser mic in a shock mount with pop filter" },
+      { src: "/products/rode-nt1/nopop.png", alt: "Rode NT1 in the SM6 shock mount" },
+      { src: "/products/rode-nt1/front.png", alt: "Rode NT1 from the front with pop filter" },
+      { src: "/products/rode-nt1/box.png", alt: "Rode NT1 side profile in its shock mount" },
+      { src: "/products/rode-nt1/studio.jpg", alt: "Singer recording vocals into a Rode NT1" },
+      { src: "/products/rode-nt1/jam.jpg", alt: "Musician recording guitar with a Rode NT1 on a boom arm" },
+    ],
+    stats: [
+      { value: "4.5 dBA", label: "Ultra-low self-noise" },
+      { value: "1\"", label: "Large-diaphragm capsule" },
+      { value: "132 dB", label: "Max SPL" },
+      { value: "XLR", label: "P24 / P48 phantom power" },
+    ],
+    highlights: [
+      {
+        title: "Studio-quiet recordings",
+        body: "At just 4.5 dBA, the NT1 is one of the quietest studio microphones in the world. Soft vocals, whispered voice-overs and gentle acoustic parts stay clean, with no hiss to clean up later. It's a big reason producers choose it for professional-sounding music and voice work.",
+        image: "/products/rode-nt1/studio.jpg",
+      },
+      {
+        title: "Warm, detailed, modern sound",
+        body: "The 1\" HF1 capsule gives a smooth, warm tone with clear, natural highs. It flatters vocals, rap and spoken word, and it's just as good on acoustic guitar, piano and other instruments. The cardioid pattern focuses on the sound in front of it.",
+        image: "/products/rode-nt1/hero.jpg",
+      },
+      {
+        title: "Handles loud sources too",
+        body: "With a max SPL of 132 dB, the NT1 copes with powerful singers, guitar amps and percussion without distorting. The capsule sits on Rode's internal shock mount, which cuts down rumble and vibration from the stand and floor.",
+        image: "/products/rode-nt1/jam.jpg",
+      },
+      {
+        title: "Made to last a career",
+        body: "The NT1 has a tough, black-coated metal body and is designed and made in Sydney, Australia. Use it with the Rode SM6 shock mount and pop filter for the cleanest results on vocals.",
+        image: "/products/rode-nt1/nopop.png",
+      },
+    ],
+    idealFor: [
+      { title: "Music producers and singers", body: "Professional vocals for songs, rap and covers." },
+      { title: "Voice-over artists", body: "Clean, quiet recordings for ads, audiobooks and narration." },
+      { title: "Home and church studios", body: "A studio standard for vocals and instruments." },
+      { title: "Podcasters with treated rooms", body: "Rich, detailed voice with very low noise." },
+    ],
+    notFor:
+      "The NT1 connects by XLR, so you need an audio interface, mixer or RØDECaster with phantom power. If you want to plug straight into a computer, the Rode NT-USB+ (₦390,000) is simpler. As a sensitive condenser, it also picks up room echo, so in an untreated room a dynamic mic like the Rode PodMic (₦280,000) may suit you better.",
+    specs: [
+      { label: "Type", value: "Studio condenser microphone, pressure gradient, side address" },
+      { label: "Capsule", value: "1.00\" HF1" },
+      { label: "Polar pattern", value: "Cardioid" },
+      { label: "Frequency range", value: "20 Hz–20 kHz" },
+      { label: "Sensitivity", value: "−29 dB re 1 V/Pa (35 mV @ 94 dB SPL)" },
+      { label: "Self-noise", value: "4.5 dBA" },
+      { label: "Max SPL", value: "132 dB SPL" },
+      { label: "Max output", value: "8.0 mV" },
+      { label: "Output impedance", value: "100 Ω" },
+      { label: "Power", value: "P24 or P48 phantom power" },
+      { label: "Connector", value: "3-pin XLR" },
+      { label: "Size and weight", value: "187 × 50 × 50 mm; 440 g" },
+    ],
+    specsNote: "Figures are Rode's. The NT1 needs 24 V or 48 V phantom power from an interface, mixer or RØDECaster.",
+    faqs: [
+      {
+        q: "What do I need to use it?",
+        a: "An audio interface, mixer or RØDECaster with phantom power, and an XLR cable. A shock mount and pop filter give the best results on vocals. We can suggest a full setup to match your budget.",
+      },
+      {
+        q: "NT1 or NT1 Kit?",
+        a: "The NT1 Kit (₦500,000) comes with extra accessories. Ask us on WhatsApp and we'll tell you exactly what's in each box before you pay.",
+      },
+      {
+        q: "NT1 or NT1-A?",
+        a: "Both are excellent, very quiet studio mics. The NT1 has a modern, slightly smoother sound and an all-black finish. The NT1-A (₦580,000) is the classic version with a brighter, airy top end.",
+      },
+      {
+        q: "Is it good for rap and Afrobeats vocals?",
+        a: "Yes. Its low noise, warm body and clear highs make it a popular choice for modern vocals, and it handles loud, energetic performances without distorting.",
+      },
+      {
+        q: "Will it work in my bedroom studio?",
+        a: "Yes, but condenser mics pick up room echo. Hanging blankets, foam panels or a reflection filter around the mic will make a big difference.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "NT1 studio mic",
+        price: 420_000,
+        includes: [
+          "Rode NT1 studio condenser microphone",
+          "Ask us on WhatsApp for the full box contents in stock",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "rode-nt1-kit",
+    brand: "Rode",
+    name: "Rode NT1 Kit",
+    category: "Audio",
+    tagline: "The quiet studio mic, ready to record.",
+    headline:
+      "The Rode NT1 studio condenser mic packaged as a vocal recording kit, with the SM6 shock mount and pop filter so you can set up and record clean vocals on day one.",
+    summary:
+      "The NT1 Kit pairs one of the world's quietest studio microphones with the accessories it needs for vocals. The NT1's 1\" capsule and 4.5 dBA self-noise give a warm, detailed, hiss-free sound, while the SM6 shock mount isolates it from stand and floor vibration and the detachable pop filter tames hard 'p' and 'b' sounds. Add an XLR cable and an audio interface with phantom power, and you have a complete professional vocal chain for music, voice-over and podcasting.",
+    image: "/products/rode-nt1-kit/main.png",
+    hero: "/products/rode-nt1-kit/hero.jpg",
+    gallery: [
+      { src: "/products/rode-nt1-kit/main.png", alt: "Rode NT1 in the SM6 shock mount with pop filter" },
+      { src: "/products/rode-nt1-kit/sm6.png", alt: "Rode SM6 shock mount with detachable pop filter" },
+      { src: "/products/rode-nt1-kit/front.png", alt: "Rode NT1 kit from the front with the pop filter fitted" },
+      { src: "/products/rode-nt1-kit/studio.jpg", alt: "Musician recording with the Rode NT1 on a boom arm" },
+      { src: "/products/rode-nt1-kit/jam.jpg", alt: "Singer recording vocals into the Rode NT1" },
+    ],
+    stats: [
+      { value: "4.5 dBA", label: "Ultra-low self-noise" },
+      { value: "1\"", label: "Large-diaphragm capsule" },
+      { value: "SM6", label: "Shock mount included" },
+      { value: "Pop filter", label: "Included, detachable" },
+    ],
+    highlights: [
+      {
+        title: "A full vocal setup in one box",
+        body: "Buying a studio mic usually means hunting down a shock mount and pop filter separately. The NT1 Kit includes Rode's SM6 shock mount with a detachable pop filter, so the mic arrives ready for vocals. Screw it onto any standard mic stand or boom arm and start recording.",
+        image: "/products/rode-nt1-kit/main.png",
+      },
+      {
+        title: "Studio-quiet, hiss-free recordings",
+        body: "At just 4.5 dBA, the NT1 is one of the quietest studio microphones in the world. Soft vocals, whispered voice-overs and gentle acoustic parts stay clean, with no background hiss to clean up later.",
+        image: "/products/rode-nt1-kit/studio.jpg",
+      },
+      {
+        title: "Isolation that you can hear",
+        body: "The SM6 suspends the mic in elastic, so bumps, footsteps and desk knocks don't reach the recording. The pop filter sits at the right distance in front of the capsule and swings out of the way when you don't need it.",
+        image: "/products/rode-nt1-kit/sm6.png",
+      },
+      {
+        title: "Warm, modern sound for any voice",
+        body: "The 1\" HF1 capsule gives a smooth, warm tone with clear, natural highs. It suits singing, rap and spoken word, handles loud performers up to 132 dB SPL, and works just as well on acoustic guitar and piano.",
+        image: "/products/rode-nt1-kit/jam.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Singers and music producers", body: "A complete, professional vocal chain." },
+      { title: "Voice-over artists", body: "Clean, quiet takes for ads, audiobooks and narration." },
+      { title: "Home and church studios", body: "One purchase covers mic, mount and pop filter." },
+      { title: "Upgrading from a USB mic", body: "A big step up in quality and noise floor." },
+    ],
+    notFor:
+      "The NT1 connects by XLR, so you need an audio interface, mixer or RØDECaster with phantom power. If you already own a shock mount and pop filter, the Rode NT1 (₦420,000) saves you money. For a brighter, classic sound, look at the Rode NT1-A (₦580,000). To plug straight into a computer, choose the Rode NT-USB+ (₦390,000).",
+    specs: [
+      { label: "Type", value: "Studio condenser microphone, pressure gradient, side address" },
+      { label: "Capsule", value: "1.00\" HF1" },
+      { label: "Polar pattern", value: "Cardioid" },
+      { label: "Frequency range", value: "20 Hz–20 kHz" },
+      { label: "Sensitivity", value: "−29 dB re 1 V/Pa (35 mV @ 94 dB SPL)" },
+      { label: "Self-noise", value: "4.5 dBA" },
+      { label: "Max SPL", value: "132 dB SPL" },
+      { label: "Output impedance", value: "100 Ω" },
+      { label: "Power", value: "P24 or P48 phantom power" },
+      { label: "Connector", value: "3-pin XLR" },
+      { label: "Mic size and weight", value: "187 × 50 × 50 mm; 440 g" },
+      { label: "Shock mount", value: "Rode SM6 with detachable pop filter" },
+    ],
+    specsNote: "Figures are Rode's. Kit contents can vary between production runs, so we confirm exactly what's in the box before you pay.",
+    faqs: [
+      {
+        q: "What's the difference between the NT1 and the NT1 Kit?",
+        a: "It's the same microphone. The kit adds the SM6 shock mount and pop filter, which you'd otherwise need to buy separately for good vocal recordings.",
+      },
+      {
+        q: "What else do I need?",
+        a: "An audio interface, mixer or RØDECaster with phantom power, a mic stand or boom arm, and headphones. If an XLR cable isn't in the box we have in stock, we'll tell you before you order.",
+      },
+      {
+        q: "NT1 Kit or NT1-A?",
+        a: "Both are very quiet studio mics with a shock mount and pop filter. The NT1 has a smoother, modern sound and black finish. The NT1-A (₦580,000) has a brighter, airy top end and a classic satin-nickel finish.",
+      },
+      {
+        q: "Is it good for Afrobeats and rap vocals?",
+        a: "Yes. Its low noise, warm body and clear highs suit modern vocals, and it handles loud, energetic performances without distorting.",
+      },
+      {
+        q: "Will it work in my bedroom studio?",
+        a: "Yes, but condenser mics pick up room echo. Foam panels, heavy curtains or a reflection filter behind the mic make a big difference.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "NT1 Kit",
+        price: 500_000,
+        includes: [
+          "Rode NT1 studio condenser microphone",
+          "Rode SM6 shock mount",
+          "Detachable pop filter",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "rode-nt1-a",
+    brand: "Rode",
+    name: "Rode NT1-A",
+    category: "Audio",
+    tagline: "The classic vocal mic, complete.",
+    headline:
+      "A legendary large-diaphragm studio condenser mic with a bright, airy sound and 5 dBA self-noise, sold as Rode's complete vocal recording solution with shock mount, pop filter and cable.",
+    summary:
+      "For years the NT1-A has been the first serious studio mic for countless singers, rappers and voice-over artists. Its 1\" capsule delivers a warm body with a crisp, airy top end that helps vocals cut through a mix, and at 5 dBA it's one of the quietest mics of its kind. It comes as Rode's Complete Vocal Recording Solution, with the SM6 shock mount, detachable pop filter, XLR cable and dust cover, so it's ready to use with any interface that has phantom power.",
+    image: "/products/rode-nt1-a/main.png",
+    hero: "/products/rode-nt1-a/hero.jpg",
+    gallery: [
+      { src: "/products/rode-nt1-a/main.png", alt: "Rode NT1-A studio condenser microphone" },
+      { src: "/products/rode-nt1-a/profile.jpg", alt: "Rode NT1-A in the SM6 shock mount with pop filter" },
+      { src: "/products/rode-nt1-a/back.png", alt: "Rode NT1-A from the back" },
+      { src: "/products/rode-nt1-a/home.jpg", alt: "Rode NT1-A set up in a home studio" },
+      { src: "/products/rode-nt1-a/rapper.jpg", alt: "Rapper recording vocals into a Rode NT1-A" },
+      { src: "/products/rode-nt1-a/m2.jpg", alt: "Singer-songwriter recording guitar and vocals with the NT1-A" },
+    ],
+    stats: [
+      { value: "5 dBA", label: "Ultra-low self-noise" },
+      { value: "1\"", label: "Large-diaphragm capsule" },
+      { value: "137 dB", label: "Max SPL" },
+      { value: "Complete", label: "Mount, filter and cable" },
+    ],
+    highlights: [
+      {
+        title: "The sound of countless hit vocals",
+        body: "The NT1-A's bright, airy top end and full low-mids give vocals presence and polish straight out of the mic. It's a favourite for R&B, Afrobeats, gospel and rap, and it flatters acoustic guitar, piano and strings too.",
+        image: "/products/rode-nt1-a/m1.jpg",
+      },
+      {
+        title: "Quiet enough for anything",
+        body: "With just 5 dBA self-noise, the NT1-A captures soft, intimate takes without hiss. That makes it a strong choice for voice-over, audiobooks and quiet acoustic music, where every bit of noise is audible.",
+        image: "/products/rode-nt1-a/hero.jpg",
+      },
+      {
+        title: "Handles loud performances",
+        body: "A max SPL of 137 dB means belting singers, guitar amps and drum overheads won't distort the mic. Its JFET electronics with a bipolar output buffer keep the signal clean and strong into your interface.",
+        image: "/products/rode-nt1-a/rapper.jpg",
+      },
+      {
+        title: "Everything you need in the box",
+        body: "Rode packages the NT1-A as a Complete Vocal Recording Solution, with the SM6 shock mount and pop filter, a 6 m XLR cable and a dust cover. Just add a stand and an interface with phantom power.",
+        image: "/products/rode-nt1-a/profile.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Singers and rappers", body: "Bright, present vocals that sit well in a mix." },
+      { title: "Music producers", body: "A trusted studio standard for vocals and instruments." },
+      { title: "Voice-over and audiobooks", body: "Very low noise for clean spoken word." },
+      { title: "Church and home studios", body: "A complete kit in one purchase." },
+    ],
+    notFor:
+      "The NT1-A needs an audio interface, mixer or RØDECaster with phantom power. If you prefer a smoother, darker sound, the Rode NT1 Kit (₦500,000) costs less. If you record in a noisy or untreated room, a dynamic mic like the Rode PodMic (₦280,000) picks up less of the room. To plug straight into a computer, choose the Rode NT-USB+ (₦390,000).",
+    specs: [
+      { label: "Type", value: "Studio condenser microphone, pressure gradient, side address" },
+      { label: "Active electronics", value: "JFET impedance converter with bipolar output buffer" },
+      { label: "Capsule", value: "1.00\"" },
+      { label: "Polar pattern", value: "Cardioid" },
+      { label: "Frequency range", value: "20 Hz–20 kHz" },
+      { label: "Sensitivity", value: "−32 dB re 1 V/Pa (25 mV @ 94 dB SPL)" },
+      { label: "Self-noise", value: "5 dBA" },
+      { label: "Max SPL", value: "137 dB SPL" },
+      { label: "Max output", value: "13.7 mV" },
+      { label: "Output impedance", value: "100 Ω" },
+      { label: "Power", value: "P24 or P48 phantom power" },
+      { label: "Connector", value: "3-pin XLR, balanced" },
+      { label: "Size and weight", value: "190 × 50 × 50 mm; 326 g" },
+    ],
+    specsNote: "Figures are Rode's. The NT1-A needs 24 V or 48 V phantom power from an interface, mixer or RØDECaster.",
+    faqs: [
+      {
+        q: "What's in the box?",
+        a: "Rode sells the NT1-A as a Complete Vocal Recording Solution: the mic, the SM6 shock mount with pop filter, a 6 m XLR cable and a dust cover. We confirm the contents of the stock we have before you pay.",
+      },
+      {
+        q: "NT1-A or NT1?",
+        a: "Both are among the quietest studio mics you can buy. The NT1-A is brighter and airier, which many singers love for presence. The NT1 is smoother and slightly darker. If you're unsure, tell us your voice and style on WhatsApp and we'll help.",
+      },
+      {
+        q: "What else do I need?",
+        a: "An audio interface or mixer with phantom power, a mic stand or boom arm, and headphones. We can suggest an interface to match your budget.",
+      },
+      {
+        q: "Is it good for beginners?",
+        a: "Yes. It's one of the most popular first studio mics because it sounds professional with very little effort, and the kit includes everything except a stand and interface.",
+      },
+      {
+        q: "Will it pick up my room?",
+        a: "As a sensitive condenser, yes. Record away from bare walls and add foam, curtains or a reflection filter for the cleanest vocals.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "NT1-A vocal recording kit",
+        price: 580_000,
+        includes: [
+          "Rode NT1-A studio condenser microphone",
+          "Rode SM6 shock mount with detachable pop filter",
+          "6 m XLR cable",
+          "Dust cover",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "rode-nt-usb-mini",
+    brand: "Rode",
+    name: "Rode NT-USB Mini",
+    category: "Audio",
+    tagline: "Big studio sound. Small desk footprint.",
+    headline:
+      "A compact USB microphone with studio-quality sound, a built-in headphone amp and a magnetic desk stand, made for streaming, podcasting, gaming and online work.",
+    summary:
+      "The NT-USB Mini packs Rode's studio sound into a small, solid microphone that plugs straight into your computer over USB-C. It records at 24-bit / 48 kHz, has a zero-latency headphone output with its own volume knob, and sits on a weighted magnetic stand that comes off easily so you can move the mic onto a boom arm. Pair it with free RØDE Connect or UNIFY software for multi-mic podcasts and streams.",
+    image: "/products/rode-nt-usb-mini/main.png",
+    hero: "/products/rode-nt-usb-mini/hero.jpg",
+    gallery: [
+      { src: "/products/rode-nt-usb-mini/main.png", alt: "Rode NT-USB Mini on its magnetic desk stand" },
+      { src: "/products/rode-nt-usb-mini/front.png", alt: "Rode NT-USB Mini from the front" },
+      { src: "/products/rode-nt-usb-mini/back.png", alt: "Rode NT-USB Mini from the back showing the USB-C port" },
+      { src: "/products/rode-nt-usb-mini/desk.png", alt: "Rode NT-USB Mini on a gaming desk" },
+      { src: "/products/rode-nt-usb-mini/arm.jpg", alt: "Rode NT-USB Mini on a boom arm above a gaming setup" },
+      { src: "/products/rode-nt-usb-mini/stream.jpg", alt: "Rode NT-USB Mini on a boom arm in a home office" },
+    ],
+    stats: [
+      { value: "24-bit", label: "48 kHz recording" },
+      { value: "USB-C", label: "Plug and play" },
+      { value: "0 ms", label: "Latency-free monitoring" },
+      { value: "Magnetic", label: "Detachable desk stand" },
+    ],
+    highlights: [
+      {
+        title: "Studio sound without the studio",
+        body: "The NT-USB Mini uses a studio-grade condenser capsule and a built-in 24-bit converter, so your voice sounds clear, warm and broadcast-ready on streams, podcasts, calls and video. Plug it into your computer over USB-C and it works straight away, with no drivers to install.",
+        image: "/products/rode-nt-usb-mini/desk.png",
+      },
+      {
+        title: "Hear yourself in real time",
+        body: "A high-powered headphone amp with a big volume knob sits on the front of the mic. Plug in your headphones to hear yourself and your computer audio with zero latency, which is ideal for gaming chat, singing along and monitoring streams.",
+        image: "/products/rode-nt-usb-mini/front.png",
+      },
+      {
+        title: "Magnetic stand, boom-arm ready",
+        body: "The weighted desk stand holds the mic with a magnet, so it stays put on your desk and lifts off in a second. Thread it onto a boom arm like the Rode PSA1+ to free up desk space and get the mic closer to your mouth.",
+        image: "/products/rode-nt-usb-mini/arm.jpg",
+      },
+      {
+        title: "Grows with your setup",
+        body: "Use it with free RØDE Connect or UNIFY to run podcasts and streams with up to four NT-USB Minis on one computer, with Rode's APHEX processing, sound pads and easy mixing. It's a simple first mic that keeps up as your channel grows.",
+        image: "/products/rode-nt-usb-mini/stream.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Streamers and gamers", body: "Clear voice chat and stream audio." },
+      { title: "Beginner podcasters", body: "An affordable, studio-quality first mic." },
+      { title: "Remote work and online classes", body: "Sound professional on Zoom and Teams." },
+      { title: "YouTubers and voice-over", body: "Clean narration straight into your laptop." },
+    ],
+    notFor:
+      "If you want APHEX processing built into the mic itself and phone support, the Rode NT-USB+ (₦390,000) is the step up. If you record in a noisy or echoey room, the dynamic Rode PodMic USB (₦380,000) rejects more background sound. For vocals in a proper studio, look at the Rode NT1 Kit (₦500,000).",
+    specs: [
+      { label: "Type", value: "Condenser USB microphone, pressure gradient" },
+      { label: "Electronics", value: "Electret condenser, A/D and USB interface" },
+      { label: "Polar pattern", value: "Cardioid" },
+      { label: "Frequency range", value: "20 Hz–20 kHz" },
+      { label: "Max SPL", value: "121 dB (1% THD)" },
+      { label: "Resolution", value: "24-bit / 48 kHz" },
+      { label: "Connection", value: "USB-C, bus powered" },
+      { label: "Headphone output", value: "3.5 mm, zero-latency, with volume control" },
+      { label: "Computer support", value: "macOS 10.12+, Windows 10+" },
+      { label: "Size", value: "141.9 mm tall; 54.5 mm wide; 89.3 mm base" },
+      { label: "Weight", value: "585 g with stand" },
+    ],
+    specsNote: "Figures are Rode's. The NT-USB Mini works with Windows and Mac computers without extra drivers.",
+    faqs: [
+      {
+        q: "Do I need an audio interface?",
+        a: "No. The NT-USB Mini has its own converter and headphone amp. Plug it into your computer with the USB-C cable and it's ready.",
+      },
+      {
+        q: "Is it good for gaming and streaming?",
+        a: "Yes. It's designed for it. It works with Discord, OBS, Streamlabs and every major game and meeting app, and the headphone output lets you hear chat and game audio through the mic.",
+      },
+      {
+        q: "Can I put it on a boom arm?",
+        a: "Yes. Lift it off the magnetic stand and screw it onto any standard boom arm, such as the Rode PSA1+.",
+      },
+      {
+        q: "NT-USB Mini or NT-USB+?",
+        a: "The Mini is the budget pick with great sound in a compact body. The NT-USB+ adds built-in APHEX voice processing, a larger capsule and phone support, for about double the price.",
+      },
+      {
+        q: "Will it work with my phone?",
+        a: "It's made mainly for computers. If recording on a phone is important, the NT-USB+ is the better choice.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "NT-USB Mini",
+        price: 200_000,
+        includes: [
+          "Rode NT-USB Mini USB microphone",
+          "Magnetic desk stand",
+          "USB-C to USB-A cable",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "rode-nt2-a",
+    brand: "Rode",
+    name: "Rode NT2-A",
+    category: "Audio",
+    tagline: "Three patterns. One studio workhorse.",
+    headline:
+      "The Rode NT2-A is a 1\" studio condenser with switchable polar patterns, pad and high-pass filter on the body, so one mic covers vocals, instruments, duets and room sound.",
+    summary:
+      "Most studio mics record in one direction only. The NT2-A switches between cardioid, omni and figure-8 with a switch on the body, so you can record a single vocal, a whole choir, or two singers facing each other with the same mic. A three-step pad lets it take loud sources like guitar amps and drums, and a three-step high-pass filter cuts rumble and boominess before it reaches your recording. With 7 dBA self-noise, a 147 dB max SPL and a warm, detailed 1\" capsule, it's a mic that grows with your studio.",
+    image: "/products/rode-nt2-a/main.png",
+    hero: "/products/rode-nt2-a/hero.jpg",
+    gallery: [
+      { src: "/products/rode-nt2-a/main.png", alt: "Rode NT2-A studio condenser microphone from the front" },
+      { src: "/products/rode-nt2-a/left.png", alt: "Rode NT2-A showing the pattern, pad and filter switches" },
+      { src: "/products/rode-nt2-a/back.png", alt: "Rode NT2-A from the back" },
+      { src: "/products/rode-nt2-a/kit.png", alt: "Rode NT2-A in the SM6 shock mount with pop filter" },
+      { src: "/products/rode-nt2-a/hero.jpg", alt: "Singer recording vocals into the Rode NT2-A" },
+    ],
+    stats: [
+      { value: "3", label: "Polar patterns" },
+      { value: "7 dBA", label: "Low self-noise" },
+      { value: "147 dB", label: "Max SPL" },
+      { value: "1\"", label: "Large-diaphragm capsule" },
+    ],
+    highlights: [
+      {
+        title: "Cardioid, omni or figure-8",
+        body: "Use cardioid for a single vocal or instrument, omni to capture a group or the sound of the room, and figure-8 for two singers facing each other or classic stereo techniques. All three are a flick of a switch on the body, with no software or extra capsules.",
+        image: "/products/rode-nt2-a/left.png",
+      },
+      {
+        title: "Ready for loud sources",
+        body: "A three-step pad (0, −5 and −10 dB) and a 147 dB max SPL mean the NT2-A can sit in front of guitar amps, brass, drums and powerful singers without distorting.",
+        image: "/products/rode-nt2-a/main.png",
+      },
+      {
+        title: "Clean low end, straight from the mic",
+        body: "The three-step high-pass filter (flat, 40 Hz and 80 Hz) removes traffic rumble, stand noise and boomy proximity effect at the source, so your recordings need less cleaning up later.",
+        image: "/products/rode-nt2-a/back.png",
+      },
+      {
+        title: "Shock mount and pop filter in the box",
+        body: "The NT2-A comes with Rode's SM6 shock mount with a detachable pop filter and a long XLR cable, so it's ready to record vocals as soon as you plug it into your interface.",
+        image: "/products/rode-nt2-a/kit.png",
+      },
+    ],
+    idealFor: [
+      { title: "Project and commercial studios", body: "One mic for vocals, instruments and room sound." },
+      { title: "Singers and music producers", body: "Warm, detailed vocals with a low noise floor." },
+      { title: "Churches and choirs", body: "Omni mode captures a whole group naturally." },
+      { title: "Duets and interviews", body: "Figure-8 records two people facing each other." },
+    ],
+    notFor:
+      "The NT2-A connects by XLR and needs an audio interface, mixer or RØDECaster with phantom power. If you only record single vocals in cardioid, the Rode NT1-A (₦580,000) or the NT1 Kit (₦500,000) give you a very quiet studio mic for less. To plug straight into a computer, look at the Rode NT-USB+ (₦390,000).",
+    specs: [
+      { label: "Type", value: "Studio condenser microphone, pressure gradient, side address" },
+      { label: "Capsule", value: "1\"" },
+      { label: "Polar patterns", value: "Cardioid, figure-8, omnidirectional (switchable)" },
+      { label: "Pad", value: "0, −5, −10 dB" },
+      { label: "High-pass filter", value: "Flat, 40 Hz, 80 Hz" },
+      { label: "Frequency range", value: "20 Hz–20 kHz" },
+      { label: "Sensitivity", value: "−36 dB re 1 V/Pa (16 mV @ 94 dB SPL)" },
+      { label: "Self-noise", value: "7 dBA" },
+      { label: "Max SPL", value: "147 dB SPL" },
+      { label: "Output impedance", value: "200 Ω" },
+      { label: "Power", value: "P24 or P48 phantom power" },
+      { label: "Connector", value: "3-pin XLR" },
+      { label: "Size and weight", value: "55 × 209 × 55 mm; 710 g" },
+    ],
+    specsNote: "Figures are Rode's. Box contents can vary between production runs, so we confirm exactly what's included before you pay.",
+    faqs: [
+      {
+        q: "Why would I need three polar patterns?",
+        a: "Cardioid is for one voice or instrument. Omni picks up all around the mic, which suits groups, choirs and natural room sound. Figure-8 picks up front and back only, ideal for two singers or an interview across a table.",
+      },
+      {
+        q: "NT2-A or NT1-A?",
+        a: "Both are quiet 1\" studio condensers. The NT1-A (₦580,000) is cardioid only and slightly quieter. The NT2-A adds omni and figure-8, a pad and a high-pass filter, which make it more flexible for instruments, groups and loud sources.",
+      },
+      {
+        q: "What do the pad and high-pass switches do?",
+        a: "The pad lowers the mic's output so very loud sources don't distort. The high-pass filter cuts low rumble and boominess. Both are on the body, so you set them before you record.",
+      },
+      {
+        q: "What else do I need?",
+        a: "An audio interface, mixer or RØDECaster with phantom power, a mic stand or boom arm, and headphones. The shock mount, pop filter and XLR cable come in the box.",
+      },
+      {
+        q: "Is it good for Afrobeats and gospel vocals?",
+        a: "Yes. It gives warm, detailed vocals in cardioid, and omni mode is great for recording backing singers or a choir around one mic.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "NT2-A",
+        price: 600_000,
+        includes: [
+          "Rode NT2-A multi-pattern studio condenser microphone",
+          "Rode SM6 shock mount with detachable pop filter",
+          "XLR cable",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "rode-procaster",
+    brand: "Rode",
+    name: "Rode Procaster",
+    category: "Audio",
+    tagline: "Broadcast voice. Room noise left out.",
+    headline:
+      "The Rode Procaster is a broadcast-quality dynamic microphone built for speech, with a tight pickup that keeps your voice rich and up-front while ignoring the room around you.",
+    summary:
+      "The Procaster is made for voices in real rooms. Its dynamic capsule and tight cardioid pattern focus on whoever is speaking into the end of the mic and reject keyboard clatter, fans and room echo, so it sounds great even without acoustic treatment. An internal pop filter softens plosives, and an internal shock mount cuts handling noise. With a sound tuned for broadcast speech, it's a favourite for radio, podcasts, streaming and voice-over.",
+    image: "/products/rode-procaster/main.png",
+    hero: "/products/rode-procaster/hero.jpg",
+    gallery: [
+      { src: "/products/rode-procaster/main.png", alt: "Rode Procaster dynamic broadcast microphone" },
+      { src: "/products/rode-procaster/front.png", alt: "Rode Procaster from the front" },
+      { src: "/products/rode-procaster/back.png", alt: "Rode Procaster from the back" },
+      { src: "/products/rode-procaster/studio.jpg", alt: "Rode Procaster with its ring mount and pouch" },
+      { src: "/products/rode-procaster/hero.jpg", alt: "Rode Procaster on a boom arm in a streaming setup" },
+    ],
+    stats: [
+      { value: "Dynamic", label: "Broadcast capsule" },
+      { value: "Cardioid", label: "Tight, focused pickup" },
+      { value: "75 Hz–18 kHz", label: "Tuned for voice" },
+      { value: "XLR", label: "Pro connection" },
+    ],
+    highlights: [
+      {
+        title: "Your voice, not your room",
+        body: "Dynamic mics are far less sensitive to distant sound than condensers. The Procaster's tight cardioid pattern hears what's directly in front of it, so fans, traffic, keyboards and room echo stay in the background, even in an untreated bedroom or office.",
+        image: "/products/rode-procaster/hero.jpg",
+      },
+      {
+        title: "Rich, radio-ready sound",
+        body: "Its frequency response is shaped for speech: full, warm low-mids and clear presence, without harsh sibilance. Speak close to the mic for that classic broadcast warmth.",
+        image: "/products/rode-procaster/main.png",
+      },
+      {
+        title: "Built-in pop filter and shock mount",
+        body: "An internal pop filter softens hard 'p' and 'b' sounds, and an internal shock mount reduces bumps and handling noise. The included ring mount fits any standard stand or boom arm.",
+        image: "/products/rode-procaster/studio.jpg",
+      },
+      {
+        title: "Tough, all-metal build",
+        body: "The solid metal body is made to survive daily use in studios and on-air rooms. It needs no phantom power and connects with a standard XLR cable.",
+        image: "/products/rode-procaster/front.png",
+      },
+    ],
+    idealFor: [
+      { title: "Podcasters", body: "Clear, warm speech in ordinary rooms." },
+      { title: "Radio and broadcast", body: "A classic on-air sound that's easy to mix." },
+      { title: "Streamers and gamers", body: "Rejects keyboard noise and room echo." },
+      { title: "Voice-over and church PA", body: "Focused pickup with low handling noise." },
+    ],
+    notFor:
+      "The Procaster connects by XLR and needs an audio interface, mixer or RØDECaster with plenty of clean gain, as dynamic mics have a low output. To plug straight into a computer, choose the Rode Podcaster (₦320,000), its USB sibling. For a similar broadcast sound with a more compact, side-address body, look at the Rode PodMic (₦280,000).",
+    specs: [
+      { label: "Type", value: "Dynamic broadcast microphone, end address" },
+      { label: "Polar pattern", value: "Cardioid" },
+      { label: "Frequency range", value: "75 Hz–18 kHz" },
+      { label: "Sensitivity", value: "−56 dB re 1 V/Pa (1.6 mV @ 94 dB SPL)" },
+      { label: "Output impedance", value: "320 Ω" },
+      { label: "Power", value: "None needed (no phantom power)" },
+      { label: "Connector", value: "3-pin XLR" },
+      { label: "Pop and shock protection", value: "Internal pop filter and shock mount" },
+      { label: "Size and weight", value: "214 × 53 × 53 mm; 745 g" },
+    ],
+    specsNote: "Figures are Rode's. Box contents can vary between production runs, so we confirm exactly what's included before you pay.",
+    faqs: [
+      {
+        q: "Procaster or Podcaster?",
+        a: "They look and sound alike. The Procaster connects by XLR to an interface or mixer. The Podcaster (₦320,000) has USB built in and plugs straight into a computer, with a headphone output.",
+      },
+      {
+        q: "Procaster or PodMic?",
+        a: "Both are broadcast dynamics for speech. The Procaster is end-address, a little more detailed and has a tighter pickup. The PodMic (₦280,000) is side-address with a chunkier, swing-mount design.",
+      },
+      {
+        q: "Do I need a special interface?",
+        a: "Dynamic mics have a low output, so use an interface or mixer with plenty of clean gain, such as a RØDECaster. A budget interface may need its gain turned right up, which can add hiss.",
+      },
+      {
+        q: "Can I use it for singing?",
+        a: "It's designed for speech, but it works well for live-style vocals where you want to reject the room. For studio vocals, a condenser like the NT1-A is a better match.",
+      },
+      {
+        q: "Does it need a pop filter?",
+        a: "There's one built in. If you speak very close and hard, a foam windscreen adds extra protection.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "Procaster",
+        price: 280_000,
+        includes: [
+          "Rode Procaster dynamic broadcast microphone",
+          "Ring mount for stands and boom arms",
+          "Zip pouch",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "rode-podcaster",
+    brand: "Rode",
+    name: "Rode Podcaster",
+    category: "Audio",
+    tagline: "Broadcast sound. Just plug in USB.",
+    headline:
+      "The Rode Podcaster is a dynamic broadcast microphone with USB built in, so you get a rich radio sound straight into your computer with no interface needed.",
+    summary:
+      "The Podcaster puts a broadcast-style dynamic capsule and a high-quality USB audio interface in one mic. Plug it into your computer and it's ready, recording at up to 24-bit/96 kHz. Its tight cardioid pickup focuses on your voice and ignores the room, and a built-in headphone output with volume control lets you hear yourself with zero delay. It's the simplest way to get a radio-quality voice for podcasts, streaming, Zoom calls and voice-over.",
+    image: "/products/rode-podcaster/main.png",
+    hero: "/products/rode-podcaster/hero.jpg",
+    gallery: [
+      { src: "/products/rode-podcaster/main.png", alt: "Rode Podcaster USB dynamic microphone" },
+      { src: "/products/rode-podcaster/back.png", alt: "Rode Podcaster showing the headphone output and volume control" },
+      { src: "/products/rode-podcaster/front.png", alt: "Rode Podcaster from the front" },
+      { src: "/products/rode-podcaster/hero.jpg", alt: "Rode Podcaster on a boom arm at a gaming desk" },
+    ],
+    stats: [
+      { value: "USB", label: "Plug-and-play" },
+      { value: "24-bit/96 kHz", label: "Recording quality" },
+      { value: "Dynamic", label: "Broadcast capsule" },
+      { value: "3.5 mm", label: "Zero-latency monitoring" },
+    ],
+    highlights: [
+      {
+        title: "No interface, no fuss",
+        body: "The Podcaster has its own A/D converter and USB interface inside. Plug it into a Windows or Mac computer and it works straight away in your recording, streaming or call app, with no drivers or extra boxes.",
+        image: "/products/rode-podcaster/main.png",
+      },
+      {
+        title: "Radio sound in an everyday room",
+        body: "Its dynamic capsule and tight cardioid pattern focus on your voice and keep keyboard noise, fans and room echo in the background. Speak close for warm, full broadcast tone.",
+        image: "/products/rode-podcaster/hero.jpg",
+      },
+      {
+        title: "Hear yourself with zero delay",
+        body: "Plug headphones into the 3.5 mm output on the mic and adjust the level with the volume dial. You hear your voice directly from the mic, with no lag, while you record or stream.",
+        image: "/products/rode-podcaster/back.png",
+      },
+      {
+        title: "Built for daily use",
+        body: "A solid metal body, an internal pop filter and an internal shock mount keep plosives and handling noise down, so it sounds good on a desk stand or boom arm day after day.",
+        image: "/products/rode-podcaster/front.png",
+      },
+    ],
+    idealFor: [
+      { title: "Solo podcasters", body: "Radio-quality voice without an interface." },
+      { title: "Streamers and gamers", body: "Rejects keyboard noise and room echo." },
+      { title: "Remote workers and teachers", body: "A big upgrade on laptop and headset mics." },
+      { title: "Voice-over beginners", body: "Clean, warm speech, plug-and-play." },
+    ],
+    notFor:
+      "The Podcaster is USB only, so it can't plug into a mixer or RØDECaster. For a mic that does both USB and XLR, look at the Rode PodMic USB (₦380,000). For a smaller, budget USB mic for desk use, the Rode NT-USB Mini (₦200,000) is a great start. If you already have an interface, the XLR Rode Procaster (₦280,000) gives the same broadcast sound.",
+    specs: [
+      { label: "Type", value: "Dynamic USB microphone, end address" },
+      { label: "Polar pattern", value: "Cardioid" },
+      { label: "Frequency range", value: "40 Hz–14 kHz" },
+      { label: "Bit depth", value: "24-bit" },
+      { label: "Sample rate", value: "44.1–96 kHz" },
+      { label: "Max SPL", value: "115 dB SPL" },
+      { label: "Sensitivity", value: "−51 dB re 1 V/Pa (2.8 mV @ 94 dB SPL)" },
+      { label: "Headphone output", value: "3.5 mm, zero-latency, with volume control" },
+      { label: "Connection and power", value: "USB, bus-powered" },
+      { label: "Size and weight", value: "215 × 56 × 52 mm; 655 g" },
+    ],
+    specsNote: "Figures are Rode's. Rode's product photos show a white finish; we confirm the colour and box contents we have in stock before you pay.",
+    faqs: [
+      {
+        q: "Podcaster or Procaster?",
+        a: "Same broadcast sound. The Podcaster has USB built in and plugs straight into a computer. The Procaster (₦280,000) is XLR, for use with an interface, mixer or RØDECaster.",
+      },
+      {
+        q: "Podcaster or PodMic USB?",
+        a: "The PodMic USB (₦380,000) has both USB and XLR outputs plus onboard processing through Rode's software. The Podcaster is simpler: USB only, plug in and go.",
+      },
+      {
+        q: "Does it work with my phone?",
+        a: "It's made for computers. Some phones and tablets work with the right USB adapter and enough power, but we can't guarantee it for every device.",
+      },
+      {
+        q: "Do I need a stand?",
+        a: "Yes. It needs a desk stand or boom arm with a standard thread. A boom arm keeps it close to your mouth for the best sound.",
+      },
+      {
+        q: "Can two people use it for a podcast?",
+        a: "It's designed for one voice. For two or more people, separate XLR mics like the Procaster into a RØDECaster give each person their own channel.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "Podcaster",
+        price: 320_000,
+        includes: [
+          "Rode Podcaster USB dynamic microphone",
+          "Ring mount for stands and boom arms",
+          "USB cable",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "rode-reporter",
+    brand: "Rode",
+    name: "Rode Reporter",
+    category: "Audio",
+    tagline: "The interview mic for the street.",
+    headline:
+      "The Rode Reporter is a long-handled omnidirectional dynamic microphone made for interviews, news and vox pops, with a tough build that ignores handling noise and needs no power.",
+    summary:
+      "Built for journalists, the Reporter has a long handle so it reaches comfortably between you and your guest, and an omnidirectional pickup so it captures every voice clearly even when it isn't pointed perfectly. Its dynamic capsule needs no phantom power or batteries, so it works with any XLR recorder, mixer or camera adaptor, and it shrugs off wind, bumps and rough handling in the field. A flag-ready design lets you brand it with your station or channel's logo.",
+    image: "/products/rode-reporter/main.png",
+    hero: "/products/rode-reporter/hero.jpg",
+    gallery: [
+      { src: "/products/rode-reporter/main.png", alt: "Rode Reporter handheld interview microphone" },
+      { src: "/products/rode-reporter/front.png", alt: "Rode Reporter from the front" },
+      { src: "/products/rode-reporter/back.png", alt: "Rode Reporter from the back" },
+      { src: "/products/rode-reporter/flag.png", alt: "Rode Reporter fitted with a mic flag" },
+      { src: "/products/rode-reporter/hero.jpg", alt: "Journalist holding the Rode Reporter" },
+    ],
+    stats: [
+      { value: "Omni", label: "Easy pickup for interviews" },
+      { value: "Dynamic", label: "No power needed" },
+      { value: "272 mm", label: "Long reach handle" },
+      { value: "256 g", label: "Light in the hand" },
+    ],
+    highlights: [
+      {
+        title: "Made for interviews",
+        body: "The omnidirectional pattern picks up sound evenly all around the capsule, so both you and your guest sound clear even when the mic isn't aimed perfectly. The long handle keeps your hand away from the capsule and gives you reach in a crowd.",
+        image: "/products/rode-reporter/hero.jpg",
+      },
+      {
+        title: "Plug in and record",
+        body: "As a dynamic mic, the Reporter needs no phantom power and no batteries. Connect it with an XLR cable to a field recorder, mixer, camera XLR adaptor or RØDECaster and it's ready.",
+        image: "/products/rode-reporter/main.png",
+      },
+      {
+        title: "Built for the field",
+        body: "Its rugged body and internal shock mounting keep handling noise low, and the dynamic capsule copes with loud voices and busy streets. It's made to be passed around, carried in a bag and used every day.",
+        image: "/products/rode-reporter/front.png",
+      },
+      {
+        title: "Brand it with a mic flag",
+        body: "The Reporter is designed to take a standard mic flag, so your TV station, radio show or YouTube channel's logo shows clearly on camera. Ask us about flags when you order.",
+        image: "/products/rode-reporter/flag.png",
+      },
+    ],
+    idealFor: [
+      { title: "TV and radio journalists", body: "Classic on-camera interview mic." },
+      { title: "YouTube and street interviews", body: "Vox pops and on-the-spot reactions." },
+      { title: "Events and church media", body: "Quick interviews with guests and members." },
+      { title: "Documentary crews", body: "Reliable sound with no batteries to manage." },
+    ],
+    notFor:
+      "The Reporter is wired and connects by XLR, so you need a recorder, mixer or camera with an XLR input. To go wireless, the Rode Interview GO (₦65,000) turns a Wireless GO or Wireless PRO transmitter into a handheld mic. For podcasts and desk recording, the Rode Procaster (₦280,000) is a better choice.",
+    specs: [
+      { label: "Type", value: "Dynamic handheld microphone, end address" },
+      { label: "Polar pattern", value: "Omnidirectional" },
+      { label: "Frequency range", value: "70 Hz–15 kHz" },
+      { label: "Sensitivity", value: "−56 dB re 1 V/Pa (1.0 mV @ 94 dB SPL)" },
+      { label: "Output impedance", value: "150 Ω" },
+      { label: "Power", value: "None needed (no phantom power)" },
+      { label: "Connector", value: "3-pin XLR" },
+      { label: "Size", value: "272.5 × 41.5 × 41.5 mm" },
+      { label: "Weight", value: "256 g" },
+    ],
+    specsNote: "Figures are Rode's. Mic flags, cables and windshields are sold separately unless stated, so we confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Why is an interview mic omnidirectional?",
+        a: "Omni mics pick up evenly from every direction, so you and your guest both sound good without precise aiming. They also handle wind and handling noise better than directional mics.",
+      },
+      {
+        q: "Will it work with my camera?",
+        a: "Yes, if your camera has an XLR input or you use an XLR adaptor or field recorder. For cameras with only a 3.5 mm input, you'll need an XLR-to-3.5 mm adaptor with enough gain.",
+      },
+      {
+        q: "Does it need batteries or phantom power?",
+        a: "No. It's a dynamic mic, so it works without any power. Phantom power won't harm it if it's switched on.",
+      },
+      {
+        q: "Reporter or Interview GO?",
+        a: "The Reporter is a wired XLR mic. The Interview GO (₦65,000) is a handle that turns a Wireless GO or Wireless PRO transmitter into a wireless handheld mic, so there's no cable between you and the camera.",
+      },
+      {
+        q: "Can I put my logo on it?",
+        a: "Yes. It takes a standard mic flag. Tell us on WhatsApp and we'll advise on flags we can supply.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "Reporter",
+        price: 300_000,
+        includes: [
+          "Rode Reporter omnidirectional dynamic microphone",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "rode-interview-go",
+    brand: "Rode",
+    name: "Rode Interview GO",
+    category: "Audio",
+    tagline: "Turn your Wireless GO into a handheld mic.",
+    headline:
+      "The Rode Interview GO is a handheld adaptor that turns a Wireless GO or Wireless PRO transmitter into a wireless interview microphone, with a foam windshield for clean outdoor sound.",
+    summary:
+      "If you already own a Rode wireless system, the Interview GO gives you a professional handheld interview mic for a small extra cost. Clip the transmitter into the top, fit the foam windshield, and you have a light, wireless mic that you can hold out to guests, use for vox pops or hand to a presenter. The windshield cuts wind and breath noise, and the handle keeps your grip away from the mic so handling noise stays low.",
+    image: "/products/rode-interview-go/main.png",
+    hero: "/products/rode-interview-go/hero.jpg",
+    gallery: [
+      { src: "/products/rode-interview-go/main.png", alt: "Rode Interview GO handheld adaptor with foam windshield" },
+      { src: "/products/rode-interview-go/field.jpg", alt: "Reporter interviewing a guest with the Interview GO" },
+      { src: "/products/rode-interview-go/foam.jpg", alt: "Presenter fitting the foam windshield to the Interview GO" },
+      { src: "/products/rode-interview-go/colours.png", alt: "Interview GO windshields in different colours" },
+      { src: "/products/rode-interview-go/hero.jpg", alt: "Outdoor interview with the Rode Interview GO" },
+    ],
+    stats: [
+      { value: "Wireless", label: "No cable to the camera" },
+      { value: "84 g", label: "Ultra-light handle" },
+      { value: "Foam", label: "Windshield included" },
+      { value: "Clip-in", label: "Fits in seconds" },
+    ],
+    highlights: [
+      {
+        title: "A handheld mic from the kit you own",
+        body: "Slide your Wireless GO or Wireless PRO transmitter into the top of the Interview GO and it becomes a handheld interview mic. There's no extra receiver, pairing or setup: it records exactly as the transmitter normally does.",
+        image: "/products/rode-interview-go/field.jpg",
+      },
+      {
+        title: "Cleaner sound outdoors",
+        body: "The foam windshield slips over the transmitter to cut wind, breath and plosive noise, so street interviews and outdoor pieces to camera stay clear and usable.",
+        image: "/products/rode-interview-go/foam.jpg",
+      },
+      {
+        title: "Light and easy to hold",
+        body: "At 84 g, the handle adds almost no weight. It keeps your hand away from the mic to reduce handling noise and gives your guest a familiar, professional mic to speak into.",
+        image: "/products/rode-interview-go/hero.jpg",
+      },
+      {
+        title: "Looks good on camera",
+        body: "The clean handheld shape looks professional in shot. Coloured windshields are available too, so you can match your brand or tell presenters' mics apart.",
+        image: "/products/rode-interview-go/colours.png",
+      },
+    ],
+    idealFor: [
+      { title: "Wireless GO and PRO owners", body: "Adds a handheld mic for a small cost." },
+      { title: "Street and vox pop interviews", body: "Hold it out to anyone, no cables." },
+      { title: "Presenters and hosts", body: "A pro look for pieces to camera." },
+      { title: "Events and weddings", body: "Quick speeches and guest messages." },
+    ],
+    notFor:
+      "The Interview GO is only a handle and windshield: it makes no sound on its own. You need a Rode wireless transmitter, such as the Rode Wireless GO (Gen 3) (₦300,000), Wireless GO II (₦470,000) or Wireless PRO (₦500,000). For a wired XLR interview mic, look at the Rode Reporter (₦300,000).",
+    specs: [
+      { label: "Type", value: "Handheld adaptor for Rode wireless transmitters" },
+      { label: "Works with", value: "Rode Wireless GO family and Wireless PRO transmitters (we confirm for your model)" },
+      { label: "Included", value: "Handle and foam windshield" },
+      { label: "Handle size", value: "237 mm long, 23 mm diameter" },
+      { label: "Windshield size", value: "73.3 × 81.6 mm" },
+      { label: "Weight", value: "Handle 84 g; windshield 8 g" },
+      { label: "Power", value: "None (uses the transmitter's own battery)" },
+    ],
+    specsNote: "Figures are Rode's. Handle and windshield colours vary by stock, so we confirm what's available before you pay.",
+    faqs: [
+      {
+        q: "Does it work on its own?",
+        a: "No. It's a handle and windshield for a Rode wireless transmitter. The transmitter does all the recording and sends sound to its receiver as usual.",
+      },
+      {
+        q: "Which transmitters does it fit?",
+        a: "Rode designed it for its Wireless GO family and Wireless PRO transmitters. Tell us which system you have on WhatsApp and we'll confirm it fits before you pay.",
+      },
+      {
+        q: "Does it improve the sound?",
+        a: "It doesn't change the mic itself, but the foam windshield cuts wind and plosives, and holding the mic close to the speaker gives clearer, fuller voices than a camera-mounted mic.",
+      },
+      {
+        q: "Interview GO or Rode Reporter?",
+        a: "The Interview GO is wireless and very light, but needs a Rode wireless system. The Reporter (₦300,000) is a wired XLR handheld mic that works with any recorder or mixer.",
+      },
+      {
+        q: "Can I still use the transmitter as a clip-on mic?",
+        a: "Yes. Just slide it out of the handle and clip it to clothing or add a lavalier as usual.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "Interview GO",
+        price: 65_000,
+        includes: [
+          "Rode Interview GO handheld adaptor",
+          "Foam windshield",
+          "Wireless transmitter not included",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "rode-ntg2",
+    brand: "Rode",
+    name: "Rode NTG-2",
+    category: "Audio",
+    tagline: "The shotgun mic that runs on a AA.",
+    headline:
+      "The Rode NTG-2 is a lightweight supercardioid shotgun microphone for film and video, powered by a single AA battery or phantom power, so it works on boom poles, cameras and recorders.",
+    summary:
+      "The NTG-2 is a broadcast-quality shotgun mic for filmmakers who need flexibility. Its narrow supercardioid pickup focuses on dialogue and sound in front of it while reducing noise from the sides. It runs on P48 phantom power from a recorder or mixer, or on a single AA battery when your camera or recorder can't supply power. At just 161 g, it's easy on boom poles and camera rigs, and it comes with a mic clip, foam windshield and pouch.",
+    image: "/products/rode-ntg2/main.png",
+    hero: "/products/rode-ntg2/hero.jpg",
+    gallery: [
+      { src: "/products/rode-ntg2/main.png", alt: "Rode NTG-2 shotgun microphone" },
+      { src: "/products/rode-ntg2/box.jpg", alt: "Rode NTG-2 with mic clip, foam windshield and pouch" },
+      { src: "/products/rode-ntg2/front.png", alt: "Rode NTG-2 from the front" },
+      { src: "/products/rode-ntg2/windshield.png", alt: "Rode NTG-2 with the foam windshield fitted" },
+      { src: "/products/rode-ntg2/hero.jpg", alt: "Filmmaker shooting outdoors with a Rode shotgun mic" },
+    ],
+    stats: [
+      { value: "AA or P48", label: "Dual power" },
+      { value: "Super-cardioid", label: "Focused pickup" },
+      { value: "161 g", label: "Boom-pole friendly" },
+      { value: "20 Hz–20 kHz", label: "Full frequency range" },
+    ],
+    highlights: [
+      {
+        title: "Power it any way you like",
+        body: "Use P48 phantom power from a field recorder, mixer or camera XLR input, or drop in a single AA battery when phantom isn't available. You're never stuck without sound on set.",
+        image: "/products/rode-ntg2/main.png",
+      },
+      {
+        title: "Focus on the dialogue",
+        body: "The supercardioid pattern is narrow at the front, so the NTG-2 picks up the actor or speaker it's pointed at and reduces noise from the sides. It's a natural choice for boom-mounted dialogue in film, TV and documentary.",
+        image: "/products/rode-ntg2/hero.jpg",
+      },
+      {
+        title: "Light enough for long takes",
+        body: "At 161 g, the NTG-2 is light on a boom pole and well balanced on a camera rig, so operators can hold it in position through long scenes and interviews.",
+        image: "/products/rode-ntg2/front.png",
+      },
+      {
+        title: "Ready to shoot",
+        body: "A mic clip, foam windshield and zip pouch come in the box. The windshield reduces light wind and breath noise indoors and outdoors; add a furry windshield or blimp for strong wind.",
+        image: "/products/rode-ntg2/box.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Indie filmmakers", body: "Boom-mounted dialogue on a budget." },
+      { title: "Documentary and news crews", body: "Runs on a AA when phantom isn't available." },
+      { title: "Wedding videographers", body: "Light, reliable sound on camera rigs." },
+      { title: "Film schools and churches", body: "A durable, easy-to-learn shotgun mic." },
+    ],
+    notFor:
+      "The NTG-2 connects by XLR, so you need a recorder, mixer or camera XLR input. For a lower-noise, phantom-only shotgun, look at the Rode NTG4 (₦480,000). For on-camera use with a 3.5 mm or USB output, the Rode VideoMic NTG (₦350,000) is easier.",
+    specs: [
+      { label: "Type", value: "Shotgun condenser microphone, line gradient, end address" },
+      { label: "Capsule", value: "0.50\"" },
+      { label: "Polar pattern", value: "Supercardioid" },
+      { label: "Frequency range", value: "20 Hz–20 kHz" },
+      { label: "Sensitivity", value: "−36 dB re 1 V/Pa (15 mV @ 94 dB SPL)" },
+      { label: "Self-noise", value: "18 dBA" },
+      { label: "Max SPL", value: "131 dB SPL" },
+      { label: "Output impedance", value: "250 Ω" },
+      { label: "Power", value: "AA battery or P48 phantom power" },
+      { label: "Connector", value: "3-pin XLR" },
+      { label: "Size and weight", value: "280 × 22 × 22 mm; 161 g" },
+    ],
+    specsNote: "Figures are Rode's. Box contents can vary between production runs, so we confirm exactly what's included before you pay.",
+    faqs: [
+      {
+        q: "Can I plug it straight into my DSLR or mirrorless camera?",
+        a: "Most consumer cameras have a 3.5 mm input, not XLR. You'll need an XLR adaptor, a field recorder or an XLR-to-3.5 mm cable with the mic running on its AA battery. For simple on-camera use, the VideoMic NTG (₦350,000) plugs in directly.",
+      },
+      {
+        q: "How long does the AA battery last?",
+        a: "A good alkaline AA lasts many hours of shooting. Carry a spare and remove the battery when you're using phantom power or storing the mic.",
+      },
+      {
+        q: "NTG-2 or NTG4?",
+        a: "The NTG4 (₦480,000) has lower self-noise and needs phantom power. The NTG-2 is a little noisier but can run on a AA battery, which is handy when phantom isn't available.",
+      },
+      {
+        q: "Is it good for interviews?",
+        a: "Yes, on a boom pole above the speaker or on a stand just out of shot. For handheld street interviews, an omni mic like the Rode Reporter is easier.",
+      },
+      {
+        q: "Will it work outdoors in wind?",
+        a: "The foam windshield handles light breezes. For outdoor shoots in real wind, add a furry windshield or a blimp.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "NTG-2",
+        price: 380_000,
+        includes: [
+          "Rode NTG-2 shotgun microphone",
+          "Mic clip",
+          "Foam windshield",
+          "Zip pouch",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "rode-videomic",
+    brand: "Rode",
+    name: "Rode VideoMic",
+    category: "Audio",
+    tagline: "Clear, focused sound for your camera.",
+    headline:
+      "The Rode VideoMic is a full-size on-camera shotgun microphone with a Rycote Lyre shock mount, level control and a high-pass filter, powered by a 9V battery.",
+    summary:
+      "Your camera's built-in mic picks up everything around it, including your own hands on the body. The VideoMic sits on the hot shoe and focuses on what's in front of the lens, so voices and action come through clearly with less background noise. Its Rycote Lyre suspension isolates it from bumps and handling, a 3-step level control helps you get a clean signal into the camera, and a high-pass filter cuts low rumble from traffic, air conditioners and wind.",
+    image: "/products/rode-videomic/main.png",
+    hero: "/products/rode-videomic/hero.jpg",
+    gallery: [
+      { src: "/products/rode-videomic/main.png", alt: "Rode VideoMic on-camera shotgun microphone with cable" },
+      { src: "/products/rode-videomic/back.png", alt: "Rode VideoMic from the back" },
+      { src: "/products/rode-videomic/hero.jpg", alt: "Videographer shooting with the Rode VideoMic on a camera" },
+    ],
+    stats: [
+      { value: "Super-cardioid", label: "Focused on the subject" },
+      { value: "40 Hz–20 kHz", label: "Full frequency range" },
+      { value: "9V", label: "Battery powered" },
+      { value: "176 g", label: "Full-size on-camera mic" },
+    ],
+    highlights: [
+      {
+        title: "Hear what you're filming",
+        body: "The supercardioid pickup focuses on sound in front of the camera and reduces noise from the sides and behind, so your subject sounds clearer than with the camera's built-in mic.",
+        image: "/products/rode-videomic/hero.jpg",
+      },
+      {
+        title: "Rycote Lyre suspension",
+        body: "The mic floats in a Rycote Lyre shock mount that absorbs knocks, vibration and lens noise from the camera body. The Lyre bands don't sag or snap like old elastic mounts.",
+        image: "/products/rode-videomic/main.png",
+      },
+      {
+        title: "Level control and high-pass filter",
+        body: "A 3-step level switch (−10, 0, +20 dB) lets you send a stronger signal to the camera so you can turn its noisy preamp down. The high-pass filter cuts low rumble from traffic, generators and air conditioners.",
+        image: "/products/rode-videomic/back.png",
+      },
+      {
+        title: "Long battery life",
+        body: "A single 9V battery powers the VideoMic for many hours of shooting, and it connects to the camera with a standard 3.5 mm cable.",
+        image: "/products/rode-videomic/main.png",
+      },
+    ],
+    idealFor: [
+      { title: "DSLR and mirrorless shooters", body: "Big upgrade over the built-in mic." },
+      { title: "Event videographers", body: "Weddings, parties and church services." },
+      { title: "Run-and-gun filming", body: "Mounts on the hot shoe, no extra kit." },
+      { title: "Vloggers and YouTubers", body: "Clearer voice from behind the camera." },
+    ],
+    notFor:
+      "The VideoMic needs a 9V battery and a camera or recorder with a 3.5 mm mic input. If you'd rather avoid batteries, the Rode VideoMic GO II (₦200,000) runs on camera power and also works over USB. For better sound with a rechargeable battery, look at the Rode VideoMic Pro (₦380,000) or VideoMic Pro+ (₦480,000).",
+    specs: [
+      { label: "Type", value: "On-camera shotgun condenser microphone, line gradient" },
+      { label: "Capsule", value: "0.50\"" },
+      { label: "Polar pattern", value: "Supercardioid" },
+      { label: "Frequency range", value: "40 Hz–20 kHz" },
+      { label: "Sensitivity", value: "−38 dB re 1 V/Pa (12.6 mV @ 94 dB SPL)" },
+      { label: "Self-noise", value: "20 dBA" },
+      { label: "Max SPL", value: "134 dB SPL" },
+      { label: "Output impedance", value: "200 Ω" },
+      { label: "Power", value: "9V battery" },
+      { label: "Output", value: "3.5 mm TRS minijack" },
+      { label: "Size and weight", value: "250 × 102 × 65 mm; 176 g" },
+    ],
+    specsNote: "Figures are Rode's. Box contents can vary between production runs, so we confirm exactly what's included before you pay.",
+    faqs: [
+      {
+        q: "Will it work with my camera?",
+        a: "Yes, if your camera has a 3.5 mm mic input and a hot shoe, which most DSLRs and mirrorless cameras do. Tell us your camera model on WhatsApp and we'll confirm.",
+      },
+      {
+        q: "Does it work with phones?",
+        a: "Not directly. Phones need a TRRS adaptor and many don't power external mics well. For phones, the VideoMic GO II (₦200,000) or a wireless mic is easier.",
+      },
+      {
+        q: "How long does the 9V battery last?",
+        a: "A fresh 9V alkaline battery lasts many hours of use. Switch the mic off after shooting and carry a spare for long events.",
+      },
+      {
+        q: "VideoMic or VideoMic Pro?",
+        a: "The VideoMic Pro (₦380,000) is smaller and lighter with lower self-noise. The VideoMic is a larger, simpler mic that does the same job at a lower price.",
+      },
+      {
+        q: "Is it good for interviews?",
+        a: "It's fine when the person is close to the camera and in front of it. For sit-down interviews or when you're further away, a wireless lavalier gives cleaner voice.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "VideoMic",
+        price: 180_000,
+        includes: [
+          "Rode VideoMic with Rycote Lyre mount",
+          "Foam windshield",
+          "3.5 mm cable",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "rode-videomic-go",
+    brand: "Rode",
+    name: "Rode VideoMic GO",
+    category: "Audio",
+    tagline: "Plug in, no batteries, better sound.",
+    headline:
+      "The Rode VideoMic GO is a lightweight on-camera shotgun microphone that runs on your camera's plug-in power, so there are no batteries to charge or forget.",
+    summary:
+      "At just 73 g, the VideoMic GO is one of the easiest ways to improve your camera's sound. Slide it onto the hot shoe, plug it into the mic input and you're ready: it takes its power from the camera, so there's no switch to forget and no battery to go flat. The supercardioid pickup focuses on what's in front of the lens, and the integrated Rycote Lyre mount keeps handling and camera noise down.",
+    image: "/products/rode-videomic-go/main.png",
+    hero: "/products/rode-videomic-go/hero.jpg",
+    gallery: [
+      { src: "/products/rode-videomic-go/main.png", alt: "Rode VideoMic GO on-camera microphone" },
+      { src: "/products/rode-videomic-go/back.png", alt: "Rode VideoMic GO with its coiled cable" },
+      { src: "/products/rode-videomic-go/dslr.jpg", alt: "Rode VideoMic GO mounted on a DSLR" },
+      { src: "/products/rode-videomic-go/detail.jpg", alt: "Creator holding a camera with the VideoMic GO" },
+      { src: "/products/rode-videomic-go/hero.jpg", alt: "Rode VideoMic GO on a camera outdoors" },
+    ],
+    stats: [
+      { value: "No battery", label: "Runs on camera power" },
+      { value: "73 g", label: "Barely there on camera" },
+      { value: "Super-cardioid", label: "Focused pickup" },
+      { value: "Rycote", label: "Lyre shock mount" },
+    ],
+    highlights: [
+      {
+        title: "No batteries, ever",
+        body: "The VideoMic GO runs on the plug-in power that most cameras supply through their mic input. There's no on/off switch and nothing to charge, so it's always ready when you are.",
+        image: "/products/rode-videomic-go/dslr.jpg",
+      },
+      {
+        title: "Light enough for any camera",
+        body: "At 73 g, it won't unbalance a small mirrorless camera or a gimbal setup, and it fits easily in a camera bag pocket.",
+        image: "/products/rode-videomic-go/hero.jpg",
+      },
+      {
+        title: "Focused, clear sound",
+        body: "The supercardioid pattern concentrates on sound in front of the camera and reduces noise from the sides, giving clearer voice and action than a built-in mic.",
+        image: "/products/rode-videomic-go/detail.jpg",
+      },
+      {
+        title: "Built-in Rycote Lyre mount",
+        body: "The integrated Rycote Lyre suspension isolates the mic from bumps, button presses and lens motors, and it's built to last without sagging.",
+        image: "/products/rode-videomic-go/main.png",
+      },
+    ],
+    idealFor: [
+      { title: "First mic upgrade", body: "Simple step up from the camera's mic." },
+      { title: "Vloggers", body: "Light enough for handheld shooting." },
+      { title: "Gimbal users", body: "Won't upset the balance of small rigs." },
+      { title: "Students and beginners", body: "Nothing to set up or charge." },
+    ],
+    notFor:
+      "The VideoMic GO needs a camera that supplies plug-in power through its 3.5 mm mic input, and it doesn't connect to phones or computers directly. The newer Rode VideoMic GO II (₦200,000) costs the same and adds USB and phone support, so most buyers should consider it first. For level control and lower noise, look at the Rode VideoMic Pro (₦380,000).",
+    specs: [
+      { label: "Type", value: "On-camera shotgun microphone, line gradient" },
+      { label: "Polar pattern", value: "Supercardioid" },
+      { label: "Frequency range", value: "100 Hz–16 kHz" },
+      { label: "Sensitivity", value: "−35 dB re 1 V/Pa" },
+      { label: "Equivalent noise", value: "34 dBA" },
+      { label: "Max SPL", value: "120 dB SPL" },
+      { label: "Power", value: "Plug-in power from the camera (no battery)" },
+      { label: "Output", value: "3.5 mm TRS minijack" },
+      { label: "Size", value: "167 × 70 × 79 mm" },
+      { label: "Weight", value: "73 g" },
+    ],
+    specsNote: "Figures are Rode's. Box contents can vary between production runs, so we confirm exactly what's included before you pay.",
+    faqs: [
+      {
+        q: "Will it work with my camera?",
+        a: "It works with cameras that have a 3.5 mm mic input with plug-in power, which includes most DSLRs and mirrorless cameras. Tell us your model on WhatsApp and we'll confirm.",
+      },
+      {
+        q: "Does it work with phones?",
+        a: "Not directly. For phones, the VideoMic GO II (₦200,000) connects over USB-C or with the right cable for iPhone and Android.",
+      },
+      {
+        q: "VideoMic GO or VideoMic GO II?",
+        a: "Both cost ₦200,000. The GO II is newer and smaller, and it also works over USB with phones and computers. The original GO is a simple, proven camera-only mic.",
+      },
+      {
+        q: "Why doesn't it have a power switch?",
+        a: "It's powered by the camera through the mic cable, so it turns on when the camera does. There's nothing to switch on or off.",
+      },
+      {
+        q: "Will it work outdoors in wind?",
+        a: "The foam windshield handles a light breeze. For windy days, add a furry windshield such as the Rode Deadcat GO.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "VideoMic GO",
+        price: 200_000,
+        includes: [
+          "Rode VideoMic GO with integrated Rycote Lyre mount",
+          "Foam windshield",
+          "3.5 mm cable",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "rode-stereo-videomic-pro",
+    brand: "Rode",
+    name: "Rode Stereo VideoMic Pro",
+    category: "Audio",
+    tagline: "Capture the whole scene in stereo.",
+    headline:
+      "The Rode Stereo VideoMic Pro is a compact on-camera X/Y stereo microphone that records wide, natural sound for music, events and ambience, with level control and a high-pass filter.",
+    summary:
+      "Shotgun mics focus on one direction. The Stereo VideoMic Pro does the opposite: two matched cardioid capsules in an X/Y pattern capture a wide, realistic stereo image of everything around the camera. That makes it a great choice for live music, church services, concerts, nature and atmosphere, where you want the viewer to feel they're in the room. It's compact and light at 116 g, with low noise, level control and a high-pass filter built in.",
+    image: "/products/rode-stereo-videomic-pro/main.png",
+    hero: "/products/rode-stereo-videomic-pro/hero.jpg",
+    gallery: [
+      { src: "/products/rode-stereo-videomic-pro/main.png", alt: "Rode Stereo VideoMic Pro on-camera stereo microphone" },
+      { src: "/products/rode-stereo-videomic-pro/back.png", alt: "Rode Stereo VideoMic Pro controls on the back" },
+      { src: "/products/rode-stereo-videomic-pro/hero.jpg", alt: "Filming live music with the Rode Stereo VideoMic Pro" },
+    ],
+    stats: [
+      { value: "X/Y stereo", label: "Wide, natural sound" },
+      { value: "18 dBA", label: "Low self-noise" },
+      { value: "40 Hz–20 kHz", label: "Full frequency range" },
+      { value: "116 g", label: "Compact on camera" },
+    ],
+    highlights: [
+      {
+        title: "Real stereo from your camera",
+        body: "Two matched 0.50\" capsules in an X/Y arrangement record a wide, accurate stereo image. Your footage sounds like being there, with instruments, crowd and room placed naturally left to right.",
+        image: "/products/rode-stereo-videomic-pro/hero.jpg",
+      },
+      {
+        title: "Made for music and events",
+        body: "With a 134 dB SPL max level, it handles loud bands, choirs and sound systems without distorting, which makes it ideal for concerts, church services and live performances.",
+        image: "/products/rode-stereo-videomic-pro/main.png",
+      },
+      {
+        title: "Level control and high-pass filter",
+        body: "Switches on the back set the output level and add a high-pass filter to cut rumble from traffic, stage vibration and air conditioners, so you can get a cleaner signal into the camera.",
+        image: "/products/rode-stereo-videomic-pro/back.png",
+      },
+      {
+        title: "Low noise, compact build",
+        body: "Self-noise of just 18 dBA keeps quiet scenes clean, and the compact 116 g body sits neatly on the hot shoe with a suspension mount to reduce handling noise.",
+        image: "/products/rode-stereo-videomic-pro/main.png",
+      },
+    ],
+    idealFor: [
+      { title: "Live music videos", body: "Bands, choirs and concerts in stereo." },
+      { title: "Church media teams", body: "The full sound of the service and congregation." },
+      { title: "Event videographers", body: "Wedding receptions and parties with atmosphere." },
+      { title: "Nature and travel", body: "Rich ambience for B-roll and documentaries." },
+    ],
+    notFor:
+      "A stereo mic captures the whole scene, so it isn't the best choice for isolating one speaker's voice. For dialogue and vlogging, pick a shotgun mic like the Rode VideoMic Pro (₦380,000) or VideoMic NTG (₦350,000), or a wireless lavalier. It also needs a camera or recorder with a 3.5 mm stereo mic input.",
+    specs: [
+      { label: "Type", value: "On-camera stereo condenser microphone, X/Y pair" },
+      { label: "Capsules", value: "Two 0.50\" matched capsules" },
+      { label: "Frequency range", value: "40 Hz–20 kHz" },
+      { label: "Sensitivity", value: "−38 dB re 1 V/Pa (12.6 mV @ 94 dB SPL)" },
+      { label: "Self-noise", value: "18 dBA" },
+      { label: "Max SPL", value: "134 dB SPL" },
+      { label: "Output impedance", value: "200 Ω" },
+      { label: "Output", value: "3.5 mm stereo minijack" },
+      { label: "Size", value: "134 × 80 × 115 mm" },
+      { label: "Weight", value: "116 g" },
+    ],
+    specsNote: "Figures are Rode's. Power options and box contents can vary between versions, so we confirm exactly what's included before you pay.",
+    faqs: [
+      {
+        q: "Stereo or shotgun: which do I need?",
+        a: "A shotgun mic focuses on one subject, which is best for speech and vlogs. A stereo mic captures the whole space, which is best for music, events and atmosphere.",
+      },
+      {
+        q: "Will it work with my camera?",
+        a: "Yes, with any camera or recorder that has a 3.5 mm stereo mic input and a hot shoe. Tell us your model on WhatsApp and we'll confirm.",
+      },
+      {
+        q: "Can it record loud concerts?",
+        a: "Yes. It handles up to 134 dB SPL. Use the level switch and set your camera's input gain low to avoid clipping at very loud shows.",
+      },
+      {
+        q: "How is it powered?",
+        a: "It runs on its own internal battery, so it works with any camera input. We confirm the battery type for the version in stock before you pay.",
+      },
+      {
+        q: "Is it good for interviews?",
+        a: "Not ideal. It picks up everything around it, so voices sound more distant. Use a shotgun mic or wireless lavalier for interviews.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "Stereo VideoMic Pro",
+        price: 300_000,
+        includes: [
+          "Rode Stereo VideoMic Pro",
+          "Foam windshield",
+          "3.5 mm stereo cable",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "dji-mic-2",
+    brand: "DJI",
+    name: "DJI Mic 2",
+    category: "Audio",
+    tagline: "Pro wireless sound with a backup built in.",
+    headline:
+      "The DJI Mic 2 is a wireless microphone system with 32-bit float internal recording, intelligent noise cancelling and up to 250 m range, for cameras and phones.",
+    summary:
+      "DJI Mic 2 clips a small transmitter on your subject and sends clean, clear voice to a receiver on your camera or phone. Each transmitter also records its own 32-bit float backup, so if the signal drops or someone shouts, your audio is still safe. Intelligent noise cancelling cuts background sound at the touch of a button, the receiver has a touchscreen and dial for quick control, and the transmitters connect straight to a phone over Bluetooth when you don't want to carry the receiver. Choose a single-mic kit or the two-mic kit with the charging case.",
+    image: "/products/dji-mic-2/main.jpg",
+    hero: "/products/dji-mic-2/hero.jpg",
+    gallery: [
+      { src: "/products/dji-mic-2/main.jpg", alt: "DJI Mic 2 transmitter and receiver" },
+      { src: "/products/dji-mic-2/case.jpg", alt: "DJI Mic 2 charging case" },
+      { src: "/products/dji-mic-2/colours.png", alt: "DJI Mic 2 transmitters in black and white with the charging case" },
+      { src: "/products/dji-mic-2/receiver.jpg", alt: "DJI Mic 2 receiver touchscreen and dial" },
+      { src: "/products/dji-mic-2/worn.png", alt: "Presenter wearing a DJI Mic 2 transmitter" },
+      { src: "/products/dji-mic-2/hero.jpg", alt: "Creator vlogging with the DJI Mic 2" },
+    ],
+    stats: [
+      { value: "32-bit float", label: "Internal backup recording" },
+      { value: "250 m", label: "Max range (FCC)" },
+      { value: "18 hours", label: "Total with charging case" },
+      { value: "2 kits", label: "Single mic or two mics" },
+    ],
+    highlights: [
+      {
+        title: "A backup inside every mic",
+        body: "Each transmitter records internally in 32-bit float. If the wireless link drops or the sound peaks, the backup on the mic is still clean, and 32-bit float makes it very hard to clip.",
+        image: "/products/dji-mic-2/transmitter.jpg",
+      },
+      {
+        title: "Noise cancelling at a touch",
+        body: "Intelligent noise cancelling reduces traffic, fans and crowd sound around your speaker. Turn it on from the receiver when you're recording somewhere loud.",
+        image: "/products/dji-mic-2/windscreen.jpg",
+      },
+      {
+        title: "Touchscreen and dial",
+        body: "The receiver has a touchscreen and a control dial, so you can check levels, set gain and switch modes without digging through menus.",
+        image: "/products/dji-mic-2/receiver.jpg",
+      },
+      {
+        title: "Camera, phone or straight to Bluetooth",
+        body: "Use the receiver with a camera through the 3.5 mm cable, or plug it into a phone. The transmitters can also connect directly to a phone over Bluetooth, with no receiver needed.",
+        image: "/products/dji-mic-2/camera.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "YouTubers and vloggers", body: "Clean voice while walking and talking." },
+      { title: "Interviews and podcasts", body: "Two mics for two speakers." },
+      { title: "Event and wedding video", body: "Internal backup protects every speech." },
+      { title: "Church and conference", body: "Long range, long battery life." },
+    ],
+    notFor:
+      "The single-mic kit has no charging case and only records one person. If you need two mics on a smaller budget, the DJI Mic Mini (₦200,000) is lighter and cheaper but has no internal recording. For the newest DJI system, look at the DJI Mic 3. Already own a Mic 2? Add a spare DJI Mic 2 Transmitter (₦150,000).",
+    specs: [
+      { label: "Polar pattern", value: "Omnidirectional" },
+      { label: "Frequency response", value: "50 Hz–20 kHz (low cut off); 100 Hz–20 kHz (low cut on)" },
+      { label: "Max SPL", value: "120 dB SPL" },
+      { label: "Equivalent noise", value: "21 dBA" },
+      { label: "Internal recording", value: "32-bit float, on each transmitter" },
+      { label: "Max range", value: "250 m (FCC), 160 m (CE), unobstructed" },
+      { label: "Transmitter", value: "46 × 31 × 22 mm; 28 g; about 6 hours" },
+      { label: "Receiver", value: "54 × 28 × 22 mm; 28 g; about 6 hours" },
+      { label: "Charging case", value: "200 g; charges two TX and one RX about twice" },
+      { label: "Charging time", value: "About 70 minutes (TX and RX)" },
+      { label: "Monitor output", value: "3.5 mm headphone jack on the receiver" },
+    ],
+    specsNote: "Figures are DJI's. Box contents can vary between production runs, so we confirm exactly what's included before you pay.",
+    faqs: [
+      {
+        q: "Which kit should I get?",
+        a: "Get the 1 TX + 1 RX kit if you only record yourself. Get the 2 TX + 1 RX kit with the charging case for interviews, two presenters, or if you want to charge everything on the go.",
+      },
+      {
+        q: "Does it work with my phone?",
+        a: "Yes. Plug the receiver into a phone with the phone adapter, or connect a transmitter directly to the phone over Bluetooth. Tell us your phone model on WhatsApp and we'll confirm the right connector.",
+      },
+      {
+        q: "What is 32-bit float internal recording?",
+        a: "Each transmitter saves its own copy of the audio. 32-bit float keeps loud and quiet sound without clipping, so you can fix the level later in editing.",
+      },
+      {
+        q: "How long does the battery last?",
+        a: "About 6 hours per transmitter and receiver. With the charging case, DJI quotes about 18 hours in total.",
+      },
+      {
+        q: "Can I add more transmitters later?",
+        a: "Yes. We sell the DJI Mic 2 Transmitter on its own (₦150,000) if you want a spare or a second mic for the single-mic kit.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "1tx",
+        name: "1 TX + 1 RX",
+        price: 280_000,
+        includes: [
+          "One DJI Mic 2 transmitter",
+          "One DJI Mic 2 receiver",
+          "Camera and phone connection accessories",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+      {
+        id: "2tx-case",
+        name: "2 TX + 1 RX + charging case",
+        price: 390_000,
+        includes: [
+          "Two DJI Mic 2 transmitters",
+          "One DJI Mic 2 receiver",
+          "Charging case",
+          "Camera and phone connection accessories",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "dji-mic-mini",
+    brand: "DJI",
+    name: "DJI Mic Mini (2 TX + 1 RX + Charging Case)",
+    category: "Audio",
+    tagline: "Tiny mics, all-day battery.",
+    headline:
+      "The DJI Mic Mini is a two-person wireless microphone kit with 10 g transmitters, up to 400 m range and noise cancelling, with a charging case for long shoots.",
+    summary:
+      "DJI Mic Mini is made to disappear on your clothes. Each transmitter weighs about 10 g, so it sits flat on a collar or T-shirt without pulling it down, and it lasts about 11.5 hours on a charge. The kit comes with two transmitters, a receiver for your camera or phone, and a charging case that tops everything up several times. Two levels of noise cancelling clean up busy streets and noisy rooms, and the transmitters can also connect straight to a phone over Bluetooth.",
+    image: "/products/dji-mic-mini/main.jpg",
+    hero: "/products/dji-mic-mini/hero.jpg",
+    gallery: [
+      { src: "/products/dji-mic-mini/main.jpg", alt: "DJI Mic Mini transmitter" },
+      { src: "/products/dji-mic-mini/case.jpg", alt: "DJI Mic Mini charging case" },
+      { src: "/products/dji-mic-mini/windscreens.jpg", alt: "DJI Mic Mini charging case with furry windscreens" },
+      { src: "/products/dji-mic-mini/worn.jpg", alt: "DJI Mic Mini transmitter worn on a shirt" },
+      { src: "/products/dji-mic-mini/presenter.jpg", alt: "Presenter recording with the DJI Mic Mini" },
+      { src: "/products/dji-mic-mini/hero.jpg", alt: "DJI Mic Mini with cameras and phones" },
+    ],
+    stats: [
+      { value: "10 g", label: "Per transmitter" },
+      { value: "400 m", label: "Max range, unobstructed" },
+      { value: "11.5 hours", label: "Per transmitter charge" },
+      { value: "2 mics", label: "With charging case" },
+    ],
+    highlights: [
+      {
+        title: "So light you forget it's there",
+        body: "At about 10 g, each transmitter clips or magnets onto clothing without sagging. It looks neat on camera and is comfortable to wear all day.",
+        image: "/products/dji-mic-mini/worn.jpg",
+      },
+      {
+        title: "Battery for a full day",
+        body: "Each transmitter runs for about 11.5 hours. The charging case can refill both transmitters and the receiver about 3.6 times, so one kit covers long events and travel days.",
+        image: "/products/dji-mic-mini/case.jpg",
+      },
+      {
+        title: "Noise cancelling built in",
+        body: "Choose between two levels of noise cancelling to cut traffic, crowds and air conditioners, and automatic limiting helps stop sudden loud sound from distorting.",
+        image: "/products/dji-mic-mini/transmitter.jpg",
+      },
+      {
+        title: "Camera, phone or Bluetooth",
+        body: "The receiver connects to cameras through 3.5 mm and to phones with an adapter. The transmitters can also pair straight to a phone over Bluetooth for quick clips.",
+        image: "/products/dji-mic-mini/hero.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Content creators", body: "Small, light, looks clean on camera." },
+      { title: "Two-person videos", body: "Interviews, couples and duo channels." },
+      { title: "Phone filmmakers", body: "Works with phones as well as cameras." },
+      { title: "Long shoot days", body: "Case keeps both mics charged." },
+    ],
+    notFor:
+      "The Mic Mini doesn't record a backup inside the transmitter, so if the wireless signal drops, that part of the audio is lost. For internal recording, get the DJI Mic 2 (from ₦280,000). If you only film on a phone, the DJI Mic Mini 2 phone kit (₦150,000) costs less.",
+    specs: [
+      { label: "Polar pattern", value: "Omnidirectional" },
+      { label: "Frequency response", value: "20 Hz–20 kHz (low cut off); 100 Hz–20 kHz (low cut on)" },
+      { label: "Max SPL", value: "120 dB SPL" },
+      { label: "Equivalent noise", value: "24 dBA" },
+      { label: "Max range", value: "400 m, open area without interference" },
+      { label: "Transmitter", value: "26.6 × 26.1 × 16 mm; about 10 g; about 11.5 hours" },
+      { label: "Receiver", value: "46.5 × 29.6 × 19.3 mm; about 17.8 g; about 10.5 hours" },
+      { label: "Charging case", value: "About 139 g; charges two TX and one RX about 3.6 times" },
+      { label: "Charging time", value: "About 90 minutes (TX), 100 minutes (RX), 2 hours (case)" },
+      { label: "Bluetooth", value: "Bluetooth 5.3, direct to phone" },
+    ],
+    specsNote: "Figures are DJI's. Box contents can vary between production runs, so we confirm exactly what's included before you pay.",
+    faqs: [
+      {
+        q: "Does it work with cameras and phones?",
+        a: "Yes. The receiver connects to a camera with the 3.5 mm cable and to phones with an adapter. Tell us your camera or phone on WhatsApp and we'll confirm the right connection.",
+      },
+      {
+        q: "How long does the battery last?",
+        a: "About 11.5 hours per transmitter and 10.5 hours for the receiver. The charging case refills the whole set about 3.6 times.",
+      },
+      {
+        q: "Mic Mini or Mic 2?",
+        a: "The Mic Mini is smaller, lighter and cheaper, with longer battery life. The DJI Mic 2 adds 32-bit float backup recording in each transmitter and a touchscreen receiver.",
+      },
+      {
+        q: "Does it reduce background noise?",
+        a: "Yes. It has two levels of noise cancelling. For very windy places, use the furry windscreens.",
+      },
+      {
+        q: "Can I use just one mic?",
+        a: "Yes. Leave the second transmitter in the case and record with one. Both mics work together when you need two people.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "2 TX + 1 RX + charging case",
+        price: 200_000,
+        includes: [
+          "Two DJI Mic Mini transmitters",
+          "One DJI Mic Mini receiver",
+          "Charging case",
+          "Windscreens and connection accessories",
+          "We confirm the full box contents on WhatsApp",
         ],
       },
     ],
@@ -4686,7 +7524,7 @@ export const products: Product[] = [
       { title: "Rental houses and studios", body: "Genuine spares for your Canon cinema kits." },
     ],
     notFor:
-      "It doesn't fit the original EOS C300 or C300 Dual Pixel, which use the BP-975, or Canon's smaller XA camcorders. For a longer-running pack on the same cameras, choose the Canon BP-A60 (₦674,700).",
+      "It doesn't fit the original EOS C300 or C300 Dual Pixel, which use the BP-975, or Canon's smaller XA camcorders. For a longer-running pack on the same cameras, choose the Canon BP-A60 (₦704,700).",
     specs: [
       { label: "Model", value: "Canon BP-A30 (0868C002)" },
       { label: "Type", value: "Rechargeable lithium-ion battery pack" },
@@ -4729,7 +7567,7 @@ export const products: Product[] = [
       {
         id: "standard",
         name: "BP-A30",
-        price: 487_700,
+        price: 567_700,
         includes: ["1 × Canon BP-A30 battery pack (with terminal cover)"],
       },
     ],
@@ -4787,7 +7625,7 @@ export const products: Product[] = [
       { title: "Gimbal and rig shooters", body: "Fewer stops to rebalance and swap power." },
     ],
     notFor:
-      "It doesn't fit the original EOS C300 or C300 Dual Pixel, which use the BP-975. If you want a lighter, more compact pack for the same cameras, choose the Canon BP-A30 (₦487,700).",
+      "It doesn't fit the original EOS C300 or C300 Dual Pixel, which use the BP-975. If you want a lighter, more compact pack for the same cameras, choose the Canon BP-A30 (₦567,700).",
     specs: [
       { label: "Model", value: "Canon BP-A60 (0870C002)" },
       { label: "Type", value: "Rechargeable intelligent lithium-ion battery pack" },
@@ -4830,7 +7668,7 @@ export const products: Product[] = [
       {
         id: "standard",
         name: "BP-A60",
-        price: 674_700,
+        price: 704_700,
         includes: ["1 × Canon BP-A60 battery pack (with terminal cover)"],
       },
     ],
@@ -4888,7 +7726,7 @@ export const products: Product[] = [
       { title: "Multi-camera Canon users", body: "One battery type across your older and newer bodies." },
     ],
     notFor:
-      "If your camera is older than the EOS R5 Mark II and you just want a reliable spare, the Canon LP-E6NH (₦191,500) gives you the same capacity for less. It doesn't fit Canon cameras that use other batteries, such as the EOS R50, R10 or R100 (LP-E17) or the EOS R1 and R3.",
+      "If your camera is older than the EOS R5 Mark II and you just want a reliable spare, the Canon LP-E6NH (₦221,500) gives you the same capacity for less. It doesn't fit Canon cameras that use other batteries, such as the EOS R50, R10 or R100 (LP-E17) or the EOS R1 and R3.",
     specs: [
       { label: "Model", value: "Canon LP-E6P (6537C001)" },
       { label: "Type", value: "Rechargeable lithium-ion battery pack" },
@@ -4910,7 +7748,7 @@ export const products: Product[] = [
       },
       {
         q: "LP-E6P or LP-E6NH?",
-        a: "Both hold 2130 mAh. The LP-E6P can supply more current (6 A), which newer cameras like the EOS R5 Mark II need for full performance. If you shoot on a newer body, choose the LP-E6P. For older cameras, the LP-E6NH (₦191,500) does the same job for less.",
+        a: "Both hold 2130 mAh. The LP-E6P can supply more current (6 A), which newer cameras like the EOS R5 Mark II need for full performance. If you shoot on a newer body, choose the LP-E6P. For older cameras, the LP-E6NH (₦221,500) does the same job for less.",
       },
       {
         q: "Can I charge it with my old charger?",
@@ -4933,7 +7771,7 @@ export const products: Product[] = [
       {
         id: "standard",
         name: "LP-E6P",
-        price: 207_050,
+        price: 257_050,
         includes: ["1 × Canon LP-E6P battery pack (with terminal cover)"],
       },
     ],
@@ -4991,7 +7829,7 @@ export const products: Product[] = [
       { title: "Church media teams", body: "Keep cameras running through long services." },
     ],
     notFor:
-      "If you shoot on the EOS R5 Mark II or R6 Mark III, the Canon LP-E6P (₦207,050) lets the camera run at its full performance. The LP-E6NH doesn't fit Canon cameras that use other batteries, such as the EOS R50, R10 or R100 (LP-E17) or the EOS R1 and R3.",
+      "If you shoot on the EOS R5 Mark II or R6 Mark III, the Canon LP-E6P (₦257,050) lets the camera run at its full performance. The LP-E6NH doesn't fit Canon cameras that use other batteries, such as the EOS R50, R10 or R100 (LP-E17) or the EOS R1 and R3.",
     specs: [
       { label: "Model", value: "Canon LP-E6NH" },
       { label: "Type", value: "Rechargeable lithium-ion battery pack" },
@@ -5034,7 +7872,7 @@ export const products: Product[] = [
       {
         id: "standard",
         name: "LP-E6NH",
-        price: 191_500,
+        price: 221_500,
         includes: ["1 × Canon LP-E6NH battery pack (with terminal cover)"],
       },
     ],
@@ -5092,7 +7930,7 @@ export const products: Product[] = [
       { title: "Travellers", body: "Small, light and fine to carry in your hand luggage." },
     ],
     notFor:
-      "It doesn't fit Canon cameras that use the larger LP-E6 family, such as the EOS R5, R6, R6 Mark II, R7, 90D or 5D Mark IV. For those, choose the Canon LP-E6NH (₦191,500).",
+      "It doesn't fit Canon cameras that use the larger LP-E6 family, such as the EOS R5, R6, R6 Mark II, R7, 90D or 5D Mark IV. For those, choose the Canon LP-E6NH (₦221,500).",
     specs: [
       { label: "Model", value: "Canon LP-E17" },
       { label: "Type", value: "Rechargeable lithium-ion battery pack" },
@@ -5193,7 +8031,7 @@ export const products: Product[] = [
       { title: "Schools and news crews", body: "Reliable power for run-and-gun shooting." },
     ],
     notFor:
-      "It doesn't fit Canon's Cinema EOS cameras or the XF605, which use the BP-A30 (₦487,700) or BP-A60 (₦674,700), or Canon EOS stills cameras, which take batteries such as the LP-E6NH (₦191,500) or LP-E17 (₦121,400).",
+      "It doesn't fit Canon's Cinema EOS cameras or the XF605, which use the BP-A30 (₦567,700) or BP-A60 (₦704,700), or Canon EOS stills cameras, which take batteries such as the LP-E6NH (₦221,500) or LP-E17 (₦121,400).",
     specs: [
       { label: "Model", value: "Canon BP-828" },
       { label: "Type", value: "Rechargeable intelligent lithium-ion battery pack" },
@@ -5294,7 +8132,7 @@ export const products: Product[] = [
       { title: "Music video and commercial shooters", body: "6K RAW, 120P slow motion and full-frame depth." },
     ],
     notFor:
-      "This is the body only, so you'll need RF lenses (or EF lenses with Canon's EF-EOS R adapter). If you want a fixed-lens, point-and-shoot camcorder with a built-in zoom, look at Canon's XF or XA camcorders instead. Spare batteries: the Canon BP-A30 (₦487,700) and BP-A60 (₦674,700) also fit.",
+      "This is the body only, so you'll need RF lenses (or EF lenses with Canon's EF-EOS R adapter). If you want a fixed-lens, point-and-shoot camcorder with a built-in zoom, look at Canon's XF or XA camcorders instead. Spare batteries: the Canon BP-A30 (₦567,700) and BP-A60 (₦704,700) also fit.",
     specs: [
       { label: "Sensor", value: "35mm full-frame back-illuminated stacked CMOS, about 26.7 MP total (up to 19.0 MP effective)" },
       { label: "Processor", value: "DIGIC DV7" },
@@ -5326,7 +8164,7 @@ export const products: Product[] = [
       },
       {
         q: "Which batteries does it use?",
-        a: "Canon lists the BP-A30N as its battery and also supports the BP-A60N, BP-A30 and BP-A60. If you already shoot a Canon C70, C300 Mark III or XF605, your batteries fit. We sell the BP-A30 (₦487,700) and BP-A60 (₦674,700).",
+        a: "Canon lists the BP-A30N as its battery and also supports the BP-A60N, BP-A30 and BP-A60. If you already shoot a Canon C70, C300 Mark III or XF605, your batteries fit. We sell the BP-A30 (₦567,700) and BP-A60 (₦704,700).",
       },
       {
         q: "Can I plug in professional microphones?",
@@ -5439,7 +8277,7 @@ export const products: Product[] = [
         body: "HLG and PQ recording for HDR TV and streaming.",
       },
     ],
-    notFor: "If you shoot mostly for social media, the Canon XA series records 4K in a lighter body for much less. The XF705 runs on Canon BP-A series batteries: the BP-A30 (₦487,700) and BP-A60 (₦674,700) fit.",
+    notFor: "If you shoot mostly for social media, the Canon XA series records 4K in a lighter body for much less. The XF705 runs on Canon BP-A series batteries: the BP-A30 (₦567,700) and BP-A60 (₦704,700) fit.",
     specs: [
       {
         label: "Sensor",
@@ -5506,7 +8344,7 @@ export const products: Product[] = [
     faqs: [
       {
         q: "Which batteries does it use?",
-        a: "Canon BP-A series. The BP-A30 (₦487,700) and the longer-running BP-A60 (₦674,700) both fit. Add one to your order on WhatsApp.",
+        a: "Canon BP-A series. The BP-A30 (₦567,700) and the longer-running BP-A60 (₦704,700) both fit. Add one to your order on WhatsApp.",
       },
       {
         q: "Can it record HDR?",
@@ -5616,7 +8454,7 @@ export const products: Product[] = [
         body: "One operator can run sound, picture and streaming.",
       },
     ],
-    notFor: "If you need interchangeable lenses or a shallow cinema look, a Cinema EOS camera like the C70 or C80 suits you better. The XF605 uses Canon BP-A series batteries: the BP-A30 (₦487,700) and BP-A60 (₦674,700) fit.",
+    notFor: "If you need interchangeable lenses or a shallow cinema look, a Cinema EOS camera like the C70 or C80 suits you better. The XF605 uses Canon BP-A series batteries: the BP-A30 (₦567,700) and BP-A60 (₦704,700) fit.",
     specs: [
       {
         label: "Sensor",
@@ -5695,7 +8533,7 @@ export const products: Product[] = [
       },
       {
         q: "Which batteries does it use?",
-        a: "Canon BP-A series. The BP-A30 (₦487,700) and the longer-running BP-A60 (₦674,700) both fit.",
+        a: "Canon BP-A series. The BP-A30 (₦567,700) and the longer-running BP-A60 (₦704,700) both fit.",
       },
       {
         q: "How do I order?",
@@ -5966,7 +8804,7 @@ export const products: Product[] = [
         body: "12G-SDI, timecode and 10-bit XF-AVC.",
       },
     ],
-    notFor: "If you want a lighter camera for solo work, the Canon C70 or C80 offers much of the same image in a smaller body. The C300 Mark III uses Canon BP-A series batteries: the BP-A30 (₦487,700) and BP-A60 (₦674,700) fit.",
+    notFor: "If you want a lighter camera for solo work, the Canon C70 or C80 offers much of the same image in a smaller body. The C300 Mark III uses Canon BP-A series batteries: the BP-A30 (₦567,700) and BP-A60 (₦704,700) fit.",
     specs: [
       {
         label: "Sensor",
@@ -6131,7 +8969,7 @@ export const products: Product[] = [
         body: "MP4 to SD for long, light recording days.",
       },
     ],
-    notFor: "If you need 10-bit compressed recording without RAW, the C70 or C80 handle that better. The C200 uses Canon BP-A series batteries: the BP-A30 (₦487,700) and BP-A60 (₦674,700) fit.",
+    notFor: "If you need 10-bit compressed recording without RAW, the C70 or C80 handle that better. The C200 uses Canon BP-A series batteries: the BP-A30 (₦567,700) and BP-A60 (₦704,700) fit.",
     specs: [
       {
         label: "Sensor",
@@ -6648,7 +9486,7 @@ export const products: Product[] = [
         body: "RAW and wide dynamic range for heavy grading.",
       },
     ],
-    notFor: "This is a camera for crews and big productions. For one-person shoots, the C70 or C80 is lighter and simpler. The C500 Mark II uses Canon BP-A series batteries: the BP-A30 (₦487,700) and BP-A60 (₦674,700) fit.",
+    notFor: "This is a camera for crews and big productions. For one-person shoots, the C70 or C80 is lighter and simpler. The C500 Mark II uses Canon BP-A series batteries: the BP-A30 (₦567,700) and BP-A60 (₦704,700) fit.",
     specs: [
       {
         label: "Sensor",
