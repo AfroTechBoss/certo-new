@@ -7013,6 +7013,337 @@ export const products: Product[] = [
     ],
   },
   {
+    slug: "hollyland-lark-m1",
+    brand: "Hollyland",
+    name: "Hollyland Lark M1 (2 TX + 1 RX + Charging Case)",
+    category: "Audio",
+    tagline: "Small, simple, two-person wireless.",
+    headline:
+      "The Hollyland Lark M1 is a two-person wireless mic kit with 11.8 g transmitters, one-tap noise cancelling, up to 200 m range and a charging case for about 20 hours of use.",
+    summary:
+      "The Lark M1 is an easy way to get clean, clear voice into a camera or phone. Each transmitter weighs 11.8 g and is under 1 cm thick, so it clips neatly onto a shirt. One press turns on HearClear noise cancelling to cut traffic and room noise. You get two transmitters, one receiver and a charging case. Each part runs for about 8 hours, and the case takes the kit to about 20 hours in total. Cables for cameras and phones come in the box.",
+    image: "/products/hollyland-lark-m1/main.jpg",
+    hero: "/products/hollyland-lark-m1/hero.jpg",
+    gallery: [
+      { src: "/products/hollyland-lark-m1/main.jpg", alt: "Hollyland Lark M1 transmitters in the charging case" },
+      { src: "/products/hollyland-lark-m1/g1.jpg", alt: "Hollyland Lark M1 charging cases in different colours" },
+      { src: "/products/hollyland-lark-m1/g2.jpg", alt: "Close-up of the Hollyland Lark M1 transmitter" },
+      { src: "/products/hollyland-lark-m1/g3.jpg", alt: "Hollyland Lark M1 microphone grille" },
+      { src: "/products/hollyland-lark-m1/h1.jpg", alt: "Hollyland Lark M1 clipped to a T-shirt" },
+      { src: "/products/hollyland-lark-m1/h4.jpg", alt: "Hollyland Lark M1 camera cable" },
+    ],
+    stats: [
+      { value: "11.8 g", label: "Per transmitter" },
+      { value: "200 m", label: "Max range, line of sight" },
+      { value: "8 hours", label: "Per charge" },
+      { value: "20 hours", label: "Total with case" },
+    ],
+    highlights: [
+      {
+        title: "Light enough to forget",
+        body: "Each transmitter weighs 11.8 g and is under 1 cm thick. It clips onto a collar or T-shirt without pulling the fabric down and looks tidy on camera.",
+        image: "/products/hollyland-lark-m1/h1.jpg",
+      },
+      {
+        title: "One-tap noise cancelling",
+        body: "Press once to turn on HearClear noise cancelling. It cuts traffic, crowds and fans so the voice comes through clearly, which helps in busy Lagos streets and noisy rooms.",
+        image: "/products/hollyland-lark-m1/h2.jpg",
+      },
+      {
+        title: "Works with cameras and phones",
+        body: "The box includes a TRS cable for cameras and a TRRS cable for phones. Set the receiver to High, Mid or Low output to match your device.",
+        image: "/products/hollyland-lark-m1/h4.jpg",
+      },
+      {
+        title: "Charging case for long days",
+        body: "Each transmitter and the receiver run for about 8 hours. The case charges the whole kit about twice, for about 20 hours of use in total, and a full charge takes about 1.5 hours over USB-C.",
+        image: "/products/hollyland-lark-m1/g1.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Interviews", body: "Two mics for host and guest." },
+      { title: "Vloggers", body: "Light, neat and quick to set up." },
+      { title: "Live streams", body: "Clean voice for gaming and talk shows." },
+      { title: "Events", body: "Speeches, church programmes and MCs." },
+    ],
+    notFor:
+      "The Lark M1 doesn't record a backup inside the transmitter, so if the signal drops, that part of the audio is lost. For backup recording, look at the DJI Mic 2 (from ₦280,000). If you film only on a phone, the DJI Mic Mini 2 phone kit (₦150,000) costs less.",
+    specs: [
+      { label: "Kit", value: "2 transmitters, 1 receiver, charging case" },
+      { label: "Polar pattern", value: "Omnidirectional" },
+      { label: "Audio", value: "48 kHz / 16-bit, LC3 codec" },
+      { label: "Max range", value: "200 m (650 ft), line of sight" },
+      { label: "Transmitter weight", value: "11.8 g; under 1 cm thick" },
+      { label: "Battery", value: "About 8 hours per transmitter and receiver; about 20 hours total with case" },
+      { label: "Charging time", value: "About 1.5 hours, USB-C" },
+      { label: "Noise cancelling", value: "HearClear, one press" },
+      { label: "Output level", value: "High, Mid, Low presets" },
+      { label: "Cables included", value: "TRS–TRS (camera), TRS–TRRS (phone)" },
+    ],
+    specsNote: "Figures are Hollyland's. Box contents can vary between production runs, so we confirm exactly what's included before you pay.",
+    faqs: [
+      {
+        q: "Does it work with my phone?",
+        a: "Yes. Use the TRS–TRRS cable with phones that have a headphone jack. For USB-C or Lightning phones you need an adapter cable. Tell us your phone on WhatsApp and we'll confirm the right one.",
+      },
+      {
+        q: "Can I use it on my camera?",
+        a: "Yes. Connect the receiver to the camera's 3.5 mm mic input with the TRS–TRS cable, then pick High, Mid or Low output to match the camera.",
+      },
+      {
+        q: "How long does the battery last?",
+        a: "About 8 hours per transmitter and receiver. With the charging case you get about 20 hours in total.",
+      },
+      {
+        q: "Does it reduce background noise?",
+        a: "Yes. Press the button on the transmitter to turn on HearClear noise cancelling.",
+      },
+      {
+        q: "Can I use just one mic?",
+        a: "Yes. Leave one transmitter in the case and record with the other. Both work together when you need two people.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "2 TX + 1 RX + charging case",
+        price: 285_000,
+        includes: [
+          "Two Lark M1 transmitters",
+          "One Lark M1 receiver",
+          "Charging case",
+          "TRS–TRS camera cable and TRS–TRRS phone cable",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "dji-lavalier-mic",
+    brand: "DJI",
+    name: "DJI Lavalier Mic",
+    category: "Audio",
+    tagline: "Hide the mic, keep the sound.",
+    headline:
+      "The DJI Lavalier Mic is a small wired clip-on mic that plugs into DJI Mic and DJI Mic 2 transmitters, so the transmitter can go out of sight while the mic sits close to the voice.",
+    summary:
+      "Sometimes you don't want a transmitter showing on camera. The DJI Lavalier Mic plugs into the 3.5 mm input on a DJI Mic or DJI Mic 2 transmitter. You clip the small mic onto a collar or under clothing and hide the transmitter in a pocket or on a belt. When the lav is plugged in, the transmitter's built-in mic switches off and records through the lav. The clip rotates, and a cable lock keeps the mic from being pulled loose.",
+    image: "/products/dji-lavalier-mic/main.jpg",
+    hero: "/products/dji-lavalier-mic/hero.jpg",
+    gallery: [
+      { src: "/products/dji-lavalier-mic/main.jpg", alt: "DJI Lavalier Mic with cable" },
+      { src: "/products/dji-lavalier-mic/g1.jpg", alt: "DJI Lavalier Mic with windscreen and 3.5 mm plug" },
+      { src: "/products/dji-lavalier-mic/g3.jpg", alt: "DJI Lavalier Mic plugged into a DJI Mic 2 transmitter" },
+      { src: "/products/dji-lavalier-mic/h1.jpg", alt: "DJI Lavalier Mic clipped to a neckline" },
+      { src: "/products/dji-lavalier-mic/h3.jpg", alt: "Presenter wearing a DJI Lavalier Mic outdoors" },
+    ],
+    stats: [
+      { value: "Omni", label: "Pickup pattern" },
+      { value: "50 Hz–20 kHz", label: "Frequency response" },
+      { value: "3.5 mm", label: "Locking plug" },
+      { value: "Mic & Mic 2", label: "Works with" },
+    ],
+    highlights: [
+      {
+        title: "Out of sight on camera",
+        body: "The mic head is small enough to sit on a neckline or tuck under clothing. Put the transmitter in a pocket or on a belt, and nothing bulky shows in the shot.",
+        image: "/products/dji-lavalier-mic/h1.jpg",
+      },
+      {
+        title: "Made for DJI Mic transmitters",
+        body: "Plug it into a DJI Mic or DJI Mic 2 transmitter. The built-in mic switches off automatically and records through the lav instead.",
+        image: "/products/dji-lavalier-mic/h2.jpg",
+      },
+      {
+        title: "Natural voice, any direction",
+        body: "The omnidirectional capsule picks up the voice evenly, even if the speaker turns their head, with a 50 Hz–20 kHz frequency response.",
+        image: "/products/dji-lavalier-mic/h3.jpg",
+      },
+      {
+        title: "Stays put",
+        body: "The clip rotates so you can angle the mic toward the mouth, and the cable lock stops the plug from being pulled out mid-take.",
+        image: "/products/dji-lavalier-mic/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Film and drama", body: "Hide the mic on actors." },
+      { title: "Weddings", body: "Discreet audio for vows and speeches." },
+      { title: "TV and interviews", body: "Clean look for on-camera guests." },
+      { title: "DJI Mic owners", body: "Adds a hidden-mic option." },
+    ],
+    notFor:
+      "This is a wired mic only. It needs a DJI Mic or DJI Mic 2 transmitter to work wirelessly. If you don't have one yet, get the DJI Mic 2 kit (from ₦280,000), or the single DJI Mic 2 transmitter if you already own the receiver.",
+    specs: [
+      { label: "Type", value: "Wired clip-on (lavalier) microphone" },
+      { label: "Polar pattern", value: "Omnidirectional" },
+      { label: "Frequency response", value: "50 Hz–20 kHz" },
+      { label: "Connector", value: "3.5 mm TRS with cable lock" },
+      { label: "Compatible with", value: "DJI Mic and DJI Mic 2 transmitters" },
+      { label: "Clip", value: "Rotating clip" },
+    ],
+    specsNote: "Figures are DJI's. It also works with other 3.5 mm mic inputs that supply plug-in power, but we only promise compatibility with DJI Mic and Mic 2 transmitters.",
+    faqs: [
+      {
+        q: "Does it work on its own?",
+        a: "It's designed for DJI Mic and DJI Mic 2 transmitters. Plug it into the transmitter and the lav becomes the wireless mic.",
+      },
+      {
+        q: "Will it work with my DJI Mic Mini?",
+        a: "The DJI Mic Mini has no 3.5 mm mic input, so this lav won't plug into it. Use it with DJI Mic or DJI Mic 2.",
+      },
+      {
+        q: "Does the transmitter's own mic still record?",
+        a: "No. When the lav is plugged in, the transmitter switches to the lav automatically.",
+      },
+      {
+        q: "Does it come with a windscreen?",
+        a: "Yes, a foam windscreen comes with it. We confirm the full box contents on WhatsApp before you pay.",
+      },
+      {
+        q: "Can I plug it into my camera?",
+        a: "It may work with cameras that supply plug-in power, but it's made for DJI Mic transmitters. Tell us your camera and we'll advise.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "DJI Lavalier Mic",
+        price: 120_000,
+        includes: [
+          "DJI Lavalier Mic",
+          "Windscreen and clip",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "boya-by-wm8-pro",
+    brand: "Boya",
+    name: "Boya BY-WM8 Pro UHF Wireless Lavalier System",
+    category: "Audio",
+    tagline: "Classic UHF wireless, one or two mics.",
+    headline:
+      "The Boya BY-WM8 Pro is a UHF wireless lavalier system with 48 channels, about 100 m range and AA batteries, sold as K1 (one mic) or K2 (two mics).",
+    summary:
+      "The BY-WM8 Pro works like the bodypack systems used on TV sets and at events. A bodypack transmitter with a clip-on lav mic sends the voice to a receiver on your camera. You can choose from 48 UHF channels to avoid interference, and an LCD on each unit shows the channel and battery. Everything runs on AA batteries, so you can swap them in seconds instead of waiting to charge. The K1 kit has one transmitter. The K2 kit has two transmitters that both feed one receiver, for interviews and two-person shoots.",
+    image: "/products/boya-by-wm8-pro/main.jpg",
+    hero: "/products/boya-by-wm8-pro/hero.jpg",
+    gallery: [
+      { src: "/products/boya-by-wm8-pro/main.jpg", alt: "Boya BY-WM8 Pro K2 receiver and two transmitters" },
+      { src: "/products/boya-by-wm8-pro/g1.jpg", alt: "Boya BY-WM8 Pro bodypack transmitter" },
+      { src: "/products/boya-by-wm8-pro/g2.jpg", alt: "Boya BY-WM8 Pro dual-antenna receiver" },
+      { src: "/products/boya-by-wm8-pro/h1.jpg", alt: "Interview filmed with the Boya BY-WM8 Pro" },
+      { src: "/products/boya-by-wm8-pro/h3.jpg", alt: "Boya BY-WM8 Pro receiver on a video camera" },
+    ],
+    stats: [
+      { value: "48", label: "UHF channels" },
+      { value: "100 m", label: "Range, open area" },
+      { value: "AA", label: "Swappable batteries" },
+      { value: "1 or 2", label: "Mics (K1 / K2)" },
+    ],
+    highlights: [
+      {
+        title: "Two mics, one receiver",
+        body: "The K2 kit sends two transmitters into one receiver, so host and guest can both be miked without a second receiver on the camera.",
+        image: "/products/boya-by-wm8-pro/h1.jpg",
+      },
+      {
+        title: "48 channels to avoid interference",
+        body: "Pick a clear UHF channel on the LCD, then lock the controls so nothing changes by accident during a shoot.",
+        image: "/products/boya-by-wm8-pro/g1.jpg",
+      },
+      {
+        title: "Built for cameras",
+        body: "The receiver mounts on the camera's shoe and connects with a 3.5 mm cable. It suits camcorders, DSLRs and mirrorless cameras used for news, events and documentaries.",
+        image: "/products/boya-by-wm8-pro/h3.jpg",
+      },
+      {
+        title: "Swap batteries, keep shooting",
+        body: "Each unit runs on AA batteries. When they run low, drop in fresh ones and carry on. That helps when power is unreliable.",
+        image: "/products/boya-by-wm8-pro/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Event videographers", body: "Speeches, weddings and church services." },
+      { title: "News and TV", body: "Classic bodypack setup for reporters." },
+      { title: "Interviews", body: "K2 gives two mics into one camera." },
+      { title: "Long shoots", body: "Swap AA batteries instead of charging." },
+    ],
+    notFor:
+      "The bodypacks are larger than modern clip-on wireless mics and need AA batteries. If you want something tiny and rechargeable, the Hollyland Lark M1 (₦285,000) or DJI Mic Mini (₦200,000) are smaller and come with a charging case.",
+    specs: [
+      { label: "System", value: "UHF wireless lavalier" },
+      { label: "Channels", value: "48 selectable" },
+      { label: "Range", value: "Up to about 100 m, open area" },
+      { label: "Lav mic", value: "Omnidirectional; sensitivity −30 dB ±3 dB" },
+      { label: "Lav cable", value: "About 1.2 m, 3.5 mm locking plug" },
+      { label: "Transmitter inputs", value: "MIC and LINE IN" },
+      { label: "Power", value: "AA batteries" },
+      { label: "Display", value: "LCD with channel and battery level; control lock" },
+      { label: "K1 size and weight", value: "208 × 67 × 29 mm, about 90 g" },
+    ],
+    specsNote: "Figures are Boya's. Retailers list different UHF frequency bands for this model, so we confirm the band and the full box contents before you pay.",
+    faqs: [
+      {
+        q: "What's the difference between K1 and K2?",
+        a: "K1 has one transmitter and one receiver, for one person. K2 has two transmitters and one receiver, so two people can be miked into the same camera.",
+      },
+      {
+        q: "Does it use rechargeable batteries?",
+        a: "It runs on AA batteries. You can use rechargeable AA cells if you prefer.",
+      },
+      {
+        q: "Does it work with my camera?",
+        a: "Yes, with cameras that have a 3.5 mm mic input. Tell us your camera on WhatsApp and we'll confirm.",
+      },
+      {
+        q: "Can I use it with a phone?",
+        a: "It's built for cameras. With a phone you need an adapter cable. For phone-first shooting a modern clip-on kit is easier.",
+      },
+      {
+        q: "What's the range?",
+        a: "Up to about 100 m in an open area. Walls and crowds reduce it.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "k1",
+        name: "Pro-K1 (1 TX + 1 RX)",
+        price: 250_000,
+        includes: [
+          "One bodypack transmitter",
+          "One camera receiver",
+          "One lavalier mic",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+      {
+        id: "k2",
+        name: "Pro-K2 (2 TX + 1 RX)",
+        price: 380_000,
+        includes: [
+          "Two bodypack transmitters",
+          "One dual-channel camera receiver",
+          "Two lavalier mics",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
     slug: "dji-mic-mini-2",
     brand: "DJI",
     name: "DJI Mic Mini 2 (2 TX + 1 Mobile RX + Charging Case)",

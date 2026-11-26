@@ -282,7 +282,7 @@ export const priceList: PriceCategory[] = [
       {
         name: "Wireless microphones",
         items: [
-          ["DJI Lavalier Mic", 120_000],
+          ["DJI Lavalier Mic", 120_000, "dji-lavalier-mic"],
           ["DJI Mic 2 Transmitter", 150_000, "dji-mic-2-transmitter"],
           ["DJI Mic Mini (2 TX + 1 RX + case)", 200_000, "dji-mic-mini"],
           ["DJI Mic 2 (1 TX + 1 RX)", 280_000, "dji-mic-2"],
@@ -291,11 +291,11 @@ export const priceList: PriceCategory[] = [
           ["Rode Wireless GO II", 470_000, "rode-wireless-go-ii"],
           ["Rode Wireless GO (Double)", 450_000],
           ["Rode Wireless PRO", 500_000, "rode-wireless-pro"],
-          ["Hollyland Lark M1", 285_000],
+          ["Hollyland Lark M1", 285_000, "hollyland-lark-m1"],
           ["Hollyland Lark M2", 350_000, "hollyland-lark-m2"],
           ["Boya BY-WHM8 wireless handheld", 180_000],
-          ["Boya BY-WM8 Pro-K1", 250_000],
-          ["Boya BY-WM8 Pro-K2", 380_000],
+          ["Boya BY-WM8 Pro-K1", 250_000, "boya-by-wm8-pro"],
+          ["Boya BY-WM8 Pro-K2", 380_000, "boya-by-wm8-pro"],
           ["Sennheiser EW 112P G4 (lavalier)", 1_000_000],
           ["Sennheiser EW 135P G4 (handheld)", 1_000_000],
         ],
