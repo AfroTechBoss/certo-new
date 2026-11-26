@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { finderLink, helpLinks, shopLinks } from "@/data/nav";
+import { allProductsLink, categoryLinks, finderLink, helpLinks, shopLinks } from "@/data/nav";
 
 export function MobileMenu() {
   const [open, setOpen] = useState(false);
@@ -28,7 +28,7 @@ export function MobileMenu() {
         <div className="absolute inset-x-0 top-16 border-b border-line/60 bg-background px-5 pb-8 pt-4">
           <p className="font-mono text-xs uppercase tracking-[0.25em] text-muted">Shop</p>
           <ul className="mt-3 grid grid-cols-2 gap-2">
-            {shopLinks.map((l) => (
+            {[...categoryLinks, allProductsLink, ...shopLinks].map((l) => (
               <li key={l.href}>
                 <Link href={l.href} onClick={close} className="block rounded-xl border border-line px-4 py-3 text-sm">
                   {l.label}

@@ -21,6 +21,7 @@ const readyLabel: Record<string, string> = {
   Audio: "Ready to record",
   Camcorders: "Ready to shoot",
   Batteries: "Ready to power up",
+  Gimbals: "Ready to roll",
 };
 
 export function generateStaticParams() {
@@ -37,10 +38,13 @@ export async function generateMetadata(
   return {
     title: `${product.name} — from ${formatNaira(from)}`,
     description: product.summary,
+    alternates: { canonical: `/products/${slug}` },
+    // The share image comes from ./opengraph-image.tsx (a product card per page).
     openGraph: {
       title: `${product.name} | ${site.name}`,
       description: product.headline,
-      images: [product.hero],
+      url: `/products/${slug}`,
+      type: "website",
     },
   };
 }

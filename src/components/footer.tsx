@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { policies } from "@/data/policies";
 import { site, whatsappLink } from "@/data/site";
-import { finderLink, helpLinks, shopLinks } from "@/data/nav";
+import { allProductsLink, categoryLinks, finderLink, helpLinks, shopLinks } from "@/data/nav";
 import { Logo } from "./header";
 
 function Column({ title, links }: { title: string; links: { href: string; label: string }[] }) {
@@ -40,7 +40,7 @@ export function Footer() {
             WhatsApp {site.whatsappDisplay}
           </a>
         </div>
-        <Column title="Shop" links={[...shopLinks, finderLink]} />
+        <Column title="Shop" links={[allProductsLink, ...categoryLinks, ...shopLinks, finderLink]} />
         <Column title="Help" links={helpLinks} />
         <Column title="Policies" links={policies.map((p) => ({ href: `/policies/${p.slug}`, label: p.title }))} />
       </div>

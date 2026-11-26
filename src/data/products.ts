@@ -11277,6 +11277,371 @@ export const products: Product[] = [
     ],
   },
   {
+    slug: "dji-rs-4-mini",
+    brand: "DJI",
+    name: "DJI RS 4 Mini",
+    category: "Gimbals",
+    tagline: "A light gimbal that tracks you.",
+    headline:
+      "The DJI RS 4 Mini is a compact camera gimbal for mirrorless cameras and phones, with a 2 kg payload, automatic axis locks, subject tracking and about 13 hours of battery life.",
+    summary:
+      "The RS 4 Mini weighs about 890 g and carries mirrorless cameras with small lenses up to 2 kg. The axes lock and unlock on their own when you power it on and off, and Teflon-coated arms make balancing quicker. You can switch to vertical shooting for Reels and TikTok in about 10 seconds. Add the RS Intelligent Tracking Module and the gimbal follows a person without the DJI app, which makes it easy to film yourself. The battery runs for about 13 hours.",
+    image: "/products/dji-rs-4-mini/main.jpg",
+    hero: "/products/dji-rs-4-mini/hero.jpg",
+    gallery: [
+      { src: "/products/dji-rs-4-mini/main.jpg", alt: "DJI RS 4 Mini with a mirrorless camera on its tripod" },
+      { src: "/products/dji-rs-4-mini/g1.jpg", alt: "DJI RS 4 Mini gimbal on its tripod" },
+      { src: "/products/dji-rs-4-mini/g2.jpg", alt: "DJI RS 4 Mini with a camera mounted" },
+      { src: "/products/dji-rs-4-mini/g3.jpg", alt: "DJI RS 4 Mini and what comes in the box" },
+      { src: "/products/dji-rs-4-mini/h2.jpg", alt: "DJI RS 4 Mini tracking a tennis player" },
+      { src: "/products/dji-rs-4-mini/h4.jpg", alt: "Filming in a workshop with the DJI RS 4 Mini" },
+    ],
+    stats: [
+      { value: "2 kg", label: "Max payload" },
+      { value: "890 g", label: "Gimbal weight" },
+      { value: "13 hours", label: "Battery life" },
+      { value: "10 s", label: "Switch to vertical" },
+    ],
+    highlights: [
+      {
+        title: "Balance once, then just shoot",
+        body: "The arms are coated in Teflon so they slide smoothly while you balance the camera. The axes lock automatically when you switch off, so you can pack it away without the camera flopping around.",
+        image: "/products/dji-rs-4-mini/h1.jpg",
+      },
+      {
+        title: "Follows you on its own",
+        body: "Clip on the RS Intelligent Tracking Module and the gimbal keeps a person in frame, up to about 10 m away. Start and stop tracking with a hand gesture. You don't need the app, and it works with any camera on the gimbal.",
+        image: "/products/dji-rs-4-mini/h2.jpg",
+      },
+      {
+        title: "Vertical in about 10 seconds",
+        body: "Turn the camera plate to shoot vertical video for Instagram, TikTok and WhatsApp status. No extra bracket, and you don't need to rebalance.",
+        image: "/products/dji-rs-4-mini/h3.jpg",
+      },
+      {
+        title: "Light enough for long days",
+        body: "At about 890 g it is easy to hold for a full event or a day of content. The 3100 mAh battery runs for about 13 hours and charges over USB-C.",
+        image: "/products/dji-rs-4-mini/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Content creators", body: "Smooth walking shots and vertical video." },
+      { title: "Solo shooters", body: "Tracking keeps you in frame without a camera operator." },
+      { title: "Events", body: "Weddings, owambes and church programmes." },
+      { title: "Small cameras", body: "Mirrorless bodies like the Sony ZV-E10 or Canon R50." },
+    ],
+    notFor:
+      "The RS 4 Mini tops out at 2 kg, so it won't carry a full-frame camera with a heavy zoom lens. For bigger setups, look at the DJI RS 4 (from ₦880,000) or the DJI RS 4 Pro (from ₦1,680,000).",
+    specs: [
+      { label: "Payload", value: "0.4–2 kg" },
+      { label: "Weight", value: "About 890 g gimbal; 140 g tripod and grip" },
+      { label: "Battery", value: "3100 mAh LiPo 2S, 22.32 Wh" },
+      { label: "Battery life", value: "About 13 hours" },
+      { label: "Charging", value: "About 1 h 50 m with a 30 W charger, USB-C" },
+      { label: "Max speed", value: "360°/s on all axes" },
+      { label: "Range", value: "Pan 360° continuous; roll −95° to +235°; tilt −110° to +210°" },
+      { label: "Ports", value: "NATO, 1/4\"-20, RSS camera control (USB-C), Pogo pins for the tracking module" },
+      { label: "Connection", value: "Bluetooth 5.1, USB-C" },
+      { label: "Size", value: "Folded 236 × 64 × 316 mm; unfolded 175 × 182 × 338 mm" },
+      { label: "Operating temperature", value: "−10°C to 45°C" },
+    ],
+    specsNote: "Figures are DJI's. Battery life was measured with the gimbal balanced and at rest. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Will my camera fit?",
+        a: "Most mirrorless cameras with a small lens fit, as long as the camera and lens weigh under 2 kg together. Send us your camera and lens on WhatsApp and we'll confirm.",
+      },
+      {
+        q: "Can I use it with my phone?",
+        a: "Yes, with the phone holder. It comes with the Combo; you can also buy it separately.",
+      },
+      {
+        q: "What does the Combo add?",
+        a: "The RS Intelligent Tracking Module, which follows a person automatically, and the phone holder.",
+      },
+      {
+        q: "Can it shoot vertical video?",
+        a: "Yes. Rotate the camera plate to switch to vertical in about 10 seconds, without rebalancing.",
+      },
+      {
+        q: "How long does the battery last?",
+        a: "About 13 hours, and about 1 h 50 m to fully charge with a 30 W USB-C charger.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "RS 4 Mini",
+        price: 500_000,
+        includes: [
+          "DJI RS 4 Mini gimbal",
+          "Extended grip and tripod",
+          "Quick-release plate",
+          "USB-C charging cable",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+      {
+        id: "combo",
+        name: "RS 4 Mini Combo",
+        price: 580_000,
+        includes: [
+          "Everything in the standard kit",
+          "RS Intelligent Tracking Module",
+          "Phone holder",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "dji-rs-4",
+    brand: "DJI",
+    name: "DJI RS 4",
+    category: "Gimbals",
+    tagline: "The everyday pro gimbal.",
+    headline:
+      "The DJI RS 4 is a 3 kg payload gimbal for mirrorless and DSLR cameras, with native vertical shooting, automatic axis locks, a joystick zoom switch and about 12 hours of battery life.",
+    summary:
+      "The RS 4 is the gimbal most videographers reach for. It carries up to 3 kg, which covers full-frame mirrorless cameras with a 24–70 mm f/2.8 lens. Teflon-coated arms and automatic axis locks make setup quick. You can switch to vertical shooting without extra parts, and the joystick can toggle between moving the gimbal and controlling zoom. The BG21 grip battery runs for about 12 hours, and the optional BG70 grip extends that to about 29 hours. The Combo adds the Focus Pro Motor for smooth focus pulls, plus a briefcase handle and carrying case.",
+    image: "/products/dji-rs-4/main.jpg",
+    hero: "/products/dji-rs-4/hero.jpg",
+    gallery: [
+      { src: "/products/dji-rs-4/main.jpg", alt: "DJI RS 4 gimbal on its tripod" },
+      { src: "/products/dji-rs-4/g1.jpg", alt: "DJI RS 4 with a camera mounted" },
+      { src: "/products/dji-rs-4/g2.jpg", alt: "DJI RS 4 with a full-frame camera and lens" },
+      { src: "/products/dji-rs-4/g3.jpg", alt: "DJI RS 4 and what comes in the box" },
+      { src: "/products/dji-rs-4/h1.jpg", alt: "DJI RS 4 touchscreen and joystick" },
+      { src: "/products/dji-rs-4/h4.jpg", alt: "DJI RS 4 Ronin arm" },
+    ],
+    stats: [
+      { value: "3 kg", label: "Max payload" },
+      { value: "1.07 kg", label: "Gimbal weight" },
+      { value: "12 hours", label: "Battery life" },
+      { value: "29.5 hours", label: "With BG70 grip" },
+    ],
+    highlights: [
+      {
+        title: "Zoom and steer from one joystick",
+        body: "Flip the mode switch and the joystick controls your lens zoom instead of the gimbal. The 1.8-inch touchscreen gives quick access to settings, so you rarely need the app.",
+        image: "/products/dji-rs-4/h1.jpg",
+      },
+      {
+        title: "Built to grow with your kit",
+        body: "The RSA port takes accessories like the Ronin image transmitter, a second grip or the BG70 battery grip. There are also USB-C ports for camera control, video transmission and the focus motor.",
+        image: "/products/dji-rs-4/h2.jpg",
+      },
+      {
+        title: "Shoot all day",
+        body: "The BG21 grip battery runs for about 12 hours and charges in about 2.5 hours at 18 W. Swap in the optional BG70 grip for up to 29.5 hours.",
+        image: "/products/dji-rs-4/h3.jpg",
+      },
+      {
+        title: "Quick to balance, quick to pack",
+        body: "Teflon-coated arms slide smoothly while you balance. The axes lock automatically when you switch off, and vertical shooting needs no extra bracket.",
+        image: "/products/dji-rs-4/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Wedding videographers", body: "Full-frame camera and standard zoom, all day." },
+      { title: "Music videos", body: "Smooth moves with zoom on the joystick." },
+      { title: "Corporate shoots", body: "Interviews, walk-throughs and B-roll." },
+      { title: "Growing crews", body: "Add focus motors and transmission later." },
+    ],
+    notFor:
+      "If you shoot with a small camera or a phone, the DJI RS 4 Mini (from ₦500,000) is lighter and cheaper. If your rig is heavier than 3 kg, or you need LiDAR autofocus for manual lenses, the DJI RS 4 Pro (from ₦1,680,000) is the better fit.",
+    specs: [
+      { label: "Payload", value: "Up to 3 kg (tested)" },
+      { label: "Weight", value: "Gimbal about 1066 g; grip 203 g; tripod 183 g; plates 98 g" },
+      { label: "Battery", value: "BG21 grip, 3000 mAh, 21 Wh" },
+      { label: "Battery life", value: "About 12 hours; about 29.5 hours with the BG70 grip" },
+      { label: "Charging", value: "About 2.5 hours at 18 W" },
+      { label: "Range", value: "Pan 360° continuous; roll −95° to +240°; tilt −112° to +214°" },
+      { label: "Ports", value: "RSA/NATO, cold shoe, video transmission USB-C, RSS USB-C, focus motor USB-C" },
+      { label: "Size", value: "Folded 244 × 116 × 251 mm; unfolded 219 × 191 × 369 mm" },
+      { label: "Operating temperature", value: "−20°C to 45°C" },
+    ],
+    specsNote: "Figures are DJI's. Payload depends on how well the camera is balanced. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Will my camera and lens fit?",
+        a: "Most full-frame mirrorless cameras with a 24–70 mm f/2.8 lens fit within the 3 kg payload. Send us your camera and lens on WhatsApp and we'll confirm.",
+      },
+      {
+        q: "What does the Combo add?",
+        a: "The Focus Pro Motor for focus and zoom control, a briefcase handle for low-angle shots, and a carrying case.",
+      },
+      {
+        q: "Can it control my camera?",
+        a: "Yes. Connect the camera with the RSS control cable to start and stop recording and, on supported cameras, control zoom from the gimbal.",
+      },
+      {
+        q: "How long does the battery last?",
+        a: "About 12 hours on the BG21 grip that comes in the box. The optional BG70 grip extends that to about 29.5 hours.",
+      },
+      {
+        q: "Should I get the RS 4 or the RS 4 Pro?",
+        a: "The RS 4 covers most mirrorless rigs. Choose the Pro if your setup weighs more than 3 kg, you use cinema lenses, or you want LiDAR autofocus and dual focus motors.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "RS 4",
+        price: 880_000,
+        includes: [
+          "DJI RS 4 gimbal",
+          "BG21 battery grip",
+          "Extended grip and tripod",
+          "Quick-release plate (Arca-Swiss/Manfrotto)",
+          "Camera control and charging cables",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+      {
+        id: "combo",
+        name: "RS 4 Combo",
+        price: 1_200_000,
+        includes: [
+          "Everything in the standard kit",
+          "Focus Pro Motor",
+          "Briefcase handle",
+          "Carrying case",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "dji-rs-4-pro",
+    brand: "DJI",
+    name: "DJI RS 4 Pro",
+    category: "Gimbals",
+    tagline: "Cinema rigs, steady.",
+    headline:
+      "The DJI RS 4 Pro is a 4.5 kg payload gimbal for cinema cameras and heavy lenses, with stronger motors, dual focus motor support, LiDAR autofocus and about 13 hours of battery life.",
+    summary:
+      "The RS 4 Pro is built for heavy rigs. It carries up to 4.5 kg, enough for cinema cameras like the Sony FX6 or a full-frame body with a large zoom, and its motors have 20% more torque than the last model. It can drive two focus or zoom motors at once. With the LiDAR range finder it can autofocus manual cinema lenses, using 76,800 ranging points out to 20 m. The BG30 grip runs for about 13 hours. The Combo adds the Ronin Image Transmitter, so a director or focus puller can watch and control the shot from up to 200 m away, plus the Focus Pro Motor.",
+    image: "/products/dji-rs-4-pro/main.jpg",
+    hero: "/products/dji-rs-4-pro/hero.jpg",
+    gallery: [
+      { src: "/products/dji-rs-4-pro/main.jpg", alt: "DJI RS 4 Pro with a camera on its tripod" },
+      { src: "/products/dji-rs-4-pro/g1.jpg", alt: "DJI RS 4 Pro with a cinema camera" },
+      { src: "/products/dji-rs-4-pro/g2.jpg", alt: "DJI RS 4 Pro with a camera and lens" },
+      { src: "/products/dji-rs-4-pro/g3.jpg", alt: "DJI RS 4 Pro, carrying case and accessories" },
+      { src: "/products/dji-rs-4-pro/h1.jpg", alt: "Focus motors on the DJI RS 4 Pro" },
+      { src: "/products/dji-rs-4-pro/h3.jpg", alt: "Watching a DJI RS 4 Pro shot on a remote monitor" },
+    ],
+    stats: [
+      { value: "4.5 kg", label: "Max payload" },
+      { value: "+20%", label: "Motor torque" },
+      { value: "13 hours", label: "Battery life" },
+      { value: "20 m", label: "LiDAR focus range" },
+    ],
+    highlights: [
+      {
+        title: "Two motors for focus and zoom",
+        body: "Run two focus or zoom motors at the same time, so you can pull focus and zoom on one shot. The Focus Pro Motor comes in the Combo.",
+        image: "/products/dji-rs-4-pro/h1.jpg",
+      },
+      {
+        title: "Autofocus for manual lenses",
+        body: "Add the LiDAR range finder and the gimbal focuses manual cinema lenses for you. It measures 76,800 points out to 20 m and keeps the subject sharp in low light.",
+        image: "/products/dji-rs-4-pro/h2.jpg",
+      },
+      {
+        title: "Watch and control from a distance",
+        body: "With the Ronin Image Transmitter in the Combo, a director or focus puller can watch a live feed and control the gimbal from up to 200 m away, with about 60 ms latency.",
+        image: "/products/dji-rs-4-pro/h3.jpg",
+      },
+      {
+        title: "Made for heavy rigs",
+        body: "Carbon-fibre arms and 20% more motor torque keep a 4.5 kg rig steady. The BG30 grip runs for about 13 hours, and the BG70 option reaches up to 29 hours.",
+        image: "/products/dji-rs-4-pro/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Cinema cameras", body: "Sony FX6, Canon C70, RED Komodo and similar." },
+      { title: "Film and TV crews", body: "Remote monitoring and focus pulling." },
+      { title: "Car and action shots", body: "Strong motors for fast moves." },
+      { title: "Manual lenses", body: "LiDAR autofocus for cine primes." },
+    ],
+    notFor:
+      "If your rig weighs under 3 kg, the DJI RS 4 (from ₦880,000) does the job for less and is lighter to carry all day. For phones and small mirrorless cameras, look at the DJI RS 4 Mini (from ₦500,000).",
+    specs: [
+      { label: "Payload", value: "Up to 4.5 kg (tested)" },
+      { label: "Weight", value: "Gimbal about 1242 g; grip 265 g; metal tripod 226 g; plates 110 g" },
+      { label: "Battery", value: "BG30 grip, 1950 mAh LiPo 4S, 30 Wh" },
+      { label: "Battery life", value: "About 13 hours; up to 29 hours with the BG70 grip" },
+      { label: "Charging", value: "About 1.5 hours at 24 W" },
+      { label: "Focus", value: "Dual focus/zoom motor support; LiDAR focusing with 76,800 points, up to 20 m" },
+      { label: "Transmission (Combo)", value: "Ronin Image Transmitter, up to 200 m (FCC), about 60 ms latency" },
+      { label: "Size", value: "Folded 290 × 167 × 267 mm; unfolded 268 × 202 × 415 mm" },
+    ],
+    specsNote: "Figures are DJI's. The LiDAR range finder is sold separately. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Will my cinema camera fit?",
+        a: "Most compact cinema cameras and full-frame bodies with heavy zooms fit within 4.5 kg. Send us your camera, lens and accessories on WhatsApp and we'll confirm.",
+      },
+      {
+        q: "What does the Combo add?",
+        a: "The Ronin Image Transmitter for remote monitoring and control, and the Focus Pro Motor.",
+      },
+      {
+        q: "Does it come with the LiDAR range finder?",
+        a: "No. LiDAR focusing needs the DJI LiDAR range finder, which is sold separately. Ask us on WhatsApp and we'll quote it with your gimbal.",
+      },
+      {
+        q: "How long does the battery last?",
+        a: "About 13 hours on the BG30 grip, and about 1.5 hours to charge at 24 W. The optional BG70 grip extends it to up to 29 hours.",
+      },
+      {
+        q: "Should I get the RS 4 Pro or the RS 4?",
+        a: "Choose the Pro for rigs over 3 kg, cinema lenses, dual motors or LiDAR autofocus. For most mirrorless setups, the RS 4 is enough.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "RS 4 Pro",
+        price: 1_700_000,
+        includes: [
+          "DJI RS 4 Pro gimbal",
+          "BG30 battery grip",
+          "Extended grip and metal tripod",
+          "Quick-release plates",
+          "Briefcase handle",
+          "Carrying case",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+      {
+        id: "combo",
+        name: "RS 4 Pro Combo",
+        price: 1_680_000,
+        includes: [
+          "Everything in the standard kit",
+          "Ronin Image Transmitter",
+          "Focus Pro Motor",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
     slug: "canon-xa11",
     brand: "Canon",
     name: "Canon XA11",
