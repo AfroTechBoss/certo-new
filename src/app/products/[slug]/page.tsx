@@ -13,8 +13,8 @@ import {
   VariantProvider,
 } from "@/components/order-panel";
 
-// Product pages are fully static (generateStaticParams), so blocking on params is fine.
-export const instant = false;
+// Only the slugs from generateStaticParams exist; anything else is a 404 without rendering.
+export const dynamicParams = false;
 
 const readyLabel: Record<string, string> = {
   Drones: "Ready to fly",

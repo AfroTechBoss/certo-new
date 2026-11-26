@@ -5,8 +5,8 @@ import { getPolicy, policies, policiesUpdated } from "@/data/policies";
 import { site, whatsappLink } from "@/data/site";
 import { WhatsAppIcon } from "@/components/icons";
 
-// Policy pages are fully static (generateStaticParams), so blocking on params is fine.
-export const instant = false;
+// Only the slugs from generateStaticParams exist; anything else is a 404 without rendering.
+export const dynamicParams = false;
 
 export function generateStaticParams() {
   return policies.map((p) => ({ slug: p.slug }));

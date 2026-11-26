@@ -16,9 +16,7 @@ export function generateStaticParams() {
   return products.map((p) => ({ slug: p.slug }));
 }
 
-// Async file reads stop prerendering under Cache Components, so cache the read.
-async function photoBase64(file: string) {
-  "use cache";
+function photoBase64(file: string) {
   return readFile(join(process.cwd(), "public", file), "base64");
 }
 
