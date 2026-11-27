@@ -11631,6 +11631,228 @@ export const products: Product[] = [
     ],
   },
   {
+    slug: "dji-rs-2",
+    brand: "DJI",
+    name: "DJI RS 2",
+    category: "Gimbals",
+    tagline: "Carbon fibre, 4.5 kg payload.",
+    headline:
+      "The DJI RS 2 is a carbon fibre camera gimbal for mirrorless and cinema cameras, with a 4.5 kg payload, a 1.4-inch touchscreen and about 12 hours of battery life.",
+    summary:
+      "The RS 2 carries cameras and lenses up to 4.5 kg on a frame of carbon fibre and aluminium, so it stays light for its size. A 1.4-inch touchscreen on the handle sets the modes, and a front dial pulls focus. SuperSmooth mode steadies lenses up to about 100mm, and with a RavenEye transmitter you get live video on your phone and ActiveTrack subject tracking. The grip battery runs for about 12 hours and charges in about 1.5 hours.",
+    image: "/products/dji-rs-2/main.jpg",
+    hero: "/products/dji-rs-2/hero.jpg",
+    gallery: [
+      { src: "/products/dji-rs-2/main.jpg", alt: "DJI RS 2 gimbal" },
+      { src: "/products/dji-rs-2/g1.jpg", alt: "DJI RS 2 in its carrying case" },
+      { src: "/products/dji-rs-2/g2.jpg", alt: "Monitoring a DJI RS 2 shot on a tablet" },
+      { src: "/products/dji-rs-2/g3.jpg", alt: "DJI RS 2 on a slider" },
+      { src: "/products/dji-rs-2/h1.jpg", alt: "DJI RS 2 on a car mount" },
+      { src: "/products/dji-rs-2/h2.jpg", alt: "DJI RS 2 touchscreen and phone" },
+    ],
+    stats: [
+      { value: "4.5 kg", label: "Max payload" },
+      { value: "1.3 kg", label: "Gimbal with grip" },
+      { value: "12 hours", label: "Battery life" },
+      { value: "1.4-inch", label: "Touchscreen" },
+    ],
+    highlights: [
+      {
+        title: "Carries 4.5 kg",
+        body: "Enough for cameras like the Sony FX6, Canon C70 or a full-frame body with a heavy zoom. Mount it on a car, a jib or a slider for bigger shots.",
+        image: "/products/dji-rs-2/h1.jpg",
+      },
+      {
+        title: "Touchscreen on the handle",
+        body: "The 1.4-inch colour touchscreen changes modes and settings without an app. The front dial pulls focus or controls an axis.",
+        image: "/products/dji-rs-2/h2.jpg",
+      },
+      {
+        title: "Live video and ActiveTrack",
+        body: "Add the RavenEye transmitter and your phone becomes a live monitor, and ActiveTrack keeps your subject in frame.",
+        image: "/products/dji-rs-2/h3.jpg",
+      },
+      {
+        title: "Autofocus for manual lenses",
+        body: "The RS 2 works with DJI's 3D Focus system, which adds autofocus to manual cine lenses. It's sold separately; ask us on WhatsApp.",
+        image: "/products/dji-rs-2/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Filmmakers", body: "Music videos, adverts and short films." },
+      { title: "Events", body: "Weddings, owambes and church programmes." },
+      { title: "Heavier cameras", body: "Cinema cameras and full-frame bodies with zoom lenses." },
+      { title: "Car and jib shots", body: "Mounts on car rigs, jibs and sliders." },
+    ],
+    notFor:
+      "The RS 2 is an older model, and newer gimbals now cost less. For the same kind of camera, look at the DJI RS 4 (from ₦880,000) or the DJI RS 5 (from ₦850,000). For a light mirrorless camera, the DJI RS 4 Mini (from ₦500,000) is enough.",
+    specs: [
+      { label: "Payload", value: "Up to 4.5 kg" },
+      {
+        label: "Weight",
+        value: "About 960 g gimbal; 265 g grip; 226 g extended grip and tripod; 150 g camera plate; 105 g quick-release plates",
+      },
+      { label: "Battery", value: "BG30 grip, 1950 mAh, 15.4 V, 30.03 Wh" },
+      { label: "Battery life", value: "About 12 hours" },
+      { label: "Charging", value: "About 1.5 hours with a 24 W QC 2.0 or PD charger, USB-C" },
+      { label: "Max speed", value: "360°/s on all axes" },
+      { label: "Range", value: "Pan 360° continuous; roll −95° to +240°; tilt −112° to +214°" },
+      { label: "Screen", value: "1.4-inch colour touchscreen" },
+      { label: "Ports", value: "RSS camera control, follow focus motor (USB-C), NATO, 1/4\"-20 and 3/8\"-16 mounting holes" },
+      { label: "Connection", value: "Bluetooth 5.0, USB-C" },
+      { label: "Materials", value: "Aluminium alloy, stainless steel and carbon fibre" },
+      { label: "Size", value: "Folded 260 × 265 × 70 mm; unfolded 410 × 260 × 195 mm" },
+      { label: "Operating temperature", value: "−20°C to 45°C" },
+    ],
+    specsNote: "Figures are DJI's. Battery life was measured with the gimbal balanced and at rest. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Will my camera fit?",
+        a: "Most mirrorless and compact cinema cameras fit, as long as the camera, lens and accessories weigh under 4.5 kg together. Send us your camera and lens on WhatsApp and we'll confirm.",
+      },
+      {
+        q: "RS 2 or a newer RS 4 or RS 5?",
+        a: "The RS 4 and RS 5 are newer, with automatic axis locks and native vertical shooting, and they cost less right now. The RS 2 has a carbon fibre frame and a 4.5 kg payload. Ask us on WhatsApp which suits your camera.",
+      },
+      {
+        q: "How long does the battery last?",
+        a: "About 12 hours, and about 1.5 hours to fully charge with a 24 W fast charger.",
+      },
+      {
+        q: "Does it come with the RavenEye?",
+        a: "This price is for the RS 2 on its own. The RavenEye transmitter for live video and ActiveTrack is sold separately. We confirm the box contents on WhatsApp.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "RS 2",
+        price: 1_300_000,
+        includes: [
+          "DJI RS 2 gimbal",
+          "BG30 battery grip",
+          "Extended grip and tripod",
+          "Quick-release plates",
+          "USB-C charging cable",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "dji-ronin-sc",
+    brand: "DJI",
+    name: "DJI Ronin-SC",
+    category: "Gimbals",
+    tagline: "A small gimbal for mirrorless cameras.",
+    headline:
+      "The DJI Ronin-SC is a compact camera gimbal for mirrorless cameras, with a 2 kg payload, a weight of about 1.1 kg and about 11 hours of battery life.",
+    summary:
+      "The Ronin-SC carries mirrorless cameras with a light lens, up to 2 kg, and weighs about 1.1 kg itself, so it is easy to hold for a whole programme. The axis locks and quick-release plate make it quick to set up and balance. Through the Ronin app you get ActiveTrack subject tracking using your phone, and the gimbal works with a DJI focus motor. The battery runs for about 11 hours.",
+    image: "/products/dji-ronin-sc/main.jpg",
+    hero: "/products/dji-ronin-sc/hero.jpg",
+    gallery: [
+      { src: "/products/dji-ronin-sc/main.jpg", alt: "DJI Ronin-SC gimbal" },
+      { src: "/products/dji-ronin-sc/g1.jpg", alt: "Balancing a camera on the DJI Ronin-SC with a phone" },
+      { src: "/products/dji-ronin-sc/g2.jpg", alt: "Filming on the beach with the DJI Ronin-SC" },
+      { src: "/products/dji-ronin-sc/g3.jpg", alt: "Close-up of a camera on the DJI Ronin-SC" },
+      { src: "/products/dji-ronin-sc/h1.jpg", alt: "DJI Ronin-SC with a Fujifilm camera" },
+      { src: "/products/dji-ronin-sc/h2.jpg", alt: "Tracking a skateboarder with the DJI Ronin-SC" },
+    ],
+    stats: [
+      { value: "2 kg", label: "Max payload" },
+      { value: "1.1 kg", label: "Gimbal with grip" },
+      { value: "11 hours", label: "Battery life" },
+      { value: "ActiveTrack", label: "With your phone" },
+    ],
+    highlights: [
+      {
+        title: "Made for mirrorless",
+        body: "Sized for cameras like the Sony A7 III, Fujifilm X-T4 or Canon EOS R with a light lens, up to 2 kg in total.",
+        image: "/products/dji-ronin-sc/h1.jpg",
+      },
+      {
+        title: "ActiveTrack with your phone",
+        body: "Clip your phone on top and the Ronin app follows your subject, so one person can film a moving shot.",
+        image: "/products/dji-ronin-sc/h2.jpg",
+      },
+      {
+        title: "Quick to set up",
+        body: "Axis locks and a quick-release plate mean your camera goes back on balanced, so you're ready to shoot in minutes.",
+        image: "/products/dji-ronin-sc/h3.jpg",
+      },
+      {
+        title: "Light to carry",
+        body: "About 1.1 kg with the grip, and about 11 hours of battery. Easy to hold through a long event.",
+        image: "/products/dji-ronin-sc/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Content creators", body: "Smooth walking shots on a budget." },
+      { title: "Events", body: "Weddings, owambes and church programmes." },
+      { title: "Mirrorless cameras", body: "Bodies like the Sony A7 III, Fujifilm X-T4 or Canon EOS R." },
+      { title: "Solo shooters", body: "ActiveTrack follows you or your subject." },
+    ],
+    notFor:
+      "The Ronin-SC is an older model and carries 2 kg at most. For a newer small gimbal with a screen and automatic features, look at the DJI RS 4 Mini (from ₦500,000). For heavier cameras or zoom lenses, the DJI RS 4 (from ₦880,000) carries more.",
+    specs: [
+      { label: "Payload", value: "Up to 2 kg" },
+      { label: "Weight", value: "About 830 g gimbal; 258 g BG18 grip; 160 g tripod" },
+      { label: "Battery", value: "2450 mAh, 7.2 V, 17.64 Wh" },
+      { label: "Battery life", value: "About 11 hours" },
+      { label: "Charging", value: "About 2.5 hours at 5 V/2 A, USB-C" },
+      { label: "Max speed", value: "180°/s on all axes" },
+      { label: "Range", value: "Pan 360° continuous; roll −95° to +220°; tilt −202.5° to +112.5°" },
+      { label: "Tracking", value: "ActiveTrack through the Ronin app and your phone" },
+      { label: "Accessories", value: "Works with the DJI focus motor" },
+      { label: "Connection", value: "Bluetooth 5.0, USB-C" },
+      { label: "Size", value: "Folded 220 × 200 × 75 mm; unfolded 370 × 165 × 150 mm" },
+      { label: "Operating temperature", value: "−20°C to 45°C" },
+    ],
+    specsNote: "Figures are DJI's. Battery life was measured with the gimbal balanced and at rest. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Will my camera fit?",
+        a: "Most mirrorless cameras with a light lens fit, as long as the camera, lens and accessories weigh under 2 kg together. Heavy zoom lenses may not balance. Send us your camera and lens on WhatsApp and we'll confirm.",
+      },
+      {
+        q: "Ronin-SC or RS 4 Mini?",
+        a: "The RS 4 Mini is newer, with a screen on the handle, automatic tracking without your phone and native vertical shooting, and it costs a little less right now. The Ronin-SC still does the job well for steady walking shots. Ask us on WhatsApp which suits your camera.",
+      },
+      {
+        q: "How long does the battery last?",
+        a: "About 11 hours, and about 2.5 hours to fully charge.",
+      },
+      {
+        q: "Is it still supported?",
+        a: "DJI has said it will keep releasing software updates for the Ronin-SC until the end of 2026.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "Ronin-SC",
+        price: 580_000,
+        includes: [
+          "DJI Ronin-SC gimbal",
+          "BG18 battery grip",
+          "Extended grip and tripod",
+          "Quick-release plate",
+          "USB-C charging cable",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
     slug: "dji-rs-4-mini",
     brand: "DJI",
     name: "DJI RS 4 Mini",
