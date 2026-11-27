@@ -128,7 +128,7 @@ export const priceList: PriceCategory[] = [
       {
         name: "Pocket & action cameras",
         items: [
-          ["DJI Osmo Action 4 Adventure Combo", 780_000],
+          ["DJI Osmo Action 4 Adventure Combo", 780_000, "dji-osmo-action-4"],
           ["DJI Osmo Pocket 3 Creator Combo", 880_000, "dji-osmo-pocket-3"],
           ["DJI Osmo Pocket 4 Standard Combo", 890_000, "dji-osmo-pocket-4"],
           ["DJI Osmo Pocket 3", 980_000, "dji-osmo-pocket-3"],

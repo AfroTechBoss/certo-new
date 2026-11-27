@@ -12953,6 +12953,130 @@ export const products: Product[] = [
     ],
   },
   {
+    slug: "dji-osmo-action-4",
+    brand: "DJI",
+    name: "DJI Osmo Action 4",
+    category: "Gimbals",
+    tagline: "The tough action camera.",
+    headline:
+      "The DJI Osmo Action 4 is a waterproof action camera with a 1/1.3-inch sensor, 4K at up to 120 fps, 10-bit D-Log M colour and up to 160 minutes of recording per battery.",
+    summary:
+      "The Osmo Action 4 is a small, tough camera for filming while you move: on a helmet, a bike, a chest mount or in the water. A 1/1.3-inch sensor gives cleaner video in low light than most action cameras, and it films 4K at up to 120 fps with a wide 155° view. RockSteady 3.0 and HorizonSteady keep footage smooth and level, 10-bit D-Log M gives you room to grade colour, and it goes 18 m underwater without a case. Two touchscreens let you frame yourself from the front, and the magnetic mount clicks on and off in a second. The Adventure Combo comes with three batteries and a 1.5 m extension rod.",
+    image: "/products/dji-osmo-action-4/main.jpg",
+    hero: "/products/dji-osmo-action-4/hero.jpg",
+    gallery: [
+      { src: "/products/dji-osmo-action-4/main.jpg", alt: "DJI Osmo Action 4" },
+      { src: "/products/dji-osmo-action-4/g1.jpg", alt: "DJI Osmo Action 4 front and rear screens" },
+      { src: "/products/dji-osmo-action-4/g2.jpg", alt: "DJI Osmo Action 4 lens close up" },
+      { src: "/products/dji-osmo-action-4/g3.jpg", alt: "Filming with the DJI Osmo Action 4 on an extension rod" },
+      { src: "/products/dji-osmo-action-4/h3.jpg", alt: "Snowboarding with the DJI Osmo Action 4" },
+      { src: "/products/dji-osmo-action-4/h4.jpg", alt: "DJI Osmo Action 4 mounted under a bike seat" },
+    ],
+    stats: [
+      { value: "1/1.3-inch", label: "Sensor" },
+      { value: "4K/120fps", label: "Video" },
+      { value: "18 m", label: "Waterproof, no case" },
+      { value: "160 min", label: "Per battery" },
+    ],
+    highlights: [
+      {
+        title: "Cleaner video in low light",
+        body: "The 1/1.3-inch sensor is bigger than most action cameras use, so evening rides, indoor events and early-morning shoots come out with less noise.",
+        image: "/products/dji-osmo-action-4/h1.jpg",
+      },
+      {
+        title: "Smooth on rough ground",
+        body: "RockSteady 3.0 smooths out bumps, and HorizonSteady keeps the horizon level even if the camera rolls all the way round, so bike and running footage stays watchable.",
+        image: "/products/dji-osmo-action-4/h2.jpg",
+      },
+      {
+        title: "Built for hard use",
+        body: "Waterproof to 18 m without a case, works from −20°C to 45°C, and films 4K at up to 120 fps for slow motion with a wide 155° view.",
+        image: "/products/dji-osmo-action-4/h3.jpg",
+      },
+      {
+        title: "Mounts in a second",
+        body: "The magnetic quick-release mount clicks on and off, and the frame turns the camera sideways for vertical video for TikTok and Reels without cropping.",
+        image: "/products/dji-osmo-action-4/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Bikers and riders", body: "Helmet, handlebar and chest-mount footage." },
+      { title: "Sports and fitness", body: "Football, running, gym and outdoor training." },
+      { title: "Water", body: "Beach, swimming pool and boat trips." },
+      { title: "Travel vlogs", body: "Small, tough and easy to carry." },
+    ],
+    notFor:
+      "The Action 4 has no gimbal and no face tracking, and it has no built-in storage, so you need a microSD card. For walk-and-talk vlogging and events, an Osmo Pocket camera gives smoother handheld video and follows your face.",
+    specs: [
+      { label: "Sensor", value: "1/1.3-inch CMOS" },
+      { label: "Lens", value: "155° field of view, f/2.8, focus from 0.4 m" },
+      { label: "Video", value: "4K (4:3) up to 60 fps; 4K (16:9) up to 120 fps; 2.7K up to 120 fps; 1080p up to 240 fps" },
+      { label: "Slow motion", value: "4× at 4K and 2.7K; 8× at 1080p" },
+      { label: "Bitrate", value: "Up to 130 Mbps, H.264 or H.265" },
+      { label: "Colour", value: "10-bit, D-Log M" },
+      { label: "Photos", value: "About 10 MP (3648 × 2736), JPEG and RAW" },
+      { label: "Stabilisation", value: "RockSteady 3.0 and 3.0+, HorizonBalancing, 360° HorizonSteady" },
+      { label: "Other modes", value: "Hyperlapse, timelapse, Pre-Rec up to 60 seconds" },
+      { label: "Screens", value: "Front 1.4-inch and rear 2.25-inch touchscreens, 750 nits" },
+      { label: "Audio", value: "Three mics; connects to DJI Mic transmitters" },
+      { label: "Waterproof", value: "18 m without a case; 60 m with the waterproof case" },
+      { label: "Working temperature", value: "−20°C to 45°C" },
+      { label: "Storage", value: "microSD up to 512 GB (no built-in storage)" },
+      { label: "Battery", value: "1770 mAh Extreme Battery, up to 160 minutes; 150 minutes at −20°C" },
+      { label: "Connection", value: "Wi-Fi, Bluetooth 5.0" },
+      { label: "Mount", value: "Magnetic quick release; frame for horizontal and vertical shooting" },
+      { label: "Size and weight", value: "70.5 × 44.2 × 32.8 mm; about 145 g" },
+    ],
+    specsNote:
+      "Figures are DJI's. Recording time was measured by DJI in a lab at 1080p 24 fps and depends on the settings you use. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Action 4 or Osmo Pocket?",
+        a: "Get the Action 4 if you will mount the camera on a helmet, bike or body, or film in water. Get a Pocket if you mostly film yourself talking or film events handheld, because its gimbal and face tracking give smoother video.",
+      },
+      {
+        q: "Can I take it underwater?",
+        a: "Yes. It goes down to 18 m without a case, which covers swimming, the beach and snorkelling. For diving deeper, add the waterproof case for up to 60 m.",
+      },
+      {
+        q: "Do I need a memory card?",
+        a: "Yes. There's no storage built in, so you need a fast microSD card. We can add one to your order and tell you which size suits you.",
+      },
+      {
+        q: "Can I use a wireless mic?",
+        a: "Yes. It connects to DJI Mic transmitters directly, without a receiver. Ask us which mic suits you.",
+      },
+      {
+        q: "Will my old DJI action camera accessories fit?",
+        a: "Most Osmo Action 3 mounts and accessories fit the Action 4. Tell us what you have on WhatsApp and we'll check.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "adventure",
+        name: "Adventure Combo",
+        price: 780_000,
+        includes: [
+          "DJI Osmo Action 4",
+          "3 Extreme Batteries",
+          "Multifunctional battery case",
+          "1.5 m extension rod",
+          "Horizontal-vertical protective frame",
+          "Quick-release adapter mount",
+          "Curved adhesive base",
+          "Lens hood and locking screw",
+          "USB-C cable",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
     slug: "dji-rs-4-mini",
     brand: "DJI",
     name: "DJI RS 4 Mini",
