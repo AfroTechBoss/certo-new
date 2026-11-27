@@ -11277,6 +11277,117 @@ export const products: Product[] = [
     ],
   },
   {
+    slug: "dji-rs-3-mini",
+    brand: "DJI",
+    name: "DJI RS 3 Mini",
+    category: "Gimbals",
+    tagline: "A travel gimbal that shoots vertical.",
+    headline:
+      "The DJI RS 3 Mini is a light, one-handed camera gimbal for mirrorless cameras, with a 2 kg payload, native vertical shooting, a touchscreen and about 10 hours of battery life.",
+    summary:
+      "The RS 3 Mini weighs about 795 g and carries mirrorless cameras with small lenses up to 2 kg. Switch the camera plate to vertical and shoot Reels, TikTok and WhatsApp status without an extra bracket. A 1.4-inch colour touchscreen on the handle sets the modes, and Bluetooth shutter control starts and stops recording on supported cameras without a cable. It folds small enough for a camera bag, and the battery runs for about 10 hours.",
+    image: "/products/dji-rs-3-mini/main.jpg",
+    hero: "/products/dji-rs-3-mini/hero.jpg",
+    gallery: [
+      { src: "/products/dji-rs-3-mini/main.jpg", alt: "DJI RS 3 Mini gimbal" },
+      { src: "/products/dji-rs-3-mini/g1.jpg", alt: "DJI RS 3 Mini with a mirrorless camera and zoom lens" },
+      { src: "/products/dji-rs-3-mini/g2.jpg", alt: "DJI RS 3 Mini with a Canon camera mounted" },
+      { src: "/products/dji-rs-3-mini/g3.jpg", alt: "Mirrorless cameras that fit the DJI RS 3 Mini" },
+      { src: "/products/dji-rs-3-mini/h2.jpg", alt: "DJI RS 3 Mini set up for vertical shooting" },
+      { src: "/products/dji-rs-3-mini/h1.jpg", alt: "Filming on a rooftop with the DJI RS 3 Mini" },
+    ],
+    stats: [
+      { value: "2 kg", label: "Max payload" },
+      { value: "795 g", label: "Gimbal weight" },
+      { value: "10 hours", label: "Battery life" },
+      { value: "1.4 in", label: "Touchscreen" },
+    ],
+    highlights: [
+      {
+        title: "Light enough for one hand",
+        body: "At about 795 g it is easy to hold through a full event or a day of content, and it folds down to fit in a camera bag.",
+        image: "/products/dji-rs-3-mini/h1.jpg",
+      },
+      {
+        title: "Shoots vertical natively",
+        body: "Turn the camera plate to shoot vertical video for Instagram, TikTok and WhatsApp status. No extra bracket needed.",
+        image: "/products/dji-rs-3-mini/h2.jpg",
+      },
+      {
+        title: "Touchscreen on the handle",
+        body: "The 1.4-inch colour touchscreen switches modes and settings without opening an app. The joystick and trigger sit under your thumb and finger.",
+        image: "/products/dji-rs-3-mini/h3.jpg",
+      },
+      {
+        title: "Camera control over Bluetooth",
+        body: "Start and stop recording on supported Sony, Canon, Nikon and Fujifilm cameras over Bluetooth, with no cable. The Ronin app adds timelapse, panorama and track modes.",
+        image: "/products/dji-rs-3-mini/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Content creators", body: "Smooth walking shots and vertical video." },
+      { title: "Travel", body: "Folds small and weighs under 800 g." },
+      { title: "Events", body: "Weddings, owambes and church programmes." },
+      { title: "Small cameras", body: "Mirrorless bodies like the Sony ZV-E10, A7C or Canon R50." },
+    ],
+    notFor:
+      "The RS 3 Mini tops out at 2 kg, so it won't carry a full-frame camera with a heavy zoom lens. Its axes lock by hand and it has no tracking module port. For those, look at the DJI RS 4 Mini (from ₦500,000) or the DJI RS 4 (from ₦880,000).",
+    specs: [
+      { label: "Payload", value: "0.4–2 kg" },
+      { label: "Weight", value: "About 795 g gimbal (vertical); about 128 g grip and tripod" },
+      { label: "Battery", value: "2450 mAh 18650 Li-ion 2S, 17.64 Wh" },
+      { label: "Battery life", value: "About 10 hours" },
+      { label: "Charging", value: "About 2.5 hours at 5 V/2 A, USB-C" },
+      { label: "Max speed", value: "360°/s on all axes" },
+      { label: "Range", value: "Pan 360° continuous; roll −95° to +240°; tilt −110° to +210°" },
+      { label: "Ports", value: "NATO, 1/4\"-20, RSS camera control (USB-C)" },
+      { label: "Connection", value: "Bluetooth 5.1, USB-C" },
+      { label: "Size", value: "Folded 323 × 195 × 98 mm; unfolded 180 × 159 × 296 mm" },
+      { label: "Operating temperature", value: "−10°C to 45°C" },
+    ],
+    specsNote: "Figures are DJI's. Battery life was measured with the gimbal balanced and at rest. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Will my camera fit?",
+        a: "Most mirrorless cameras with a small lens fit, as long as the camera and lens weigh under 2 kg together. Send us your camera and lens on WhatsApp and we'll confirm.",
+      },
+      {
+        q: "Can it shoot vertical video?",
+        a: "Yes. Rotate the camera plate to switch to vertical. No extra bracket is needed.",
+      },
+      {
+        q: "Does it control my camera?",
+        a: "On supported Sony, Canon, Nikon and Fujifilm cameras, you can start and stop recording over Bluetooth. Other cameras can use the RSS control port with the right cable.",
+      },
+      {
+        q: "RS 3 Mini or RS 4 Mini?",
+        a: "The RS 4 Mini adds automatic axis locks, a bigger battery and a port for the tracking module. Ask us on WhatsApp which one suits your camera.",
+      },
+      {
+        q: "How long does the battery last?",
+        a: "About 10 hours, and about 2.5 hours to fully charge over USB-C.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "RS 3 Mini",
+        price: 590_000,
+        includes: [
+          "DJI RS 3 Mini gimbal",
+          "Extended grip and tripod",
+          "Quick-release plate",
+          "USB-C charging cable",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
     slug: "dji-rs-4-mini",
     brand: "DJI",
     name: "DJI RS 4 Mini",

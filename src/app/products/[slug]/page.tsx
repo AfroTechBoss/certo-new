@@ -3,6 +3,7 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getProduct, products } from "@/data/products";
 import { formatNaira, site } from "@/data/site";
+import { jsonLdHtml, productJsonLd } from "@/data/structured-data";
 import { Gallery } from "@/components/gallery";
 import {
   InTheBox,
@@ -61,6 +62,7 @@ export default async function ProductPage(props: PageProps<"/products/[slug]">) 
 
   return (
     <VariantProvider initial={product.variants[0].id}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdHtml(productJsonLd(product))} />
       {/* Hero + buy box */}
       <section className="mx-auto grid max-w-6xl gap-10 px-5 pb-16 pt-8 md:grid-cols-2 md:pt-12">
         <Gallery images={product.gallery} />

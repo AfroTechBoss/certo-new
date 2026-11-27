@@ -299,7 +299,7 @@ export const priceList: PriceCategory[] = [
         items: [
           ["DJI RS 4 Mini", 500_000, "dji-rs-4-mini"],
           ["DJI RS 4 Mini Combo", 580_000, "dji-rs-4-mini"],
-          ["DJI RS 3 Mini", 590_000],
+          ["DJI RS 3 Mini", 590_000, "dji-rs-3-mini"],
           ["DJI RS 3 Combo", 1_000_000],
           ["DJI RS 4", 880_000, "dji-rs-4"],
           ["DJI RS 4 Combo", 1_200_000, "dji-rs-4"],

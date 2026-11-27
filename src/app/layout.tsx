@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { site } from "@/data/site";
+import { jsonLdHtml, storeJsonLd } from "@/data/structured-data";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 
@@ -18,6 +19,8 @@ export const metadata: Metadata = {
   },
   description:
     "Cameras, drones, lenses, mics, lighting and streaming gear from DJI, Sony, Canon, RODE, Godox and more. Order on WhatsApp.",
+  applicationName: site.name,
+  openGraph: { siteName: site.name, locale: "en_NG", type: "website" },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -34,6 +37,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" />
       </head>
       <body className="min-h-full flex flex-col font-sans">
+        <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdHtml(storeJsonLd())} />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
