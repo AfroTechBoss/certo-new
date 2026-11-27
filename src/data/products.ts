@@ -11521,6 +11521,129 @@ export const products: Product[] = [
     ],
   },
   {
+    slug: "dji-rs-5",
+    brand: "DJI",
+    name: "DJI RS 5",
+    category: "Gimbals",
+    tagline: "Smarter tracking, faster charging.",
+    headline:
+      "The DJI RS 5 is a 3 kg payload gimbal for mirrorless cameras, with stronger motors, a new tracking module that follows subjects up to 10 m away, a 1-hour full charge and about 14 hours of battery life.",
+    summary:
+      "The RS 5 is the newest gimbal in DJI's 3 kg class. It carries a full-frame mirrorless camera with a 24–70 mm f/2.8 lens, and its motors have up to 50% more peak torque than before, so it stays steady when you run or turn quickly. Tap a subject on the touchscreen and the Enhanced Intelligent Tracking Module follows it up to 10 m away, and picks it up again if it leaves the frame. The BG33 grip runs for about 14 hours and charges fully in about an hour with a 65 W charger. Automatic axis locks, native vertical shooting and fine-tuning knobs make setup quick. The Combo adds the tracking module and an electronic briefcase handle with its own joystick and buttons.",
+    image: "/products/dji-rs-5/main.jpg",
+    hero: "/products/dji-rs-5/hero.jpg",
+    gallery: [
+      { src: "/products/dji-rs-5/main.jpg", alt: "DJI RS 5 with a mirrorless camera on its tripod" },
+      { src: "/products/dji-rs-5/g1.jpg", alt: "Using the DJI RS 5 touchscreen while filming" },
+      { src: "/products/dji-rs-5/g2.jpg", alt: "DJI RS 5 grip controls" },
+      { src: "/products/dji-rs-5/g3.jpg", alt: "Balancing a camera on the DJI RS 5" },
+      { src: "/products/dji-rs-5/h1.jpg", alt: "ActiveTrack on the DJI RS 5 screen" },
+      { src: "/products/dji-rs-5/h2.jpg", alt: "DJI RS 5 motor" },
+    ],
+    stats: [
+      { value: "3 kg", label: "Max payload" },
+      { value: "+50%", label: "Peak motor torque" },
+      { value: "14 hours", label: "Battery life" },
+      { value: "1 hour", label: "Full charge (65 W)" },
+    ],
+    highlights: [
+      {
+        title: "Tap to track your subject",
+        body: "Select a person or object on the touchscreen and the Enhanced Intelligent Tracking Module keeps it in frame up to 10 m away. If the subject leaves the shot, it finds it again. You can also start and stop tracking with hand gestures. The module comes in the Combo.",
+        image: "/products/dji-rs-5/h1.jpg",
+      },
+      {
+        title: "Stronger motors, steadier shots",
+        body: "Peak torque is up to 50% higher, and DJI's fifth-generation stabilisation keeps heavy lenses steady during running shots and fast pans. Rotation speed reaches 360° per second.",
+        image: "/products/dji-rs-5/h2.jpg",
+      },
+      {
+        title: "14 hours, charged in an hour",
+        body: "The BG33 grip runs for about 14 hours and charges fully in about an hour with a 65 W PD charger. Add the optional BG70 grip for about 30 hours.",
+        image: "/products/dji-rs-5/h3.jpg",
+      },
+      {
+        title: "Low angles with the briefcase handle",
+        body: "The electronic briefcase handle in the Combo has its own joystick and buttons, so you can steer the gimbal and record during low-angle shots without reaching for the main grip.",
+        image: "/products/dji-rs-5/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Solo shooters", body: "The tracking module keeps you or your subject framed." },
+      { title: "Wedding videographers", body: "Full-frame camera and 24–70 mm lens, all day." },
+      { title: "Sports and action", body: "Stronger motors for running shots." },
+      { title: "Social content", body: "Vertical shooting without extra brackets." },
+    ],
+    notFor:
+      "If you shoot with a small camera or a phone, the DJI RS 4 Mini (from ₦500,000) is lighter and cheaper. If your rig is heavier than 3 kg, or you use cinema lenses with focus motors, the DJI RS 4 Pro (from ₦1,680,000) is the better fit.",
+    specs: [
+      { label: "Payload", value: "Up to 3 kg (tested)" },
+      { label: "Weight", value: "Gimbal about 1193 g with plates; grip 274 g; tripod 149 g" },
+      { label: "Battery", value: "BG33 grip, 2150 mAh, 33.29 Wh" },
+      { label: "Battery life", value: "About 14 hours; about 30 hours with the BG70 grip" },
+      { label: "Charging", value: "About 1 hour with a 65 W PD charger" },
+      { label: "Range", value: "Pan 360° continuous; roll −95° to +240°; tilt −112° to +214°" },
+      { label: "Ports", value: "RSA/NATO, 1/4\"-20 hole, cold shoe, camera control USB-C, multifunction USB-C" },
+      { label: "Tracking module", value: "19 g, tracks 0.5–10 m, needs more than 20 lux (Combo)" },
+      { label: "Size", value: "Folded 247 × 116 × 259 mm; unfolded 223 × 192 × 419 mm" },
+      { label: "Operating temperature", value: "−20°C to 45°C" },
+    ],
+    specsNote: "Figures are DJI's. Payload depends on how well the camera is balanced. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Will my camera and lens fit?",
+        a: "DJI lists setups like the Sony FX3, A7 IV or A1, Canon R5 II, Nikon Z6III, Panasonic S5II and Fujifilm X-T5 with standard zooms. Send us your camera and lens on WhatsApp and we'll confirm.",
+      },
+      {
+        q: "What does the Combo add?",
+        a: "The Enhanced Intelligent Tracking Module for subject tracking and gesture control, and the electronic briefcase handle for low-angle shots.",
+      },
+      {
+        q: "Can it control my camera?",
+        a: "Yes. Connect with the camera control cable, or use Bluetooth shutter control on supported Sony, Canon, Nikon, Panasonic and Fujifilm cameras, to start and stop recording from the grip.",
+      },
+      {
+        q: "How long does the battery last?",
+        a: "About 14 hours on the BG33 grip that comes in the box, and about an hour to charge fully with a 65 W charger. The optional BG70 grip gives about 30 hours.",
+      },
+      {
+        q: "Should I get the RS 5 or the RS 4?",
+        a: "Both carry 3 kg. The RS 5 adds stronger motors, faster charging, longer battery life and the new tracking module. Choose the RS 4 if you'd rather save and don't need tracking.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "RS 5",
+        price: 850_000,
+        includes: [
+          "DJI RS 5 gimbal",
+          "BG33 battery grip",
+          "Extended grip and tripod",
+          "Quick-release plates (Arca-Swiss/Manfrotto)",
+          "Camera control and charging cables",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+      {
+        id: "combo",
+        name: "RS 5 Combo",
+        price: 1_000_000,
+        badge: "Subject tracking",
+        includes: [
+          "Everything in the standard kit",
+          "Enhanced Intelligent Tracking Module",
+          "Electronic briefcase handle",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
     slug: "dji-rs-4-pro",
     brand: "DJI",
     name: "DJI RS 4 Pro",

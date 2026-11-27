@@ -1,7 +1,8 @@
 export const site = {
   name: "CERTO",
   tagline: "Creator & production gear",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://certo.ng",
+  // www is the primary domain on Vercel; certo.ng redirects to it.
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.certo.ng",
   whatsapp: "2348057575906",
   whatsappDisplay: "+234 805 757 5906",
   legalName: "CERTO TECHNOLOGIES",

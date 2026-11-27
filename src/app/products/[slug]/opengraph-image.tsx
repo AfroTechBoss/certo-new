@@ -25,7 +25,7 @@ export default async function Image({ params }: { params: Promise<{ slug: string
   const product = getProduct(slug)!;
   const photo = await photoBase64(product.image);
   const mime = product.image.endsWith(".png") ? "image/png" : "image/jpeg";
-  const host = new URL(site.url).host;
+  const host = new URL(site.url).host.replace(/^www\./, "");
 
   return new ImageResponse(
     (

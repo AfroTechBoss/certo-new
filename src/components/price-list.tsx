@@ -70,7 +70,7 @@ export function PriceList() {
               </h3>
               <ul>
                 {g.items.map(([name, price, slug]) => (
-                  <li key={name} className="flex items-center gap-4 border-b border-line px-5 py-3 last:border-b-0">
+                  <li key={name} className="flex items-center gap-2.5 border-b border-line px-4 py-3 last:border-b-0 sm:gap-4 sm:px-5">
                     <span className="flex-1">
                       {slug ? (
                         <Link href={`/products/${slug}`} className="underline decoration-line underline-offset-4 hover:decoration-white">
@@ -80,13 +80,23 @@ export function PriceList() {
                         name
                       )}
                     </span>
-                    <span className="font-mono text-sm tabular-nums">{formatNaira(price)}</span>
+                    <span className="shrink-0 font-mono text-sm tabular-nums">{formatNaira(price)}</span>
+                    {slug && (
+                      <Link
+                        href={`/products/${slug}`}
+                        aria-label={`View the ${name} product page`}
+                        className="inline-flex shrink-0 items-center gap-1 rounded-full border border-line px-2.5 py-1.5 text-xs font-medium hover:border-white sm:px-3"
+                      >
+                        View<span className="hidden sm:inline"> product</span>
+                        <span aria-hidden>→</span>
+                      </Link>
+                    )}
                     <a
                       href={whatsappLink(`Hi CERTO, is the ${name} (${formatNaira(price)}) in stock?`)}
                       target="_blank"
                       rel="noopener"
                       aria-label={`Ask about ${name} on WhatsApp`}
-                      className="inline-flex items-center gap-1.5 rounded-full bg-wa px-3 py-1.5 text-xs font-medium text-black"
+                      className="inline-flex shrink-0 items-center gap-1.5 rounded-full bg-wa px-2.5 py-1.5 text-xs font-medium text-black sm:px-3"
                     >
                       <WhatsAppIcon className="size-4" />
                       <span className="hidden sm:inline">Ask</span>
