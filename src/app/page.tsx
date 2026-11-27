@@ -204,7 +204,7 @@ export default function Home() {
 
       <ProductSection id="drones" label="Drones" title="Every drone we stock" items={drones} />
       <ProductSection id="camcorders" label="Camcorders" title="Cinema cameras and camcorders" items={camcorders} />
-      <ProductSection id="gimbals" label="Gimbals" title="Camera gimbals" items={gimbals} />
+      <ProductSection id="gimbals" label="Gimbals" title="Gimbals and pocket cameras" items={gimbals} />
       <ProductSection id="audio" label="Audio" title="Audio and intercoms" items={audio} />
       <ProductSection id="batteries" label="Batteries" title="Camera batteries" items={batteries} />
 

@@ -5,7 +5,7 @@ export type NavLink = { href: string; label: string };
 export const productCategories = [
   { id: "drones", name: "Drones", title: "Drones", blurb: "Camera drones from first flights to pro aerial work." },
   { id: "camcorders", name: "Camcorders", title: "Camcorders", blurb: "Handheld and pro camcorders for events and broadcast." },
-  { id: "gimbals", name: "Gimbals", title: "Camera gimbals", blurb: "Stabilisers for mirrorless and cinema cameras." },
+  { id: "gimbals", name: "Gimbals", title: "Gimbals and pocket cameras", blurb: "Stabilisers for cameras and phones, and pocket gimbal cameras." },
   { id: "audio", name: "Audio", title: "Microphones and audio", blurb: "Wireless mics, lavaliers and on-camera audio." },
   { id: "batteries", name: "Batteries", title: "Drone batteries", blurb: "Spare flight batteries for longer days out." },
 ] as const;

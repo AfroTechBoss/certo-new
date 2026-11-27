@@ -11853,6 +11853,1106 @@ export const products: Product[] = [
     ],
   },
   {
+    slug: "dji-osmo-pocket-4",
+    brand: "DJI",
+    name: "DJI Osmo Pocket 4",
+    category: "Gimbals",
+    tagline: "A pocket camera with a 1-inch sensor.",
+    headline:
+      "The DJI Osmo Pocket 4 is a pocket gimbal camera with a 1-inch sensor, 4K at up to 240 fps for slow motion, 107 GB of built-in storage and up to 240 minutes of recording.",
+    summary:
+      "The Osmo Pocket 4 puts a 1-inch sensor on a three-axis gimbal small enough for a shirt pocket. It films 4K at 60 fps, 4K at up to 240 fps for slow motion and has a low-light 4K mode, with 14 stops of dynamic range and 10-bit D-Log for grading. The 2-inch screen is bright enough for outdoor use, ActiveTrack 7.0 keeps you in frame, and the three built-in mics record clean sound. It has 107 GB of storage built in, plus a microSD slot, and the battery records for up to 240 minutes.",
+    image: "/products/dji-osmo-pocket-4/main.jpg",
+    hero: "/products/dji-osmo-pocket-4/hero.jpg",
+    gallery: [
+      { src: "/products/dji-osmo-pocket-4/main.jpg", alt: "DJI Osmo Pocket 4" },
+      { src: "/products/dji-osmo-pocket-4/g1.jpg", alt: "DJI Osmo Pocket 4 front view" },
+      { src: "/products/dji-osmo-pocket-4/g2.jpg", alt: "Charging the DJI Osmo Pocket 4" },
+      { src: "/products/dji-osmo-pocket-4/g3.jpg", alt: "The DJI Osmo Pocket 4 screen in hand" },
+      { src: "/products/dji-osmo-pocket-4/h1.jpg", alt: "Vlogging outdoors with the DJI Osmo Pocket 4" },
+      { src: "/products/dji-osmo-pocket-4/h2.jpg", alt: "DJI Osmo Pocket 4 on a desk next to a phone" },
+    ],
+    stats: [
+      { value: "1-inch", label: "Sensor" },
+      { value: "4K/240fps", label: "Slow motion" },
+      { value: "107 GB", label: "Built-in storage" },
+      { value: "240 min", label: "Recording time" },
+    ],
+    highlights: [
+      {
+        title: "Big sensor, small camera",
+        body: "A 1-inch sensor with 14 stops of dynamic range gives clean, detailed video in bright sun and indoors, from a camera that weighs about 190 g.",
+        image: "/products/dji-osmo-pocket-4/h1.jpg",
+      },
+      {
+        title: "Storage built in",
+        body: "107 GB of fast internal storage means you can start filming without a memory card, and a microSD slot takes up to 1 TB more.",
+        image: "/products/dji-osmo-pocket-4/h2.jpg",
+      },
+      {
+        title: "Keeps you in frame",
+        body: "ActiveTrack 7.0 follows your face as you move, so you can film yourself walking and talking without a cameraman.",
+        image: "/products/dji-osmo-pocket-4/h3.jpg",
+      },
+      {
+        title: "All-day battery",
+        body: "Up to 240 minutes of recording, and fast charging to 80% in about 18 minutes with a 65 W charger.",
+        image: "/products/dji-osmo-pocket-4/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Vloggers", body: "Walk-and-talk videos for YouTube, TikTok and Instagram." },
+      { title: "Events", body: "Weddings, owambes and church programmes from the crowd." },
+      { title: "Travel", body: "Small enough to carry everywhere." },
+      { title: "Low light", body: "Evening events and indoor halls." },
+    ],
+    notFor:
+      "The Pocket films with one fixed lens and is not built for rough action like a helmet or bike mount. If you already have a good phone and want steady phone video, an Osmo Mobile gimbal (from ₦180,000) costs much less.",
+    specs: [
+      { label: "Sensor", value: "1-inch CMOS" },
+      { label: "Lens", value: "20 mm equivalent, f/2.0, focus from 0.2 m" },
+      { label: "Video", value: "4K up to 60 fps; 4K up to 240 fps slow motion; low-light 4K at 30 fps" },
+      { label: "Bitrate", value: "Up to 180 Mbps" },
+      { label: "Colour", value: "10-bit D-Log, 14 stops of dynamic range" },
+      { label: "Photos", value: "About 37 MP" },
+      { label: "Zoom", value: "2× lossless" },
+      { label: "Tracking", value: "ActiveTrack 7.0" },
+      { label: "Screen", value: "2-inch OLED, 556 × 314, 1000 nits" },
+      { label: "Audio", value: "Three mics, OsmoAudio four-channel recording" },
+      { label: "Controls", value: "Zoom button, custom button and 5D joystick" },
+      { label: "Storage", value: "107 GB built in; microSD up to 1 TB" },
+      { label: "Gimbal range", value: "Pan −235° to 58°; tilt −120° to 70°; roll ±45°" },
+      { label: "Battery", value: "1545 mAh, up to 240 minutes" },
+      { label: "Charging", value: "80% in about 18 minutes, 100% in about 32 minutes at 65 W" },
+      { label: "Connection", value: "Wi-Fi 6, Bluetooth 5.4" },
+      { label: "Size and weight", value: "144.2 × 44.4 × 33.5 mm; about 190.5 g" },
+    ],
+    specsNote:
+      "Figures are DJI's. Recording time was measured by DJI in a lab and depends on the settings you use. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Pocket 4 or Pocket 3?",
+        a: "The Pocket 4 adds built-in storage, a brighter screen, slow motion at 4K up to 240 fps, a longer battery and a zoom button. The Pocket 3 still films lovely 4K with the same size sensor. Ask us on WhatsApp for today's price on both.",
+      },
+      {
+        q: "Do I need a memory card?",
+        a: "Not to start. The Pocket 4 has 107 GB built in. Add a microSD card if you want more space.",
+      },
+      {
+        q: "Can I use a wireless mic?",
+        a: "Yes. It connects to DJI wireless mics without a receiver. Ask us which mic suits you.",
+      },
+      {
+        q: "Standard or Creator Combo?",
+        a: "Both have the same camera. The Creator Combo adds accessories for vloggers, such as a wireless mic and a battery handle. We confirm what's in each box on WhatsApp.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "Standard Combo",
+        price: 890_000,
+        includes: [
+          "DJI Osmo Pocket 4",
+          "Protective cover",
+          "Wrist strap",
+          "USB-C cable",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+      {
+        id: "creator",
+        name: "Creator Combo",
+        price: 1_000_000,
+        badge: "For vloggers",
+        includes: [
+          "Everything in the Standard Combo",
+          "DJI wireless mic transmitter",
+          "Battery handle",
+          "Mini tripod",
+          "Carrying bag",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "dji-osmo-pocket-3",
+    brand: "DJI",
+    name: "DJI Osmo Pocket 3",
+    category: "Gimbals",
+    tagline: "The pocket vlogging camera.",
+    headline:
+      "The DJI Osmo Pocket 3 is a pocket gimbal camera with a 1-inch sensor, 4K at 60 fps, a 2-inch rotating screen and up to 166 minutes of recording.",
+    summary:
+      "The Osmo Pocket 3 is a 1-inch sensor on a three-axis gimbal, in a camera about the size of a phone's width. It films 4K at 60 fps, slow motion at 4K 120 fps and has a low-light 4K mode, with 10-bit D-Log M and HLG for colour. Turn the 2-inch screen sideways and it switches to landscape; turn it back for vertical video. ActiveTrack 6.0 keeps your face in frame, the three mics record clear sound, and it connects to DJI Mic 2 and Mic Mini without a receiver.",
+    image: "/products/dji-osmo-pocket-3/main.jpg",
+    hero: "/products/dji-osmo-pocket-3/hero.jpg",
+    gallery: [
+      { src: "/products/dji-osmo-pocket-3/main.jpg", alt: "DJI Osmo Pocket 3" },
+      { src: "/products/dji-osmo-pocket-3/g1.jpg", alt: "DJI Osmo Pocket 3 front view" },
+      { src: "/products/dji-osmo-pocket-3/g2.jpg", alt: "DJI Osmo Pocket 3 with the battery handle" },
+      { src: "/products/dji-osmo-pocket-3/g3.jpg", alt: "The DJI Osmo Pocket 3 screen in hand" },
+      { src: "/products/dji-osmo-pocket-3/h1.jpg", alt: "DJI Osmo Pocket 3 on a tripod filming a phone" },
+      { src: "/products/dji-osmo-pocket-3/h2.jpg", alt: "Vlogging with the DJI Osmo Pocket 3 and a DJI Mic" },
+    ],
+    stats: [
+      { value: "1-inch", label: "Sensor" },
+      { value: "4K/60fps", label: "Video" },
+      { value: "2-inch", label: "Rotating screen" },
+      { value: "166 min", label: "Recording time" },
+    ],
+    highlights: [
+      {
+        title: "1-inch sensor",
+        body: "Much bigger than a phone's main sensor, so faces look clean and detailed, even in an evening hall.",
+        image: "/products/dji-osmo-pocket-3/h1.jpg",
+      },
+      {
+        title: "Wireless mic, no receiver",
+        body: "Pair a DJI Mic 2 or Mic Mini straight to the camera and your voice is recorded clearly, even in a noisy market.",
+        image: "/products/dji-osmo-pocket-3/h2.jpg",
+      },
+      {
+        title: "Rotate for vertical",
+        body: "Turn the screen to switch between landscape for YouTube and vertical for TikTok and Reels.",
+        image: "/products/dji-osmo-pocket-3/h3.jpg",
+      },
+      {
+        title: "Fits in a bag or pocket",
+        body: "179 g and about 14 cm tall, so it goes everywhere with you.",
+        image: "/products/dji-osmo-pocket-3/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Vloggers", body: "Daily vlogs for YouTube, TikTok and Instagram." },
+      { title: "Events", body: "Weddings, owambes and church programmes." },
+      { title: "Travel", body: "Light and quick to start filming." },
+      { title: "Interviews", body: "Pair a DJI Mic for clear sound." },
+    ],
+    notFor:
+      "The Pocket 3 has no built-in storage, so you'll need a microSD card. The newer DJI Osmo Pocket 4 (from ₦890,000) adds 107 GB of storage, faster slow motion and a longer battery.",
+    specs: [
+      { label: "Sensor", value: "1-inch CMOS" },
+      { label: "Lens", value: "20 mm equivalent, f/2.0" },
+      { label: "Video", value: "4K up to 60 fps; slow motion 4K at 120 fps and 1080p at 240 fps; low-light 4K at 30 fps" },
+      { label: "Bitrate", value: "Up to 130 Mbps" },
+      { label: "Colour", value: "10-bit D-Log M and HLG" },
+      { label: "Photos", value: "About 9.4 MP" },
+      { label: "Focus", value: "Full-pixel fast focusing" },
+      { label: "Tracking", value: "ActiveTrack 6.0" },
+      { label: "Screen", value: "2-inch rotating touchscreen, 556 × 314, 700 nits" },
+      { label: "Audio", value: "Three mics; connects to DJI Mic 2 and Mic Mini" },
+      { label: "Storage", value: "microSD up to 1 TB (no built-in storage)" },
+      { label: "Battery", value: "1300 mAh, up to 166 minutes" },
+      { label: "Charging", value: "80% in about 16 minutes, 100% in about 32 minutes" },
+      { label: "Connection", value: "Wi-Fi 802.11ac, Bluetooth 5.2" },
+      { label: "Size and weight", value: "139.7 × 42.2 × 33.5 mm; 179 g" },
+    ],
+    specsNote:
+      "Figures are DJI's. Recording time was measured by DJI in a lab and depends on the settings you use. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Pocket 3 or Pocket 4?",
+        a: "The Pocket 4 adds built-in storage, a brighter screen, faster slow motion and a longer battery. The Pocket 3 has the same size sensor and still films excellent 4K. Ask us on WhatsApp for today's price on both.",
+      },
+      {
+        q: "Do I need a memory card?",
+        a: "Yes. The Pocket 3 records to a microSD card. We can add one to your order.",
+      },
+      {
+        q: "What does the Creator Combo add?",
+        a: "Accessories for vloggers, such as a DJI Mic 2 transmitter, a battery handle, a wide-angle lens and a mini tripod. We confirm what's in the box on WhatsApp.",
+      },
+      {
+        q: "Is the screen good outdoors?",
+        a: "It's bright enough for most outdoor filming. In very harsh midday sun, shade the screen with your hand.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "Pocket 3",
+        price: 980_000,
+        includes: [
+          "DJI Osmo Pocket 3",
+          "Protective cover",
+          "Wrist strap",
+          "USB-C cable",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+      {
+        id: "creator",
+        name: "Creator Combo",
+        price: 880_000,
+        badge: "For vloggers",
+        includes: [
+          "Everything in the Pocket 3 box",
+          "DJI Mic 2 transmitter",
+          "Battery handle",
+          "Wide-angle lens",
+          "Mini tripod",
+          "Carrying bag",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "dji-osmo-mobile-8p",
+    brand: "DJI",
+    name: "DJI Osmo Mobile 8P",
+    category: "Gimbals",
+    tagline: "A phone gimbal with a remote that shows your shot.",
+    headline:
+      "The DJI Osmo Mobile 8P is a phone gimbal with 360° unlimited pan, a built-in extension rod and tripod, a fill light and a FrameTap remote with its own screen.",
+    summary:
+      "The Osmo Mobile 8P holds phones from 170 to 300 g and turns them into a steady camera. The pan axis turns 360° without stopping, and the built-in 215 mm extension rod and tripod mean you don't need extra kit for group shots or standing it on a table. The Multifunctional Module 2 adds a fill light and subject tracking, and the FrameTap remote has a 1.4-inch screen that shows your shot from up to 25 m away, so you can frame yourself without walking back to the phone. It works with Apple DockKit, and the battery runs for about 10 hours and can charge your phone.",
+    image: "/products/dji-osmo-mobile-8p/main.jpg",
+    hero: "/products/dji-osmo-mobile-8p/hero.jpg",
+    gallery: [
+      { src: "/products/dji-osmo-mobile-8p/main.jpg", alt: "DJI Osmo Mobile 8P with a phone" },
+      { src: "/products/dji-osmo-mobile-8p/g1.jpg", alt: "DJI Osmo Mobile 8P standing on its built-in tripod" },
+      { src: "/products/dji-osmo-mobile-8p/g2.jpg", alt: "The DJI FrameTap remote in hand" },
+      { src: "/products/dji-osmo-mobile-8p/g3.jpg", alt: "Filming yourself with the DJI Osmo Mobile 8P on a table" },
+      { src: "/products/dji-osmo-mobile-8p/h1.jpg", alt: "DJI Osmo Mobile 8P filming two people outdoors" },
+      { src: "/products/dji-osmo-mobile-8p/h2.jpg", alt: "Two friends filmed with the DJI Osmo Mobile 8P" },
+    ],
+    stats: [
+      { value: "360°", label: "Unlimited pan" },
+      { value: "25 m", label: "Remote preview" },
+      { value: "10 hours", label: "Battery life" },
+      { value: "300 g", label: "Max phone weight" },
+    ],
+    highlights: [
+      {
+        title: "See your shot from the remote",
+        body: "The FrameTap remote has its own screen, so you can check your framing and start recording from up to 25 m away.",
+        image: "/products/dji-osmo-mobile-8p/h1.jpg",
+      },
+      {
+        title: "Turns all the way round",
+        body: "360° unlimited pan means the gimbal can follow you around a room or a stage without hitting a stop.",
+        image: "/products/dji-osmo-mobile-8p/h2.jpg",
+      },
+      {
+        title: "Rod and tripod built in",
+        body: "Pull out the 215 mm rod for group shots, or open the built-in tripod to stand it on a table. Nothing extra to carry.",
+        image: "/products/dji-osmo-mobile-8p/h3.jpg",
+      },
+      {
+        title: "Fill light and tracking",
+        body: "The Multifunctional Module 2 lights your face and follows you with ActiveTrack 8.0. On iPhone it also works with Apple DockKit apps.",
+        image: "/products/dji-osmo-mobile-8p/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Content creators", body: "Solo videos for TikTok, Reels and YouTube." },
+      { title: "Live streams", body: "Church services, shows and product lives." },
+      { title: "Small businesses", body: "Product and shop videos from your phone." },
+      { title: "Families", body: "Group shots and events." },
+    ],
+    notFor:
+      "If you just want steady phone video without the remote, the DJI Osmo Mobile 7P (₦270,000) does most of the same for less, and the Osmo Mobile 7 (₦180,000) is the simplest option.",
+    specs: [
+      { label: "Phone size", value: "170 to 300 g; 6.9 to 11 mm thick; 67 to 84 mm wide" },
+      { label: "Weight", value: "About 386 g with tripod, phone clamp, Multifunctional Module 2 and FrameTap" },
+      { label: "Size", value: "Unfolded 291 × 110 × 101 mm; folded 196 × 105 × 38 mm" },
+      { label: "Extension rod", value: "215 mm, built in" },
+      { label: "Tripod", value: "82 mm, built in" },
+      { label: "Range", value: "Pan 360° unlimited; roll −52° to 256°; tilt −37° to 55°" },
+      { label: "Max speed", value: "120°/s" },
+      { label: "Tracking", value: "ActiveTrack 8.0; Apple DockKit" },
+      { label: "Fill light", value: "40 lux at 0.5 m, 2500 to 6500 K" },
+      { label: "FrameTap remote", value: "1.4-inch 240 × 240 screen; live view up to 25 m; 29 g; standby up to 4.5 hours" },
+      { label: "Battery", value: "3350 mAh, about 10 hours; can charge your phone" },
+      { label: "Charging", value: "About 2.5 hours" },
+      { label: "Connection", value: "Bluetooth 5.3" },
+    ],
+    specsNote:
+      "Figures are DJI's. Battery life was measured with the gimbal balanced and at rest. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Will my phone fit?",
+        a: "Most phones from 170 to 300 g fit, including large models like the iPhone Pro Max and Samsung Ultra. Thick cases may need to come off. Tell us your phone on WhatsApp and we'll confirm.",
+      },
+      {
+        q: "What's the difference between the combos?",
+        a: "All three have the same gimbal. The Advanced Tracking and Creator Combos add accessories, and the Creator Combo adds a wireless mic. We confirm exactly what's in each box on WhatsApp.",
+      },
+      {
+        q: "Does it work with Android?",
+        a: "Yes. It works with iPhone and Android through the DJI Mimo app, and the Multifunctional Module 2 tracks you in any camera app.",
+      },
+      {
+        q: "8P or 7P?",
+        a: "The 8P adds 360° unlimited pan, the FrameTap remote with a screen and fits slightly thicker phones. The 7P is cheaper and still has the rod, tripod, fill light and tracking.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "Standard Combo",
+        price: 300_500,
+        includes: [
+          "DJI Osmo Mobile 8P with built-in rod and tripod",
+          "Magnetic Phone Clamp 5",
+          "Multifunctional Module 2",
+          "FrameTap remote",
+          "USB-C cable",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+      {
+        id: "advanced-tracking",
+        name: "Advanced Tracking Combo",
+        price: 350_000,
+        includes: [
+          "Everything in the Standard Combo",
+          "Extra tracking accessories",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+      {
+        id: "creator",
+        name: "Creator Combo",
+        price: 400_500,
+        badge: "With mic",
+        includes: [
+          "Everything in the Standard Combo",
+          "DJI wireless mic",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "dji-osmo-mobile-7p",
+    brand: "DJI",
+    name: "DJI Osmo Mobile 7P",
+    category: "Gimbals",
+    tagline: "A phone gimbal with a fill light and tracking.",
+    headline:
+      "The DJI Osmo Mobile 7P is a foldable phone gimbal with a built-in extension rod and tripod, a Multifunctional Module with fill light and tracking, and about 10 hours of battery.",
+    summary:
+      "The Osmo Mobile 7P holds phones from 170 to 300 g and keeps your video steady while you walk. It has a 215 mm extension rod and a tripod built in, so you can film group shots or stand it on a table without extra kit. The Multifunctional Module clips on under the phone to light your face and track you in any camera app, not just DJI's. It folds small, weighs 368 g with the module, and the battery runs for about 10 hours and can charge your phone.",
+    image: "/products/dji-osmo-mobile-7p/main.jpg",
+    hero: "/products/dji-osmo-mobile-7p/hero.jpg",
+    gallery: [
+      { src: "/products/dji-osmo-mobile-7p/main.jpg", alt: "DJI Osmo Mobile 7P with a phone" },
+      { src: "/products/dji-osmo-mobile-7p/g1.jpg", alt: "DJI Osmo Mobile 7P on its built-in tripod" },
+      { src: "/products/dji-osmo-mobile-7p/g2.jpg", alt: "The DJI Osmo Mobile 7P charging a phone" },
+      { src: "/products/dji-osmo-mobile-7p/g3.jpg", alt: "Attaching a phone to the DJI Osmo Mobile 7P" },
+      { src: "/products/dji-osmo-mobile-7p/h1.jpg", alt: "Filming yourself at a table with the DJI Osmo Mobile 7P" },
+      { src: "/products/dji-osmo-mobile-7p/h2.jpg", alt: "Filming on the beach with the DJI Osmo Mobile 7P" },
+    ],
+    stats: [
+      { value: "215 mm", label: "Built-in rod" },
+      { value: "Fill light", label: "With tracking" },
+      { value: "10 hours", label: "Battery life" },
+      { value: "300 g", label: "Max phone weight" },
+    ],
+    highlights: [
+      {
+        title: "Tracks you in any app",
+        body: "The Multifunctional Module follows you even in your phone's own camera app, TikTok or Instagram, so you can film yourself on your own.",
+        image: "/products/dji-osmo-mobile-7p/h1.jpg",
+      },
+      {
+        title: "Rod and tripod built in",
+        body: "Pull out the 215 mm rod for wider shots and group selfies, or open the tripod to stand it on a table.",
+        image: "/products/dji-osmo-mobile-7p/h2.jpg",
+      },
+      {
+        title: "Light on your face",
+        body: "The fill light brightens your face with adjustable warmth, which helps in dim rooms and evening events.",
+        image: "/products/dji-osmo-mobile-7p/h3.jpg",
+      },
+      {
+        title: "Charges your phone",
+        body: "About 10 hours of battery, and it can top up your phone during a long day of filming.",
+        image: "/products/dji-osmo-mobile-7p/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Content creators", body: "Solo videos for TikTok, Reels and YouTube." },
+      { title: "Small businesses", body: "Product videos and shop tours." },
+      { title: "Live streams", body: "Church services and live sales." },
+      { title: "Events", body: "Weddings and owambes on your phone." },
+    ],
+    notFor:
+      "If you don't need the rod or the fill light, the DJI Osmo Mobile 7 (₦180,000) is lighter and costs less. For a remote with its own screen and 360° pan, look at the Osmo Mobile 8P (from ₦300,500).",
+    specs: [
+      { label: "Phone size", value: "170 to 300 g; 6.9 to 10 mm thick; 67 to 84 mm wide" },
+      { label: "Weight", value: "368 g with the Multifunctional Module" },
+      { label: "Size", value: "Unfolded 288 × 107 × 96 mm" },
+      { label: "Extension rod", value: "215 mm, built in" },
+      { label: "Tripod", value: "67 mm, built in" },
+      { label: "Range", value: "Pan −99° to 210°; roll −67° to 245°; tilt −20° to 40°" },
+      { label: "Max speed", value: "120°/s" },
+      { label: "Tracking", value: "Seventh-generation ActiveTrack; native tracking with the Multifunctional Module" },
+      { label: "Fill light", value: "40 lux at 0.5 m, 2500 to 6000 K" },
+      { label: "Battery", value: "3350 mAh, about 10 hours; can charge your phone" },
+      { label: "Charging", value: "About 2.5 hours" },
+      { label: "Connection", value: "Bluetooth 5.3" },
+    ],
+    specsNote:
+      "Figures are DJI's. Battery life was measured with the gimbal balanced and at rest. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Will my phone fit?",
+        a: "Most phones from 170 to 300 g fit, including the iPhone Pro Max and Samsung Ultra. Thick cases may need to come off. Tell us your phone on WhatsApp and we'll confirm.",
+      },
+      {
+        q: "7P or 7?",
+        a: "The 7P has a built-in extension rod and comes with the Multifunctional Module for fill light and tracking in any app. The 7 is lighter and cheaper, with no rod, and the module is sold separately.",
+      },
+      {
+        q: "Does it work with Android?",
+        a: "Yes. It works with iPhone and Android through the DJI Mimo app, and the module tracks you in other camera apps too.",
+      },
+      {
+        q: "How long does the battery last?",
+        a: "About 10 hours, and about 2.5 hours to fully charge.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "Osmo Mobile 7P",
+        price: 270_000,
+        includes: [
+          "DJI Osmo Mobile 7P with built-in rod and tripod",
+          "Magnetic phone clamp",
+          "Multifunctional Module",
+          "USB-C cable",
+          "Storage pouch",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "dji-osmo-mobile-7",
+    brand: "DJI",
+    name: "DJI Osmo Mobile 7",
+    category: "Gimbals",
+    tagline: "A light, simple phone gimbal.",
+    headline:
+      "The DJI Osmo Mobile 7 is a light, foldable phone gimbal with a built-in tripod, ActiveTrack and about 10 hours of battery, at 300 g.",
+    summary:
+      "The Osmo Mobile 7 is the simplest way to make phone video steady. It weighs 300 g, folds small, and holds phones from 170 to 300 g with a magnetic clamp that snaps on in a second. The built-in tripod stands it on a table for talking-head videos, and ActiveTrack in the DJI Mimo app keeps you in frame. The battery runs for about 10 hours and can charge your phone. You can add DJI's Multifunctional Module later for a fill light and tracking in any app.",
+    image: "/products/dji-osmo-mobile-7/main.jpg",
+    hero: "/products/dji-osmo-mobile-7/hero.jpg",
+    gallery: [
+      { src: "/products/dji-osmo-mobile-7/main.jpg", alt: "DJI Osmo Mobile 7 folded" },
+      { src: "/products/dji-osmo-mobile-7/g1.jpg", alt: "The DJI Osmo Mobile 7 charging a phone" },
+      { src: "/products/dji-osmo-mobile-7/g2.jpg", alt: "Snapping a phone onto the DJI Osmo Mobile 7" },
+      { src: "/products/dji-osmo-mobile-7/g3.jpg", alt: "Inside the DJI Osmo Mobile 7 motor" },
+      { src: "/products/dji-osmo-mobile-7/h1.jpg", alt: "DJI Osmo Mobile 7 standing on a table" },
+      { src: "/products/dji-osmo-mobile-7/h2.jpg", alt: "Attaching a phone to the DJI Osmo Mobile 7" },
+    ],
+    stats: [
+      { value: "300 g", label: "Gimbal weight" },
+      { value: "10 hours", label: "Battery life" },
+      { value: "ActiveTrack", label: "Keeps you in frame" },
+      { value: "Built-in", label: "Tripod" },
+    ],
+    highlights: [
+      {
+        title: "Stands on its own",
+        body: "Open the built-in tripod and stand it on a table for talking-head videos, cooking clips or live streams.",
+        image: "/products/dji-osmo-mobile-7/h1.jpg",
+      },
+      {
+        title: "Phone on in a second",
+        body: "The magnetic clamp stays on your phone and snaps onto the gimbal, so you're ready to film straight away.",
+        image: "/products/dji-osmo-mobile-7/h2.jpg",
+      },
+      {
+        title: "Keeps you in frame",
+        body: "ActiveTrack in the DJI Mimo app follows you as you move, so you can film yourself without help.",
+        image: "/products/dji-osmo-mobile-7/h3.jpg",
+      },
+      {
+        title: "All-day battery",
+        body: "About 10 hours of battery, and it can charge your phone when it runs low.",
+        image: "/products/dji-osmo-mobile-7/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "First gimbal", body: "Simple to set up and use." },
+      { title: "Content creators", body: "Steady TikTok, Reels and YouTube videos." },
+      { title: "Small businesses", body: "Product and shop videos." },
+      { title: "Travel", body: "Light and folds small." },
+    ],
+    notFor:
+      "The Osmo Mobile 7 has no extension rod and the fill light module is sold separately. For both built in, look at the DJI Osmo Mobile 7P (₦270,000).",
+    specs: [
+      { label: "Phone size", value: "170 to 300 g; 6.9 to 10 mm thick; 67 to 84 mm wide" },
+      { label: "Weight", value: "300 g" },
+      { label: "Size", value: "Unfolded 278 × 107 × 93 mm" },
+      { label: "Extension rod", value: "None" },
+      { label: "Tripod", value: "67 mm, built in" },
+      { label: "Range", value: "Pan −99° to 210°; roll −67° to 245°; tilt −20° to 40°" },
+      { label: "Max speed", value: "120°/s" },
+      { label: "Tracking", value: "Seventh-generation ActiveTrack in DJI Mimo" },
+      { label: "Accessories", value: "Works with the DJI Multifunctional Module (sold separately)" },
+      { label: "Battery", value: "3350 mAh, about 10 hours; can charge your phone" },
+      { label: "Charging", value: "About 2.5 hours" },
+      { label: "Connection", value: "Bluetooth 5.3" },
+    ],
+    specsNote:
+      "Figures are DJI's. Battery life was measured with the gimbal balanced and at rest. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Will my phone fit?",
+        a: "Most phones from 170 to 300 g fit, including large models. Thick cases may need to come off. Tell us your phone on WhatsApp and we'll confirm.",
+      },
+      {
+        q: "7 or 7P?",
+        a: "The 7P adds a built-in extension rod and comes with the Multifunctional Module for fill light and tracking in any app. The 7 is lighter and cheaper.",
+      },
+      {
+        q: "Does it work with Android?",
+        a: "Yes. It works with iPhone and Android through the DJI Mimo app.",
+      },
+      {
+        q: "How long does the battery last?",
+        a: "About 10 hours, and about 2.5 hours to fully charge.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "Osmo Mobile 7",
+        price: 180_000,
+        includes: [
+          "DJI Osmo Mobile 7 with built-in tripod",
+          "Magnetic phone clamp",
+          "USB-C cable",
+          "Storage pouch",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "dji-osmo-mobile-6",
+    brand: "DJI",
+    name: "DJI Osmo Mobile 6",
+    category: "Gimbals",
+    tagline: "A phone gimbal with a built-in rod.",
+    headline:
+      "The DJI Osmo Mobile 6 is a foldable phone gimbal with a built-in extension rod, a status panel, quick launch and ActiveTrack, at 305 g.",
+    summary:
+      "The Osmo Mobile 6 holds phones from 170 to 290 g with a magnetic clamp and keeps your video steady while you walk. Its built-in extension rod reaches out for wider selfies and group shots. Unfold it with the phone attached and it opens the DJI Mimo app automatically, so you're filming in seconds. The status panel on the handle shows the battery and mode, and ActiveTrack keeps you in frame. The battery runs for about 6 hours 24 minutes.",
+    image: "/products/dji-osmo-mobile-6/main.jpg",
+    hero: "/products/dji-osmo-mobile-6/hero.jpg",
+    gallery: [
+      { src: "/products/dji-osmo-mobile-6/main.jpg", alt: "DJI Osmo Mobile 6 with a phone" },
+      { src: "/products/dji-osmo-mobile-6/g1.jpg", alt: "The DJI magnetic phone clamp on a phone" },
+      { src: "/products/dji-osmo-mobile-6/g2.jpg", alt: "The DJI Osmo Mobile 6 status panel" },
+      { src: "/products/dji-osmo-mobile-6/g3.jpg", alt: "DJI Osmo Mobile 6 on a table" },
+      { src: "/products/dji-osmo-mobile-6/h1.jpg", alt: "Filming outdoors with the DJI Osmo Mobile 6 extended" },
+      { src: "/products/dji-osmo-mobile-6/h2.jpg", alt: "DJI Osmo Mobile 6 standing on its tripod" },
+    ],
+    stats: [
+      { value: "Built-in", label: "Extension rod" },
+      { value: "290 g", label: "Max phone weight" },
+      { value: "6.4 hours", label: "Battery life" },
+      { value: "ActiveTrack", label: "Keeps you in frame" },
+    ],
+    highlights: [
+      {
+        title: "Built-in extension rod",
+        body: "Pull the rod out for wider selfies, group shots and higher angles, then push it back in.",
+        image: "/products/dji-osmo-mobile-6/h1.jpg",
+      },
+      {
+        title: "Unfold and film",
+        body: "Unfold the gimbal with your phone on and DJI Mimo opens automatically, so you don't miss the moment.",
+        image: "/products/dji-osmo-mobile-6/h2.jpg",
+      },
+      {
+        title: "Keeps you in frame",
+        body: "ActiveTrack follows you or your subject as you move around.",
+        image: "/products/dji-osmo-mobile-6/h3.jpg",
+      },
+      {
+        title: "Status at a glance",
+        body: "The panel on the handle shows battery and mode, so you know what the gimbal is doing.",
+        image: "/products/dji-osmo-mobile-6/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Content creators", body: "Steady TikTok, Reels and YouTube videos." },
+      { title: "Events", body: "Weddings and owambes on your phone." },
+      { title: "Group shots", body: "The rod gets everyone in." },
+      { title: "Travel", body: "Folds small for your bag." },
+    ],
+    notFor:
+      "The Osmo Mobile 6 battery is smaller than newer models. The DJI Osmo Mobile 7P (₦270,000) has a built-in rod and tripod, a fill light, tracking in any app and about 10 hours of battery.",
+    specs: [
+      { label: "Phone size", value: "170 to 290 g" },
+      { label: "Weight", value: "305 g gimbal; 25 g magnetic clamp" },
+      { label: "Size", value: "Unfolded 276 × 111.5 × 99 mm; folded 189 × 84.5 × 44 mm" },
+      { label: "Extension rod", value: "Built in" },
+      { label: "Tripod", value: "Grip tripod, 138 mm" },
+      { label: "Max speed", value: "120°/s" },
+      { label: "Tracking", value: "ActiveTrack in DJI Mimo" },
+      { label: "Battery", value: "1000 mAh, about 6 hours 24 minutes" },
+      { label: "Charging", value: "About 1 hour 24 minutes" },
+      { label: "Connection", value: "Bluetooth 5.1" },
+    ],
+    specsNote:
+      "Figures are DJI's. Battery life was measured with the gimbal balanced and at rest. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Will my phone fit?",
+        a: "Most phones from 170 to 290 g fit. Very heavy phones with a thick case may be too much. Tell us your phone on WhatsApp and we'll confirm.",
+      },
+      {
+        q: "Mobile 6 or Mobile 7P?",
+        a: "The 7P is newer, with a built-in tripod, fill light, tracking in any app and a longer battery, and it costs less right now. Ask us on WhatsApp which suits you.",
+      },
+      {
+        q: "Does it work with Android?",
+        a: "Yes. It works with iPhone and Android through the DJI Mimo app.",
+      },
+      {
+        q: "How long does the battery last?",
+        a: "About 6 hours 24 minutes, and about 1 hour 24 minutes to fully charge.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "Osmo Mobile 6",
+        price: 290_000,
+        includes: [
+          "DJI Osmo Mobile 6 with built-in rod",
+          "Magnetic phone clamp",
+          "Grip tripod",
+          "USB-C cable",
+          "Storage pouch",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "dji-osmo-mobile-se",
+    brand: "DJI",
+    name: "DJI Osmo Mobile SE",
+    category: "Gimbals",
+    tagline: "An easy magnetic phone gimbal.",
+    headline:
+      "The DJI Osmo Mobile SE is a foldable magnetic phone gimbal with ActiveTrack, a status panel and about 8 hours of battery.",
+    summary:
+      "The Osmo Mobile SE keeps phone video steady with a three-axis gimbal and a magnetic clamp that snaps your phone on and off. It holds phones from 170 to 290 g and folds down to carry. The status panel shows battery and mode, ActiveTrack in DJI Mimo keeps you in frame, and the battery runs for about 8 hours. It has no extension rod.",
+    image: "/products/dji-osmo-mobile-se/main.jpg",
+    hero: "/products/dji-osmo-mobile-se/hero.jpg",
+    gallery: [
+      { src: "/products/dji-osmo-mobile-se/main.jpg", alt: "DJI Osmo Mobile SE with a phone" },
+      { src: "/products/dji-osmo-mobile-se/g1.jpg", alt: "DJI Osmo Mobile SE side view" },
+      { src: "/products/dji-osmo-mobile-se/g2.jpg", alt: "The DJI Osmo Mobile SE controls" },
+      { src: "/products/dji-osmo-mobile-se/g3.jpg", alt: "Starting a recording from a watch" },
+      { src: "/products/dji-osmo-mobile-se/h1.jpg", alt: "Filming at the beach with the DJI Osmo Mobile SE" },
+      { src: "/products/dji-osmo-mobile-se/h2.jpg", alt: "DJI Osmo Mobile SE on a table" },
+    ],
+    stats: [
+      { value: "Magnetic", label: "Phone clamp" },
+      { value: "290 g", label: "Max phone weight" },
+      { value: "8 hours", label: "Battery life" },
+      { value: "ActiveTrack", label: "Keeps you in frame" },
+    ],
+    highlights: [
+      {
+        title: "Snap on and go",
+        body: "The magnetic clamp stays on your phone and snaps onto the gimbal, so you're filming in seconds.",
+        image: "/products/dji-osmo-mobile-se/h1.jpg",
+      },
+      {
+        title: "Keeps you in frame",
+        body: "ActiveTrack in DJI Mimo follows you as you move, for walk-and-talk videos on your own.",
+        image: "/products/dji-osmo-mobile-se/h2.jpg",
+      },
+      {
+        title: "Folds to carry",
+        body: "Folds down small enough for a handbag or backpack.",
+        image: "/products/dji-osmo-mobile-se/h3.jpg",
+      },
+      {
+        title: "Long battery",
+        body: "About 8 hours of filming on a charge.",
+        image: "/products/dji-osmo-mobile-se/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "First gimbal", body: "Simple controls and a magnetic clamp." },
+      { title: "Content creators", body: "Steady TikTok and Reels videos." },
+      { title: "Small businesses", body: "Product videos on your phone." },
+      { title: "Travel", body: "Folds for your bag." },
+    ],
+    notFor:
+      "The Osmo Mobile SE has no extension rod. The newer DJI Osmo Mobile 7 (₦180,000) is lighter, has a built-in tripod and a longer battery, and costs less right now.",
+    specs: [
+      { label: "Phone size", value: "170 to 290 g" },
+      { label: "Weight", value: "352 g gimbal; 31 g magnetic clamp" },
+      { label: "Size", value: "Unfolded 262.5 × 119.5 × 104 mm; folded 167 × 108.5 × 46.5 mm" },
+      { label: "Extension rod", value: "None" },
+      { label: "Tracking", value: "ActiveTrack in DJI Mimo" },
+      { label: "Battery", value: "2600 mAh 18650, about 8 hours" },
+      { label: "Charging", value: "About 2 hours 12 minutes" },
+      { label: "Connection", value: "Bluetooth 5.1" },
+    ],
+    specsNote:
+      "Figures are DJI's. Battery life was measured with the gimbal balanced and at rest. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Will my phone fit?",
+        a: "Most phones from 170 to 290 g fit. Tell us your phone on WhatsApp and we'll confirm.",
+      },
+      {
+        q: "SE or Mobile 7?",
+        a: "The Mobile 7 is newer, lighter, has a built-in tripod and a longer battery, and costs less right now. Ask us on WhatsApp which is in stock.",
+      },
+      {
+        q: "Does it work with Android?",
+        a: "Yes. It works with iPhone and Android through the DJI Mimo app.",
+      },
+      {
+        q: "How long does the battery last?",
+        a: "About 8 hours, and a little over 2 hours to fully charge.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "Osmo Mobile SE",
+        price: 220_000,
+        includes: [
+          "DJI Osmo Mobile SE",
+          "Magnetic phone clamp",
+          "Mini tripod",
+          "USB-C cable",
+          "Storage pouch",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "dji-om-5",
+    brand: "DJI",
+    name: "DJI OM 5",
+    category: "Gimbals",
+    tagline: "A small phone gimbal with a built-in rod.",
+    headline:
+      "The DJI OM 5 is a small, foldable phone gimbal with a built-in 215 mm extension rod, a magnetic clamp and ActiveTrack, at 292 g.",
+    summary:
+      "The OM 5 is a compact phone gimbal that folds to about the size of a water bottle. Its built-in 215 mm extension rod reaches out for selfies and group shots, and the magnetic clamp snaps your phone on and off. ActiveTrack in DJI Mimo keeps you in frame, and the battery runs for about 6.4 hours. It holds phones of about 170 to 290 g.",
+    image: "/products/dji-om-5/main.jpg",
+    hero: "/products/dji-om-5/hero.jpg",
+    gallery: [
+      { src: "/products/dji-om-5/main.jpg", alt: "DJI OM 5 phone gimbal" },
+      { src: "/products/dji-om-5/h1.jpg", alt: "DJI OM 5 close up" },
+    ],
+    stats: [
+      { value: "215 mm", label: "Built-in rod" },
+      { value: "292 g", label: "Gimbal weight" },
+      { value: "6.4 hours", label: "Battery life" },
+      { value: "Magnetic", label: "Phone clamp" },
+    ],
+    highlights: [
+      {
+        title: "Built-in extension rod",
+        body: "Pull out the 215 mm rod for wider selfies, group shots and higher angles.",
+        image: "/products/dji-om-5/main.jpg",
+      },
+      {
+        title: "Small and light",
+        body: "292 g, and folds small enough for a handbag.",
+        image: "/products/dji-om-5/h1.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Content creators", body: "Steady TikTok and Reels videos." },
+      { title: "Group shots", body: "The rod gets everyone in." },
+      { title: "Travel", body: "Folds small for your bag." },
+      { title: "Events", body: "Weddings and owambes on your phone." },
+    ],
+    notFor:
+      "The OM 5 is an older model with a smaller battery. The DJI Osmo Mobile 7P (₦270,000) has a built-in rod and tripod, a fill light, tracking in any app and about 10 hours of battery.",
+    specs: [
+      { label: "Phone size", value: "230 ± 60 g; 6.9 to 10 mm thick; 67 to 84 mm wide" },
+      { label: "Weight", value: "292 g gimbal; 34 g magnetic clamp" },
+      { label: "Size", value: "Unfolded 264.5 × 111.1 × 92.3 mm; folded 174.7 × 74.6 × 37 mm" },
+      { label: "Extension rod", value: "215 mm, built in" },
+      { label: "Tripod", value: "Grip tripod, 138 mm" },
+      { label: "Max speed", value: "120°/s" },
+      { label: "Tracking", value: "ActiveTrack in DJI Mimo" },
+      { label: "Battery", value: "1000 mAh, about 6.4 hours" },
+      { label: "Charging", value: "About 1.5 hours" },
+      { label: "Connection", value: "Bluetooth Low Energy 5.0" },
+    ],
+    specsNote:
+      "Figures are DJI's. Battery life was measured with the gimbal balanced and at rest. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Will my phone fit?",
+        a: "Phones of about 170 to 290 g, 6.9 to 10 mm thick, fit. Tell us your phone on WhatsApp and we'll confirm.",
+      },
+      {
+        q: "OM 5 or Osmo Mobile 7P?",
+        a: "The 7P is newer, with a built-in tripod, a fill light, tracking in any app and a much longer battery, and it costs less right now.",
+      },
+      {
+        q: "Does it work with Android?",
+        a: "Yes. It works with iPhone and Android through the DJI Mimo app.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "OM 5",
+        price: 300_000,
+        includes: [
+          "DJI OM 5 with built-in rod",
+          "Magnetic phone clamp",
+          "Grip tripod",
+          "USB-C cable",
+          "Storage pouch",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "dji-osmo-mobile-4",
+    brand: "DJI",
+    name: "DJI OM 4",
+    category: "Gimbals",
+    tagline: "The first magnetic DJI phone gimbal.",
+    headline:
+      "The DJI OM 4 (Osmo Mobile 4) is a foldable magnetic phone gimbal with ActiveTrack, DynamicZoom and timelapse modes and about 15 hours of battery.",
+    summary:
+      "The OM 4 was DJI's first gimbal with a magnetic phone clamp, so your phone snaps on and off in a second. It holds phones of about 170 to 290 g and folds to carry. The battery runs for about 15 hours, and a USB port on the handle can charge your phone. In DJI Mimo you get ActiveTrack, DynamicZoom, timelapse and panorama modes for more creative shots.",
+    image: "/products/dji-osmo-mobile-4/main.jpg",
+    hero: "/products/dji-osmo-mobile-4/hero.jpg",
+    gallery: [
+      { src: "/products/dji-osmo-mobile-4/main.jpg", alt: "DJI OM 4 phone gimbal" },
+      { src: "/products/dji-osmo-mobile-4/g1.jpg", alt: "Filming a timelapse with the DJI OM 4" },
+      { src: "/products/dji-osmo-mobile-4/g2.jpg", alt: "Filming with the DJI OM 4" },
+      { src: "/products/dji-osmo-mobile-4/g3.jpg", alt: "Tracking a subject with the DJI OM 4" },
+      { src: "/products/dji-osmo-mobile-4/h1.jpg", alt: "Friends filming music with the DJI OM 4" },
+    ],
+    stats: [
+      { value: "15 hours", label: "Battery life" },
+      { value: "Magnetic", label: "Phone clamp" },
+      { value: "290 g", label: "Max phone weight" },
+      { value: "ActiveTrack", label: "Keeps you in frame" },
+    ],
+    highlights: [
+      {
+        title: "Snap on and go",
+        body: "The magnetic clamp, or the ring holder, stays on your phone and snaps onto the gimbal.",
+        image: "/products/dji-osmo-mobile-4/g2.jpg",
+      },
+      {
+        title: "Keeps you in frame",
+        body: "ActiveTrack in DJI Mimo follows you as you move.",
+        image: "/products/dji-osmo-mobile-4/g3.jpg",
+      },
+      {
+        title: "Creative modes",
+        body: "Timelapse, DynamicZoom and panorama modes make it easy to film shots that look planned.",
+        image: "/products/dji-osmo-mobile-4/g1.jpg",
+      },
+      {
+        title: "Charges your phone",
+        body: "About 15 hours of battery, and a USB port on the handle tops up your phone.",
+        image: "/products/dji-osmo-mobile-4/h1.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Content creators", body: "Steady TikTok and Reels videos." },
+      { title: "Long days", body: "About 15 hours of battery." },
+      { title: "Events", body: "Weddings and owambes on your phone." },
+      { title: "Travel", body: "Folds for your bag." },
+    ],
+    notFor:
+      "The OM 4 is an older, heavier model with no extension rod. The newer DJI Osmo Mobile 7 (₦180,000) is lighter, has a built-in tripod and costs less right now.",
+    specs: [
+      { label: "Phone size", value: "230 ± 60 g" },
+      { label: "Weight", value: "390 g gimbal; 32.6 g magnetic clamp; 11.4 g ring holder" },
+      { label: "Size", value: "Unfolded 276 × 119.6 × 103.6 mm; folded 163 × 99.5 × 46.5 mm" },
+      { label: "Magnetic force", value: "50 N" },
+      { label: "Tracking", value: "ActiveTrack in DJI Mimo" },
+      { label: "Battery", value: "2450 mAh, about 15 hours" },
+      { label: "Charging", value: "About 2.5 hours; USB-A port charges your phone" },
+      { label: "Connection", value: "Bluetooth Low Energy 5.0" },
+    ],
+    specsNote:
+      "Figures are DJI's. Battery life was measured with the gimbal balanced and at rest. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Will my phone fit?",
+        a: "Phones of about 170 to 290 g fit. Tell us your phone on WhatsApp and we'll confirm.",
+      },
+      {
+        q: "OM 4 or Osmo Mobile 7?",
+        a: "The Mobile 7 is newer, lighter, has a built-in tripod and costs less right now. The OM 4 has a longer battery.",
+      },
+      {
+        q: "Does it work with Android?",
+        a: "Yes. It works with iPhone and Android through the DJI Mimo app.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "OM 4",
+        price: 280_000,
+        includes: [
+          "DJI OM 4",
+          "Magnetic phone clamp",
+          "Magnetic ring holder",
+          "Grip tripod",
+          "USB-C cable",
+          "Storage pouch",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "dji-osmo-mobile-3",
+    brand: "DJI",
+    name: "DJI Osmo Mobile 3",
+    category: "Gimbals",
+    tagline: "A foldable phone gimbal with gesture control.",
+    headline:
+      "The DJI Osmo Mobile 3 is a foldable phone gimbal with ActiveTrack 3.0, gesture control and about 15 hours of battery.",
+    summary:
+      "The Osmo Mobile 3 was DJI's first foldable phone gimbal. It holds phones of about 170 to 230 g in a spring clamp and keeps your video steady while you walk. ActiveTrack 3.0 follows your subject, gesture control lets you start a photo or video with a wave of your hand, and Story mode makes quick edited clips. The battery runs for about 15 hours. The Combo adds a grip tripod and a carrying case.",
+    image: "/products/dji-osmo-mobile-3/main.jpg",
+    hero: "/products/dji-osmo-mobile-3/hero.jpg",
+    gallery: [
+      { src: "/products/dji-osmo-mobile-3/main.jpg", alt: "DJI Osmo Mobile 3 phone gimbal" },
+      { src: "/products/dji-osmo-mobile-3/g1.jpg", alt: "DJI Osmo Mobile 3 with a phone" },
+      { src: "/products/dji-osmo-mobile-3/h1.jpg", alt: "DJI Osmo Mobile 3 close up" },
+    ],
+    stats: [
+      { value: "15 hours", label: "Battery life" },
+      { value: "Foldable", label: "Design" },
+      { value: "ActiveTrack 3.0", label: "Keeps you in frame" },
+      { value: "405 g", label: "Gimbal weight" },
+    ],
+    highlights: [
+      {
+        title: "Long battery",
+        body: "About 15 hours of filming on a charge, enough for a full event.",
+        image: "/products/dji-osmo-mobile-3/g1.jpg",
+      },
+      {
+        title: "Wave to start",
+        body: "Gesture control starts a photo or recording with a wave, and ActiveTrack 3.0 keeps you in frame.",
+        image: "/products/dji-osmo-mobile-3/h1.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Long events", body: "About 15 hours of battery." },
+      { title: "Content creators", body: "Steady phone videos." },
+      { title: "Travel", body: "Folds to carry." },
+      { title: "Families", body: "Easy to hand around." },
+    ],
+    notFor:
+      "The Osmo Mobile 3 is an older model with a spring clamp, not magnetic, and fits phones up to about 230 g, so large phones like a Pro Max may be too heavy. The newer DJI Osmo Mobile 7 (₦180,000) is magnetic, lighter, takes phones up to 300 g and costs less right now.",
+    specs: [
+      { label: "Phone size", value: "200 ± 30 g; up to 9.5 mm thick; 62 to 88 mm wide" },
+      { label: "Weight", value: "405 g" },
+      { label: "Size", value: "Unfolded 285 × 125 × 103 mm; folded 157 × 130 × 46 mm" },
+      { label: "Tracking", value: "ActiveTrack 3.0, gesture control, Story mode" },
+      { label: "Battery", value: "2450 mAh, about 15 hours" },
+      { label: "Charging", value: "About 2.5 hours" },
+      { label: "Connection", value: "Bluetooth Low Energy 5.0" },
+    ],
+    specsNote:
+      "Figures are DJI's. Battery life was measured with the gimbal balanced and at rest. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Will my phone fit?",
+        a: "Phones of about 170 to 230 g fit. Large phones like the iPhone Pro Max are usually too heavy. Tell us your phone on WhatsApp and we'll confirm.",
+      },
+      {
+        q: "Mobile 3 or Mobile 7?",
+        a: "The Mobile 7 is newer, magnetic, lighter, takes heavier phones and costs less right now. The Mobile 3 has a longer battery.",
+      },
+      {
+        q: "Does it work with Android?",
+        a: "Yes. It works with iPhone and Android through the DJI Mimo app.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "combo",
+        name: "Osmo Mobile 3 Combo",
+        price: 200_000,
+        includes: [
+          "DJI Osmo Mobile 3",
+          "Grip tripod",
+          "Carrying case",
+          "USB-C cable",
+          "Wrist strap",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
     slug: "dji-rs-4-mini",
     brand: "DJI",
     name: "DJI RS 4 Mini",
