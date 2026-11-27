@@ -11388,6 +11388,249 @@ export const products: Product[] = [
     ],
   },
   {
+    slug: "dji-rs-3",
+    brand: "DJI",
+    name: "DJI RS 3",
+    category: "Gimbals",
+    tagline: "Full-frame power that unlocks itself.",
+    headline:
+      "The DJI RS 3 is a camera gimbal for mirrorless and full-frame cameras, with a 3 kg payload, automatic axis locks, a 1.8-inch touchscreen and about 12 hours of battery life.",
+    summary:
+      "The RS 3 carries full-frame cameras with zoom lenses up to 3 kg. Its axes lock and unlock automatically when you power it on and off, so you go from bag to shooting in seconds. A 1.8-inch colour touchscreen on the handle sets the modes, and Bluetooth shutter control starts and stops recording on supported cameras without a cable. The gimbal weighs about 990 g, the battery grip runs for about 12 hours, and it works with the Ronin image transmitter for wireless monitoring.",
+    image: "/products/dji-rs-3/main.jpg",
+    hero: "/products/dji-rs-3/hero.jpg",
+    gallery: [
+      { src: "/products/dji-rs-3/main.jpg", alt: "DJI RS 3 gimbal" },
+      { src: "/products/dji-rs-3/g1.jpg", alt: "DJI RS 3 with its battery grip" },
+      { src: "/products/dji-rs-3/g2.jpg", alt: "DJI RS 3 gimbals with full-frame cameras" },
+      { src: "/products/dji-rs-3/g3.jpg", alt: "Buttons on the DJI RS 3 handle" },
+      { src: "/products/dji-rs-3/h1.jpg", alt: "DJI RS 3 touchscreen" },
+      { src: "/products/dji-rs-3/h2.jpg", alt: "Setting up the DJI RS 3" },
+    ],
+    stats: [
+      { value: "3 kg", label: "Max payload" },
+      { value: "990 g", label: "Gimbal weight" },
+      { value: "12 hours", label: "Battery life" },
+      { value: "1.8 in", label: "Touchscreen" },
+    ],
+    highlights: [
+      {
+        title: "A big touchscreen",
+        body: "The 1.8-inch colour touchscreen switches modes, sets motor strength and checks the balance without opening an app.",
+        image: "/products/dji-rs-3/h1.jpg",
+      },
+      {
+        title: "Axes that lock themselves",
+        body: "Power on and the axes unlock and stand up; power off and they fold and lock. No fiddling with locks between shots at an event.",
+        image: "/products/dji-rs-3/h2.jpg",
+      },
+      {
+        title: "Ready for wireless video",
+        body: "Add the Ronin image transmitter to send a live picture to a phone or monitor, so a director or client can watch the shot.",
+        image: "/products/dji-rs-3/h3.jpg",
+      },
+      {
+        title: "Carries 3 kg",
+        body: "Enough for a full-frame body like the Sony A7 IV or Canon R6 with a 24-70mm f/2.8 lens. Bluetooth starts and stops recording on supported cameras.",
+        image: "/products/dji-rs-3/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Videographers", body: "Full-frame cameras with standard zoom lenses." },
+      { title: "Events", body: "Weddings, owambes and church programmes." },
+      { title: "Small crews", body: "Wireless monitoring with the Ronin transmitter." },
+      { title: "Music videos", body: "Smooth walking, running and orbit shots." },
+    ],
+    notFor:
+      "The RS 3 is an older model, and the newer DJI RS 5 (from ₦850,000) and DJI RS 4 (from ₦880,000) both cost less on our price list. For a small mirrorless camera, the DJI RS 4 Mini (from ₦500,000) is lighter. For cinema cameras over 3 kg, look at the DJI RS 4 Pro.",
+    specs: [
+      { label: "Payload", value: "Up to 3 kg" },
+      { label: "Weight", value: "About 990 g gimbal; about 200 g battery grip; about 183 g extended grip and tripod" },
+      { label: "Battery", value: "BHX711 battery grip, 3000 mAh, 21 Wh" },
+      { label: "Battery life", value: "About 12 hours" },
+      { label: "Charging", value: "About 2.5 hours with an 18 W PD charger" },
+      { label: "Max speed", value: "360°/s on all axes" },
+      { label: "Range", value: "Pan 360° continuous; roll −95° to +240°; tilt −112° to +214°" },
+      { label: "Screen", value: "1.8-inch colour touchscreen" },
+      { label: "Ports", value: "NATO, 1/4\"-20, cold shoe, USB-C for transmitter and focus motor, RSS camera control (USB-C)" },
+      { label: "Connection", value: "Bluetooth 5.0, USB-C" },
+      { label: "Size", value: "Folded 254 × 230 × 68 mm; unfolded 364 × 187 × 170 mm" },
+      { label: "Operating temperature", value: "−20°C to 45°C" },
+    ],
+    specsNote: "Figures are DJI's. Battery life was measured with the gimbal balanced and at rest. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Will my camera fit?",
+        a: "Most mirrorless and full-frame cameras with a standard zoom fit, as long as the camera, lens and accessories weigh under 3 kg together. Send us your camera and lens on WhatsApp and we'll confirm.",
+      },
+      {
+        q: "RS 3 or a newer RS 4 or RS 5?",
+        a: "The RS 4 and RS 5 are newer, with native vertical shooting, and both cost less on our price list. The RS 3 still does the job well. Ask us on WhatsApp which suits your camera.",
+      },
+      {
+        q: "Does it control my camera?",
+        a: "On supported Sony, Canon, Nikon and Fujifilm cameras, you can start and stop recording over Bluetooth. Other cameras can use the RSS control port with the right cable.",
+      },
+      {
+        q: "How long does the battery last?",
+        a: "About 12 hours, and about 2.5 hours to fully charge with an 18 W fast charger.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "combo",
+        name: "RS 3 Combo",
+        price: 1_000_000,
+        includes: [
+          "DJI RS 3 gimbal",
+          "Battery grip",
+          "Extended grip and tripod",
+          "Quick-release plates",
+          "Combo accessories such as the briefcase handle, focus motor and carrying case",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "dji-rsc-2",
+    brand: "DJI",
+    name: "DJI RSC 2",
+    category: "Gimbals",
+    tagline: "The gimbal that folds flat.",
+    headline:
+      "The DJI RSC 2 is a foldable camera gimbal for mirrorless cameras, with a 3 kg payload, a 1-inch OLED screen and about 14 hours of battery life.",
+    summary:
+      "The RSC 2 carries mirrorless cameras and lenses up to 3 kg, then folds flat to 260 × 210 mm, a little smaller than an A4 sheet, for your bag. A 1-inch OLED screen on the handle sets the modes, and the camera control port starts and stops recording on supported cameras. The battery runs for about 14 hours and fast-charges over USB-C. The Pro Combo adds the RavenEye transmitter for live video on your phone and ActiveTrack subject tracking.",
+    image: "/products/dji-rsc-2/main.jpg",
+    hero: "/products/dji-rsc-2/hero.jpg",
+    gallery: [
+      { src: "/products/dji-rsc-2/main.jpg", alt: "DJI RSC 2 gimbal" },
+      { src: "/products/dji-rsc-2/g1.jpg", alt: "Holding the DJI RSC 2 with a mirrorless camera" },
+      { src: "/products/dji-rsc-2/g2.jpg", alt: "Balancing a camera on the DJI RSC 2" },
+      { src: "/products/dji-rsc-2/g3.jpg", alt: "DJI RSC 2 in its case" },
+      { src: "/products/dji-rsc-2/h1.jpg", alt: "Filming while walking with the DJI RSC 2" },
+      { src: "/products/dji-rsc-2/h2.jpg", alt: "DJI RSC 2 screen and phone holder" },
+    ],
+    stats: [
+      { value: "3 kg", label: "Max payload" },
+      { value: "1.2 kg", label: "Gimbal weight" },
+      { value: "14 hours", label: "Battery life" },
+      { value: "Folds", label: "Flat for travel" },
+    ],
+    highlights: [
+      {
+        title: "Folds flat, carries 3 kg",
+        body: "The arms fold down so the gimbal packs flat in a camera bag, and it still carries a mirrorless camera with a zoom lens.",
+        image: "/products/dji-rsc-2/h1.jpg",
+      },
+      {
+        title: "Screen on the handle",
+        body: "The 1-inch OLED screen switches modes and settings without opening an app. With the RavenEye in the Pro Combo, your phone becomes a live monitor.",
+        image: "/products/dji-rsc-2/h2.jpg",
+      },
+      {
+        title: "Quick to balance",
+        body: "Mark the plate position once and your camera goes back on balanced. The Ronin app checks the balance for you.",
+        image: "/products/dji-rsc-2/h3.jpg",
+      },
+      {
+        title: "14 hours of battery",
+        body: "Enough for a full wedding or a day of content. It fast-charges over USB-C, and you can charge your camera from the gimbal.",
+        image: "/products/dji-rsc-2/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Content creators", body: "Smooth walking shots that pack away small." },
+      { title: "Events", body: "Weddings, owambes and church programmes." },
+      { title: "Mirrorless cameras", body: "Bodies like the Sony A7 III, A7C or Canon R6." },
+      { title: "Travel", body: "Folds flat for a camera bag." },
+    ],
+    notFor:
+      "The RSC 2 is an older model with manual axis locks. For a newer gimbal with automatic locks and a touchscreen, look at the DJI RS 4 (from ₦880,000). For a lighter camera, the DJI RS 4 Mini (from ₦500,000) costs less.",
+    specs: [
+      { label: "Payload", value: "Up to 3 kg" },
+      { label: "Weight", value: "About 1216 g gimbal; about 102 g quick-release plates" },
+      { label: "Battery", value: "3400 mAh, 24.48 Wh" },
+      { label: "Battery life", value: "About 14 hours" },
+      { label: "Charging", value: "About 2 hours with an 18 W PD or QC 2.0 charger, USB-C" },
+      { label: "Max speed", value: "360°/s on all axes" },
+      { label: "Range", value: "Pan 360° continuous; roll −240° to +95°; tilt −112° to +214°" },
+      { label: "Screen", value: "1-inch OLED" },
+      { label: "Ports", value: "NATO, M4, 1/4\"-20, cold shoe, USB-C for transmitter and focus motor, RSS camera control" },
+      { label: "Connection", value: "Bluetooth 5.0, USB-C" },
+      { label: "Size", value: "Folded 260 × 210 × 75 mm; unfolded 400 × 185 × 175 mm" },
+      { label: "Operating temperature", value: "−20°C to 45°C" },
+    ],
+    specsNote: "Figures are DJI's. Battery life was measured with the gimbal balanced and at rest. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Will my camera fit?",
+        a: "Most mirrorless cameras with a standard zoom fit, as long as the camera, lens and accessories weigh under 3 kg together. Send us your camera and lens on WhatsApp and we'll confirm.",
+      },
+      {
+        q: "What does the Pro Combo add?",
+        a: "The RavenEye transmitter sends live video to your phone in the Ronin app and enables ActiveTrack subject tracking. It also adds a focus motor and a phone holder. We confirm the exact box contents on WhatsApp.",
+      },
+      {
+        q: "RSC 2 or RS 4?",
+        a: "The RS 4 is newer, with automatic axis locks, a touchscreen and native vertical shooting. The RSC 2 folds flatter and still does the job well. Ask us on WhatsApp which suits your camera.",
+      },
+      {
+        q: "How long does the battery last?",
+        a: "About 14 hours, and about 2 hours to fully charge with an 18 W fast charger.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "RSC 2",
+        price: 750_000,
+        includes: [
+          "DJI RSC 2 gimbal",
+          "Extended grip and tripod",
+          "Quick-release plates",
+          "USB-C charging cable",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+      {
+        id: "combo",
+        name: "RSC 2 Combo",
+        price: 750_000,
+        includes: [
+          "DJI RSC 2 gimbal",
+          "Extended grip and tripod",
+          "Quick-release plates",
+          "Combo accessories and carrying case",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+      {
+        id: "pro-combo",
+        name: "RSC 2 Pro Combo",
+        price: 780_000,
+        badge: "Wireless video",
+        includes: [
+          "DJI RSC 2 gimbal",
+          "RavenEye image transmission system",
+          "Focus motor",
+          "Phone holder",
+          "Carrying case",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
     slug: "dji-rs-4-mini",
     brand: "DJI",
     name: "DJI RS 4 Mini",
