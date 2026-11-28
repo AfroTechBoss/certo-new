@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { getProduct, products } from "@/data/products";
+import Link from "next/link";
+import { getProduct, products, type Product } from "@/data/products";
+import { productCategories } from "@/data/nav";
+import { ProductCard } from "@/components/product-card";
 import { formatNaira, site } from "@/data/site";
 import { jsonLdHtml, productJsonLd } from "@/data/structured-data";
 import { Gallery } from "@/components/gallery";
@@ -27,6 +30,52 @@ const readyLabel: Record<string, string> = {
   "Live production": "Ready for the show",
   "Lighting": "Ready to light the set",
 };
+
+// Categories that go well with each other, for the "Goes well with" row.
+const pairsWith: Record<string, string[]> = {
+  Drones: ["Gimbals", "Wireless video"],
+  Batteries: ["Camcorders", "Audio"],
+  Camcorders: ["Batteries", "Audio", "Lighting", "Wireless video"],
+  Gimbals: ["Wireless video", "Audio", "Lighting"],
+  "Wireless video": ["Live production", "Gimbals", "Camcorders"],
+  "Live production": ["Wireless video", "Camcorders", "Audio", "Lighting"],
+  Lighting: ["Audio", "Gimbals", "Camcorders"],
+  Audio: ["Lighting", "Camcorders", "Live production"],
+};
+
+const fromPrice = (p: Product) => Math.min(...p.variants.map((v) => v.price));
+const words = (p: Product) => new Set(p.slug.split("-").filter((w) => w.length > 1));
+const shared = (a: Product, b: Product) => {
+  const wa = words(a);
+  return [...words(b)].filter((w) => wa.has(w)).length;
+};
+
+// Same-category picks closest in price, then picks from related categories
+// (most shared model words first, so a drone shows its own batteries),
+// at most two from any one category so the row stays varied.
+function recommendations(product: Product) {
+  const price = fromPrice(product);
+  const byCloseness = (a: Product, b: Product) => Math.abs(fromPrice(a) - price) - Math.abs(fromPrice(b) - price);
+  const similar = products
+    .filter((p) => p.category === product.category && p.slug !== product.slug)
+    .sort((a, b) => shared(product, b) - shared(product, a) || byCloseness(a, b))
+    .slice(0, 4);
+
+  const cats = pairsWith[product.category] ?? [];
+  const pool = products
+    // Batteries only fit their own brand's cameras.
+    .filter((p) => cats.includes(p.category) && (p.category !== "Batteries" || p.brand === product.brand))
+    .sort((a, b) => shared(product, b) - shared(product, a) || byCloseness(a, b));
+  const extras: Product[] = [];
+  const perCat = new Map<string, number>();
+  for (const p of pool) {
+    if (extras.length === 4) break;
+    if ((perCat.get(p.category) ?? 0) >= 2) continue;
+    perCat.set(p.category, (perCat.get(p.category) ?? 0) + 1);
+    extras.push(p);
+  }
+  return { similar, extras };
+}
 
 export function generateStaticParams() {
   return products.map((p) => ({ slug: p.slug }));
@@ -62,6 +111,12 @@ export default async function ProductPage(props: PageProps<"/products/[slug]">) 
     (product.category === "Drones"
       ? "*Max flight time measured by the manufacturer in ideal conditions."
       : undefined);
+  const { similar, extras } = recommendations(product);
+  const categoryId = productCategories.find((c) => c.name === product.category)?.id;
+  const rows = [
+    { title: `More ${product.category.toLowerCase()}`, items: similar, href: categoryId ? `/products#${categoryId}` : "/products" },
+    { title: "Goes well with", items: extras, href: "/products" },
+  ].filter((r) => r.items.length > 0);
 
   return (
     <VariantProvider initial={product.variants[0].id}>
@@ -219,6 +274,36 @@ export default async function ProductPage(props: PageProps<"/products/[slug]">) 
           <OrderButton product={product} className="mx-auto mt-8 w-full max-w-sm text-lg" />
         </div>
       </section>
+
+      {/* Recommendations */}
+      {rows.length > 0 && (
+        <section aria-label="More products" className="border-t border-line">
+          <div className="mx-auto max-w-6xl space-y-16 px-5 py-20">
+            {rows.map((r) => (
+              <div key={r.title}>
+                <div className="flex flex-wrap items-end justify-between gap-4">
+                  <h2 className="text-3xl font-semibold tracking-tight">{r.title}</h2>
+                  <Link href={r.href} className="text-sm text-muted hover:text-foreground">
+                    See all →
+                  </Link>
+                </div>
+                <div className="mt-8 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4">
+                  {r.items.map((p) => (
+                    <ProductCard key={p.slug} p={p} />
+                  ))}
+                </div>
+              </div>
+            ))}
+            <p className="text-muted">
+              Looking for something else?{" "}
+              <Link href="/price-list" className="underline underline-offset-4 hover:text-foreground">
+                See every price on the price list
+              </Link>
+              .
+            </p>
+          </div>
+        </section>
+      )}
 
       <StickyBar product={product} />
     </VariantProvider>

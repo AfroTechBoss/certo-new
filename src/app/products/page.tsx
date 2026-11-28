@@ -7,11 +7,11 @@ import { Eyebrow, ProductSection, fromPrice } from "@/components/product-card";
 
 export const metadata: Metadata = {
   title: "All products",
-  description: `Shop drones, camcorders, gimbals, microphones and batteries at ${site.name}. Original gear, prices in naira, order on WhatsApp with delivery across Nigeria.`,
+  description: `Shop drones, camcorders, gimbals, microphones, wireless video, live production switchers and video lights at ${site.name}. Original gear, prices in naira, order on WhatsApp with delivery across Nigeria.`,
   alternates: { canonical: "/products" },
   openGraph: {
     title: `All products | ${site.name}`,
-    description: "Drones, camcorders, gimbals, microphones and batteries. Order on WhatsApp.",
+    description: "Drones, camcorders, gimbals, microphones, wireless video, switchers and lights. Order on WhatsApp.",
     url: "/products",
   },
 };

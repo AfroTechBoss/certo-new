@@ -19,7 +19,13 @@ const aiBots = [
   "Amazonbot",
   "Meta-ExternalAgent",
   "CCBot", // Common Crawl, used by many models
+  "DuckAssistBot", // DuckDuckGo AI answers
+  "MistralAI-User", // Le Chat browsing on a user's behalf
+  "Bingbot", // Bing and Copilot
 ];
+
+// The plain-text catalogue for AI assistants lives at /llms.txt and
+// /llms-full.txt; both are listed in the sitemap.
 
 export default function robots(): MetadataRoute.Robots {
   return {

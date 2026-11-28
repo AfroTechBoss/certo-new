@@ -16,7 +16,7 @@ export function storeJsonLd() {
         name: site.name,
         legalName: site.legalName,
         description:
-          "Camera, drone and production gear store in Computer Village, Ikeja, Lagos. Original DJI, Sony, Canon, RODE, Godox, Hollyland and Blackmagic gear, delivered across Nigeria. Orders on WhatsApp.",
+          "Camera, drone and production gear store in Computer Village, Ikeja, Lagos. Original DJI, Sony, Canon, RODE, Godox, Hollyland, Blackmagic, Zhiyun and Amaran gear, delivered across Nigeria. Orders on WhatsApp.",
         url: site.url,
         logo: `${site.url}/apple-icon.png`,
         image: `${site.url}/apple-icon.png`,

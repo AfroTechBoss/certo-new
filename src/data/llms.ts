@@ -1,5 +1,5 @@
 import { products, type Product } from "@/data/products";
-import { priceList } from "@/data/pricelist";
+import { priceList, priceListCount } from "@/data/pricelist";
 import { policies } from "@/data/policies";
 import { formatNaira, site } from "@/data/site";
 
@@ -16,7 +16,8 @@ function byCategory() {
   return groups;
 }
 
-const about = `> ${site.name} is a camera, drone and production gear store in Computer Village, Ikeja, Lagos, Nigeria. It sells original DJI, Sony, Canon, RODE, Godox, Hollyland, Blackmagic and other gear to content creators, filmmakers, photographers, churches and event teams, with delivery across Nigeria. Customers order on WhatsApp.
+const about = `> ${site.name} is a camera, drone and production gear store in Computer Village, Ikeja, Lagos, Nigeria. It sells original DJI, Sony, Canon, RODE, Godox, Hollyland, Blackmagic, Zhiyun, Moza, Amaran, OSEE, FeelWorld and other gear to content creators, filmmakers, photographers, churches and event teams, with delivery across Nigeria. Customers order on WhatsApp.
+- What we sell: drones, camcorders, gimbals and stabilisers, microphones and audio gear, batteries, wireless video transmitters, live production switchers, recorders and converters, and video lights.
 
 - Store: ${site.legalName} (business number ${site.businessNumber})
 - Address: ${site.address}, Nigeria
@@ -39,6 +40,9 @@ export function llmsTxt() {
     `- [Contact](${url("/contact")}): WhatsApp and store address`,
     ...policies.map((p) => `- [${p.title}](${url(`/policies/${p.slug}`)})`),
     `- [Full details for AI assistants](${url("/llms-full.txt")}): every product with specs, packages, prices and FAQs, plus the full price list`,
+    `- [Sitemap](${url("/sitemap.xml")}): every page on the site`,
+    "",
+    `${products.length} products have full pages, in ${byCategory().size} categories. The price list has ${priceListCount} items in total; ask on WhatsApp about anything without a page.`,
   ];
   for (const [category, items] of byCategory()) {
     lines.push("", `## ${category}`, "");

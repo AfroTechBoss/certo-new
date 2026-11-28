@@ -9,6 +9,7 @@ import { WhatsAppIcon } from "@/components/icons";
 export function PriceList() {
   const [query, setQuery] = useState("");
   const [active, setActive] = useState("all");
+  const [pagesOnly, setPagesOnly] = useState(false);
   const q = query.trim().toLowerCase();
 
   const categories = priceList
@@ -16,7 +17,10 @@ export function PriceList() {
     .map((c) => ({
       ...c,
       groups: c.groups
-        .map((g) => ({ ...g, items: q ? g.items.filter(([name]) => name.toLowerCase().includes(q)) : g.items }))
+        .map((g) => ({
+          ...g,
+          items: g.items.filter(([name, , slug]) => (!q || name.toLowerCase().includes(q)) && (!pagesOnly || slug)),
+        }))
         .filter((g) => g.items.length > 0),
     }))
     .filter((c) => c.groups.length > 0);
@@ -49,11 +53,20 @@ export function PriceList() {
         {chip("all", "All")}
         {priceList.map((c) => chip(c.id, c.name))}
       </div>
+      <label className="mt-5 inline-flex cursor-pointer items-center gap-2 text-sm text-muted">
+        <input
+          type="checkbox"
+          checked={pagesOnly}
+          onChange={(e) => setPagesOnly(e.target.checked)}
+          className="size-4 accent-white"
+        />
+        Only show items with a full product page
+      </label>
 
       {categories.length === 0 && (
         <p className="mt-12 text-muted">
-          Nothing matches “{query}”.{" "}
-          <a className="underline" href={whatsappLink(`Hi CERTO, do you have ${query}?`)} target="_blank" rel="noopener">
+          Nothing matches{q ? ` “${query}”` : ""}{pagesOnly ? " with a product page" : ""}.{" "}
+          <a className="underline" href={whatsappLink(q ? `Hi CERTO, do you have ${query}?` : "Hi CERTO, I have a question about your price list.")} target="_blank" rel="noopener">
             Ask us on WhatsApp
           </a>
           .

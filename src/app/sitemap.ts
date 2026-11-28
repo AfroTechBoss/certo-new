@@ -13,6 +13,8 @@ const pages: { path: string; priority: number; changeFrequency: "daily" | "weekl
   { path: "/about", priority: 0.5, changeFrequency: "monthly" },
   { path: "/contact", priority: 0.5, changeFrequency: "monthly" },
   { path: "/policies", priority: 0.3, changeFrequency: "monthly" },
+  { path: "/llms.txt", priority: 0.3, changeFrequency: "weekly" },
+  { path: "/llms-full.txt", priority: 0.3, changeFrequency: "weekly" },
   ...policies.map((p) => ({ path: `/policies/${p.slug}`, priority: 0.3, changeFrequency: "monthly" as const })),
 ];
 
@@ -25,7 +27,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified,
       changeFrequency: "weekly" as const,
       priority: 0.8,
-      images: [site.url + p.image],
+      images: [...new Set([p.image, ...p.gallery.map((g) => g.src)])].map((src) => site.url + src),
     })),
   ];
 }
