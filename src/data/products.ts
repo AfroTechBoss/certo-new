@@ -13077,6 +13077,4365 @@ export const products: Product[] = [
     ],
   },
   {
+    slug: "dji-ronin-mx",
+    brand: "DJI",
+    name: "DJI Ronin-MX",
+    category: "Gimbals",
+    tagline: "The heavy-duty rig gimbal.",
+    headline:
+      "The DJI Ronin-MX is a 3-axis gimbal that carries up to 4.5 kg of cinema camera and lens, works handheld, on cars, cranes and cable cams, and holds steady to ±0.02°.",
+    summary:
+      "The Ronin-MX is built for big rigs: cinema cameras, heavy zoom lenses, matte boxes and follow focus all on one gimbal, up to 4.5 kg. Hold it by the handlebar for walking shots, hang it under a jib or cable cam, or mount it on a car. It runs in underslung, upright and briefcase modes, and a 2.4 GHz remote lets a second operator steer the camera while you move. Two 12 V P-Tap outputs power your camera and accessories from the gimbal battery. It is a professional tool for production crews, music videos and big events.",
+    image: "/products/dji-ronin-mx/main.jpg",
+    hero: "/products/dji-ronin-mx/hero.jpg",
+    gallery: [
+      { src: "/products/dji-ronin-mx/main.jpg", alt: "DJI Ronin-MX gimbal" },
+      { src: "/products/dji-ronin-mx/g1.jpg", alt: "DJI Ronin-MX with handlebar" },
+      { src: "/products/dji-ronin-mx/g2.jpg", alt: "DJI Ronin-MX side view" },
+      { src: "/products/dji-ronin-mx/g3.jpg", alt: "DJI Ronin-MX frame close up" },
+      { src: "/products/dji-ronin-mx/h3.jpg", alt: "DJI Ronin-MX motors and frame" },
+      { src: "/products/dji-ronin-mx/h4.jpg", alt: "DJI Ronin-MX ready to rig" },
+    ],
+    stats: [
+      { value: "4.5 kg", label: "Payload" },
+      { value: "±0.02°", label: "Precision" },
+      { value: "3 h", label: "Per battery" },
+      { value: "2× P-Tap", label: "12 V power out" },
+    ],
+    highlights: [
+      {
+        title: "Carries cinema rigs",
+        body: "Up to 4.5 kg of camera, lens and accessories, so a full cinema setup with matte box and follow focus stays balanced and steady.",
+        image: "/products/dji-ronin-mx/h1.jpg",
+      },
+      {
+        title: "One gimbal, many rigs",
+        body: "Use it handheld, in briefcase mode for low shots, or hang it from a jib, crane, cable cam or car mount for moving shots.",
+        image: "/products/dji-ronin-mx/h2.jpg",
+      },
+      {
+        title: "Two-operator control",
+        body: "The 2.4 GHz remote lets a second person pan and tilt the camera while the operator walks, the way film crews work.",
+        image: "/products/dji-ronin-mx/h3.jpg",
+      },
+      {
+        title: "Powers your camera",
+        body: "Two 12 V P-Tap ports run your camera and accessories from the gimbal battery, so you carry fewer batteries on set.",
+        image: "/products/dji-ronin-mx/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Production crews", body: "Music videos, adverts and short films." },
+      { title: "Cinema cameras", body: "RED, Blackmagic and big zoom lenses." },
+      { title: "Car and jib shots", body: "Mounts on cars, cranes and cable cams." },
+      { title: "Big events", body: "Concerts and stage shows with a full rig." },
+    ],
+    notFor:
+      "The Ronin-MX is large and heavy, and it takes time to balance. For mirrorless cameras at owambes, church and weddings, a smaller one-hand gimbal like the DJI RS 3 or Zhiyun Weebill 3S is lighter and faster to set up.",
+    specs: [
+      { label: "Payload", value: "Up to 4.5 kg" },
+      { label: "Angular precision", value: "±0.02°" },
+      { label: "Range", value: "Pan 360°; tilt +270° to −150°; roll ±110°" },
+      { label: "Max controlled speed", value: "Pan 200°/s; tilt 100°/s; roll 30°/s" },
+      { label: "Modes", value: "Underslung, upright, briefcase, aerial, jib and wirecam" },
+      { label: "Battery", value: "4S Ronin-M battery, about 3 hours" },
+      { label: "Power out", value: "2× 12 V P-Tap" },
+      { label: "Connection", value: "2.4 GHz remote, Bluetooth 4.0, Lightbridge port" },
+      { label: "Working temperature", value: "−15°C to 50°C" },
+      { label: "Size", value: "280 × 370 × 340 mm" },
+      { label: "Weight", value: "2.77 kg with handlebar; 2.15 kg with vibration absorber" },
+    ],
+    specsNote:
+      "Figures are DJI's. Battery time depends on the payload and how much the motors work. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Will my camera fit?",
+        a: "Most cinema and DSLR or mirrorless cameras up to 4.5 kg with lens fit. Send us your camera and lens on WhatsApp and we'll check the balance.",
+      },
+      {
+        q: "Can one person use it?",
+        a: "Yes. One operator can hold it by the handlebar. The remote is for when you want a second person to steer the camera.",
+      },
+      {
+        q: "Ronin-MX or DJI RS 3 Pro?",
+        a: "Get the Ronin-MX for full cinema rigs and jib, car or cable cam work. Get an RS 3 Pro for a lighter one-hand gimbal for mirrorless cameras.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "Standard",
+        price: 1_580_000,
+        includes: [
+          "DJI Ronin-MX gimbal",
+          "Handlebar",
+          "Battery and charger",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "zhiyun-weebill-s",
+    brand: "Zhiyun",
+    name: "Zhiyun Weebill-S",
+    category: "Gimbals",
+    tagline: "The compact camera gimbal.",
+    headline:
+      "The Zhiyun Weebill-S is a compact 3-axis gimbal for mirrorless and DSLR cameras, with sling mode for low shots and up to 14 hours of battery.",
+    summary:
+      "The Weebill-S is small enough to fit in a camera bag but strong enough for most mirrorless and DSLR cameras with a standard lens. Its L-shaped design lets you hold it like a normal handle or in sling mode for low, close shots at events. Strong motors keep footage steady when you walk, and the battery lasts up to 14 hours, enough for a full owambe or wedding. Add-on packages bring a follow focus motor or a wireless image transmitter for your phone.",
+    image: "/products/zhiyun-weebill-s/main.jpg",
+    hero: "/products/zhiyun-weebill-s/hero.jpg",
+    gallery: [
+      { src: "/products/zhiyun-weebill-s/main.jpg", alt: "Zhiyun Weebill-S on its mini tripod" },
+      { src: "/products/zhiyun-weebill-s/g1.jpg", alt: "Zhiyun Weebill-S on a tripod" },
+      { src: "/products/zhiyun-weebill-s/g2.jpg", alt: "Zhiyun Weebill-S with a camera and lens" },
+      { src: "/products/zhiyun-weebill-s/g3.jpg", alt: "Zhiyun Weebill-S Zoom/Focus Pro package" },
+      { src: "/products/zhiyun-weebill-s/h3.jpg", alt: "Zhiyun Weebill-S Image Transmission Pro package" },
+      { src: "/products/zhiyun-weebill-s/h4.jpg", alt: "Zhiyun Weebill-S standing on its tripod" },
+    ],
+    stats: [
+      { value: "14 h", label: "Max battery" },
+      { value: "895 g", label: "Weight" },
+      { value: "360°", label: "Pan" },
+      { value: "Sling", label: "Low-angle mode" },
+    ],
+    highlights: [
+      {
+        title: "Focus control",
+        body: "Add the follow focus motor and pull focus from the handle, for cleaner shots of the couple, the pastor or the stage.",
+        image: "/products/zhiyun-weebill-s/h1.jpg",
+      },
+      {
+        title: "Small, strong motors",
+        body: "Compact enough for a camera bag, yet strong enough to hold most mirrorless and DSLR cameras with a standard zoom lens.",
+        image: "/products/zhiyun-weebill-s/h2.jpg",
+      },
+      {
+        title: "See the shot on your phone",
+        body: "The Image Transmission package sends the camera view to your phone, so a second person can watch and steer the shot.",
+        image: "/products/zhiyun-weebill-s/h3.jpg",
+      },
+      {
+        title: "Lasts a full event",
+        body: "Up to 14 hours of battery, so you can film from the morning ceremony to the end of the reception.",
+        image: "/products/zhiyun-weebill-s/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Event videographers", body: "Owambes, weddings and church services." },
+      { title: "Mirrorless shooters", body: "Sony, Canon, Nikon and Panasonic." },
+      { title: "Low shots", body: "Sling mode for close, low angles." },
+      { title: "Travel", body: "Packs small in a camera bag." },
+    ],
+    notFor:
+      "The Weebill-S is an older model. For a newer gimbal with a built-in screen and fill light, look at the Weebill 3S. For very heavy cinema cameras, a Crane 3S or DJI RS 3 Pro carries more.",
+    specs: [
+      { label: "Axes", value: "3-axis" },
+      { label: "Range", value: "Pan 360°; tilt 314°; roll 314°" },
+      { label: "Battery", value: "Up to 14 hours (12 hours typical)" },
+      { label: "Charging", value: "About 2.5 hours" },
+      { label: "Design", value: "L-shaped frame with sling mode" },
+      { label: "Add-ons", value: "Follow focus motor; image transmission to phone" },
+      { label: "Weight", value: "About 895 g" },
+    ],
+    specsNote:
+      "Figures are Zhiyun's. Battery time depends on the camera and how much the motors work. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Will my camera fit?",
+        a: "Most mirrorless and many DSLR cameras with a standard zoom fit. Send us your camera and lens on WhatsApp and we'll confirm.",
+      },
+      {
+        q: "Weebill-S or Weebill 3S?",
+        a: "The Weebill 3S is newer, with a fill light, a sling grip and Bluetooth shutter control. The Weebill-S is the lower-priced choice and still works well for events.",
+      },
+      {
+        q: "Can I control my camera from the gimbal?",
+        a: "Yes, with a control cable for supported cameras. Tell us your camera and we'll check which cable you need.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "Standard",
+        price: 390_000,
+        includes: [
+          "Zhiyun Weebill-S gimbal",
+          "Mini tripod",
+          "Quick-release plate",
+          "Camera control cables",
+          "USB-C charging cable",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "zhiyun-weebill-3s",
+    brand: "Zhiyun",
+    name: "Zhiyun Weebill 3S",
+    category: "Gimbals",
+    tagline: "The event gimbal with a sling grip.",
+    headline:
+      "The Zhiyun Weebill 3S is a compact 3-axis gimbal for mirrorless cameras, with a sling grip, built-in fill light, Bluetooth shutter control and 11.5 hours of battery.",
+    summary:
+      "The Weebill 3S is made for long days filming events. The sling grip and wrist rest take the weight off your arm, so you can hold low, smooth shots through a whole owambe or wedding. A small fill light on the front lights faces in dark halls, and Bluetooth lets you start and stop recording on most cameras without a cable. The 2600 mAh battery runs about 11.5 hours and fast-charges with PD. It is compact, but carries most mirrorless cameras with a standard zoom.",
+    image: "/products/zhiyun-weebill-3s/main.jpg",
+    hero: "/products/zhiyun-weebill-3s/hero.jpg",
+    gallery: [
+      { src: "/products/zhiyun-weebill-3s/main.jpg", alt: "Zhiyun Weebill 3S on its tripod" },
+      { src: "/products/zhiyun-weebill-3s/g1.jpg", alt: "Zhiyun Weebill 3S gimbal" },
+      { src: "/products/zhiyun-weebill-3s/g2.jpg", alt: "Zhiyun Weebill 3S box contents" },
+      { src: "/products/zhiyun-weebill-3s/g3.jpg", alt: "Zhiyun Weebill 3S Combo box contents" },
+      { src: "/products/zhiyun-weebill-3s/h3.jpg", alt: "Zhiyun Weebill 3S side view" },
+      { src: "/products/zhiyun-weebill-3s/h4.jpg", alt: "Zhiyun Weebill 3S controls" },
+    ],
+    stats: [
+      { value: "11.5 h", label: "Battery" },
+      { value: "1.05 kg", label: "Weight" },
+      { value: "Fill light", label: "Built in" },
+      { value: "Bluetooth", label: "Shutter control" },
+    ],
+    highlights: [
+      {
+        title: "Made for long events",
+        body: "The ergonomic design and wrist rest spread the weight, so you can keep filming from the entrance to the last dance.",
+        image: "/products/zhiyun-weebill-3s/h1.jpg",
+      },
+      {
+        title: "Sling grip for low shots",
+        body: "Hold it in sling mode for low, close shots of the couple, the cake or the dancers, with less strain on your arm.",
+        image: "/products/zhiyun-weebill-3s/h2.jpg",
+      },
+      {
+        title: "Light where you need it",
+        body: "The built-in fill light brightens faces in dark halls and churches, without carrying a separate light.",
+        image: "/products/zhiyun-weebill-3s/h3.jpg",
+      },
+      {
+        title: "No cable needed",
+        body: "Bluetooth 5.0 starts and stops recording on most Sony, Canon, Nikon and Panasonic cameras straight from the handle.",
+        image: "/products/zhiyun-weebill-3s/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Event videographers", body: "Owambes, weddings and church services." },
+      { title: "Mirrorless shooters", body: "Sony, Canon, Nikon and Panasonic." },
+      { title: "Content creators", body: "YouTube, adverts and Reels." },
+      { title: "Long shoots", body: "11.5 hours on one charge." },
+    ],
+    notFor:
+      "The Weebill 3S suits mirrorless cameras with standard lenses. For heavy cinema cameras or long zoom lenses, a Crane 4 or Crane 3S carries more weight.",
+    specs: [
+      { label: "Axes", value: "3-axis" },
+      { label: "Range", value: "Tilt −130° to +180°; roll −280° to +60°; pan 360°" },
+      { label: "Battery", value: "2600 mAh 18650, about 11.5 hours" },
+      { label: "Charging", value: "About 2 hours with 9 V PD" },
+      { label: "Fill light", value: "Built in" },
+      { label: "Connection", value: "Bluetooth 5.0 shutter control" },
+      { label: "Size", value: "305 × 210 × 72.5 mm" },
+      { label: "Weight", value: "About 1054.8 g" },
+    ],
+    specsNote:
+      "Figures are Zhiyun's. Battery time depends on the camera and how much the motors work. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Will my camera fit?",
+        a: "Most mirrorless cameras with a standard zoom fit. Send us your camera and lens on WhatsApp and we'll confirm.",
+      },
+      {
+        q: "Weebill 3S or DJI RS 3 Mini?",
+        a: "The Weebill 3S carries a bit more and has a fill light and sling grip for long events. The RS 3 Mini is lighter and can turn for vertical video without extra parts.",
+      },
+      {
+        q: "Standard or Combo?",
+        a: "The Combo adds extras like a sling grip and accessories. Ask us on WhatsApp which version we have in stock.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "Standard",
+        price: 590_000,
+        includes: [
+          "Zhiyun Weebill 3S gimbal",
+          "Tripod",
+          "Quick-release plate",
+          "Camera control cables",
+          "USB-C charging cable",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "zhiyun-crane-m3s",
+    brand: "Zhiyun",
+    name: "Zhiyun Crane M3S",
+    category: "Gimbals",
+    tagline: "The small gimbal for small cameras.",
+    headline:
+      "The Zhiyun Crane M3S is a light 3-axis gimbal for compact mirrorless cameras, phones and action cameras, with a built-in fill light, a 1.22-inch screen and 7.5 hours of battery.",
+    summary:
+      "The Crane M3S weighs about 705 g, so you can carry it all day. It holds small mirrorless cameras like the Sony ZV-E10, compact cameras, action cameras and phones. A fill light on the front lights faces for vlogs and night shots, and the 1.22-inch screen lets you change modes quickly. The battery runs about 7.5 hours and fast-charges with PD. It is a good first gimbal for vloggers and creators who want smooth video without carrying a big rig.",
+    image: "/products/zhiyun-crane-m3s/main.jpg",
+    hero: "/products/zhiyun-crane-m3s/hero.jpg",
+    gallery: [
+      { src: "/products/zhiyun-crane-m3s/main.jpg", alt: "Zhiyun Crane M3S gimbal" },
+      { src: "/products/zhiyun-crane-m3s/g1.jpg", alt: "Zhiyun Crane M3S front view" },
+      { src: "/products/zhiyun-crane-m3s/g2.jpg", alt: "Zhiyun Crane M3S Combo with bag" },
+      { src: "/products/zhiyun-crane-m3s/g3.jpg", alt: "Zhiyun Crane M3S box contents" },
+      { src: "/products/zhiyun-crane-m3s/h3.jpg", alt: "Zhiyun Crane M3S side view" },
+      { src: "/products/zhiyun-crane-m3s/h4.jpg", alt: "Zhiyun Crane M3S controls" },
+    ],
+    stats: [
+      { value: "705 g", label: "Weight" },
+      { value: "7.5 h", label: "Battery" },
+      { value: "Fill light", label: "Built in" },
+      { value: "1.22-inch", label: "Screen" },
+    ],
+    highlights: [
+      {
+        title: "Light enough for all day",
+        body: "At about 705 g, it is easy to hold for vlogs, travel and walk-around shots without a tired arm.",
+        image: "/products/zhiyun-crane-m3s/h1.jpg",
+      },
+      {
+        title: "Fill light built in",
+        body: "The front light brightens faces at night and indoors, so vlogs look clean without a separate light.",
+        image: "/products/zhiyun-crane-m3s/h2.jpg",
+      },
+      {
+        title: "Quick controls",
+        body: "The 1.22-inch screen and buttons let you switch modes and settings fast, without opening the app.",
+        image: "/products/zhiyun-crane-m3s/h3.jpg",
+      },
+      {
+        title: "Fits many cameras",
+        body: "Works with small mirrorless cameras, compact cameras, action cameras and phones (with a phone holder).",
+        image: "/products/zhiyun-crane-m3s/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Vloggers", body: "Light enough to hold for long takes." },
+      { title: "Small mirrorless cameras", body: "Sony ZV-E10, Canon M50 and similar." },
+      { title: "Travel", body: "Packs small in a backpack." },
+      { title: "First gimbal", body: "Simple to balance and use." },
+    ],
+    notFor:
+      "The Crane M3S is for small cameras. A full-frame camera with a big zoom lens is too heavy for it; for that, a Weebill 3S or Crane 4 is a better fit.",
+    specs: [
+      { label: "Axes", value: "3-axis" },
+      { label: "Range", value: "Pan 360°; tilt 305°; roll 314°" },
+      { label: "Battery", value: "1150 mAh, about 7.5 hours" },
+      { label: "Charging", value: "About 2 hours with PD" },
+      { label: "Screen", value: "1.22-inch" },
+      { label: "Fill light", value: "Built in" },
+      { label: "Size", value: "284.2 × 74.5 × 163.5 mm" },
+      { label: "Weight", value: "About 705 g" },
+    ],
+    specsNote:
+      "Figures are Zhiyun's. Battery time depends on the camera and how much the motors work. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Will my camera fit?",
+        a: "Small mirrorless and compact cameras fit, like the Sony ZV-E10 with a kit lens. Send us your camera and lens on WhatsApp and we'll confirm.",
+      },
+      {
+        q: "Can I use my phone on it?",
+        a: "Yes, with a phone holder. Ask us whether the version in stock includes one.",
+      },
+      {
+        q: "Crane M3S or Weebill 3S?",
+        a: "Get the M3S for small cameras and light travel. Get the Weebill 3S for bigger mirrorless cameras and long events.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "Standard",
+        price: 580_000,
+        includes: [
+          "Zhiyun Crane M3S gimbal",
+          "Mini tripod",
+          "Quick-release plate",
+          "Camera control cables",
+          "USB-C charging cable",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "zhiyun-crane-2s",
+    brand: "Zhiyun",
+    name: "Zhiyun Crane 2S",
+    category: "Gimbals",
+    tagline: "The strong gimbal with swappable batteries.",
+    headline:
+      "The Zhiyun Crane 2S is a 3-axis gimbal for mirrorless and DSLR cameras, with removable 18650 batteries for 12 hours of use, axis locks and a focus wheel.",
+    summary:
+      "The Crane 2S has strong motors for full-frame cameras with heavier zoom lenses. It runs on three removable 18650 batteries, so you can carry spares and swap them during a long event. Axis locks make it quick to balance and pack, and the focus wheel on the handle pulls focus on supported cameras. The screen shows the mode and battery at a glance, and it can turn for vertical shooting.",
+    image: "/products/zhiyun-crane-2s/main.jpg",
+    hero: "/products/zhiyun-crane-2s/hero.jpg",
+    gallery: [
+      { src: "/products/zhiyun-crane-2s/main.jpg", alt: "Zhiyun Crane 2S with a camera" },
+      { src: "/products/zhiyun-crane-2s/g1.jpg", alt: "Zhiyun Crane 2S with handle on a tripod" },
+      { src: "/products/zhiyun-crane-2s/g2.jpg", alt: "Zhiyun Crane 2S with batteries and strap" },
+      { src: "/products/zhiyun-crane-2s/g3.jpg", alt: "Zhiyun Crane 2S on a tripod" },
+      { src: "/products/zhiyun-crane-2s/h3.jpg", alt: "Zhiyun Crane 2S removable batteries" },
+      { src: "/products/zhiyun-crane-2s/h4.jpg", alt: "Zhiyun Crane 2S focus wheel and locks" },
+    ],
+    stats: [
+      { value: "12 h", label: "Battery" },
+      { value: "3× 18650", label: "Removable cells" },
+      { value: "1.88 kg", label: "Weight" },
+      { value: "Focus wheel", label: "On the handle" },
+    ],
+    highlights: [
+      {
+        title: "Smooth movement",
+        body: "Several follow modes let you choose how the camera moves, from steady locked shots to smooth pans around the hall.",
+        image: "/products/zhiyun-crane-2s/h1.jpg",
+      },
+      {
+        title: "Big, clear screen",
+        body: "The screen shows the mode, battery and settings, and helps with auto calibration, so you set up faster.",
+        image: "/products/zhiyun-crane-2s/h2.jpg",
+      },
+      {
+        title: "Swap batteries on the job",
+        body: "Three removable 18650 batteries give about 12 hours. Carry spares and swap them without stopping the shoot.",
+        image: "/products/zhiyun-crane-2s/h3.jpg",
+      },
+      {
+        title: "Focus from the handle",
+        body: "Turn the focus wheel to pull focus on supported cameras, and use the axis locks to balance and pack quickly.",
+        image: "/products/zhiyun-crane-2s/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Event videographers", body: "Long weddings and church services." },
+      { title: "Full-frame cameras", body: "Bigger cameras with zoom lenses." },
+      { title: "Music videos", body: "Smooth moving shots." },
+      { title: "Long shoots", body: "Swap batteries and keep going." },
+    ],
+    notFor:
+      "The Crane 2S is heavy at about 1.88 kg. For lighter cameras and easier handholding, a Weebill 3S is smaller. The newer Crane 4 adds a fill light and Bluetooth.",
+    specs: [
+      { label: "Axes", value: "3-axis" },
+      { label: "Range", value: "Tilt +155° to −91°; roll +237.5° to −57.5°; pan 360°" },
+      { label: "Battery", value: "3× removable 18650, about 12 hours" },
+      { label: "Charging", value: "About 4 hours" },
+      { label: "Controls", value: "Screen, focus wheel, axis locks" },
+      { label: "Port", value: "USB-C" },
+      { label: "Weight", value: "About 1880 g" },
+    ],
+    specsNote:
+      "Figures are Zhiyun's. Battery time depends on the camera and how much the motors work. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Will my camera fit?",
+        a: "Most full-frame mirrorless and DSLR cameras with a zoom lens fit. Send us your camera and lens on WhatsApp and we'll confirm.",
+      },
+      {
+        q: "Can I buy spare batteries?",
+        a: "Yes. It uses standard 18650 cells. Ask us on WhatsApp and we'll add a spare set.",
+      },
+      {
+        q: "Crane 2S or Crane 4?",
+        a: "The Crane 4 is newer, with a fill light, Bluetooth and fast PD charging. The Crane 2S lets you swap batteries and is still a strong event gimbal.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "Standard",
+        price: 800_000,
+        includes: [
+          "Zhiyun Crane 2S gimbal",
+          "3× 18650 batteries and charger",
+          "Tripod",
+          "Quick-release plate",
+          "Camera control cables",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "zhiyun-crane-3s",
+    brand: "Zhiyun",
+    name: "Zhiyun Crane 3S",
+    category: "Gimbals",
+    tagline: "The gimbal for heavy cinema rigs.",
+    headline:
+      "The Zhiyun Crane 3S is a heavy-duty 3-axis gimbal that carries up to 6.5 kg, with 12 hours of battery, 18 hours with the PowerPlus pack, and mounts for cars, jibs and cable cams.",
+    summary:
+      "The Crane 3S is built for big setups: cinema cameras, heavy zoom lenses and accessories, up to 6.5 kg. Its modular handle lets you hold it one-handed or with a sling handle, and you can mount it on a car, jib or cable cam. The battery runs about 12 hours, or 18 hours with the PowerPlus pack, and a 25.2 V DC-IN port lets you run it from external power. It is a pro tool for stage shows, music videos and productions.",
+    image: "/products/zhiyun-crane-3s/main.jpg",
+    hero: "/products/zhiyun-crane-3s/hero.jpg",
+    gallery: [
+      { src: "/products/zhiyun-crane-3s/main.jpg", alt: "Zhiyun Crane 3S on a tripod" },
+      { src: "/products/zhiyun-crane-3s/g1.jpg", alt: "Zhiyun Crane 3S with a camera" },
+      { src: "/products/zhiyun-crane-3s/g2.jpg", alt: "Zhiyun Crane 3S package contents" },
+      { src: "/products/zhiyun-crane-3s/g3.jpg", alt: "Zhiyun Crane 3S on a jib" },
+      { src: "/products/zhiyun-crane-3s/h3.jpg", alt: "Zhiyun Crane 3S on a cable cam" },
+      { src: "/products/zhiyun-crane-3s/h4.jpg", alt: "Zhiyun Crane 3S PowerPlus and DC-IN" },
+    ],
+    stats: [
+      { value: "6.5 kg", label: "Max payload" },
+      { value: "12 h", label: "Battery" },
+      { value: "18 h", label: "With PowerPlus" },
+      { value: "360°", label: "Tilt" },
+    ],
+    highlights: [
+      {
+        title: "Carries heavy rigs",
+        body: "Handles cameras and lenses from 600 g to 6.5 kg, so cinema cameras and big zooms stay steady on stage.",
+        image: "/products/zhiyun-crane-3s/h1.jpg",
+      },
+      {
+        title: "Car mount shots",
+        body: "Mount it on a car for smooth driving shots for music videos, adverts and convoys.",
+        image: "/products/zhiyun-crane-3s/h2.jpg",
+      },
+      {
+        title: "Jib and cable cam",
+        body: "Hang it from a jib or cable cam for sweeping shots over the crowd at concerts and big events.",
+        image: "/products/zhiyun-crane-3s/h3.jpg",
+      },
+      {
+        title: "Long power",
+        body: "About 12 hours on its batteries, 18 hours with the PowerPlus pack, and a 25.2 V DC-IN for external power.",
+        image: "/products/zhiyun-crane-3s/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Production crews", body: "Music videos, adverts and films." },
+      { title: "Stage and concerts", body: "Heavy rigs on long nights." },
+      { title: "Cinema cameras", body: "Big bodies and heavy zoom lenses." },
+      { title: "Car and jib shots", body: "Mounts for moving shots." },
+    ],
+    notFor:
+      "The Crane 3S is large and heavy. For mirrorless cameras at everyday events, a Weebill 3S or Crane 4 is lighter and quicker to set up.",
+    specs: [
+      { label: "Axes", value: "3-axis" },
+      { label: "Payload", value: "600 g to 6.5 kg" },
+      { label: "Range", value: "Pan 360°; tilt 360°; roll 330°" },
+      { label: "Battery", value: "About 12 hours; 18 hours with PowerPlus pack" },
+      { label: "Charging", value: "About 4 hours" },
+      { label: "External power", value: "DC-IN 25.2 V" },
+      { label: "Mounting", value: "Modular handle; works with car mounts, jibs and cable cams" },
+    ],
+    specsNote:
+      "Figures are Zhiyun's. Battery time depends on the payload and how much the motors work. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Will my camera fit?",
+        a: "Cinema cameras, DSLRs and mirrorless cameras with heavy lenses up to 6.5 kg fit. Send us your rig on WhatsApp and we'll check the balance.",
+      },
+      {
+        q: "Is the PowerPlus pack included?",
+        a: "It depends on the package in stock. Ask us on WhatsApp and we'll tell you exactly what's in the box.",
+      },
+      {
+        q: "Crane 3S or DJI Ronin-MX?",
+        a: "Both carry cinema rigs. The Crane 3S carries more weight and has a long battery life; the Ronin-MX has a remote for a second operator.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "Standard",
+        price: 1_000_000,
+        includes: [
+          "Zhiyun Crane 3S gimbal",
+          "Handle and batteries",
+          "Tripod",
+          "Quick-release plate",
+          "Camera control cables",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "zhiyun-crane-4",
+    brand: "Zhiyun",
+    name: "Zhiyun Crane 4",
+    category: "Gimbals",
+    tagline: "The full-frame gimbal with a fill light.",
+    headline:
+      "The Zhiyun Crane 4 is a 3-axis gimbal for full-frame cameras, with a built-in fill light, a 1.22-inch screen, Bluetooth shutter control and about 12 hours of battery.",
+    summary:
+      "The Crane 4 has strong motors for full-frame mirrorless and DSLR cameras with heavier zoom lenses. The built-in fill light brightens faces at night and in dark halls, and the sling handle makes low shots easy on long event days. Bluetooth starts and stops recording on most cameras without a cable. The 2600 mAh battery runs about 12 hours and fast-charges in under 2 hours with 15 V PD. It is a strong choice for wedding and event videographers.",
+    image: "/products/zhiyun-crane-4/main.jpg",
+    hero: "/products/zhiyun-crane-4/hero.jpg",
+    gallery: [
+      { src: "/products/zhiyun-crane-4/main.jpg", alt: "Zhiyun Crane 4 gimbal" },
+      { src: "/products/zhiyun-crane-4/g1.jpg", alt: "Zhiyun Crane 4 with sling handle" },
+      { src: "/products/zhiyun-crane-4/g2.jpg", alt: "Zhiyun Crane 4 Combo kit with case" },
+      { src: "/products/zhiyun-crane-4/g3.jpg", alt: "Zhiyun Crane 4 on a tripod" },
+      { src: "/products/zhiyun-crane-4/h3.jpg", alt: "Filming a couple with the Zhiyun Crane 4" },
+      { src: "/products/zhiyun-crane-4/h4.jpg", alt: "Zhiyun Crane 4 side view" },
+    ],
+    stats: [
+      { value: "12 h", label: "Battery" },
+      { value: "1h 50m", label: "Fast charge" },
+      { value: "Fill light", label: "Built in" },
+      { value: "1.67 kg", label: "Weight" },
+    ],
+    highlights: [
+      {
+        title: "Everything in one kit",
+        body: "The Combo comes with a sling handle, case and extras, so you are ready for a full event straight from the box.",
+        image: "/products/zhiyun-crane-4/h1.jpg",
+      },
+      {
+        title: "Strong for full-frame",
+        body: "Holds full-frame cameras with heavier zoom lenses steady, for smooth walking shots and slow pans.",
+        image: "/products/zhiyun-crane-4/h2.jpg",
+      },
+      {
+        title: "Light for night shots",
+        body: "The built-in fill light brightens faces at evening receptions and in dark halls, without a separate light.",
+        image: "/products/zhiyun-crane-4/h3.jpg",
+      },
+      {
+        title: "Fast charging",
+        body: "About 12 hours of use, and a full charge in about 1 hour 50 minutes with a 15 V PD charger.",
+        image: "/products/zhiyun-crane-4/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Wedding videographers", body: "Long days and evening receptions." },
+      { title: "Full-frame cameras", body: "With heavier zoom lenses." },
+      { title: "Church and events", body: "Fill light for dark halls." },
+      { title: "Content creators", body: "Adverts, YouTube and music videos." },
+    ],
+    notFor:
+      "The Crane 4 is about 1.67 kg. For a lighter gimbal with smaller cameras, a Weebill 3S or Crane M3S is easier to carry all day.",
+    specs: [
+      { label: "Axes", value: "3-axis" },
+      { label: "Range", value: "Tilt +142° to −72°; roll +71° to −251°; pan 360°" },
+      { label: "Battery", value: "2600 mAh, about 12 hours" },
+      { label: "Charging", value: "About 1 hour 50 minutes with 15 V PD" },
+      { label: "Screen", value: "1.22-inch" },
+      { label: "Fill light", value: "Built in" },
+      { label: "Connection", value: "Bluetooth 5.0 shutter control" },
+      { label: "Size", value: "340 × 280 × 70 mm" },
+      { label: "Weight", value: "About 1.673 kg" },
+    ],
+    specsNote:
+      "Figures are Zhiyun's. Battery time depends on the camera and how much the motors work. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Will my camera fit?",
+        a: "Most full-frame mirrorless and DSLR cameras with a zoom lens fit. Send us your camera and lens on WhatsApp and we'll confirm.",
+      },
+      {
+        q: "Crane 4 or DJI RS 3 Pro?",
+        a: "Both suit full-frame cameras. The Crane 4 has a built-in fill light and a lower price; the RS 3 Pro has automatic axis locks and a bigger touchscreen.",
+      },
+      {
+        q: "Standard or Combo?",
+        a: "The Combo adds a sling handle, case and extras. Ask us on WhatsApp which version we have in stock.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "Standard",
+        price: 1_000_000,
+        includes: [
+          "Zhiyun Crane 4 gimbal",
+          "Tripod",
+          "Quick-release plate",
+          "Camera control cables",
+          "USB-C charging cable",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "moza-air-2",
+    brand: "Moza",
+    name: "Moza Air 2",
+    category: "Gimbals",
+    tagline: "The strong gimbal with 16-hour battery.",
+    headline:
+      "The Moza Air 2 is a 3-axis gimbal that carries up to 4.2 kg, runs about 16 hours on four 18650 batteries, and has an OLED screen and 8 follow modes.",
+    summary:
+      "The Moza Air 2 carries cameras and lenses up to 4.2 kg, so full-frame bodies with heavy zoom lenses stay steady. Four 18650 batteries give about 16 hours, enough for the longest event day. The OLED screen and control wheel make settings quick, and 8 follow modes include Inception mode for rolling shots and Sport Gear mode for fast action. Add the iFocus-M motor to pull focus from the handle.",
+    image: "/products/moza-air-2/main.jpg",
+    hero: "/products/moza-air-2/hero.jpg",
+    gallery: [
+      { src: "/products/moza-air-2/main.jpg", alt: "Moza Air 2 gimbal" },
+      { src: "/products/moza-air-2/g1.jpg", alt: "Moza Air 2 with iFocus-M motor" },
+      { src: "/products/moza-air-2/g2.jpg", alt: "Moza Air 2 backpack kit" },
+      { src: "/products/moza-air-2/g3.jpg", alt: "Moza Air 2 case kit" },
+      { src: "/products/moza-air-2/h3.jpg", alt: "Moza Air 2 control wheel" },
+      { src: "/products/moza-air-2/h4.jpg", alt: "Moza Air 2 Sport Gear mode" },
+    ],
+    stats: [
+      { value: "4.2 kg", label: "Max payload" },
+      { value: "16 h", label: "Battery" },
+      { value: "8", label: "Follow modes" },
+      { value: "OLED", label: "Screen" },
+    ],
+    highlights: [
+      {
+        title: "Carries heavy rigs",
+        body: "Holds cameras and lenses up to 4.2 kg, so full-frame bodies with big zooms stay steady.",
+        image: "/products/moza-air-2/h1.jpg",
+      },
+      {
+        title: "Smart, compact design",
+        body: "The OLED screen shows settings at a glance, and the gimbal folds down for travel.",
+        image: "/products/moza-air-2/h2.jpg",
+      },
+      {
+        title: "Control wheel",
+        body: "Turn the wheel to pull focus or zoom, or change settings without taking your hand off the handle.",
+        image: "/products/moza-air-2/h3.jpg",
+      },
+      {
+        title: "Modes for every shot",
+        body: "8 follow modes, including Inception mode for rolling shots and Sport Gear mode for fast action.",
+        image: "/products/moza-air-2/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Event videographers", body: "16 hours covers the longest day." },
+      { title: "Full-frame cameras", body: "With heavy zoom lenses." },
+      { title: "Music videos", body: "Creative modes like Inception." },
+      { title: "Sports", body: "Sport Gear mode for fast action." },
+    ],
+    notFor:
+      "The Air 2 is about 1.6 kg before the camera. For a lighter gimbal for mirrorless cameras, the Moza AirCross 2 or Zhiyun Weebill 3S is easier to carry.",
+    specs: [
+      { label: "Axes", value: "3-axis" },
+      { label: "Payload", value: "0.3 to 4.2 kg" },
+      { label: "Battery", value: "4× 18650, about 16 hours" },
+      { label: "Follow modes", value: "8, including Inception and Sport Gear" },
+      { label: "Screen", value: "OLED" },
+      { label: "Focus", value: "Works with the iFocus-M motor" },
+      { label: "Size", value: "230 × 240 × 470 mm" },
+      { label: "Weight", value: "About 1.6 kg" },
+    ],
+    specsNote:
+      "Figures are Moza's. Battery time depends on the camera and how much the motors work. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Will my camera fit?",
+        a: "Most full-frame mirrorless and DSLR cameras with zoom lenses up to 4.2 kg fit. Send us your camera and lens on WhatsApp and we'll confirm.",
+      },
+      {
+        q: "Is the iFocus-M included?",
+        a: "It depends on the kit in stock. Ask us on WhatsApp and we'll tell you exactly what's in the box.",
+      },
+      {
+        q: "Air 2 or AirCross 2?",
+        a: "Get the Air 2 for heavier cameras and longer battery. Get the AirCross 2 for a lighter gimbal for mirrorless cameras.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "Standard",
+        price: 950_000,
+        includes: [
+          "Moza Air 2 gimbal",
+          "4× 18650 batteries and charger",
+          "Tripod",
+          "Quick-release plate",
+          "Camera control cables",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "moza-aircross-2",
+    brand: "Moza",
+    name: "Moza AirCross 2",
+    category: "Gimbals",
+    tagline: "The light gimbal that carries more.",
+    headline:
+      "The Moza AirCross 2 is a 1 kg 3-axis gimbal that carries up to 3.2 kg, with an OLED screen, vertical shooting, Inception mode and about 12 hours of battery.",
+    summary:
+      "The AirCross 2 weighs about 1 kg but carries up to 3.2 kg of camera and lens, so it suits most mirrorless cameras without tiring your arm. The control panel has a smart wheel and OLED screen for quick settings. It turns for vertical video for TikTok and Reels, and Inception mode gives rolling shots for music videos. Tracking keeps a subject in frame, and the 3000 mAh battery runs about 12 hours with fast charging.",
+    image: "/products/moza-aircross-2/main.jpg",
+    hero: "/products/moza-aircross-2/hero.jpg",
+    gallery: [
+      { src: "/products/moza-aircross-2/main.jpg", alt: "Moza AirCross 2 on its tripod" },
+      { src: "/products/moza-aircross-2/g1.jpg", alt: "Moza AirCross 2 with a camera" },
+      { src: "/products/moza-aircross-2/g2.jpg", alt: "Moza AirCross 2 Professional Kit" },
+      { src: "/products/moza-aircross-2/g3.jpg", alt: "Moza AirCross 2 box contents" },
+      { src: "/products/moza-aircross-2/h3.jpg", alt: "Vertical filming with the Moza AirCross 2" },
+      { src: "/products/moza-aircross-2/h4.jpg", alt: "Moza AirCross 2 tracking a skier" },
+    ],
+    stats: [
+      { value: "3.2 kg", label: "Max payload" },
+      { value: "1.05 kg", label: "Weight" },
+      { value: "12 h", label: "Battery" },
+      { value: "OLED", label: "Screen" },
+    ],
+    highlights: [
+      {
+        title: "Light yet strong",
+        body: "About 1 kg on its own, yet carries up to 3.2 kg, so mirrorless cameras with zoom lenses stay steady.",
+        image: "/products/moza-aircross-2/h1.jpg",
+      },
+      {
+        title: "Easy controls",
+        body: "The smart wheel and OLED screen let you change modes and settings quickly from the handle.",
+        image: "/products/moza-aircross-2/h2.jpg",
+      },
+      {
+        title: "Vertical video",
+        body: "Turn the camera for vertical video for TikTok, Reels and Status, without cropping your shot.",
+        image: "/products/moza-aircross-2/h3.jpg",
+      },
+      {
+        title: "Tracking",
+        body: "Tracking keeps a moving subject in frame, for dancers, sports and walk-and-talk shots.",
+        image: "/products/moza-aircross-2/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Mirrorless shooters", body: "Sony, Canon, Nikon and Fujifilm." },
+      { title: "Content creators", body: "Vertical video for social media." },
+      { title: "Events", body: "Light enough to hold for hours." },
+      { title: "Music videos", body: "Inception mode for rolling shots." },
+    ],
+    notFor:
+      "The AirCross 2 suits mirrorless cameras. For heavy cinema cameras or very long zoom lenses, the Moza Air 2 or Zhiyun Crane 3S carries more.",
+    specs: [
+      { label: "Axes", value: "3-axis" },
+      { label: "Payload", value: "0.3 to 3.2 kg" },
+      { label: "Battery", value: "3000 mAh, about 12 hours" },
+      { label: "Charging", value: "About 1.5 hours at 18 W" },
+      { label: "Modes", value: "Inception, FPV, tracking, vertical shooting" },
+      { label: "Screen", value: "OLED with smart wheel" },
+      { label: "Weight", value: "About 1.05 kg" },
+    ],
+    specsNote:
+      "Figures are Moza's. Battery time depends on the camera and how much the motors work. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Will my camera fit?",
+        a: "Most mirrorless cameras with a zoom lens fit, up to 3.2 kg. Send us your camera and lens on WhatsApp and we'll confirm.",
+      },
+      {
+        q: "Black or Professional Kit?",
+        a: "The Professional Kit adds a phone holder and the iFocus-M focus motor. Ask us on WhatsApp which version we have in stock.",
+      },
+      {
+        q: "AirCross 2 or Weebill 3S?",
+        a: "Both suit mirrorless cameras. The AirCross 2 carries more weight; the Weebill 3S has a fill light and sling grip.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "Standard",
+        price: 950_000,
+        includes: [
+          "Moza AirCross 2 gimbal",
+          "Tripod",
+          "Quick-release plate",
+          "Portrait bracket",
+          "Camera control cables",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "feiyutech-ak4000",
+    brand: "FeiyuTech",
+    name: "FeiyuTech AK4000",
+    category: "Gimbals",
+    tagline: "The touch-panel gimbal for heavy cameras.",
+    headline:
+      "The FeiyuTech AK4000 is a 3-axis gimbal that carries up to 4 kg, with a touch panel, a Magic Ring for focus and zoom, and about 12 hours on four 18650 batteries.",
+    summary:
+      "The AK4000 carries cameras and lenses up to 4 kg, enough for full-frame bodies with heavy zooms. The touch panel on the handle lets you change modes and settings with a tap, and the Magic Ring turns to control focus, zoom or the gimbal. Four 18650 batteries give about 12 hours, and Wi-Fi and Bluetooth connect it to the Feiyu ON app for more control. It is a strong, lower-priced choice for full-frame event shooters.",
+    image: "/products/feiyutech-ak4000/main.jpg",
+    hero: "/products/feiyutech-ak4000/hero.jpg",
+    gallery: [
+      { src: "/products/feiyutech-ak4000/main.jpg", alt: "FeiyuTech AK4000 gimbal" },
+      { src: "/products/feiyutech-ak4000/g1.jpg", alt: "FeiyuTech AK4000 on its tripod" },
+      { src: "/products/feiyutech-ak4000/g2.jpg", alt: "FeiyuTech AK4000 three-quarter view" },
+      { src: "/products/feiyutech-ak4000/g3.jpg", alt: "FeiyuTech AK4000 rear view" },
+      { src: "/products/feiyutech-ak4000/h3.jpg", alt: "FeiyuTech AK4000 handle and touch panel" },
+      { src: "/products/feiyutech-ak4000/h4.jpg", alt: "FeiyuTech AK4000 front view" },
+    ],
+    stats: [
+      { value: "4 kg", label: "Max payload" },
+      { value: "12 h", label: "Battery" },
+      { value: "Touch", label: "Control panel" },
+      { value: "Wi-Fi + BT", label: "App control" },
+    ],
+    highlights: [
+      {
+        title: "Carries heavy cameras",
+        body: "Holds cameras and lenses up to 4 kg, so full-frame bodies with heavy zoom lenses stay steady.",
+        image: "/products/feiyutech-ak4000/h1.jpg",
+      },
+      {
+        title: "Touch panel",
+        body: "Tap the touch panel on the handle to switch modes and change settings quickly during a shoot.",
+        image: "/products/feiyutech-ak4000/h2.jpg",
+      },
+      {
+        title: "Magic Ring",
+        body: "Turn the Magic Ring to control focus, zoom or the gimbal, without taking your hand off the handle.",
+        image: "/products/feiyutech-ak4000/h3.jpg",
+      },
+      {
+        title: "Long battery",
+        body: "Four 18650 batteries give about 12 hours, enough for a full event day.",
+        image: "/products/feiyutech-ak4000/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Event videographers", body: "Weddings, owambes and church." },
+      { title: "Full-frame cameras", body: "With heavier zoom lenses." },
+      { title: "Value buyers", body: "Strong payload at a lower price." },
+      { title: "Long shoots", body: "12 hours on one set of batteries." },
+    ],
+    notFor:
+      "The AK4000 is about 1.44 kg before batteries and camera. For a lighter gimbal for smaller mirrorless cameras, a Weebill 3S or Crane M3S is easier to carry.",
+    specs: [
+      { label: "Axes", value: "3-axis" },
+      { label: "Payload", value: "Up to 4 kg" },
+      { label: "Range", value: "Pan 360°; tilt 230°; roll 360°" },
+      { label: "Battery", value: "4× 18650 2200 mAh, about 12 hours" },
+      { label: "Controls", value: "Touch panel, Magic Ring" },
+      { label: "Plate", value: "PL501 quick-release plate" },
+      { label: "Connection", value: "Wi-Fi and Bluetooth, Feiyu ON app" },
+      { label: "Weight", value: "About 1.44 kg without batteries" },
+    ],
+    specsNote:
+      "Figures are FeiyuTech's. Battery time depends on the camera and how much the motors work. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Will my camera fit?",
+        a: "Most full-frame mirrorless and DSLR cameras with zoom lenses up to 4 kg fit. Send us your camera and lens on WhatsApp and we'll confirm.",
+      },
+      {
+        q: "AK4000 or Zhiyun Crane 4?",
+        a: "Both suit full-frame cameras. The AK4000 has a touch panel and Magic Ring; the Crane 4 has a fill light and fast PD charging.",
+      },
+      {
+        q: "Are batteries included?",
+        a: "The AK4000 usually comes with four 18650 batteries and a charger. We confirm the box contents on WhatsApp before you pay.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "Standard",
+        price: 880_000,
+        includes: [
+          "FeiyuTech AK4000 gimbal",
+          "Quick-release plate",
+          "Extension rod",
+          "Mini tripod",
+          "Charger and 4× 18650 batteries",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "zhiyun-smooth-4",
+    brand: "Zhiyun",
+    name: "Zhiyun Smooth 4",
+    category: "Gimbals",
+    tagline: "The phone gimbal with a focus wheel.",
+    headline:
+      "The Zhiyun Smooth 4 is a 3-axis phone gimbal with a focus and zoom wheel, subject tracking and about 12 hours of battery.",
+    summary:
+      "The Smooth 4 makes phone video smooth and steady, for vlogs, events and Reels. The wheel on the handle zooms and pulls focus like a real camera, and tracking in the ZY Cami app keeps a person in frame as they move. It holds phones from 75 to 210 g and runs about 12 hours, and it can charge your phone while you film. A mini tripod comes in the box.",
+    image: "/products/zhiyun-smooth-4/main.jpg",
+    hero: "/products/zhiyun-smooth-4/hero.jpg",
+    gallery: [
+      { src: "/products/zhiyun-smooth-4/main.jpg", alt: "Zhiyun Smooth 4 phone gimbal" },
+      { src: "/products/zhiyun-smooth-4/g1.jpg", alt: "Zhiyun Smooth 4 with mini tripod" },
+      { src: "/products/zhiyun-smooth-4/g2.jpg", alt: "Zhiyun Smooth 4 front view" },
+      { src: "/products/zhiyun-smooth-4/g3.jpg", alt: "Zhiyun Smooth 4 handle controls" },
+      { src: "/products/zhiyun-smooth-4/h3.jpg", alt: "Zhiyun Smooth 4 tracking a skateboarder" },
+      { src: "/products/zhiyun-smooth-4/h4.jpg", alt: "Zhiyun Smooth 4 charging a phone" },
+    ],
+    stats: [
+      { value: "12 h", label: "Battery" },
+      { value: "210 g", label: "Max phone weight" },
+      { value: "547 g", label: "Weight" },
+      { value: "Tracking", label: "Via the app" },
+    ],
+    highlights: [
+      {
+        title: "Smooth phone video",
+        body: "Three axes keep phone video steady when you walk, so vlogs and event clips look clean.",
+        image: "/products/zhiyun-smooth-4/h1.jpg",
+      },
+      {
+        title: "Focus and zoom wheel",
+        body: "Turn the wheel on the handle to zoom or pull focus, like a real camera.",
+        image: "/products/zhiyun-smooth-4/h2.jpg",
+      },
+      {
+        title: "Tracking",
+        body: "In the ZY Cami app, tracking keeps a person in frame as they dance, run or skate.",
+        image: "/products/zhiyun-smooth-4/h3.jpg",
+      },
+      {
+        title: "Charges your phone",
+        body: "About 12 hours of battery, and it can charge your phone while you film.",
+        image: "/products/zhiyun-smooth-4/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Phone creators", body: "TikTok, Reels and Status." },
+      { title: "Vloggers", body: "Smooth walk-and-talk video." },
+      { title: "Events", body: "Steady phone clips at parties." },
+      { title: "First gimbal", body: "Low price and easy to use." },
+    ],
+    notFor:
+      "The Smooth 4 does not fold and has no fill light. For a newer phone gimbal with a fill light, look at the Smooth 5. It does not hold cameras.",
+    specs: [
+      { label: "Axes", value: "3-axis" },
+      { label: "Phone weight", value: "75 to 210 g" },
+      { label: "Range", value: "Tilt 240°; roll 240°; pan 300°" },
+      { label: "Battery", value: "About 12 hours" },
+      { label: "Charging", value: "About 3.5 hours; can charge your phone" },
+      { label: "Controls", value: "Focus and zoom wheel; app tracking" },
+      { label: "Size", value: "123 × 105 × 328 mm" },
+      { label: "Weight", value: "About 547 g" },
+    ],
+    specsNote:
+      "Figures are Zhiyun's. Battery time depends on your phone and how much the motors work. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Will my phone fit?",
+        a: "Phones from 75 to 210 g fit, which covers most iPhone and Android phones. Very large or heavy phones with a case may not balance. Send us your phone model on WhatsApp.",
+      },
+      {
+        q: "Do I need the app?",
+        a: "Not for basic use. The ZY Cami app adds tracking, timelapse and the zoom and focus wheel controls.",
+      },
+      {
+        q: "Smooth 4 or Smooth 5?",
+        a: "The Smooth 5 is newer, with a fill light and a stronger motor. The Smooth 4 is the lower-priced choice.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "Standard",
+        price: 200_000,
+        includes: [
+          "Zhiyun Smooth 4 gimbal",
+          "Mini tripod",
+          "Charging cable",
+          "Storage box",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "zhiyun-smooth-5",
+    brand: "Zhiyun",
+    name: "Zhiyun Smooth 5",
+    category: "Gimbals",
+    tagline: "The phone gimbal with a fill light.",
+    headline:
+      "The Zhiyun Smooth 5 is a 3-axis phone gimbal with a magnetic fill light, a control panel with a focus wheel, and subject tracking.",
+    summary:
+      "The Smooth 5 has stronger motors than earlier Smooth models, so big phones stay steady. The magnetic fill light lights your face for night vlogs and dark halls, and the control panel puts zoom, focus and modes under your thumb. Tracking keeps a dancer or speaker in frame. It folds down small for carrying, and charges in about 2 hours.",
+    image: "/products/zhiyun-smooth-5/main.jpg",
+    hero: "/products/zhiyun-smooth-5/hero.jpg",
+    gallery: [
+      { src: "/products/zhiyun-smooth-5/main.jpg", alt: "Zhiyun Smooth 5 with a phone and fill light" },
+      { src: "/products/zhiyun-smooth-5/g1.jpg", alt: "Zhiyun Smooth 5 with tripod and cable" },
+      { src: "/products/zhiyun-smooth-5/g2.jpg", alt: "Zhiyun Smooth 5 Combo kit with bag" },
+      { src: "/products/zhiyun-smooth-5/g3.jpg", alt: "Zhiyun Smooth 5 on a mini tripod" },
+      { src: "/products/zhiyun-smooth-5/h3.jpg", alt: "Zhiyun Smooth 5 control panel" },
+      { src: "/products/zhiyun-smooth-5/h4.jpg", alt: "Zhiyun Smooth 5 folded with a phone" },
+    ],
+    stats: [
+      { value: "Fill light", label: "Magnetic" },
+      { value: "615 g", label: "Weight" },
+      { value: "2 h", label: "Charge time" },
+      { value: "Tracking", label: "Via the app" },
+    ],
+    highlights: [
+      {
+        title: "Fill light",
+        body: "The magnetic fill light brightens your face for night vlogs, live streams and dark halls.",
+        image: "/products/zhiyun-smooth-5/h1.jpg",
+      },
+      {
+        title: "Tracking",
+        body: "Tracking keeps a dancer, speaker or child in frame as they move around.",
+        image: "/products/zhiyun-smooth-5/h2.jpg",
+      },
+      {
+        title: "Controls under your thumb",
+        body: "The control panel and wheel handle zoom, focus and modes without touching the phone screen.",
+        image: "/products/zhiyun-smooth-5/h3.jpg",
+      },
+      {
+        title: "Folds small",
+        body: "It folds down to carry in a bag, and holds big phones steady with its stronger motors.",
+        image: "/products/zhiyun-smooth-5/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Phone creators", body: "TikTok, Reels and live streams." },
+      { title: "Night vlogs", body: "The fill light lights your face." },
+      { title: "Events", body: "Steady phone clips at parties and church." },
+      { title: "Big phones", body: "Stronger motors for heavier phones." },
+    ],
+    notFor:
+      "The Smooth 5 is for phones only and does not hold cameras. For a lower price without the fill light, the Smooth 4 is still a good phone gimbal.",
+    specs: [
+      { label: "Axes", value: "3-axis" },
+      { label: "Range", value: "Tilt 349°; roll 300°; pan 360°" },
+      { label: "Battery", value: "Up to 25 hours standby; about 4.5 hours with fill light on" },
+      { label: "Charging", value: "About 2 hours with 15 W" },
+      { label: "Fill light", value: "Magnetic" },
+      { label: "Controls", value: "Control panel with focus and zoom wheel; app tracking" },
+      { label: "Size", value: "311 × 168 × 52 mm" },
+      { label: "Weight", value: "About 615 g" },
+    ],
+    specsNote:
+      "Figures are Zhiyun's. Battery time depends on your phone, the fill light and how much the motors work. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Will my phone fit?",
+        a: "Most iPhone and Android phones fit, including bigger models. Send us your phone model on WhatsApp and we'll confirm.",
+      },
+      {
+        q: "Is the fill light included?",
+        a: "Yes, in the kit we sell, along with filters, a tripod and a wrist strap. We confirm the box contents before you pay.",
+      },
+      {
+        q: "Smooth 5 or DJI Osmo Mobile?",
+        a: "The Smooth 5 has a fill light and a control wheel. The DJI Osmo Mobile is lighter and uses a magnetic phone clamp. Ask us which suits you.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "Standard",
+        price: 380_000,
+        includes: [
+          "Zhiyun Smooth 5 gimbal",
+          "Fill light",
+          "Filters",
+          "Mini tripod",
+          "Wrist strap",
+          "Charging cable",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "hollyland-pyro-h",
+    brand: "Hollyland",
+    name: "Hollyland Pyro H",
+    category: "Wireless video",
+    tagline: "4K wireless video over HDMI.",
+    headline:
+      "The Hollyland Pyro H sends 4K HDMI video from your camera to a monitor up to 400 m away, with about 60 ms of delay and up to four receivers on one transmitter.",
+    summary:
+      "The Pyro H replaces the long HDMI cable between your camera and the monitor. Plug the transmitter into the camera, plug the receiver into a monitor, switcher or capture card, and the picture follows wirelessly in up to 4K at 30 fps. Range is up to 400 m in clear line of sight, and the delay is low enough for a director, client or focus puller to work from the feed. It scans for the cleanest channel when it starts and keeps hopping between 2.4 GHz and 5 GHz bands, which matters in busy halls full of Wi-Fi. In Broadcast mode one transmitter feeds up to four receivers, so the director, client and switcher can each have their own screen. Each unit runs on an NP-F battery or DC power.",
+    image: "/products/hollyland-pyro-h/main.jpg",
+    hero: "/products/hollyland-pyro-h/hero.jpg",
+    gallery: [
+      { src: "/products/hollyland-pyro-h/main.jpg", alt: "Hollyland Pyro H transmitter and receiver" },
+      { src: "/products/hollyland-pyro-h/g1.jpg", alt: "Hollyland Pyro H transmitter" },
+      { src: "/products/hollyland-pyro-h/g2.jpg", alt: "Hollyland Pyro H receiver" },
+      { src: "/products/hollyland-pyro-h/g3.jpg", alt: "Hollyland Pyro H box contents" },
+      { src: "/products/hollyland-pyro-h/h2.jpg", alt: "One Pyro H transmitter feeding four receivers on set" },
+      { src: "/products/hollyland-pyro-h/h4.jpg", alt: "Hollyland Pyro H power options" },
+    ],
+    stats: [
+      { value: "4K/30fps", label: "HDMI video" },
+      { value: "400 m", label: "Line-of-sight range" },
+      { value: "60 ms", label: "Delay" },
+      { value: "1 to 4", label: "Receivers per transmitter" },
+    ],
+    highlights: [
+      {
+        title: "Far enough for big venues",
+        body: "Up to 400 m in clear line of sight, with about 60 ms of delay. That covers a church hall, an event centre or a football pitch from the camera to the control table.",
+        image: "/products/hollyland-pyro-h/h1.jpg",
+      },
+      {
+        title: "Four screens from one camera",
+        body: "In Broadcast mode one transmitter feeds up to four receivers, so the director, the client and the switcher can each watch their own monitor.",
+        image: "/products/hollyland-pyro-h/h2.jpg",
+      },
+      {
+        title: "Finds a clean channel on its own",
+        body: "The Pyro H scans for the clearest channel when it starts and hops between 2.4 GHz and 5 GHz bands, so the picture holds up in rooms crowded with Wi-Fi and phones.",
+        image: "/products/hollyland-pyro-h/h3.jpg",
+      },
+      {
+        title: "Runs on the batteries you have",
+        body: "Each unit takes an NP-F battery or DC power, and USB-C power works too in the normal one-to-one mode.",
+        image: "/products/hollyland-pyro-h/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Live events", body: "Weddings, church services and conferences with a switcher." },
+      { title: "Live streaming", body: "Camera to capture card or laptop without a long cable." },
+      { title: "Film sets", body: "Director and client monitors away from the camera." },
+      { title: "Small crews", body: "Simple setup that one person can manage." },
+    ],
+    notFor:
+      "The Pyro H only has HDMI. If your camera or switcher uses SDI, look at the Pyro S or Mars 4K, which take both HDMI and SDI.",
+    specs: [
+      { label: "Video in and out", value: "HDMI" },
+      { label: "Resolution", value: "Up to 4K at 30 fps" },
+      { label: "Range", value: "Up to 400 m (1,300 ft) in clear line of sight" },
+      { label: "Delay", value: "About 60 ms" },
+      { label: "Receivers", value: "Up to 4 receivers per transmitter in Broadcast mode" },
+      { label: "Frequency", value: "2.4 GHz and 5 GHz, with channel scan and automatic frequency hopping" },
+      { label: "Power", value: "NP-F battery or DC; USB-C (not in Broadcast mode)" },
+      { label: "Weight", value: "About 192 g per unit" },
+    ],
+    specsNote:
+      "Figures are Hollyland's. Range is measured in clear line of sight with no interference; walls, crowds and Wi-Fi will shorten it. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Pyro H or Pyro S?",
+        a: "Both send 4K video up to 400 m. The Pyro S adds SDI inputs and outputs, a status screen and a metal body with a fan. If all your gear is HDMI, the Pyro H costs less and does the job.",
+      },
+      {
+        q: "Can I use it for live streaming?",
+        a: "Yes. Connect the receiver to your capture card, switcher or laptop the same way you would connect the camera with a cable.",
+      },
+      {
+        q: "Can I add more receivers later?",
+        a: "Yes. One transmitter can feed up to four receivers in Broadcast mode. Ask us on WhatsApp for an extra receiver.",
+      },
+      {
+        q: "Does it come with batteries?",
+        a: "Usually not. Each unit takes an NP-F battery. We can add batteries and a charger to your order.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "kit",
+        name: "Transmitter and receiver kit",
+        price: 500_000,
+        includes: [
+          "Pyro H transmitter",
+          "Pyro H receiver",
+          "Antennas",
+          "Cables and mounting parts",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "hollyland-pyro-s",
+    brand: "Hollyland",
+    name: "Hollyland Pyro S",
+    category: "Wireless video",
+    tagline: "4K wireless video over HDMI and SDI.",
+    headline:
+      "The Hollyland Pyro S sends 4K video over HDMI or SDI up to 400 m away, with about 50 ms of delay, a metal body and up to four receivers on one transmitter.",
+    summary:
+      "The Pyro S is the bigger brother of the Pyro H. It does the same job, sending your camera's picture to a monitor or switcher without a cable, but it takes both HDMI and SDI, so it fits cinema cameras and broadcast switchers as well as mirrorless cameras. The delay is lower at about 50 ms, the range is up to 400 m in clear line of sight, and a small screen on each unit shows the channel and signal at a glance. The magnesium alloy body and built-in fan keep it cool on long event days. It hops between frequencies on its own to avoid interference, and one transmitter can feed up to four receivers. Each unit runs on an NP-F battery or DC power.",
+    image: "/products/hollyland-pyro-s/main.jpg",
+    hero: "/products/hollyland-pyro-s/hero.jpg",
+    gallery: [
+      { src: "/products/hollyland-pyro-s/main.jpg", alt: "Hollyland Pyro S transmitter and receiver" },
+      { src: "/products/hollyland-pyro-s/g1.jpg", alt: "Hollyland Pyro S unit with screen" },
+      { src: "/products/hollyland-pyro-s/g2.jpg", alt: "Hollyland Pyro S unit front" },
+      { src: "/products/hollyland-pyro-s/g3.jpg", alt: "Hollyland Pyro S HDMI and SDI ports" },
+      { src: "/products/hollyland-pyro-s/h2.jpg", alt: "One Pyro S transmitter feeding four receivers on set" },
+      { src: "/products/hollyland-pyro-s/h4.jpg", alt: "Hollyland Pyro S power options" },
+    ],
+    stats: [
+      { value: "4K/30fps", label: "HDMI and SDI video" },
+      { value: "400 m", label: "Line-of-sight range" },
+      { value: "50 ms", label: "Delay" },
+      { value: "1 to 4", label: "Receivers per transmitter" },
+    ],
+    highlights: [
+      {
+        title: "Low delay, long range",
+        body: "About 50 ms of delay and up to 400 m in clear line of sight. Fast enough for a camera operator to pull focus from the feed.",
+        image: "/products/hollyland-pyro-s/h1.jpg",
+      },
+      {
+        title: "Up to four receivers",
+        body: "One transmitter feeds up to four receivers, so the switcher, the director and the client each get their own picture.",
+        image: "/products/hollyland-pyro-s/h2.jpg",
+      },
+      {
+        title: "Dodges interference on its own",
+        body: "Automatic frequency hopping moves to a cleaner channel when the one in use gets busy, which keeps the picture steady at crowded events.",
+        image: "/products/hollyland-pyro-s/h3.jpg",
+      },
+      {
+        title: "Built for long days",
+        body: "A magnesium alloy body with a fan stays cool through all-day events, and each unit runs on an NP-F battery or DC power.",
+        image: "/products/hollyland-pyro-s/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Broadcast and multi-camera", body: "SDI into switchers and recorders." },
+      { title: "Cinema cameras", body: "Works with HDMI or SDI cameras." },
+      { title: "Events and churches", body: "Long days with a crowd and lots of Wi-Fi." },
+      { title: "Production houses", body: "One kit for every kind of job." },
+    ],
+    notFor:
+      "If all your cameras and switchers are HDMI, the Pyro H gives you the same range for less money.",
+    specs: [
+      { label: "Video in and out", value: "HDMI and SDI" },
+      { label: "Resolution", value: "Up to 4K at 30 fps" },
+      { label: "Range", value: "Up to 400 m (1,300 ft) in clear line of sight" },
+      { label: "Delay", value: "About 50 ms" },
+      { label: "Receivers", value: "Up to 4 receivers per transmitter" },
+      { label: "Frequency", value: "2.4 GHz and 5 GHz, with automatic frequency hopping" },
+      { label: "Screen", value: "Status screen on each unit" },
+      { label: "Body", value: "Magnesium alloy with built-in fan" },
+      { label: "Power", value: "NP-F battery or DC" },
+    ],
+    specsNote:
+      "Figures are Hollyland's. Range is measured in clear line of sight with no interference; walls, crowds and Wi-Fi will shorten it. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Pyro S or Mars 4K?",
+        a: "Both take HDMI and SDI and send 4K. The Pyro S goes much further (up to 400 m against 150 m) and feeds up to four receivers. The Mars 4K is smaller and lets you watch on phones with an app.",
+      },
+      {
+        q: "Can I mix HDMI and SDI?",
+        a: "Yes. You can feed the transmitter by HDMI and take SDI out of the receiver, or the other way round, depending on your camera and switcher.",
+      },
+      {
+        q: "Can I add more receivers later?",
+        a: "Yes. One transmitter can feed up to four receivers. Ask us on WhatsApp for an extra receiver.",
+      },
+      {
+        q: "Does it come with batteries?",
+        a: "Usually not. Each unit takes an NP-F battery. We can add batteries and a charger to your order.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "kit",
+        name: "Transmitter and receiver kit",
+        price: 600_000,
+        includes: [
+          "Pyro S transmitter",
+          "Pyro S receiver",
+          "Antennas",
+          "Cables and mounting parts",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "hollyland-mars-300-pro",
+    brand: "Hollyland",
+    name: "Hollyland Mars 300 Pro",
+    category: "Wireless video",
+    tagline: "Small, simple wireless HDMI.",
+    headline:
+      "The Hollyland Mars 300 Pro sends 1080p HDMI video up to 100 m with about 0.1 seconds of delay, in a small kit that runs on a power bank.",
+    summary:
+      "The Mars 300 Pro is the easy way to get your camera's picture to a monitor or capture card without a cable. It sends 1080p video over HDMI up to 100 m in clear line of sight, with about 0.1 seconds of delay. The units are small and light, so they sit on a camera cage or a gimbal without getting in the way. A small screen and thumbwheel on each unit let you check the signal and change channels without a menu, and you can also watch the feed on a phone with Hollyland's app. Power it with an NP-F battery, DC, or a USB-C power bank.",
+    image: "/products/hollyland-mars-300-pro/main.jpg",
+    hero: "/products/hollyland-mars-300-pro/hero.jpg",
+    gallery: [
+      { src: "/products/hollyland-mars-300-pro/main.jpg", alt: "Hollyland Mars 300 Pro transmitter and receiver" },
+      { src: "/products/hollyland-mars-300-pro/g1.jpg", alt: "Hollyland Mars 300 Pro pair" },
+      { src: "/products/hollyland-mars-300-pro/g2.jpg", alt: "Hollyland Mars 300 Pro unit" },
+      { src: "/products/hollyland-mars-300-pro/g3.jpg", alt: "Hollyland Mars 300 Pro close up" },
+      { src: "/products/hollyland-mars-300-pro/h1.jpg", alt: "Crew filming with the Mars 300 Pro" },
+      { src: "/products/hollyland-mars-300-pro/h2.jpg", alt: "Watching the Mars 300 Pro feed on a phone" },
+    ],
+    stats: [
+      { value: "1080p/60", label: "HDMI video" },
+      { value: "100 m", label: "Line-of-sight range" },
+      { value: "0.1 s", label: "Delay" },
+      { value: "USB-C", label: "Power bank power" },
+    ],
+    highlights: [
+      {
+        title: "Light enough for any rig",
+        body: "The units are small and light, so they fit on a camera cage or gimbal and leave the camera balanced.",
+        image: "/products/hollyland-mars-300-pro/h1.jpg",
+      },
+      {
+        title: "Watch on your phone",
+        body: "Besides the receiver, you can watch the feed on a phone with Hollyland's app, which is handy for a client or a second pair of eyes.",
+        image: "/products/hollyland-mars-300-pro/h2.jpg",
+      },
+      {
+        title: "Change channels with your thumb",
+        body: "A small screen shows the channel and signal, and the thumbwheel changes settings without menus.",
+        image: "/products/hollyland-mars-300-pro/h3.jpg",
+      },
+      {
+        title: "Runs on a power bank",
+        body: "Power each unit from a USB-C power bank, an NP-F battery or DC, so you're not stuck when the light goes off.",
+        image: "/products/hollyland-mars-300-pro/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Content creators", body: "Camera to monitor or laptop without a cable." },
+      { title: "Small events", body: "Weddings and programmes in one hall." },
+      { title: "Live streaming", body: "Camera to capture card for church and online shows." },
+      { title: "Gimbal operators", body: "A light transmitter that won't upset balance." },
+    ],
+    notFor:
+      "The Mars 300 Pro is 1080p only and reaches about 100 m. For 4K or longer distances, look at the Pyro H. For SDI, look at the Mars 400S Pro.",
+    specs: [
+      { label: "Video in and out", value: "HDMI" },
+      { label: "Resolution", value: "Up to 1080p at 60 fps" },
+      { label: "Range", value: "Up to 100 m (300 ft) in clear line of sight" },
+      { label: "Delay", value: "About 0.1 seconds" },
+      { label: "Controls", value: "Screen and thumbwheel on each unit" },
+      { label: "App monitoring", value: "Watch the feed on a phone with Hollyland's app" },
+      { label: "Power", value: "NP-F battery, DC or USB-C" },
+    ],
+    specsNote:
+      "Figures are Hollyland's. Range is measured in clear line of sight with no interference; walls, crowds and Wi-Fi will shorten it. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Mars 300 Pro or Pyro H?",
+        a: "The Mars 300 Pro is enough for 1080p in one room or hall. The Pyro H sends 4K, goes four times as far and feeds up to four receivers.",
+      },
+      {
+        q: "Can I use it for live streaming?",
+        a: "Yes. Plug the receiver into your capture card or switcher the same way you would plug in the camera.",
+      },
+      {
+        q: "Will it work with my camera?",
+        a: "It works with any camera that has an HDMI output. Tell us your camera on WhatsApp and we'll confirm.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "kit",
+        name: "Transmitter and receiver kit",
+        price: 700_000,
+        includes: [
+          "Mars 300 Pro transmitter",
+          "Mars 300 Pro receiver",
+          "Antennas",
+          "Cables and mounting parts",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "hollyland-mars-400s-pro",
+    brand: "Hollyland",
+    name: "Hollyland Mars 400S Pro",
+    category: "Wireless video",
+    tagline: "Wireless video over SDI and HDMI.",
+    headline:
+      "The Hollyland Mars 400S Pro sends 1080p video over SDI or HDMI up to 120 m with about 0.1 seconds of delay, to two receivers and up to four phones at once.",
+    summary:
+      "The Mars 400S Pro is a compact wireless video kit for cameras and switchers that use SDI as well as HDMI. It sends 1080p video up to 120 m in clear line of sight, with about 0.1 seconds of delay. One transmitter feeds up to two receivers, and up to four phones or tablets can watch at the same time with Hollyland's app, so the director, client and makeup can all see the shot. A screen on each unit shows the channel and signal, and the fan has three modes so you can keep it quiet when the mic is close. It runs on an NP-F battery or DC power.",
+    image: "/products/hollyland-mars-400s-pro/main.jpg",
+    hero: "/products/hollyland-mars-400s-pro/hero.jpg",
+    gallery: [
+      { src: "/products/hollyland-mars-400s-pro/main.jpg", alt: "Hollyland Mars 400S Pro transmitter and receiver" },
+      { src: "/products/hollyland-mars-400s-pro/g1.jpg", alt: "Hollyland Mars 400S Pro pair" },
+      { src: "/products/hollyland-mars-400s-pro/g2.jpg", alt: "Back of the Hollyland Mars 400S Pro" },
+      { src: "/products/hollyland-mars-400s-pro/g3.jpg", alt: "Hollyland Mars 400S Pro transmitter and receiver side by side" },
+      { src: "/products/hollyland-mars-400s-pro/h2.jpg", alt: "Watching the Mars 400S Pro feed on a phone" },
+      { src: "/products/hollyland-mars-400s-pro/h3.jpg", alt: "Mars 400S Pro sending to monitors, phones and tablets" },
+    ],
+    stats: [
+      { value: "SDI + HDMI", label: "Inputs and outputs" },
+      { value: "120 m", label: "Line-of-sight range" },
+      { value: "0.1 s", label: "Delay" },
+      { value: "2 + 4", label: "Receivers + app viewers" },
+    ],
+    highlights: [
+      {
+        title: "Fits SDI and HDMI gear",
+        body: "Feed it from a cinema camera by SDI or a mirrorless camera by HDMI, and send the picture on to an SDI or HDMI monitor or switcher.",
+        image: "/products/hollyland-mars-400s-pro/h1.jpg",
+      },
+      {
+        title: "Watch on phones and tablets",
+        body: "Up to four phones or tablets can watch the feed with Hollyland's app, on top of the receivers.",
+        image: "/products/hollyland-mars-400s-pro/h2.jpg",
+      },
+      {
+        title: "Two receivers at once",
+        body: "One transmitter feeds two receivers, so you can send the picture to the director's monitor and the switcher together.",
+        image: "/products/hollyland-mars-400s-pro/h3.jpg",
+      },
+      {
+        title: "Quiet when it matters",
+        body: "Three fan modes let you trade cooling for silence, and each unit runs on an NP-F battery or DC power.",
+        image: "/products/hollyland-mars-400s-pro/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "SDI cameras", body: "Cinema and broadcast cameras with SDI out." },
+      { title: "Film and music videos", body: "Director and client monitors on set." },
+      { title: "Multi-camera events", body: "Camera to switcher without long cables." },
+      { title: "Crews with clients", body: "Clients watch on their own phones." },
+    ],
+    notFor:
+      "The Mars 400S Pro is 1080p and reaches about 120 m. For 4K over SDI, look at the Mars 4K or the Pyro S.",
+    specs: [
+      { label: "Video in and out", value: "SDI and HDMI" },
+      { label: "Resolution", value: "Up to 1080p at 60 fps" },
+      { label: "Range", value: "Up to 120 m (400 ft) in clear line of sight" },
+      { label: "Delay", value: "About 0.1 seconds" },
+      { label: "Receivers", value: "Up to 2 receivers per transmitter" },
+      { label: "App monitoring", value: "Up to 4 phones or tablets with Hollyland's app" },
+      { label: "Cooling", value: "Fan with three modes" },
+      { label: "Power", value: "NP-F battery or DC" },
+      { label: "Weight", value: "About 206 g per unit" },
+    ],
+    specsNote:
+      "Figures are Hollyland's. Range is measured in clear line of sight with no interference; walls, crowds and Wi-Fi will shorten it. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Mars 400S Pro or Mars 4K?",
+        a: "Both take SDI and HDMI and let you watch on phones. The Mars 4K sends 4K and reaches a bit further. If your work is 1080p, the Mars 400S Pro saves you money.",
+      },
+      {
+        q: "Can I mix SDI and HDMI?",
+        a: "Yes. You can feed the transmitter by SDI and take HDMI out of the receiver, or the other way round.",
+      },
+      {
+        q: "Which app do I use?",
+        a: "Hollyland's HollyView app, for iPhone and Android. We can help you set it up when you collect.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "kit",
+        name: "Transmitter and receiver kit",
+        price: 900_000,
+        includes: [
+          "Mars 400S Pro transmitter",
+          "Mars 400S Pro receiver",
+          "Antennas",
+          "Cables and mounting parts",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "hollyland-mars-4k",
+    brand: "Hollyland",
+    name: "Hollyland Mars 4K",
+    category: "Wireless video",
+    tagline: "4K wireless video over SDI and HDMI.",
+    headline:
+      "The Hollyland Mars 4K sends 4K video over SDI or HDMI up to 150 m with about 0.06 seconds of delay, to two receivers and up to four phones at once.",
+    summary:
+      "The Mars 4K sends a 4K picture from your camera to a monitor, switcher or recorder without a cable. It takes both SDI and HDMI, so it fits cinema cameras, broadcast switchers and mirrorless cameras alike, and the SDI output supports the frame rates broadcast work uses. Range is up to 150 m in clear line of sight, and the delay is about 0.06 seconds. One transmitter feeds two receivers, and up to four phones or tablets can watch at the same time with Hollyland's app. It scans for the cleanest channel so you can pick it before the shoot starts.",
+    image: "/products/hollyland-mars-4k/main.jpg",
+    hero: "/products/hollyland-mars-4k/hero.jpg",
+    gallery: [
+      { src: "/products/hollyland-mars-4k/main.jpg", alt: "Hollyland Mars 4K transmitter and receiver" },
+      { src: "/products/hollyland-mars-4k/g1.jpg", alt: "Hollyland Mars 4K pair" },
+      { src: "/products/hollyland-mars-4k/g2.jpg", alt: "Hollyland Mars 4K unit" },
+      { src: "/products/hollyland-mars-4k/g3.jpg", alt: "Hollyland Mars 4K kit and case" },
+      { src: "/products/hollyland-mars-4k/h2.jpg", alt: "Mars 4K HDMI and SDI connections" },
+      { src: "/products/hollyland-mars-4k/h4.jpg", alt: "One Mars 4K transmitter to two receivers and four phones" },
+    ],
+    stats: [
+      { value: "4K/30fps", label: "SDI and HDMI video" },
+      { value: "150 m", label: "Line-of-sight range" },
+      { value: "0.06 s", label: "Delay" },
+      { value: "2 + 4", label: "Receivers + app viewers" },
+    ],
+    highlights: [
+      {
+        title: "4K with very little delay",
+        body: "About 0.06 seconds of delay and up to 150 m in clear line of sight, fast enough to follow sports and live action from the feed.",
+        image: "/products/hollyland-mars-4k/h1.jpg",
+      },
+      {
+        title: "SDI and HDMI on both ends",
+        body: "Plug in a cinema camera, a mirrorless camera, a switcher or a monitor. The SDI output supports the frame rates used in broadcast.",
+        image: "/products/hollyland-mars-4k/h2.jpg",
+      },
+      {
+        title: "Pick the cleanest channel",
+        body: "A channel scan shows which channels are busy, so you can choose a clear one before the event starts.",
+        image: "/products/hollyland-mars-4k/h3.jpg",
+      },
+      {
+        title: "Two receivers and four phones",
+        body: "One transmitter feeds two receivers, and up to four phones or tablets can watch with Hollyland's app at the same time.",
+        image: "/products/hollyland-mars-4k/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "4K productions", body: "Music videos, films and adverts." },
+      { title: "Broadcast and switchers", body: "SDI into ATEM and other switchers." },
+      { title: "Sports", body: "Low delay for following fast action." },
+      { title: "Client monitoring", body: "Clients watch on their phones." },
+    ],
+    notFor:
+      "The Mars 4K reaches about 150 m. For longer distances at big outdoor events, the Pyro S goes up to 400 m with SDI and HDMI.",
+    specs: [
+      { label: "Video in and out", value: "SDI and HDMI" },
+      { label: "Resolution", value: "Up to 4K at 30 fps" },
+      { label: "Range", value: "Up to 150 m (450 ft) in clear line of sight" },
+      { label: "Delay", value: "About 0.06 seconds" },
+      { label: "Receivers", value: "Up to 2 receivers per transmitter" },
+      { label: "App monitoring", value: "Up to 4 phones or tablets with Hollyland's app" },
+      { label: "Channel", value: "Channel scan and selection" },
+      { label: "Weight", value: "About 223 g per unit" },
+    ],
+    specsNote:
+      "Figures are Hollyland's. Range is measured in clear line of sight with no interference; walls, crowds and Wi-Fi will shorten it. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Mars 4K or Pyro S?",
+        a: "Both send 4K over SDI and HDMI. The Mars 4K is smaller and lets clients watch on phones. The Pyro S goes much further and feeds up to four receivers.",
+      },
+      {
+        q: "Will it work with my switcher?",
+        a: "It works with any switcher that takes HDMI or SDI, including ATEM switchers. Tell us your setup on WhatsApp and we'll confirm.",
+      },
+      {
+        q: "Does it come with batteries?",
+        a: "Usually not. We can add batteries and a charger to your order. Ask us which ones suit it.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "kit",
+        name: "Transmitter and receiver kit",
+        price: 1_000_000,
+        includes: [
+          "Mars 4K transmitter",
+          "Mars 4K receiver",
+          "Antennas",
+          "Cables and mounting parts",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "dji-sdr-transmission",
+    brand: "DJI",
+    name: "DJI SDR Transmission Combo",
+    category: "Wireless video",
+    tagline: "Long-range video for whole crews.",
+    headline:
+      "DJI SDR Transmission sends 1080p60 video up to 3 km with about 35 ms of delay, to as many receivers as you need, and lets you control the camera and gimbal from the receiver.",
+    summary:
+      "DJI SDR Transmission uses DJI's drone video link to send your camera's picture much further than Wi-Fi-based kits, up to 3 km in clear line of sight under FCC rules or 2 km under CE. The delay is about 35 ms on the link. In Broadcast mode any number of receivers can watch one transmitter, so a whole crew can see the shot, and phones and tablets can join over Wi-Fi with the Ronin app. The app adds LUTs, peaking, waveform and false colour for checking exposure and focus, and it can record the feed. From the receiver you can also start and stop recording, control supported cameras and steer a DJI RS gimbal. Each unit runs on an NP-F battery or USB-C PD power.",
+    image: "/products/dji-sdr-transmission/main.jpg",
+    hero: "/products/dji-sdr-transmission/hero.jpg",
+    gallery: [
+      { src: "/products/dji-sdr-transmission/main.jpg", alt: "DJI SDR Transmission transmitter and receiver" },
+      { src: "/products/dji-sdr-transmission/g1.jpg", alt: "DJI SDR Transmission transmitter" },
+      { src: "/products/dji-sdr-transmission/g2.jpg", alt: "DJI SDR Transmission receiver" },
+      { src: "/products/dji-sdr-transmission/g3.jpg", alt: "DJI SDR Transmission receiver controls" },
+      { src: "/products/dji-sdr-transmission/h2.jpg", alt: "One DJI SDR transmitter sending to many receivers" },
+      { src: "/products/dji-sdr-transmission/h4.jpg", alt: "DJI SDR Transmission on a gimbal rig" },
+    ],
+    stats: [
+      { value: "3 km", label: "Range (FCC)" },
+      { value: "1080p/60", label: "Video" },
+      { value: "35 ms", label: "Link delay" },
+      { value: "Unlimited", label: "Receivers in Broadcast mode" },
+    ],
+    highlights: [
+      {
+        title: "Range no Wi-Fi kit can match",
+        body: "Up to 3 km in clear line of sight (2 km under CE rules), using DJI's drone video link. It holds up across car parks, stadiums and outdoor festivals.",
+        image: "/products/dji-sdr-transmission/h1.jpg",
+      },
+      {
+        title: "As many receivers as you need",
+        body: "In Broadcast mode any number of receivers can watch the same transmitter, so the director, focus puller, client and switcher all see the shot.",
+        image: "/products/dji-sdr-transmission/h2.jpg",
+      },
+      {
+        title: "Monitoring tools on your phone",
+        body: "Phones and tablets join over Wi-Fi with the Ronin app, which adds LUTs, peaking, waveform and false colour, and can record the feed.",
+        image: "/products/dji-sdr-transmission/h3.jpg",
+      },
+      {
+        title: "Control the camera and gimbal",
+        body: "Start and stop recording, change supported camera settings and steer a DJI RS gimbal from the receiver, without touching the rig.",
+        image: "/products/dji-sdr-transmission/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Large outdoor events", body: "Stadiums, festivals and long venues." },
+      { title: "Film crews", body: "Every department on its own monitor." },
+      { title: "Car and moving shots", body: "Monitor from a follow vehicle." },
+      { title: "DJI RS gimbal users", body: "Control the gimbal from the receiver." },
+    ],
+    notFor:
+      "DJI SDR Transmission sends 1080p, not 4K. If you need a 4K feed, look at the Hollyland Pyro H or Mars 4K.",
+    specs: [
+      { label: "Video", value: "Up to 1080p at 60 fps, up to 20 Mbps" },
+      { label: "Range", value: "Up to 3 km (FCC) or 2 km (CE) in clear line of sight; up to 200 m over Wi-Fi" },
+      { label: "Delay", value: "About 35 ms on the link; about 80 ms end to end" },
+      { label: "Receivers", value: "Unlimited in Broadcast mode" },
+      { label: "Inputs and outputs", value: "HDMI and SDI; USB-C monitoring on the receiver" },
+      { label: "Frequency", value: "2.4 GHz, 5.8 GHz and DFS bands" },
+      { label: "App", value: "Ronin app: LUTs, peaking, waveform, false colour, recording" },
+      { label: "Control", value: "Camera control on supported cameras; DJI RS gimbal control" },
+      { label: "Talkback", value: "Voice call through 3.5 mm headphones" },
+      { label: "Power", value: "NP-F battery or USB-C PD (9 V/2 A)" },
+      { label: "Weight", value: "About 145 g per unit" },
+    ],
+    specsNote:
+      "Figures are DJI's. Range is measured in clear line of sight with no interference, and the allowed range depends on local radio rules. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "DJI SDR or Hollyland?",
+        a: "Get DJI SDR if you need long range, many receivers or camera and gimbal control from the receiver. Get a Hollyland kit if you need 4K or a smaller budget.",
+      },
+      {
+        q: "Does it work without a DJI gimbal?",
+        a: "Yes. It works with any camera that has HDMI or SDI out. The gimbal control is extra for DJI RS users.",
+      },
+      {
+        q: "Can clients watch on their phones?",
+        a: "Yes. Phones and tablets connect over Wi-Fi with the Ronin app, up to about 200 m from the transmitter.",
+      },
+      {
+        q: "Does it come with batteries?",
+        a: "Ask us. Each unit takes an NP-F battery or USB-C power, and we can add batteries to your order.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "combo",
+        name: "Transmission Combo",
+        price: 1_150_000,
+        includes: [
+          "DJI SDR transmitter",
+          "DJI SDR receiver",
+          "Antennas",
+          "Cables and mounting parts",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "blackmagic-atem-mini",
+    brand: "Blackmagic Design",
+    name: "Blackmagic ATEM Mini",
+    category: "Live production",
+    tagline: "Switch between four HDMI cameras live.",
+    headline:
+      "The Blackmagic ATEM Mini lets you switch between four HDMI cameras or laptops with one button each, and sends the result to your computer as a webcam.",
+    summary:
+      "The ATEM Mini is the simplest way to run a multi-camera show. Plug up to four cameras, laptops or consoles into the HDMI inputs, then press a button to cut or fade between them. The finished picture comes out of the USB-C port as a normal webcam, so OBS, Zoom, Teams, YouTube or Facebook Live on your laptop see it as one camera. There is also an HDMI output for a TV or projector. Two microphone inputs and a built-in audio mixer handle the sound, and you can add your logo, titles, picture-in-picture and green screen. It is a good first switcher for a church, a small studio or a podcast. It does not stream or record on its own; your computer does that part.",
+    image: "/products/blackmagic-atem-mini/main.jpg",
+    hero: "/products/blackmagic-atem-mini/hero.jpg",
+    gallery: [
+      { src: "/products/blackmagic-atem-mini/main.jpg", alt: "Blackmagic ATEM Mini switcher" },
+      { src: "/products/blackmagic-atem-mini/g1.jpg", alt: "ATEM Mini rear HDMI, USB-C and microphone ports" },
+      { src: "/products/blackmagic-atem-mini/g2.jpg", alt: "ATEM Mini with the ATEM Software Control live stream screen" },
+      { src: "/products/blackmagic-atem-mini/g3.jpg", alt: "Three-person podcast filmed with several cameras" },
+      { src: "/products/blackmagic-atem-mini/h1.jpg", alt: "Several cameras connected to one ATEM switcher" },
+      { src: "/products/blackmagic-atem-mini/h4.jpg", alt: "ATEM Mini connected to a camera and a laptop" },
+    ],
+    stats: [
+      { value: "4", label: "HDMI inputs" },
+      { value: "USB-C", label: "Webcam output" },
+      { value: "2", label: "Microphone inputs" },
+      { value: "1080p", label: "HD video" },
+    ],
+    highlights: [
+      {
+        title: "One button per camera",
+        body: "Four HDMI inputs, each with its own button. Press to cut, or use the fade and wipe transitions. Every input is converted to the same HD format, so mixed cameras work together.",
+        image: "/products/blackmagic-atem-mini/h1.jpg",
+      },
+      {
+        title: "Audio mixer built in",
+        body: "Two microphone inputs plus the sound from every HDMI input, with level, EQ and compressor controls, so the pastor's mic and the band come through clean.",
+        image: "/products/blackmagic-atem-mini/h2.jpg",
+      },
+      {
+        title: "Logos, titles and green screen",
+        body: "Load still graphics such as your logo or a lower third, add a picture-in-picture box, or key out a green screen, all from the free ATEM Software Control app.",
+        image: "/products/blackmagic-atem-mini/h3.jpg",
+      },
+      {
+        title: "Your laptop sees a webcam",
+        body: "The USB-C output works as a standard webcam with no drivers, so any streaming or meeting app on your laptop can take the switched picture straight away.",
+        image: "/products/blackmagic-atem-mini/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Churches", body: "Two to four cameras for Sunday services streamed from a laptop." },
+      { title: "Podcasts", body: "Switch between hosts and guests as you record." },
+      { title: "Online classes", body: "Camera, slides and whiteboard on one feed." },
+      { title: "Zoom and Teams", body: "A proper multi-camera look on video calls." },
+    ],
+    notFor:
+      "The ATEM Mini needs a computer to stream or record. If you want to stream straight to YouTube or record to a drive without a laptop, look at the ATEM Mini Pro.",
+    specs: [
+      { label: "Video inputs", value: "4 × HDMI, standards converted" },
+      { label: "Video outputs", value: "1 × HDMI; USB-C webcam output" },
+      { label: "Resolution", value: "Up to 1080p HD" },
+      { label: "Audio inputs", value: "2 × 3.5 mm stereo microphone inputs" },
+      { label: "Audio mixer", value: "Fairlight mixer with EQ, compressor, limiter and gate" },
+      { label: "Effects", value: "1 upstream keyer with chroma key, downstream keyer, picture-in-picture, transitions" },
+      { label: "Graphics", value: "Media pool for 20 still images" },
+      { label: "Control", value: "Front panel buttons; free ATEM Software Control for Mac and Windows" },
+      { label: "Power", value: "12 V DC supply" },
+    ],
+    specsNote:
+      "Figures are Blackmagic Design's. The ATEM Mini has no streaming, recording or multiview of its own; those come with the Pro models. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Can I stream to YouTube or Facebook with it?",
+        a: "Yes, through your computer. Connect the USB-C port to your laptop and choose the ATEM as the camera in OBS, YouTube Studio or Facebook Live.",
+      },
+      {
+        q: "ATEM Mini or ATEM Mini Pro?",
+        a: "The Pro adds direct streaming over the internet, recording to a USB drive and a multiview screen that shows every camera at once. If you will always use a laptop, the ATEM Mini does the job for less.",
+      },
+      {
+        q: "Will it work with my phone or mirrorless camera?",
+        a: "Yes, if the camera has a clean HDMI output. Most mirrorless and video cameras do. Phones need an HDMI adapter.",
+      },
+      {
+        q: "Does it come with cables?",
+        a: "It comes with the power supply. HDMI cables are not included; we can add them to your order.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "ATEM Mini",
+        price: 550_000,
+        includes: ["ATEM Mini switcher", "12 V power supply", "We confirm the full box contents on WhatsApp"],
+      },
+    ],
+  },
+  {
+    slug: "blackmagic-atem-mini-pro",
+    brand: "Blackmagic Design",
+    name: "Blackmagic ATEM Mini Pro",
+    category: "Live production",
+    tagline: "Switch four cameras and stream with no laptop.",
+    headline:
+      "The Blackmagic ATEM Mini Pro switches four HDMI cameras, streams straight to YouTube or Facebook over Ethernet, and records your show to a USB drive.",
+    summary:
+      "The ATEM Mini Pro does everything the ATEM Mini does, and adds the three things most churches and event teams end up wanting. First, it streams on its own: plug in an Ethernet cable, pick YouTube, Facebook or another platform, paste your stream key and press On Air. Second, it records the program to a USB drive as an H.264 file, ready to edit or post after the event. Third, the HDMI output can show a multiview, with all four cameras, preview and program on one TV, so you can see what is coming before you cut to it. It still works as a USB webcam for Zoom or OBS, has two microphone inputs and a full audio mixer, and adds a chroma keyer for green screen.",
+    image: "/products/blackmagic-atem-mini-pro/main.jpg",
+    hero: "/products/blackmagic-atem-mini-pro/hero.jpg",
+    gallery: [
+      { src: "/products/blackmagic-atem-mini-pro/main.jpg", alt: "Blackmagic ATEM Mini Pro switcher" },
+      { src: "/products/blackmagic-atem-mini-pro/g1.jpg", alt: "ATEM Mini Pro control panel from above" },
+      { src: "/products/blackmagic-atem-mini-pro/g2.jpg", alt: "Live news programme with on-screen graphics" },
+      { src: "/products/blackmagic-atem-mini-pro/g3.jpg", alt: "Filming a baseball game with an ATEM switcher" },
+      { src: "/products/blackmagic-atem-mini-pro/h3.jpg", alt: "ATEM multiview showing every camera, preview and program" },
+      { src: "/products/blackmagic-atem-mini-pro/h4.jpg", alt: "ATEM Software Control audio mixer on a laptop" },
+    ],
+    stats: [
+      { value: "4", label: "HDMI inputs" },
+      { value: "Ethernet", label: "Direct streaming" },
+      { value: "USB", label: "Records to a drive" },
+      { value: "Multiview", label: "Every camera on one screen" },
+    ],
+    highlights: [
+      {
+        title: "Streams on its own",
+        body: "Connect Ethernet, enter your stream key and press On Air. It streams to YouTube, Facebook, Twitch and other RTMP or SRT services, and can also share a phone's mobile data over USB.",
+        image: "/products/blackmagic-atem-mini-pro/h1.jpg",
+      },
+      {
+        title: "Records to a USB drive",
+        body: "Plug in a USB flash drive or SSD and record the program as an H.264 file while you stream, ready to post after the service or event.",
+        image: "/products/blackmagic-atem-mini-pro/h2.jpg",
+      },
+      {
+        title: "See every camera at once",
+        body: "The HDMI output can show a multiview with all four inputs, preview, program, audio meters and streaming status, so you know what you are cutting to.",
+        image: "/products/blackmagic-atem-mini-pro/h3.jpg",
+      },
+      {
+        title: "A real audio mixer",
+        body: "Two microphone inputs and the sound from every camera, with EQ, compressor, limiter and gate on each channel, controlled from the buttons or the free software.",
+        image: "/products/blackmagic-atem-mini-pro/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Church streaming", body: "Stream services straight to YouTube or Facebook." },
+      { title: "Events", body: "Weddings, conferences and launches with up to four cameras." },
+      { title: "Studios", body: "Talk shows, podcasts and interviews." },
+      { title: "Schools", body: "Lectures and assemblies recorded and streamed." },
+    ],
+    notFor:
+      "The ATEM Mini Pro records only the finished program. If you want every camera recorded separately so you can re-edit later, get the ATEM Mini Pro ISO.",
+    specs: [
+      { label: "Video inputs", value: "4 × HDMI, standards converted" },
+      { label: "Video outputs", value: "1 × HDMI (program or multiview); USB-C webcam output" },
+      { label: "Resolution", value: "Up to 1080p HD" },
+      { label: "Streaming", value: "RTMP and SRT over Ethernet, or over a phone's data shared via USB" },
+      { label: "Recording", value: "H.264 to a USB drive" },
+      { label: "Audio", value: "2 × 3.5 mm mic inputs; Fairlight mixer with 6-band EQ, compressor, limiter and gate" },
+      { label: "Effects", value: "1 upstream keyer with chroma key, downstream keyer, DVE picture-in-picture" },
+      { label: "Graphics", value: "Media pool for 20 still images" },
+      { label: "Connections", value: "Gigabit Ethernet; USB-C" },
+      { label: "Power", value: "12 V DC, about 30 W" },
+    ],
+    specsNote:
+      "Figures are Blackmagic Design's. Stream quality depends on your internet upload speed. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Do I still need a laptop?",
+        a: "No. You can stream and record with only the ATEM Mini Pro and an internet connection. A laptop with the free ATEM Software Control app is handy for setting up and adding graphics.",
+      },
+      {
+        q: "What internet speed do I need?",
+        a: "For a steady 1080p stream, plan for at least 6 to 10 Mbps upload. A wired connection is more reliable than Wi-Fi.",
+      },
+      {
+        q: "Pro or Pro ISO?",
+        a: "Both stream and record. The Pro ISO also records each camera as its own file, with a DaVinci Resolve project, so you can re-edit the show after the event.",
+      },
+      {
+        q: "What drive should I record to?",
+        a: "A fast USB SSD or flash drive formatted for Mac or Windows. We can recommend one when you order.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "ATEM Mini Pro",
+        price: 1_000_000,
+        includes: ["ATEM Mini Pro switcher", "12 V power supply", "We confirm the full box contents on WhatsApp"],
+      },
+    ],
+  },
+  {
+    slug: "blackmagic-atem-mini-pro-iso",
+    brand: "Blackmagic Design",
+    name: "Blackmagic ATEM Mini Pro ISO",
+    category: "Live production",
+    tagline: "Stream live and record every camera.",
+    headline:
+      "The Blackmagic ATEM Mini Pro ISO streams and records your show like the Pro, and also records each of the four cameras as its own file for editing later.",
+    summary:
+      "The ATEM Mini Pro ISO is the ATEM Mini Pro with one big extra. While you switch and stream live, it records five video files to your USB drive: one for each camera and one for the finished program, along with the audio. It also saves a DaVinci Resolve project, so when you open it on your computer every camera is already lined up on the timeline with your live cuts. You can fix a late cut, swap a shot or make a cleaner version for YouTube after the event. Everything else is the same as the Pro: four HDMI inputs, direct streaming over Ethernet, a multiview output, two microphone inputs with a full audio mixer, and a USB-C webcam output.",
+    image: "/products/blackmagic-atem-mini-pro-iso/main.jpg",
+    hero: "/products/blackmagic-atem-mini-pro-iso/hero.jpg",
+    gallery: [
+      { src: "/products/blackmagic-atem-mini-pro-iso/main.jpg", alt: "Blackmagic ATEM Mini Pro ISO switcher" },
+      { src: "/products/blackmagic-atem-mini-pro-iso/g1.jpg", alt: "ATEM Mini Pro ISO control panel from above" },
+      { src: "/products/blackmagic-atem-mini-pro-iso/g2.jpg", alt: "ATEM Mini Pro ISO buttons close up" },
+      { src: "/products/blackmagic-atem-mini-pro-iso/g3.jpg", alt: "Editing a multi-camera recording in DaVinci Resolve" },
+      { src: "/products/blackmagic-atem-mini-pro-iso/h2.jpg", alt: "DaVinci Resolve opened on a computer" },
+      { src: "/products/blackmagic-atem-mini-pro-iso/h4.jpg", alt: "ATEM multiview showing every camera, preview and program" },
+    ],
+    stats: [
+      { value: "4", label: "HDMI inputs" },
+      { value: "5", label: "Separate recordings" },
+      { value: "Ethernet", label: "Direct streaming" },
+      { value: "Resolve", label: "Project file saved" },
+    ],
+    highlights: [
+      {
+        title: "Every camera recorded",
+        body: "Each of the four inputs and the program are recorded as separate H.264 files with their audio, so no shot is lost even if the live cut missed it.",
+        image: "/products/blackmagic-atem-mini-pro-iso/h1.jpg",
+      },
+      {
+        title: "Opens ready to edit",
+        body: "A DaVinci Resolve project is saved with the recordings. Open it and your live cuts are already on the timeline, with every angle available to change.",
+        image: "/products/blackmagic-atem-mini-pro-iso/h2.jpg",
+      },
+      {
+        title: "Fix it after the event",
+        body: "Trim a late cut, swap a shot or make a shorter highlight video for social media from the same recordings, without filming again.",
+        image: "/products/blackmagic-atem-mini-pro-iso/h3.jpg",
+      },
+      {
+        title: "Multiview and streaming",
+        body: "Like the Pro, it streams straight to YouTube or Facebook over Ethernet and shows every camera, preview and program on one screen.",
+        image: "/products/blackmagic-atem-mini-pro-iso/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Weddings and events", body: "Stream live and deliver an edited film later." },
+      { title: "Churches", body: "Live service plus clean sermon clips for the week." },
+      { title: "Podcasts", body: "Re-edit every angle for YouTube and short clips." },
+      { title: "Production companies", body: "A backup of every camera on every job." },
+    ],
+    notFor:
+      "If you never edit after the event, the ATEM Mini Pro does the same live job for less. For more than four cameras, look at the ATEM Mini Extreme.",
+    specs: [
+      { label: "Video inputs", value: "4 × HDMI, standards converted" },
+      { label: "Video outputs", value: "1 × HDMI (program or multiview); USB-C webcam output" },
+      { label: "Resolution", value: "Up to 1080p HD" },
+      { label: "ISO recording", value: "5 H.264 files (4 inputs and program) plus a DaVinci Resolve project, to a USB drive" },
+      { label: "Streaming", value: "RTMP and SRT over Ethernet, or over a phone's data shared via USB" },
+      { label: "Audio", value: "2 × 3.5 mm mic inputs; Fairlight mixer with 6-band EQ, compressor, limiter and gate" },
+      { label: "Effects", value: "1 upstream keyer with chroma key, downstream keyer, DVE picture-in-picture" },
+      { label: "Graphics", value: "Media pool for 20 still images" },
+      { label: "Power", value: "12 V DC, about 36 W" },
+    ],
+    specsNote:
+      "Figures are Blackmagic Design's. Recording five files at once needs a fast USB SSD. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Do I need DaVinci Resolve?",
+        a: "To use the project file, yes. DaVinci Resolve has a free version for Mac and Windows that opens it.",
+      },
+      {
+        q: "What drive should I use?",
+        a: "A fast USB SSD. Recording five video files at once is too much for most cheap flash drives. We can recommend one when you order.",
+      },
+      {
+        q: "Can I still stream while it records?",
+        a: "Yes. It streams, records the program and records every camera at the same time.",
+      },
+      {
+        q: "Does it come with cables?",
+        a: "It comes with the power supply. HDMI cables and drives are not included; we can add them to your order.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "ATEM Mini Pro ISO",
+        price: 1_300_000,
+        includes: ["ATEM Mini Pro ISO switcher", "12 V power supply", "We confirm the full box contents on WhatsApp"],
+      },
+    ],
+  },
+  {
+    slug: "blackmagic-atem-mini-extreme",
+    brand: "Blackmagic Design",
+    name: "Blackmagic ATEM Mini Extreme",
+    category: "Live production",
+    tagline: "Eight HDMI cameras, two outputs, live streaming.",
+    headline:
+      "The Blackmagic ATEM Mini Extreme switches up to eight HDMI cameras, streams straight to the internet, and adds more keyers, effects and outputs for bigger shows.",
+    summary:
+      "The ATEM Mini Extreme is the big one in the ATEM Mini family. It takes eight HDMI inputs instead of four, so a large church or event can cover the pulpit, choir, crowd, slides and more. It has two HDMI outputs, one for the program and one for a multiview or a screen in the hall, plus a headphone output. For graphics there are four keyers with green screen, six picture-in-picture boxes and SuperSource, which puts several cameras on screen at once for panels and interviews. It streams over Ethernet to YouTube and Facebook, records to USB drives, and still works as a USB webcam. Two microphone inputs and a larger audio mixer handle the sound, and a built-in control panel with a joystick-style T-bar makes it easy to run.",
+    image: "/products/blackmagic-atem-mini-extreme/main.jpg",
+    hero: "/products/blackmagic-atem-mini-extreme/hero.jpg",
+    gallery: [
+      { src: "/products/blackmagic-atem-mini-extreme/main.jpg", alt: "Blackmagic ATEM Mini Extreme switcher" },
+      { src: "/products/blackmagic-atem-mini-extreme/g1.jpg", alt: "ATEM Mini Extreme control panel from above" },
+      { src: "/products/blackmagic-atem-mini-extreme/g2.jpg", alt: "ATEM Mini Extreme switchers at an editing desk with sports footage" },
+      { src: "/products/blackmagic-atem-mini-extreme/g3.jpg", alt: "Operator switching a colourful children's show" },
+      { src: "/products/blackmagic-atem-mini-extreme/h2.jpg", alt: "Sports studio with an ATEM Mini Extreme" },
+      { src: "/products/blackmagic-atem-mini-extreme/h4.jpg", alt: "News presenter on a green screen with a keyed background" },
+    ],
+    stats: [
+      { value: "8", label: "HDMI inputs" },
+      { value: "2", label: "HDMI outputs" },
+      { value: "4", label: "Chroma keyers" },
+      { value: "6", label: "Picture-in-picture boxes" },
+    ],
+    highlights: [
+      {
+        title: "Up to 16 views on one screen",
+        body: "The multiview can show all eight inputs plus preview, program, media players and audio meters, so you can run a big show from one TV.",
+        image: "/products/blackmagic-atem-mini-extreme/h1.jpg",
+      },
+      {
+        title: "Eight cameras, two outputs",
+        body: "Eight HDMI inputs cover a large hall. Send the program to the projector on one output and the multiview to your desk on the other.",
+        image: "/products/blackmagic-atem-mini-extreme/h2.jpg",
+      },
+      {
+        title: "SuperSource for panels",
+        body: "Put several cameras on screen at once in boxes for panel talks, interviews and sports, with six DVEs for picture-in-picture.",
+        image: "/products/blackmagic-atem-mini-extreme/h3.jpg",
+      },
+      {
+        title: "Four green screen keyers",
+        body: "Four upstream keyers, each with a chroma keyer, plus downstream keyers and two media players for logos, lower thirds and backgrounds.",
+        image: "/products/blackmagic-atem-mini-extreme/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Large churches", body: "Five to eight cameras plus slides and lyrics." },
+      { title: "Concerts and events", body: "Big shows with a projector and a stream." },
+      { title: "TV-style studios", body: "News, talk shows and sports with green screen." },
+      { title: "Esports and gaming", body: "Several players' screens on one stream." },
+    ],
+    notFor:
+      "If four cameras are enough, the ATEM Mini Pro costs much less. The Extreme does not record each camera separately; for that, look at the ATEM Mini Extreme ISO.",
+    specs: [
+      { label: "Video inputs", value: "8 × HDMI, standards converted" },
+      { label: "Video outputs", value: "2 × HDMI (program, aux or multiview); USB-C webcam output" },
+      { label: "Resolution", value: "Up to 1080p HD" },
+      { label: "Streaming", value: "RTMP and SRT over Ethernet, or over a phone's data shared via USB" },
+      { label: "Recording", value: "H.264 to USB drives" },
+      { label: "Audio", value: "2 × 3.5 mm mic inputs; headphone output; Fairlight mixer with EQ and dynamics" },
+      { label: "Keyers", value: "4 upstream keyers with chroma key; 2 downstream keyers" },
+      { label: "Effects", value: "6 DVEs, SuperSource, 2 media players" },
+      { label: "Multiview", value: "Up to 16 views" },
+      { label: "Connections", value: "Gigabit Ethernet; 2 × USB-C" },
+      { label: "Power", value: "12 V DC, about 36 W" },
+    ],
+    specsNote:
+      "Figures are Blackmagic Design's. Stream quality depends on your internet upload speed. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Extreme or Extreme ISO?",
+        a: "Both have eight inputs and stream and record the program. The Extreme ISO also records every camera as its own file with a DaVinci Resolve project, for editing after the event.",
+      },
+      {
+        q: "Can I connect a projector and a TV at the same time?",
+        a: "Yes. Use one HDMI output for the program on the projector and the other for the multiview at the control desk.",
+      },
+      {
+        q: "Does it work with OBS or Zoom?",
+        a: "Yes. The USB-C output works as a webcam, so any app on your computer can use the switched picture.",
+      },
+      {
+        q: "Does it come with cables?",
+        a: "It comes with the power supply. HDMI cables are not included; we can add them to your order.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "ATEM Mini Extreme",
+        price: 1_700_000,
+        includes: ["ATEM Mini Extreme switcher", "12 V power supply", "We confirm the full box contents on WhatsApp"],
+      },
+    ],
+  },
+  {
+    slug: "blackmagic-atem-mini-extreme-iso",
+    brand: "Blackmagic Design",
+    name: "Blackmagic ATEM Mini Extreme ISO",
+    category: "Live production",
+    tagline: "Eight cameras live, every one recorded.",
+    headline:
+      "The Blackmagic ATEM Mini Extreme ISO switches and streams up to eight HDMI cameras, and records every camera as its own file with a DaVinci Resolve project.",
+    summary:
+      "The ATEM Mini Extreme ISO is the ATEM Mini Extreme with full ISO recording. You get the same eight HDMI inputs, two HDMI outputs, four green screen keyers, SuperSource and direct streaming over Ethernet. On top of that, it records each of the eight cameras and the program as separate files on your USB drive, and saves a DaVinci Resolve project with your live cuts already on the timeline. That means a church, event company or studio can stream live and still deliver a cleaner edited version afterwards, using every angle that was filmed. It is the most complete switcher in the ATEM Mini range.",
+    image: "/products/blackmagic-atem-mini-extreme-iso/main.jpg",
+    hero: "/products/blackmagic-atem-mini-extreme-iso/hero.jpg",
+    gallery: [
+      { src: "/products/blackmagic-atem-mini-extreme-iso/main.jpg", alt: "Blackmagic ATEM Mini Extreme ISO switcher" },
+      { src: "/products/blackmagic-atem-mini-extreme-iso/g1.jpg", alt: "ATEM Mini Extreme ISO control panel from above" },
+      { src: "/products/blackmagic-atem-mini-extreme-iso/g2.jpg", alt: "Esports tournament stream with several players on screen" },
+      { src: "/products/blackmagic-atem-mini-extreme-iso/g3.jpg", alt: "Diagram of an ATEM switcher streaming over a network" },
+      { src: "/products/blackmagic-atem-mini-extreme-iso/h2.jpg", alt: "Green screen studio switched with an ATEM Mini Extreme ISO" },
+      { src: "/products/blackmagic-atem-mini-extreme-iso/h3.jpg", alt: "Editor working on ATEM recordings in an office" },
+    ],
+    stats: [
+      { value: "8", label: "HDMI inputs" },
+      { value: "9", label: "Separate recordings" },
+      { value: "2", label: "HDMI outputs" },
+      { value: "Resolve", label: "Project file saved" },
+    ],
+    highlights: [
+      {
+        title: "Eight inputs, big-show controls",
+        body: "The same eight HDMI inputs, two outputs, SuperSource and six picture-in-picture boxes as the ATEM Mini Extreme.",
+        image: "/products/blackmagic-atem-mini-extreme-iso/h1.jpg",
+      },
+      {
+        title: "Four green screen keyers",
+        body: "Four upstream keyers with chroma key, plus downstream keyers and media players for logos, titles and virtual backgrounds.",
+        image: "/products/blackmagic-atem-mini-extreme-iso/h2.jpg",
+      },
+      {
+        title: "Edit every angle later",
+        body: "Each camera and the program are recorded separately, with a DaVinci Resolve project, so you can re-cut the show after the event.",
+        image: "/products/blackmagic-atem-mini-extreme-iso/h3.jpg",
+      },
+      {
+        title: "Sound recorded too",
+        body: "Two microphone inputs, a headphone output and a full Fairlight audio mixer, with the audio saved alongside the video files.",
+        image: "/products/blackmagic-atem-mini-extreme-iso/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Event companies", body: "Stream live, then deliver an edited film." },
+      { title: "Large churches", body: "Up to eight cameras with every angle kept." },
+      { title: "Concerts", body: "Re-edit the show for YouTube after the night." },
+      { title: "TV-style studios", body: "News, talk and sports with green screen." },
+    ],
+    notFor:
+      "If you don't edit after the event, the ATEM Mini Extreme does the same live job. If four cameras are enough, the ATEM Mini Pro ISO is smaller.",
+    specs: [
+      { label: "Video inputs", value: "8 × HDMI, standards converted" },
+      { label: "Video outputs", value: "2 × HDMI (program, aux or multiview); USB-C webcam output" },
+      { label: "Resolution", value: "Up to 1080p HD" },
+      { label: "ISO recording", value: "Every input and the program as separate H.264 files, plus a DaVinci Resolve project" },
+      { label: "Streaming", value: "RTMP and SRT over Ethernet, or over a phone's data shared via USB" },
+      { label: "Audio", value: "2 × 3.5 mm mic inputs; headphone output; Fairlight mixer with EQ and dynamics" },
+      { label: "Keyers", value: "4 upstream keyers with chroma key; 2 downstream keyers" },
+      { label: "Effects", value: "6 DVEs, SuperSource, 2 media players" },
+      { label: "Multiview", value: "Up to 16 views" },
+      { label: "Power", value: "12 V DC, about 36 W" },
+    ],
+    specsNote:
+      "Figures are Blackmagic Design's. Recording every camera at once needs a fast USB SSD. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "What drive should I use?",
+        a: "A fast USB SSD with plenty of space. Nine video files are recorded at once, which is too much for most flash drives.",
+      },
+      {
+        q: "Do I need DaVinci Resolve?",
+        a: "To open the project file, yes. DaVinci Resolve has a free version for Mac and Windows.",
+      },
+      {
+        q: "Can I stream while it records?",
+        a: "Yes. It streams, records the program and records every camera at the same time.",
+      },
+      {
+        q: "Does it come with cables?",
+        a: "It comes with the power supply. HDMI cables and drives are not included; we can add them to your order.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "ATEM Mini Extreme ISO",
+        price: 1_500_000,
+        includes: ["ATEM Mini Extreme ISO switcher", "12 V power supply", "We confirm the full box contents on WhatsApp"],
+      },
+    ],
+  },
+  {
+    slug: "blackmagic-atem-sdi-pro-iso",
+    brand: "Blackmagic Design",
+    name: "Blackmagic ATEM SDI Pro ISO",
+    category: "Live production",
+    tagline: "Four SDI cameras, streaming and ISO recording.",
+    headline:
+      "The Blackmagic ATEM SDI Pro ISO switches four SDI cameras, streams over Ethernet and records every camera separately, using locking SDI cables that run long distances.",
+    summary:
+      "The ATEM SDI Pro ISO is built for crews whose cameras have SDI outputs. SDI cables lock in place and can run much further than HDMI, which matters when cameras are spread across a church auditorium, an event hall or a stadium. It has four 3G-SDI inputs and SDI outputs for the program and aux feeds, streams directly to YouTube or Facebook over Ethernet, and records each camera and the program to a USB drive with a DaVinci Resolve project for editing later. It also has a multiview, two microphone inputs, a full audio mixer, a chroma keyer and a USB-C webcam output, all in a compact desktop unit.",
+    image: "/products/blackmagic-atem-sdi-pro-iso/main.jpg",
+    hero: "/products/blackmagic-atem-sdi-pro-iso/hero.jpg",
+    gallery: [
+      { src: "/products/blackmagic-atem-sdi-pro-iso/main.jpg", alt: "Blackmagic ATEM SDI Pro ISO switcher" },
+      { src: "/products/blackmagic-atem-sdi-pro-iso/g1.jpg", alt: "ATEM SDI Pro ISO control panel from above" },
+      { src: "/products/blackmagic-atem-sdi-pro-iso/g2.jpg", alt: "Two operators at ATEM switchers with sports footage" },
+      { src: "/products/blackmagic-atem-sdi-pro-iso/g3.jpg", alt: "Operator switching a live show in a control room" },
+      { src: "/products/blackmagic-atem-sdi-pro-iso/h2.jpg", alt: "ATEM Software Control media and graphics page" },
+      { src: "/products/blackmagic-atem-sdi-pro-iso/h3.jpg", alt: "ATEM multiview showing every camera, preview and program" },
+    ],
+    stats: [
+      { value: "4", label: "3G-SDI inputs" },
+      { value: "5", label: "Separate recordings" },
+      { value: "Ethernet", label: "Direct streaming" },
+      { value: "Multiview", label: "Every camera on one screen" },
+    ],
+    highlights: [
+      {
+        title: "Records every camera",
+        body: "Each of the four SDI inputs and the program are recorded as separate files to a USB drive, with a DaVinci Resolve project for editing later.",
+        image: "/products/blackmagic-atem-sdi-pro-iso/h1.jpg",
+      },
+      {
+        title: "Graphics from the software",
+        body: "Load logos, lower thirds and stills into the media pool with the free ATEM Software Control app, and key them over any camera.",
+        image: "/products/blackmagic-atem-sdi-pro-iso/h2.jpg",
+      },
+      {
+        title: "Multiview output",
+        body: "See all four cameras, preview, program and audio levels on one monitor, so you know exactly what you are cutting to.",
+        image: "/products/blackmagic-atem-sdi-pro-iso/h3.jpg",
+      },
+      {
+        title: "Microphones and mixing",
+        body: "Two microphone inputs and the audio from every SDI camera, mixed with EQ and dynamics on each channel.",
+        image: "/products/blackmagic-atem-sdi-pro-iso/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Cinema and broadcast cameras", body: "Blackmagic, Sony, Canon and other SDI cameras." },
+      { title: "Large venues", body: "Long cable runs across halls and stadiums." },
+      { title: "Churches", body: "SDI camera setups streamed and recorded." },
+      { title: "Outside broadcast", body: "Sports and events with locking connectors." },
+    ],
+    notFor:
+      "If your cameras only have HDMI, the ATEM Mini Pro ISO does the same job for HDMI. You can also convert HDMI to SDI with a small converter if you have a mix.",
+    specs: [
+      { label: "Video inputs", value: "4 × 3G-SDI" },
+      { label: "Video outputs", value: "3G-SDI outputs for program and aux; USB-C webcam output" },
+      { label: "Resolution", value: "Up to 1080p HD" },
+      { label: "ISO recording", value: "5 H.264 files (4 inputs and program) plus a DaVinci Resolve project, to a USB drive" },
+      { label: "Streaming", value: "RTMP and SRT over Ethernet" },
+      { label: "Audio", value: "2 × 3.5 mm mic inputs; Fairlight mixer with EQ and dynamics" },
+      { label: "Effects", value: "1 upstream keyer with chroma key, downstream keyer, DVE picture-in-picture" },
+      { label: "Graphics", value: "Media pool for 20 still images" },
+      { label: "Power", value: "12 V DC, about 36 W" },
+    ],
+    specsNote:
+      "Figures are Blackmagic Design's. Recording five files at once needs a fast USB SSD. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Why choose SDI over HDMI?",
+        a: "SDI cables lock in place and can run around 100 m, against a few metres for HDMI. That makes SDI more reliable in big halls and on long events.",
+      },
+      {
+        q: "Can I use HDMI cameras with it?",
+        a: "Yes, with an HDMI to SDI converter on each camera. We can add converters to your order.",
+      },
+      {
+        q: "Can I stream while it records?",
+        a: "Yes. It streams, records the program and records every camera at the same time.",
+      },
+      {
+        q: "Does it come with cables?",
+        a: "It comes with the power supply. SDI cables are not included; we can add them in the lengths you need.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "ATEM SDI Pro ISO",
+        price: 1_300_000,
+        includes: ["ATEM SDI Pro ISO switcher", "12 V power supply", "We confirm the full box contents on WhatsApp"],
+      },
+    ],
+  },
+  {
+    slug: "blackmagic-atem-1-me-constellation-hd",
+    brand: "Blackmagic Design",
+    name: "Blackmagic ATEM 1 M/E Constellation HD",
+    category: "Live production",
+    tagline: "A 10-input SDI broadcast switcher in one rack unit.",
+    headline:
+      "The Blackmagic ATEM 1 M/E Constellation HD is a rack-mount broadcast switcher with 10 SDI inputs, 6 aux outputs, advanced green screen keyers and a built-in audio mixer.",
+    summary:
+      "The ATEM 1 M/E Constellation HD is a step up from the ATEM Mini range into proper broadcast switching. It fits in one rack unit and takes ten 3G-SDI inputs, each with its own standards converter, so cameras, playback machines and computers can all be mixed together. Six independent aux outputs feed projectors, stage screens, recorders and stream encoders with different pictures at the same time. It has four upstream keyers with advanced chroma keyers, a DVE, media players, a 16-view multiview, talkback for the camera crew and a tally output for camera lights. You can run it from the buttons on the front, from the free ATEM Software Control app, or from an ATEM hardware panel. It is a strong choice for a church control room, an event company or a small TV studio.",
+    image: "/products/blackmagic-atem-1-me-constellation-hd/main.jpg",
+    hero: "/products/blackmagic-atem-1-me-constellation-hd/hero.jpg",
+    gallery: [
+      { src: "/products/blackmagic-atem-1-me-constellation-hd/main.jpg", alt: "Blackmagic ATEM 1 M/E Constellation HD front panel" },
+      { src: "/products/blackmagic-atem-1-me-constellation-hd/g1.jpg", alt: "ATEM 1 M/E Constellation HD front panel with screen" },
+      { src: "/products/blackmagic-atem-1-me-constellation-hd/g2.jpg", alt: "ATEM 1 M/E Constellation HD rear SDI connections" },
+      { src: "/products/blackmagic-atem-1-me-constellation-hd/g3.jpg", alt: "Hand using the front panel of an ATEM Constellation" },
+      { src: "/products/blackmagic-atem-1-me-constellation-hd/h2.jpg", alt: "Control room with green screen keying" },
+      { src: "/products/blackmagic-atem-1-me-constellation-hd/h4.jpg", alt: "Talkback headset connected to an ATEM Constellation" },
+    ],
+    stats: [
+      { value: "10", label: "3G-SDI inputs" },
+      { value: "6", label: "Aux outputs" },
+      { value: "4", label: "Chroma keyers" },
+      { value: "1 RU", label: "Rack size" },
+    ],
+    highlights: [
+      {
+        title: "Software or hardware control",
+        body: "Run it from the front panel, from the free ATEM Software Control app on a laptop, or add an ATEM hardware panel for a full broadcast desk.",
+        image: "/products/blackmagic-atem-1-me-constellation-hd/h1.jpg",
+      },
+      {
+        title: "Advanced green screen",
+        body: "Four upstream keyers, each with an advanced chroma keyer, plus downstream keyers, a DVE and media players for graphics.",
+        image: "/products/blackmagic-atem-1-me-constellation-hd/h2.jpg",
+      },
+      {
+        title: "Six different outputs",
+        body: "Six independent aux outputs send different pictures to the stage screens, projectors, recorders and stream encoder, alongside a 16-view multiview.",
+        image: "/products/blackmagic-atem-1-me-constellation-hd/h3.jpg",
+      },
+      {
+        title: "Talkback and tally",
+        body: "Talk to camera operators through an XLR headset connection, and drive camera tally lights so each operator knows when they are live.",
+        image: "/products/blackmagic-atem-1-me-constellation-hd/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Church control rooms", body: "Cameras, slides and stage screens from one rack." },
+      { title: "Event companies", body: "Concerts and conferences with many screens." },
+      { title: "TV studios", body: "Broadcast switching with talkback and tally." },
+      { title: "Outside broadcast", body: "A compact switcher for vans and flight cases." },
+    ],
+    notFor:
+      "The Constellation uses SDI only and does not stream on its own. For HDMI cameras and built-in streaming, look at the ATEM Mini Extreme. To stream from it, use the USB webcam output or a separate streaming encoder.",
+    specs: [
+      { label: "Video inputs", value: "10 × 3G-SDI, each standards converted" },
+      { label: "Video outputs", value: "6 × independent 3G-SDI aux outputs; multiview output; USB webcam output" },
+      { label: "Resolution", value: "Up to 1080p HD" },
+      { label: "Keyers", value: "4 upstream keyers with advanced chroma key; downstream keyers" },
+      { label: "Effects", value: "DVE, transitions, media players" },
+      { label: "Multiview", value: "Up to 16 views" },
+      { label: "Audio", value: "2 × balanced 1/4 inch jack inputs; Fairlight mixer with EQ and dynamics" },
+      { label: "Talkback and tally", value: "XLR talkback headset connection; tally output" },
+      { label: "Control", value: "Front panel; free ATEM Software Control; optional ATEM hardware panels" },
+      { label: "Size and power", value: "1 rack unit; about 36 W" },
+    ],
+    specsNote:
+      "Figures are Blackmagic Design's. Hardware control panels, SDI cables and streaming encoders are sold separately. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Can it stream to YouTube?",
+        a: "Not on its own. Connect the USB webcam output to a computer running OBS or YouTube Studio, or feed an aux output into a streaming encoder such as a Blackmagic Web Presenter.",
+      },
+      {
+        q: "Do I need a control panel?",
+        a: "No. You can run it from the front panel or the free software on a laptop. A hardware panel makes long, busy shows easier.",
+      },
+      {
+        q: "Can I use HDMI cameras?",
+        a: "Yes, with an HDMI to SDI converter on each camera. We can add converters to your order.",
+      },
+      {
+        q: "Will it fit my rack?",
+        a: "Yes. It is one standard 19 inch rack unit high.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "ATEM 1 M/E Constellation HD",
+        price: 2_300_000,
+        includes: ["ATEM 1 M/E Constellation HD switcher", "Power cable", "We confirm the full box contents on WhatsApp"],
+      },
+    ],
+  },
+  {
+    slug: "osee-gostream-deck",
+    brand: "OSEE",
+    name: "OSEE GoStream Deck",
+    category: "Live production",
+    tagline: "Switch four cameras, stream and record with no laptop.",
+    headline:
+      "The OSEE GoStream Deck switches four HDMI cameras, streams to three platforms at once over Ethernet and records to an SD card, all from one compact desk.",
+    summary:
+      "The GoStream Deck is a full live-production desk in a small box. Plug in four HDMI cameras or laptops and cut between them with a button each. A fifth AUX channel takes a USB webcam, a video file played from the card, or an NDI HX source on your network (the NDI licence is sold separately). Connect an Ethernet cable and it streams straight to YouTube, Facebook and one more platform at the same time, while it records the show to an SD card or SSD. Two 3.5 mm mic inputs feed a built-in audio mixer with noise gate, compressor and EQ. There is also an HDMI multiview output, so one screen shows every camera, and a USB-C port that works as a webcam if you still want to use OBS or Zoom. It is a strong first switcher for a church or event team that wants to go live without a laptop.",
+    image: "/products/osee-gostream-deck/main.jpg",
+    hero: "/products/osee-gostream-deck/hero.jpg",
+    gallery: [
+      { src: "/products/osee-gostream-deck/main.jpg", alt: "OSEE GoStream Deck switcher" },
+      { src: "/products/osee-gostream-deck/g1.jpg", alt: "GoStream Deck rear connections diagram" },
+      { src: "/products/osee-gostream-deck/g2.jpg", alt: "GoStream Deck picture-in-picture and lower-third layouts" },
+      { src: "/products/osee-gostream-deck/g3.jpg", alt: "GoStream Deck controlled from its panel, PC software and Stream Deck" },
+      { src: "/products/osee-gostream-deck/h1.jpg", alt: "GoStream Deck streaming to three platforms at once" },
+      { src: "/products/osee-gostream-deck/h2.jpg", alt: "GoStream Deck macro buttons close-up" },
+    ],
+    stats: [
+      { value: "4", label: "HDMI inputs" },
+      { value: "3", label: "Platforms at once" },
+      { value: "SD/SSD", label: "Built-in recording" },
+      { value: "1080p60", label: "Output" },
+    ],
+    highlights: [
+      {
+        title: "Stream to three platforms",
+        body: "Plug in Ethernet and send the same show to YouTube, Facebook and a third RTMP platform at once. No laptop or OBS needed.",
+        image: "/products/osee-gostream-deck/h1.jpg",
+      },
+      {
+        title: "One-press macros",
+        body: "Eight macro buttons on the panel run a saved sequence, such as switching to the pulpit camera and adding a lower third, with one press. The software holds many more.",
+        image: "/products/osee-gostream-deck/h2.jpg",
+      },
+      {
+        title: "Record while you stream",
+        body: "Records the program in H.264 at up to 70 Mb/s to an SD card or SSD while it streams, and can play clips back into the show.",
+        image: "/products/osee-gostream-deck/h3.jpg",
+      },
+      {
+        title: "A fifth source",
+        body: "The AUX channel takes a USB webcam, an MP4 file from the card, or an NDI HX source on your network (NDI licence sold separately).",
+        image: "/products/osee-gostream-deck/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Churches", body: "Stream Sunday service to YouTube and Facebook from one box." },
+      { title: "Events", body: "Weddings, conferences and launches with up to four cameras." },
+      { title: "Podcasts", body: "Switch hosts and guests and record as you go." },
+      { title: "Small studios", body: "A full switcher that fits on a desk." },
+    ],
+    notFor:
+      "The GoStream Deck takes HDMI only. If your cameras use SDI or the cable runs are long, look at the GoStream Duet, which takes HDMI or SDI on every input.",
+    specs: [
+      { label: "Video inputs", value: "4 × HDMI; AUX channel for USB webcam, MP4 playback or NDI HX (licence sold separately)" },
+      { label: "Video outputs", value: "2 × HDMI (program and multiview); USB-C webcam output" },
+      { label: "Input formats", value: "720p, 1080i and 1080p up to 60 fps" },
+      { label: "Output and streaming", value: "1080p 24 to 60 fps" },
+      { label: "Streaming", value: "RTMP over Ethernet to 3 platforms at once" },
+      { label: "Recording", value: "H.264 up to 70 Mb/s to SD card or SSD" },
+      { label: "Audio", value: "2 × 3.5 mm mic/line inputs; headphone output; mixer with gate, compressor, de-esser and EQ" },
+      { label: "Effects", value: "Upstream and downstream keyer, chroma and luma key, picture-in-picture, 18 transitions, 32 stills" },
+      { label: "Control", value: "Front panel with 8 macro buttons; free software for Windows and Mac; Stream Deck via Companion" },
+      { label: "Power", value: "12 V DC, 12 W" },
+      { label: "Size and weight", value: "25.2 × 11.1 × 4.9 cm, 0.51 kg" },
+    ],
+    specsNote:
+      "Figures are OSEE's. NDI HX input needs a licence that is sold separately. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Do I need a laptop to stream?",
+        a: "No. Connect an Ethernet cable from your router and enter your stream key in the GoStream software once. After that the Deck streams on its own.",
+      },
+      {
+        q: "Can I use it with OBS or Zoom?",
+        a: "Yes. The USB-C port works as a webcam, so OBS, Zoom or Teams on your computer see the switched picture as one camera.",
+      },
+      {
+        q: "GoStream Deck or ATEM Mini Pro?",
+        a: "Both stream and record without a laptop. The GoStream Deck adds a fifth source, three streaming platforms at once and recording to SD card. Tell us how you work and we'll advise.",
+      },
+      {
+        q: "What's in the box?",
+        a: "The GoStream Deck, a power adapter and a quick start guide. HDMI cables and SD cards are not included; we can add them.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "OSEE GoStream Deck",
+        price: 500_000,
+        includes: ["GoStream Deck switcher", "Power adapter", "Quick start guide", "We confirm the full box contents on WhatsApp"],
+      },
+    ],
+  },
+  {
+    slug: "osee-gostream-duet",
+    brand: "OSEE",
+    name: "OSEE GoStream Duet",
+    category: "Live production",
+    tagline: "Four inputs that take HDMI or SDI, plus streaming and recording.",
+    headline:
+      "The OSEE GoStream Duet has four inputs that each take HDMI or SDI, so you can mix consumer and broadcast cameras, then stream and record without a laptop.",
+    summary:
+      "The GoStream Duet is the Deck's bigger sibling. Each of its four inputs accepts either HDMI or SDI and detects which one is plugged in, so you can run long SDI cables to cameras at the back of a church hall and still plug a laptop in over HDMI. A fifth channel takes NDI, a USB webcam or the built-in video player, and OSEE includes a free NDI licence. It streams to three platforms at once over Ethernet, records to an SD card or USB SSD while it streams, and has two HDMI outputs for a projector, a monitor or the multiview screen. A 2025 firmware update added portrait streaming for TikTok and Instagram. Two 3.5 mm inputs take a microphone or a line feed from your sound desk.",
+    image: "/products/osee-gostream-duet/main.jpg",
+    hero: "/products/osee-gostream-duet/hero.jpg",
+    gallery: [
+      { src: "/products/osee-gostream-duet/main.jpg", alt: "OSEE GoStream Duet switcher" },
+      { src: "/products/osee-gostream-duet/g1.jpg", alt: "GoStream Duet inputs taking both SDI and HDMI" },
+      { src: "/products/osee-gostream-duet/g2.jpg", alt: "GoStream Duet rear connections diagram" },
+      { src: "/products/osee-gostream-duet/g3.jpg", alt: "GoStream Duet picture-in-picture layouts" },
+      { src: "/products/osee-gostream-duet/h1.jpg", alt: "GoStream Duet streaming to three platforms" },
+      { src: "/products/osee-gostream-duet/h2.jpg", alt: "SDI converters, video player and NDI licence built in" },
+    ],
+    stats: [
+      { value: "4", label: "HDMI/SDI inputs" },
+      { value: "3", label: "Platforms at once" },
+      { value: "SD/SSD", label: "Built-in recording" },
+      { value: "Free", label: "NDI licence" },
+    ],
+    highlights: [
+      {
+        title: "Stream to three platforms",
+        body: "Ethernet streaming to YouTube, Facebook and a third RTMP platform at the same time, with no computer in the chain.",
+        image: "/products/osee-gostream-duet/h1.jpg",
+      },
+      {
+        title: "No converters needed",
+        body: "Every input takes SDI or HDMI, so there is no need to buy SDI-to-HDMI converters. The video player and an NDI licence are built in too.",
+        image: "/products/osee-gostream-duet/h2.jpg",
+      },
+      {
+        title: "Record and play back",
+        body: "Records H.264 at up to 70 Mb/s to an SD card or USB SSD while streaming, and plays clips back into the show.",
+        image: "/products/osee-gostream-duet/h3.jpg",
+      },
+      {
+        title: "Portrait streaming",
+        body: "Since OSEE's November 2025 update, the Duet can stream in portrait as well as landscape for TikTok and Instagram.",
+        image: "/products/osee-gostream-duet/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Churches", body: "SDI cameras at the back of the hall and a laptop for lyrics." },
+      { title: "Event companies", body: "Mix broadcast and consumer cameras on one desk." },
+      { title: "Conferences", body: "Stream to several platforms and record the whole day." },
+      { title: "Social media", body: "Portrait streams for TikTok and Instagram." },
+    ],
+    notFor:
+      "The Duet has four camera inputs and HD output. If you need eight cameras, separate recordings of each camera or 4K inputs, look at the GoStream Duet 8 ISO.",
+    specs: [
+      { label: "Video inputs", value: "4 × HDMI/SDI auto-detect; channel 5 for NDI, USB webcam or internal player" },
+      { label: "Video outputs", value: "2 × HDMI (any input, multiview, preview or program); USB webcam output up to 1080p30" },
+      { label: "Input formats", value: "720p, 1080i and 1080p up to 60 fps" },
+      { label: "Output format", value: "1080p 23.98 to 60 fps" },
+      { label: "Streaming", value: "RTMP over Ethernet to 3 platforms at once" },
+      { label: "Recording", value: "H.264 up to 70 Mb/s to SD card or USB 2.0 SSD" },
+      { label: "Audio", value: "2 × 3.5 mm inputs (mic, powered mic or line); 3.5 mm headphone output" },
+      { label: "Effects", value: "Upstream and downstream keyer, chroma and luma key, picture-in-picture, 18 transitions, 32 stills" },
+      { label: "Control", value: "Built-in menu, 8 macros on the panel, software for Windows and Mac, Stream Deck via Companion" },
+      { label: "Power", value: "12 V DC, 14 W" },
+      { label: "Size and weight", value: "26.8 × 11.1 × 4.9 cm, 0.56 kg" },
+    ],
+    specsNote:
+      "Figures are OSEE's. The free NDI licence is activated through a firmware update. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Can I plug HDMI and SDI cameras in at the same time?",
+        a: "Yes. Each input detects whether HDMI or SDI is connected, so you can mix them freely across the four inputs.",
+      },
+      {
+        q: "GoStream Deck or Duet?",
+        a: "Choose the Duet if any of your cameras use SDI, or if you need long cable runs. If all your sources are HDMI, the Deck does the same job for less.",
+      },
+      {
+        q: "Does it need a computer?",
+        a: "Only to set it up. Once your stream keys are saved, it streams and records on its own.",
+      },
+      {
+        q: "What's in the box?",
+        a: "The GoStream Duet, a power adapter and a quick start guide. Cables and SD cards are not included; we can add them.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "OSEE GoStream Duet",
+        price: 670_000,
+        includes: ["GoStream Duet switcher", "Power adapter", "Quick start guide", "We confirm the full box contents on WhatsApp"],
+      },
+    ],
+  },
+  {
+    slug: "osee-gostream-duet-8-iso",
+    brand: "OSEE",
+    name: "OSEE GoStream Duet 8 ISO",
+    category: "Live production",
+    tagline: "Eight cameras, XLR audio and a separate recording of every input.",
+    headline:
+      "The OSEE GoStream Duet 8 ISO takes four HDMI and four SDI cameras at once, records each camera separately as well as the program, and streams to three platforms.",
+    summary:
+      "The Duet 8 ISO is built for productions that have outgrown four cameras. It has four HDMI inputs that accept 4K signals and four SDI inputs, all usable at the same time. On top of those it can pull in NDI HX, SRT and RTMP feeds from the network, two USB webcams and two MP4 players. ISO recording saves a clean file of each camera as well as the finished program, so your editor can recut the service or event afterwards. Two XLR inputs with phantom power take condenser or dynamic microphones directly. It streams to three platforms at once over Ethernet, has two HDMI and one SDI output, and a USB 3.0 webcam output at up to 1080p60. A 4-window layout engine, an upstream keyer and two downstream keyers handle lower thirds, logos and green screen.",
+    image: "/products/osee-gostream-duet-8-iso/main.jpg",
+    hero: "/products/osee-gostream-duet-8-iso/hero.jpg",
+    gallery: [
+      { src: "/products/osee-gostream-duet-8-iso/main.jpg", alt: "OSEE GoStream Duet 8 ISO switcher" },
+      { src: "/products/osee-gostream-duet-8-iso/g1.jpg", alt: "Eight HDMI and SDI cameras connected to the Duet 8 ISO" },
+      { src: "/products/osee-gostream-duet-8-iso/g2.jpg", alt: "NDI, SRT, RTMP, webcam and MP4 sources" },
+      { src: "/products/osee-gostream-duet-8-iso/g3.jpg", alt: "Four-window multisource layouts" },
+      { src: "/products/osee-gostream-duet-8-iso/h1.jpg", alt: "Streaming to three destinations at once" },
+      { src: "/products/osee-gostream-duet-8-iso/h2.jpg", alt: "Recording eight ISO channels plus program" },
+    ],
+    stats: [
+      { value: "8", label: "Camera inputs" },
+      { value: "8 + PGM", label: "ISO recording" },
+      { value: "2 × XLR", label: "With phantom power" },
+      { value: "4K", label: "HDMI inputs" },
+    ],
+    highlights: [
+      {
+        title: "Three platforms at once",
+        body: "Streams to three RTMP destinations over Ethernet at the same time, such as YouTube, Facebook and your church website.",
+        image: "/products/osee-gostream-duet-8-iso/h1.jpg",
+      },
+      {
+        title: "Every camera recorded",
+        body: "ISO recording saves each camera as its own file plus the program, to an SD card or USB 3.0 SSD, so you can re-edit the event later.",
+        image: "/products/osee-gostream-duet-8-iso/h2.jpg",
+      },
+      {
+        title: "Proper microphone inputs",
+        body: "Two XLR or 3.5 mm inputs with 48 V phantom power, plus noise gate, compressor, limiter and EQ in the mixer.",
+        image: "/products/osee-gostream-duet-8-iso/h3.jpg",
+      },
+      {
+        title: "Broadcast-style graphics",
+        body: "A 4-window multisource, one upstream keyer and two downstream keyers for lower thirds, logos and green screen, plus web browser graphics for animated titles.",
+        image: "/products/osee-gostream-duet-8-iso/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Large churches", body: "Eight cameras and clean recordings of each for the media team." },
+      { title: "Conferences", body: "Stage cameras, laptops and remote speakers over SRT or NDI." },
+      { title: "Event companies", body: "Weddings and concerts you need to re-edit after the day." },
+      { title: "Streaming studios", body: "Many sources and graphics without a PC." },
+    ],
+    notFor:
+      "The outputs are HD (1080p), even though the HDMI inputs accept 4K. If you need a 4K program output, ask us about other options.",
+    specs: [
+      { label: "Video inputs", value: "4 × HDMI (up to 2160p60) and 4 × 3G-SDI at once; also NDI HX, SRT, RTMP, 2 USB webcams and 2 MP4 players" },
+      { label: "Video outputs", value: "2 × HDMI, 1 × SDI; USB 3.0 webcam output up to 1080p60" },
+      { label: "Output and streaming", value: "1080p 23.98 to 60 fps" },
+      { label: "Streaming", value: "RTMP over Ethernet to 3 platforms at once" },
+      { label: "Recording", value: "ISO and program recording up to 70 Mb/s to SD card or USB 3.0 SSD" },
+      { label: "Audio", value: "2 × XLR or 3.5 mm inputs with 48 V phantom power; mixer with gate, compressor, limiter and EQ" },
+      { label: "Effects", value: "4-window multisource, upstream keyer (chroma, luma, PIP), 2 downstream keyers, 32 stills, web browser graphics" },
+      { label: "Control", value: "Panel with T-bar, built-in menu, free PC software, Stream Deck via Companion, audio-follow auto switching" },
+      { label: "Power", value: "12 V, 3 A" },
+      { label: "Size and weight", value: "27.9 × 14.3 × 6.2 cm, 0.87 kg" },
+    ],
+    specsNote:
+      "Figures are OSEE's. NDI is input only. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "What does ISO recording mean?",
+        a: "The switcher saves a separate file from each camera as well as the finished program. If you missed a shot live, your editor can fix it afterwards.",
+      },
+      {
+        q: "Can I use condenser microphones?",
+        a: "Yes. The XLR inputs supply 48 V phantom power, so condenser mics plug straight in.",
+      },
+      {
+        q: "Can it bring in a remote guest?",
+        a: "Yes. It accepts SRT, RTMP and NDI HX feeds as inputs, so a remote camera or a laptop on your network can be one of the sources.",
+      },
+      {
+        q: "What's in the box?",
+        a: "The switcher and its power adapter. Cables, SD cards and SSDs are not included; we can add them.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "OSEE GoStream Duet 8 ISO",
+        price: 1_500_000,
+        includes: ["GoStream Duet 8 ISO switcher", "Power adapter", "We confirm the full box contents on WhatsApp"],
+      },
+    ],
+  },
+  {
+    slug: "osee-gostream-omni-12-iso",
+    brand: "OSEE",
+    name: "OSEE GoStream Omni 12 ISO",
+    category: "Live production",
+    tagline: "Twelve sources, instant replay and PTZ control in one desk.",
+    headline:
+      "The OSEE GoStream Omni 12 ISO handles eight HDMI or SDI cameras plus four network sources, with instant replay, eight-channel ISO recording and PTZ camera control.",
+    summary:
+      "The Omni 12 ISO is OSEE's flagship GoStream desk for big shows. Eight native inputs take HDMI or SDI cameras directly, with no converters, and four AUX channels bring in NDI, SRT, RTMP, webcams or MP4 players. It is built on dedicated FPGA hardware, so it keeps running smoothly with every feature in use. For sport there is instant replay at half, third or quarter speed. A single 4K camera can be cropped into one wide and two close-up shots, and voice-triggered auto switching cuts between them for you. Four assignable outputs feed LED walls, projectors and recorders with low delay. Two XLR inputs have phantom power and AI noise reduction, and you can control up to eight PTZ cameras over IP from the desk. It records eight channels separately for editing later.",
+    image: "/products/osee-gostream-omni-12-iso/main.jpg",
+    hero: "/products/osee-gostream-omni-12-iso/hero.jpg",
+    gallery: [
+      { src: "/products/osee-gostream-omni-12-iso/main.jpg", alt: "OSEE GoStream Omni 12 ISO switcher" },
+      { src: "/products/osee-gostream-omni-12-iso/g1.jpg", alt: "Eight HDMI/SDI cameras plus four AUX inputs" },
+      { src: "/products/osee-gostream-omni-12-iso/g2.jpg", alt: "Five-layer multisource graphics" },
+      { src: "/products/osee-gostream-omni-12-iso/g3.jpg", alt: "Four assignable outputs feeding screens and an LED wall" },
+      { src: "/products/osee-gostream-omni-12-iso/h1.jpg", alt: "Instant replay for sport" },
+      { src: "/products/osee-gostream-omni-12-iso/h2.jpg", alt: "One 4K camera cropped into three angles" },
+    ],
+    stats: [
+      { value: "12", label: "Sources" },
+      { value: "8", label: "ISO channels" },
+      { value: "8", label: "PTZ cameras" },
+      { value: "4", label: "Assignable outputs" },
+    ],
+    highlights: [
+      {
+        title: "Instant replay",
+        body: "Replay a goal or a key moment at 0.5×, 0.33× or 0.25× speed straight from the desk, without a separate replay system.",
+        image: "/products/osee-gostream-omni-12-iso/h1.jpg",
+      },
+      {
+        title: "One camera, three angles",
+        body: "Crop one 4K camera into a wide shot and two close-ups. Voice-triggered auto switching cuts to whoever is speaking.",
+        image: "/products/osee-gostream-omni-12-iso/h2.jpg",
+      },
+      {
+        title: "XLR audio and PTZ control",
+        body: "Two XLR inputs with 48 V phantom power and AI noise reduction, and control of up to eight PTZ cameras over IP with ten presets each.",
+        image: "/products/osee-gostream-omni-12-iso/h3.jpg",
+      },
+      {
+        title: "Hardware you can trust",
+        body: "Dedicated FPGA hardware runs every feature at once without lag, dropped frames or crashes, which matters on a live Sunday or a paid event.",
+        image: "/products/osee-gostream-omni-12-iso/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Sports", body: "Multi-camera coverage with slow-motion replay." },
+      { title: "Megachurches", body: "Eight cameras, PTZs and LED wall feeds from one desk." },
+      { title: "Conferences", body: "Panels covered with virtual angles from one camera." },
+      { title: "Production companies", body: "A flagship desk for big events." },
+    ],
+    notFor:
+      "This is a large, professional desk. For a church or event with four cameras or fewer, the GoStream Duet or Duet 8 ISO costs much less.",
+    specs: [
+      { label: "Video inputs", value: "8 × native HDMI/SDI; 4 × AUX for NDI, SRT, RTMP, webcams and MP4 players" },
+      { label: "Video outputs", value: "4 × assignable HDMI/SDI outputs, low latency" },
+      { label: "Recording", value: "8-channel ISO recording" },
+      { label: "Replay", value: "Instant replay at 0.5×, 0.33× and 0.25×" },
+      { label: "Graphics", value: "5-layer multisource (4 windows over a background), 4 upstream keyers, 2 downstream keyers" },
+      { label: "Virtual angles", value: "1 × 4K camera cropped to 1 wide + 2 close-ups, with voice-triggered auto switching" },
+      { label: "Audio", value: "2 × XLR with 48 V phantom power and AI noise reduction" },
+      { label: "Camera control", value: "Up to 8 PTZ cameras over IP, 10 presets each" },
+      { label: "Hardware", value: "Dedicated FPGA processing" },
+    ],
+    specsNote:
+      "Figures are OSEE's, taken from its product page. OSEE has not yet published a full spec sheet for the Omni 12 ISO, so ask us on WhatsApp for size, weight and power details. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Omni 12 ISO or Duet 8 ISO?",
+        a: "The Omni adds four extra network sources, instant replay, virtual camera angles, PTZ control, four outputs and FPGA hardware. If you don't need those, the Duet 8 ISO covers eight cameras for less.",
+      },
+      {
+        q: "Do I need converters for SDI cameras?",
+        a: "No. All eight main inputs take HDMI or SDI directly.",
+      },
+      {
+        q: "Which PTZ cameras does it control?",
+        a: "IP PTZ cameras, up to eight of them. Send us your camera model on WhatsApp and we'll confirm it works.",
+      },
+      {
+        q: "What's in the box?",
+        a: "The switcher and its power supply. Send us a message and we'll confirm the full contents before you pay.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "OSEE GoStream Omni 12 ISO",
+        price: 2_600_000,
+        includes: ["GoStream Omni 12 ISO switcher", "Power supply", "We confirm the full box contents on WhatsApp"],
+      },
+    ],
+  },
+  {
+    slug: "feelworld-livepro-l1",
+    brand: "FeelWorld",
+    name: "FeelWorld LIVEPRO L1",
+    category: "Live production",
+    tagline: "A small four-camera switcher with a T-bar and preview screen.",
+    headline:
+      "The FeelWorld LIVEPRO L1 switches four HDMI cameras with a T-bar, shows them on a built-in screen and sends the result to your computer over USB 3.0 as a webcam.",
+    summary:
+      "The LIVEPRO L1 is a compact, simple switcher for one person running a stream. Four HDMI inputs take cameras, a laptop or a games console, and a 2-inch screen on the panel previews all four. Press a camera button and push the T-bar to change shots, with 14 transition effects and nine picture-in-picture layouts. The USB 3.0 port makes the L1 look like an ordinary webcam to OBS, Zoom or YouTube, so your computer does the streaming. An HDMI output feeds a TV or a six-picture multiview. You can also control it from a PC or phone app over the network. FeelWorld now sells it as the LIVEPRO L1 V1, which has a lighter case that runs cooler, and a firmware update adds chroma key.",
+    image: "/products/feelworld-livepro-l1/main.jpg",
+    hero: "/products/feelworld-livepro-l1/hero.jpg",
+    gallery: [
+      { src: "/products/feelworld-livepro-l1/main.jpg", alt: "FeelWorld LIVEPRO L1 switcher" },
+      { src: "/products/feelworld-livepro-l1/g1.jpg", alt: "LIVEPRO L1 control panel layout" },
+      { src: "/products/feelworld-livepro-l1/g2.jpg", alt: "LIVEPRO L1 connections" },
+      { src: "/products/feelworld-livepro-l1/g3.jpg", alt: "LIVEPRO L1 uses in sport, business and education" },
+      { src: "/products/feelworld-livepro-l1/h1.jpg", alt: "Live streaming to social platforms through a computer" },
+      { src: "/products/feelworld-livepro-l1/h2.jpg", alt: "Controlling the L1 from a computer app" },
+    ],
+    stats: [
+      { value: "4", label: "HDMI inputs" },
+      { value: "USB 3.0", label: "Webcam output" },
+      { value: "2\"", label: "Preview screen" },
+      { value: "500 g", label: "Weight" },
+    ],
+    highlights: [
+      {
+        title: "Stream through your computer",
+        body: "The USB 3.0 output appears as a webcam in OBS, Zoom, YouTube or Facebook Live, in full 1080p.",
+        image: "/products/feelworld-livepro-l1/h1.jpg",
+      },
+      {
+        title: "Control from a PC or phone",
+        body: "Connect the LAN port and run the free XPOSE app on a computer or phone to switch from across the room.",
+        image: "/products/feelworld-livepro-l1/h2.jpg",
+      },
+      {
+        title: "Built for one operator",
+        body: "Small enough for a camera bag, with a standard screw hole to mount it on a tripod next to you.",
+        image: "/products/feelworld-livepro-l1/h3.jpg",
+      },
+      {
+        title: "Ready to use",
+        body: "Comes with the power adapter, a USB 3.0 cable and a manual, so you only need HDMI cables for your cameras.",
+        image: "/products/feelworld-livepro-l1/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Small churches", body: "Two to four cameras streamed through a laptop." },
+      { title: "Online classes", body: "Switch between the camera, slides and whiteboard." },
+      { title: "Gaming", body: "Mix a console and a face camera with picture-in-picture." },
+      { title: "Interviews", body: "Cut between host and guest in real time." },
+    ],
+    notFor:
+      "The L1 needs a computer to stream or record, and its audio input is line level, so a microphone needs a mixer or interface in between. If you want to stream without a laptop, look at the OSEE GoStream Deck.",
+    specs: [
+      { label: "Video inputs", value: "4 × HDMI" },
+      { label: "Video outputs", value: "1 × HDMI (program or 6-picture multiview); USB 3.0 webcam output" },
+      { label: "Input formats", value: "720p50/60, 1080p 23 to 60 fps, plus common PC resolutions" },
+      { label: "Output formats", value: "720p60, 1080p30/50/60, plus common PC resolutions" },
+      { label: "Screen", value: "2-inch TFT preview" },
+      { label: "Audio", value: "3.5 mm line input; 3.5 mm output" },
+      { label: "Effects", value: "14 transitions on the T-bar, 9 picture-in-picture layouts, chroma key via firmware update" },
+      { label: "Control", value: "Panel with T-bar; XPOSE app for PC and phone over LAN" },
+      { label: "Power", value: "12 V DC, 1.5 A; 18 W max" },
+      { label: "Size and weight", value: "190 × 110 × 43 mm, 500 g" },
+    ],
+    specsNote:
+      "Figures are FeelWorld's for the current LIVEPRO L1 V1. Chroma key needs firmware V2.01, which some units may not have installed yet. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Can I plug a microphone straight in?",
+        a: "Not directly. The audio input is line level, so connect the mic through a mixer or audio interface. A wireless mic receiver with a line or headphone output also works.",
+      },
+      {
+        q: "Does it stream on its own?",
+        a: "No. Connect the USB 3.0 port to a computer and stream from OBS, YouTube Studio, Facebook Live or Zoom.",
+      },
+      {
+        q: "Is this the L1 or the L1 V1?",
+        a: "FeelWorld now ships the updated L1 V1. It works the same way, with a lighter case that runs cooler and a 16:9 preview window.",
+      },
+      {
+        q: "What's in the box?",
+        a: "A 1.5 A power adapter, a USB 3.0 cable and a manual. HDMI cables are not included; we can add them.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "FeelWorld LIVEPRO L1",
+        price: 600_000,
+        includes: ["LIVEPRO L1 switcher", "1.5 A power adapter", "USB 3.0 cable", "Manual", "We confirm the full box contents on WhatsApp"],
+      },
+    ],
+  },
+  {
+    slug: "feelworld-l2-plus",
+    brand: "FeelWorld",
+    name: "FeelWorld L2 Plus",
+    category: "Live production",
+    tagline: "Four-camera switching on a 5.5-inch touch screen, with PTZ control.",
+    headline:
+      "The FeelWorld L2 Plus switches four HDMI cameras from a 5.5-inch touch screen, controls up to eight PTZ cameras and streams through your computer over USB 3.0.",
+    summary:
+      "The L2 Plus is an upgraded LIVEPRO L1 with a 5.5-inch touch screen that shows all four inputs, the preview and the program at once. Tap a picture to switch to it, or use the lit buttons and the T-bar. It controls up to eight PTZ cameras that use the VISCA protocol, including pan, tilt, zoom, focus and saved positions, which suits churches with ceiling-mounted cameras. Chroma key and logo overlay are built in, with 15 transitions and nine picture-in-picture layouts. The USB 3.0 port works as a webcam for OBS, Zoom or YouTube, and an HDMI output feeds a monitor or projector. A 3.5 mm input takes an active microphone, and a built-in fan with three speeds keeps it cool through long services.",
+    image: "/products/feelworld-l2-plus/main.jpg",
+    hero: "/products/feelworld-l2-plus/hero.jpg",
+    gallery: [
+      { src: "/products/feelworld-l2-plus/main.jpg", alt: "FeelWorld L2 Plus switcher" },
+      { src: "/products/feelworld-l2-plus/g1.jpg", alt: "L2 Plus from the side with its touch screen" },
+      { src: "/products/feelworld-l2-plus/g2.jpg", alt: "L2 Plus rear HDMI inputs and output" },
+      { src: "/products/feelworld-l2-plus/g3.jpg", alt: "L2 Plus underside with cooling fan" },
+      { src: "/products/feelworld-l2-plus/h1.jpg", alt: "L2 Plus touch screen showing six pictures" },
+      { src: "/products/feelworld-l2-plus/h2.jpg", alt: "L2 Plus rear connections" },
+    ],
+    stats: [
+      { value: "5.5\"", label: "Touch screen" },
+      { value: "4", label: "HDMI inputs" },
+      { value: "8", label: "PTZ cameras" },
+      { value: "USB 3.0", label: "Webcam output" },
+    ],
+    highlights: [
+      {
+        title: "Switch by touch",
+        body: "The 5.5-inch screen shows four inputs, preview and program. Tap a picture to switch, or long-press to see the program full screen.",
+        image: "/products/feelworld-l2-plus/h1.jpg",
+      },
+      {
+        title: "USB streaming and HDMI out",
+        body: "Four HDMI inputs, an HDMI output for a monitor or projector, and USB 3.0 that your computer sees as a webcam at up to 1080p60.",
+        image: "/products/feelworld-l2-plus/h2.jpg",
+      },
+      {
+        title: "PTZ control and chroma key",
+        body: "Move, zoom and focus up to eight VISCA PTZ cameras and save their positions. Green-screen keying and logo overlay are built in.",
+        image: "/products/feelworld-l2-plus/h3.jpg",
+      },
+      {
+        title: "Built-in fan",
+        body: "A cooling fan with three speeds keeps the switcher running through long services and events.",
+        image: "/products/feelworld-l2-plus/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Churches with PTZ cameras", body: "Switch and steer ceiling cameras from one box." },
+      { title: "News and studio sets", body: "Green screen and logos for a virtual studio." },
+      { title: "Conferences", body: "Video meetings with several cameras over Zoom." },
+      { title: "Solo streamers", body: "Touch control that one person can run." },
+    ],
+    notFor:
+      "The L2 Plus streams and records through a computer. If you want to stream to YouTube without a laptop, look at the OSEE GoStream Deck or Duet.",
+    specs: [
+      { label: "Video inputs", value: "4 × HDMI" },
+      { label: "Video outputs", value: "1 × HDMI (program or 6-picture multiview); USB 3.0 webcam output" },
+      { label: "Input formats", value: "720p, 1080i and 1080p up to 60 fps, plus PC resolutions up to 1920 × 1200" },
+      { label: "Output formats", value: "720p50/60, 1080p 24 to 60 fps; USB up to 1080p60" },
+      { label: "Screen", value: "5.5-inch IPS touch screen" },
+      { label: "Audio", value: "3.5 mm input for an active microphone; 3.5 mm output; AFV or line-in modes" },
+      { label: "Effects", value: "15 transitions, 9 picture-in-picture layouts, chroma key, logo overlay" },
+      { label: "Camera control", value: "Up to 8 PTZ cameras using VISCA" },
+      { label: "Control", value: "Touch screen, buttons and T-bar; XPOSE app for PC and phone" },
+      { label: "Power", value: "12 V DC, 2 A; 21 W max" },
+      { label: "Size and weight", value: "191 × 110 × 43 mm, 610 g" },
+    ],
+    specsNote:
+      "Figures are FeelWorld's. PTZ control works while the L2 Plus is on its Control screen. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Which PTZ cameras does it control?",
+        a: "Cameras that use the VISCA protocol, up to eight of them. Send us your camera model on WhatsApp and we'll confirm.",
+      },
+      {
+        q: "L1 or L2 Plus?",
+        a: "The L2 Plus adds the large touch screen, PTZ control, a mic-ready audio input, chroma key out of the box and a cooling fan. If you don't need PTZ, the L1 is the simpler choice.",
+      },
+      {
+        q: "Does it stream without a computer?",
+        a: "No. Connect USB 3.0 to a computer and stream from OBS, YouTube Studio, Facebook Live or Zoom.",
+      },
+      {
+        q: "What's in the box?",
+        a: "A 2 A power adapter, a USB cable and a manual. HDMI cables are not included; we can add them.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "FeelWorld L2 Plus",
+        price: 980_000,
+        includes: ["L2 Plus switcher", "2 A power adapter", "USB cable", "Manual", "We confirm the full box contents on WhatsApp"],
+      },
+    ],
+  },
+  {
+    slug: "blackmagic-micro-converter-hdmi-to-sdi",
+    brand: "Blackmagic Design",
+    name: "Blackmagic Micro Converter HDMI to SDI",
+    category: "Live production",
+    tagline: "Turn any HDMI camera into an SDI camera.",
+    headline:
+      "The Blackmagic Micro Converter HDMI to SDI 3G takes the HDMI out of a camera or laptop and sends it down two SDI cables, so you can run long, locking cable to a switcher or monitor.",
+    summary:
+      "HDMI cables are short and their plugs fall out. SDI cables lock in place and run for tens of metres. This small converter sits between the two. Plug a camera, laptop or games console into the HDMI input and it sends the same picture out of two 3G-SDI outputs, so you can feed a switcher and a monitor at the same time. It detects the format on its own, handles video up to 1080p60, and is powered from a USB-C cable, so a phone charger, a laptop or a USB power bank will run it. Free Blackmagic software for Mac and Windows lets you change settings and update it over the same USB port. This is the 3G model, which covers HD work; Blackmagic also makes a 12G model for Ultra HD.",
+    image: "/products/blackmagic-micro-converter-hdmi-to-sdi/main.jpg",
+    hero: "/products/blackmagic-micro-converter-hdmi-to-sdi/hero.jpg",
+    gallery: [
+      { src: "/products/blackmagic-micro-converter-hdmi-to-sdi/main.jpg", alt: "Blackmagic Micro Converter HDMI to SDI 3G" },
+      { src: "/products/blackmagic-micro-converter-hdmi-to-sdi/g1.jpg", alt: "Micro Converter HDMI to SDI front view" },
+      { src: "/products/blackmagic-micro-converter-hdmi-to-sdi/g2.jpg", alt: "Micro Converter HDMI to SDI connections diagram" },
+      { src: "/products/blackmagic-micro-converter-hdmi-to-sdi/g3.jpg", alt: "Micro Converter HDMI to SDI dimensions" },
+      { src: "/products/blackmagic-micro-converter-hdmi-to-sdi/h1.jpg", alt: "Blackmagic Micro Converter 3G family" },
+      { src: "/products/blackmagic-micro-converter-hdmi-to-sdi/h2.jpg", alt: "Micro Converter used for a mobile broadcast from a laptop" },
+    ],
+    stats: [
+      { value: "2", label: "SDI outputs" },
+      { value: "1080p60", label: "Max format" },
+      { value: "USB-C", label: "Power" },
+      { value: "3 yr", label: "Warranty" },
+    ],
+    highlights: [
+      {
+        title: "Small enough for a camera rig",
+        body: "It is about the size of a matchbox, so it mounts on a cage, a tripod leg or behind a monitor without getting in the way.",
+        image: "/products/blackmagic-micro-converter-hdmi-to-sdi/h1.jpg",
+      },
+      {
+        title: "Runs from USB",
+        body: "Power it from a laptop, a USB charger or a power bank over USB-C. It draws about 2 W, so a small power bank lasts a long shoot.",
+        image: "/products/blackmagic-micro-converter-hdmi-to-sdi/h2.jpg",
+      },
+      {
+        title: "Built for live production",
+        body: "Run HDMI cameras into an SDI switcher such as the ATEM SDI range, with long locking cables that won't pull out mid-service.",
+        image: "/products/blackmagic-micro-converter-hdmi-to-sdi/h3.jpg",
+      },
+      {
+        title: "Clean, reclocked SDI",
+        body: "The outputs are reclocked, so the signal leaves the converter clean and travels further down the cable without errors.",
+        image: "/products/blackmagic-micro-converter-hdmi-to-sdi/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Churches", body: "Run HDMI cameras to an SDI switcher at the back of the hall." },
+      { title: "Events", body: "Long, locking cable runs from stage cameras." },
+      { title: "Laptops", body: "Send slides or playback into an SDI system." },
+      { title: "Studios", body: "Add an HDMI camera to an SDI setup." },
+    ],
+    notFor:
+      "It won't pass HDCP-protected video, so you can't use it to send a Blu-ray player or most streaming boxes to SDI. For Ultra HD cameras you need the 12G model, which costs more.",
+    specs: [
+      { label: "Model", value: "Micro Converter HDMI to SDI 3G" },
+      { label: "Video input", value: "1 × HDMI Type A" },
+      { label: "Video outputs", value: "2 × SD, HD or 3G-SDI, level A or B" },
+      { label: "Formats", value: "SD and HD up to 1080p60, detected automatically" },
+      { label: "Audio", value: "HDMI audio embedded into SDI" },
+      { label: "Setup", value: "Blackmagic Converters Setup for Mac and Windows over USB" },
+      { label: "Power", value: "USB-C, 2 W" },
+      { label: "Copy protection", value: "Does not convert HDCP-protected HDMI" },
+      { label: "Warranty", value: "3 years (manufacturer)" },
+    ],
+    specsNote:
+      "Figures are Blackmagic Design's. A USB power supply is not included unless stated. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Does it come with a power supply?",
+        a: "The standard model is powered by USB-C and doesn't include a charger. Any phone charger, laptop USB port or power bank will run it. Ask us if you'd like one added.",
+      },
+      {
+        q: "3G or 12G?",
+        a: "The 3G model covers HD up to 1080p60, which is what most churches and event teams use. You only need the 12G model if you're working in Ultra HD.",
+      },
+      {
+        q: "Can I convert a Blu-ray player or TV box?",
+        a: "Usually not. Those send HDCP-protected HDMI, which the converter won't pass on.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "Blackmagic Micro Converter HDMI to SDI 3G",
+        price: 500_000,
+        includes: ["Micro Converter HDMI to SDI 3G", "We confirm the full box contents on WhatsApp"],
+      },
+    ],
+  },
+  {
+    slug: "blackmagic-micro-converter-sdi-to-hdmi",
+    brand: "Blackmagic Design",
+    name: "Blackmagic Micro Converter SDI to HDMI",
+    category: "Live production",
+    tagline: "Show an SDI signal on any HDMI TV, monitor or projector.",
+    headline:
+      "The Blackmagic Micro Converter SDI to HDMI 3G takes an SDI feed from a camera or switcher and shows it on any HDMI screen, with a loop out to pass the signal on.",
+    summary:
+      "Most SDI equipment needs an SDI monitor, and those are expensive. This small converter lets you use an ordinary HDMI TV, monitor or projector instead. Plug an SDI cable into the input and the picture comes out of the HDMI port. A second SDI connector loops the signal back out, so you can carry on to a recorder or another converter. It handles SD and HD up to 1080p60, powers from a USB-C cable, and can hold a 3D LUT you load from the free Blackmagic software, which is useful for correcting a cheap screen's colour or previewing a camera's log footage with a look applied. This is the 3G model, which covers HD work; Blackmagic also makes a 12G model for Ultra HD.",
+    image: "/products/blackmagic-micro-converter-sdi-to-hdmi/main.jpg",
+    hero: "/products/blackmagic-micro-converter-sdi-to-hdmi/hero.jpg",
+    gallery: [
+      { src: "/products/blackmagic-micro-converter-sdi-to-hdmi/main.jpg", alt: "Blackmagic Micro Converter SDI to HDMI 3G" },
+      { src: "/products/blackmagic-micro-converter-sdi-to-hdmi/g1.jpg", alt: "Micro Converter SDI to HDMI front view" },
+      { src: "/products/blackmagic-micro-converter-sdi-to-hdmi/g2.jpg", alt: "Micro Converter SDI to HDMI connections diagram" },
+      { src: "/products/blackmagic-micro-converter-sdi-to-hdmi/g3.jpg", alt: "Micro Converter SDI to HDMI dimensions" },
+      { src: "/products/blackmagic-micro-converter-sdi-to-hdmi/h1.jpg", alt: "LUTs applied to HDMI monitors through the converter" },
+      { src: "/products/blackmagic-micro-converter-sdi-to-hdmi/h2.jpg", alt: "Micro Converter feeding an HDMI projector" },
+    ],
+    stats: [
+      { value: "HDMI", label: "Output" },
+      { value: "1", label: "SDI loop out" },
+      { value: "3D LUT", label: "Built in" },
+      { value: "USB-C", label: "Power" },
+    ],
+    highlights: [
+      {
+        title: "Load a LUT",
+        body: "Load a 17-point 3D LUT from the free software to correct a screen's colour or preview log footage with a look applied.",
+        image: "/products/blackmagic-micro-converter-sdi-to-hdmi/h1.jpg",
+      },
+      {
+        title: "Use any screen",
+        body: "Show a switcher's program feed on a TV in the lobby or a projector in the hall, with no expensive SDI monitor.",
+        image: "/products/blackmagic-micro-converter-sdi-to-hdmi/h2.jpg",
+      },
+      {
+        title: "Loop the signal on",
+        body: "The SDI loop output passes the input straight on, so you can tap a feed for a monitor without breaking the chain.",
+        image: "/products/blackmagic-micro-converter-sdi-to-hdmi/h3.jpg",
+      },
+      {
+        title: "Powered by USB",
+        body: "Power it from a USB-C charger, a laptop or a power bank. It draws about 1.6 W.",
+        image: "/products/blackmagic-micro-converter-sdi-to-hdmi/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Churches", body: "Send the live feed to TVs in the overflow room." },
+      { title: "Events", body: "Feed projectors and confidence monitors from an SDI switcher." },
+      { title: "Camera crews", body: "Monitor an SDI camera on a cheap HDMI screen." },
+      { title: "Studios", body: "Add HDMI monitoring to an SDI setup." },
+    ],
+    notFor:
+      "It converts one way only, SDI to HDMI. If you need to turn an HDMI camera into SDI, you want the Micro Converter HDMI to SDI. For Ultra HD you need the 12G model.",
+    specs: [
+      { label: "Model", value: "Micro Converter SDI to HDMI 3G" },
+      { label: "Video input", value: "1 × SD, HD or 3G-SDI" },
+      { label: "Video outputs", value: "1 × HDMI Type A; 1 × SDI loop out" },
+      { label: "Formats", value: "SD and HD up to 1080p60, detected automatically" },
+      { label: "LUT", value: "17-point 3D LUT, loaded with the setup software" },
+      { label: "Audio", value: "SDI audio embedded into HDMI" },
+      { label: "Setup", value: "Blackmagic Converters Setup for Mac and Windows over USB" },
+      { label: "Power", value: "USB-C, 1.6 W" },
+      { label: "Warranty", value: "3 years (manufacturer)" },
+    ],
+    specsNote:
+      "Figures are Blackmagic Design's. A USB power supply is not included unless stated. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Does it come with a power supply?",
+        a: "The standard model is powered by USB-C and doesn't include a charger. Any phone charger, laptop USB port or power bank will run it. Ask us if you'd like one added.",
+      },
+      {
+        q: "Will it work with my TV?",
+        a: "Yes. Any TV, monitor or projector with an HDMI input will show the picture, as long as it accepts the format you're sending, such as 1080p.",
+      },
+      {
+        q: "3G or 12G?",
+        a: "The 3G model covers HD up to 1080p60, which is what most live setups use. You only need the 12G model for Ultra HD.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "Blackmagic Micro Converter SDI to HDMI 3G",
+        price: 500_000,
+        includes: ["Micro Converter SDI to HDMI 3G", "We confirm the full box contents on WhatsApp"],
+      },
+    ],
+  },
+  {
+    slug: "blackmagic-mini-converter-sdi-to-analog",
+    brand: "Blackmagic Design",
+    name: "Blackmagic Mini Converter SDI to Analog",
+    category: "Live production",
+    tagline: "Send SDI video and audio to older analog equipment.",
+    headline:
+      "The Blackmagic Mini Converter SDI to Analog turns an SD or HD SDI signal into component, S-Video or composite video, with balanced analog and AES/EBU audio out.",
+    summary:
+      "Plenty of good equipment still runs on analog: older monitors, tape decks, projectors and audio desks. This converter connects them to a modern SDI system. Feed it SDI and it outputs component, S-Video or composite video, and it can down-convert HD to SD for older screens. It also pulls the audio out of the SDI signal and sends it to two balanced channels on 1/4 inch jacks and to AES/EBU, which is handy for feeding a sound desk. A second SDI input acts as a backup, and an SDI loop output passes the signal on. You set it up with small switches on the side or with free software over USB. It comes with a 12 V power supply and international plug adapters.",
+    image: "/products/blackmagic-mini-converter-sdi-to-analog/main.jpg",
+    hero: "/products/blackmagic-mini-converter-sdi-to-analog/hero.jpg",
+    gallery: [
+      { src: "/products/blackmagic-mini-converter-sdi-to-analog/main.jpg", alt: "Blackmagic Mini Converter SDI to Analog" },
+      { src: "/products/blackmagic-mini-converter-sdi-to-analog/g1.jpg", alt: "Mini Converter SDI to Analog front view" },
+      { src: "/products/blackmagic-mini-converter-sdi-to-analog/g2.jpg", alt: "Mini Converter SDI to Analog connections diagram" },
+      { src: "/products/blackmagic-mini-converter-sdi-to-analog/g3.jpg", alt: "Mini Converter SDI to Analog dimensions" },
+      { src: "/products/blackmagic-mini-converter-sdi-to-analog/h1.jpg", alt: "Mini Converter setup switches" },
+      { src: "/products/blackmagic-mini-converter-sdi-to-analog/h2.jpg", alt: "Mini Converter SDI and backup SDI inputs" },
+    ],
+    stats: [
+      { value: "3", label: "Analog video types" },
+      { value: "2 ch", label: "Balanced audio out" },
+      { value: "HD → SD", label: "Down-conversion" },
+      { value: "3 yr", label: "Warranty" },
+    ],
+    highlights: [
+      {
+        title: "Simple switches",
+        body: "Pick the video type and audio settings with small switches on the side. No computer needed, though the free USB software gives you more control.",
+        image: "/products/blackmagic-mini-converter-sdi-to-analog/h1.jpg",
+      },
+      {
+        title: "Backup input",
+        body: "A second SDI input takes over if the main one drops, and an SDI loop output passes the signal on to other equipment.",
+        image: "/products/blackmagic-mini-converter-sdi-to-analog/h2.jpg",
+      },
+      {
+        title: "Part of a family",
+        body: "The Mini Converters share one size and one power supply, so they sit together neatly in a rack or on a desk.",
+        image: "/products/blackmagic-mini-converter-sdi-to-analog/h3.jpg",
+      },
+      {
+        title: "Audio for the sound desk",
+        body: "Takes the audio out of the SDI signal and sends two balanced channels on 1/4 inch jacks plus AES/EBU, ready for a mixer.",
+        image: "/products/blackmagic-mini-converter-sdi-to-analog/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Older monitors", body: "Keep CRT and component monitors working with SDI." },
+      { title: "Tape decks", body: "Record SDI programs to analog tape." },
+      { title: "Sound desks", body: "Pull audio out of SDI for a mixer." },
+      { title: "Broadcast", body: "Bridge new and old equipment in one system." },
+    ],
+    notFor:
+      "It only goes one way, SDI to analog. To bring an analog source into SDI you need the Mini Converter Analog to SDI. It also doesn't handle Ultra HD.",
+    specs: [
+      { label: "Video inputs", value: "1 × SD or HD SDI; 1 × ALT SDI backup input" },
+      { label: "Video outputs", value: "Component (SD/HD), S-Video and composite (NTSC/PAL); 1 × SDI loop out" },
+      { label: "Down-conversion", value: "HD to SD" },
+      { label: "Audio outputs", value: "2 ch balanced analog on 1/4 inch jacks; AES/EBU digital" },
+      { label: "Setup", value: "Side switches or Blackmagic software for Mac and Windows over USB" },
+      { label: "Power", value: "12 V universal power supply with international adapters; 8.04 W" },
+      { label: "Warranty", value: "3 years (manufacturer)" },
+    ],
+    specsNote:
+      "Figures are Blackmagic Design's. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Will it work with my old CRT monitor?",
+        a: "Yes, if the monitor takes component, S-Video or composite. The converter can down-convert HD to SD so older screens can show it.",
+      },
+      {
+        q: "Does it need a computer?",
+        a: "No. You set it with the switches on the side. The USB software is only needed for finer settings and updates.",
+      },
+      {
+        q: "Is a power supply included?",
+        a: "Yes, a 12 V universal power supply with international plug adapters comes in the box.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "Blackmagic Mini Converter SDI to Analog",
+        price: 580_000,
+        includes: ["Mini Converter SDI to Analog", "12 V power supply with international adapters", "We confirm the full box contents on WhatsApp"],
+      },
+    ],
+  },
+  {
+    slug: "blackmagic-mini-converter-analog-to-sdi",
+    brand: "Blackmagic Design",
+    name: "Blackmagic Mini Converter Analog to SDI",
+    category: "Live production",
+    tagline: "Bring analog video and audio into an SDI system.",
+    headline:
+      "The Blackmagic Mini Converter Analog to SDI takes component, S-Video or composite video, adds balanced analog or AES/EBU audio, and sends it out as SDI.",
+    summary:
+      "If you have older cameras, a VHS or Betacam SP deck, or an archive of tapes to digitise, this converter brings them into a modern SDI system. Plug in component, S-Video or composite video, plus two channels of balanced analog audio or AES/EBU, and it embeds the audio into the video and sends it out of two SDI outputs. One can go to a switcher and the other to a recorder or monitor. You choose the input type with small switches on the side or with free software over USB. It runs from the included 12 V power supply and will accept anything from 12 to 31 V, so it can also run from a battery.",
+    image: "/products/blackmagic-mini-converter-analog-to-sdi/main.jpg",
+    hero: "/products/blackmagic-mini-converter-analog-to-sdi/hero.jpg",
+    gallery: [
+      { src: "/products/blackmagic-mini-converter-analog-to-sdi/main.jpg", alt: "Blackmagic Mini Converter Analog to SDI" },
+      { src: "/products/blackmagic-mini-converter-analog-to-sdi/g1.jpg", alt: "Mini Converter Analog to SDI front view" },
+      { src: "/products/blackmagic-mini-converter-analog-to-sdi/g2.jpg", alt: "Mini Converter Analog to SDI connections diagram" },
+      { src: "/products/blackmagic-mini-converter-analog-to-sdi/g3.jpg", alt: "Mini Converter Analog to SDI dimensions" },
+      { src: "/products/blackmagic-mini-converter-analog-to-sdi/h1.jpg", alt: "Mini Converter setup switches close-up" },
+      { src: "/products/blackmagic-mini-converter-analog-to-sdi/h2.jpg", alt: "Mini Converter in a studio with an audio console" },
+    ],
+    stats: [
+      { value: "2", label: "SDI outputs" },
+      { value: "3", label: "Analog video types" },
+      { value: "12–31 V", label: "Power input" },
+      { value: "3 yr", label: "Warranty" },
+    ],
+    highlights: [
+      {
+        title: "Set it with switches",
+        body: "Choose component, S-Video or composite and the audio source with the switches on the side. The free USB software is there for finer settings.",
+        image: "/products/blackmagic-mini-converter-analog-to-sdi/h1.jpg",
+      },
+      {
+        title: "Audio goes with the picture",
+        body: "Takes two channels of balanced analog audio or AES/EBU and embeds them into the SDI signal, so sound and picture travel on one cable.",
+        image: "/products/blackmagic-mini-converter-analog-to-sdi/h2.jpg",
+      },
+      {
+        title: "Clean SDI output",
+        body: "Two SDI outputs send the same signal, so you can feed a switcher and a recorder at once.",
+        image: "/products/blackmagic-mini-converter-analog-to-sdi/h3.jpg",
+      },
+      {
+        title: "Part of a family",
+        body: "The Mini Converters share one size and power supply, so they sit together neatly in a rack or on a desk.",
+        image: "/products/blackmagic-mini-converter-analog-to-sdi/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Tape archives", body: "Digitise VHS and Betacam SP through an SDI recorder." },
+      { title: "Older cameras", body: "Bring component or composite cameras into an SDI switcher." },
+      { title: "Broadcast", body: "Connect legacy equipment to a modern SDI system." },
+      { title: "Studios", body: "Embed desk audio into an SDI feed." },
+    ],
+    notFor:
+      "It only goes one way, analog to SDI. To send SDI to older monitors or decks, you need the Mini Converter SDI to Analog. It doesn't take HDMI.",
+    specs: [
+      { label: "Video inputs", value: "Component (SD/HD), S-Video and composite (NTSC/PAL)" },
+      { label: "Audio inputs", value: "2 ch balanced analog; 2 ch AES/EBU digital" },
+      { label: "Video outputs", value: "2 × SDI with embedded audio" },
+      { label: "Setup", value: "Side switches or Blackmagic software for Mac and Windows over USB" },
+      { label: "Power", value: "12 V power supply with international adapters included; accepts 12 to 31 V DC; 6.5 W" },
+      { label: "Warranty", value: "3 years (manufacturer)" },
+    ],
+    specsNote:
+      "Figures are Blackmagic Design's. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Can I use it to digitise VHS tapes?",
+        a: "Yes. Connect the VHS player's composite or S-Video output and audio, then record the SDI output on a HyperDeck or capture card.",
+      },
+      {
+        q: "Can it run from a battery?",
+        a: "Yes. It accepts 12 to 31 V DC, so it can run from a camera battery with the right cable.",
+      },
+      {
+        q: "Is a power supply included?",
+        a: "Yes, a 12 V power supply with international plug adapters comes in the box.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "Blackmagic Mini Converter Analog to SDI",
+        price: 600_000,
+        includes: ["Mini Converter Analog to SDI", "12 V power supply with international adapters", "We confirm the full box contents on WhatsApp"],
+      },
+    ],
+  },
+  {
+    slug: "blackmagic-hyperdeck-studio-hd-mini",
+    brand: "Blackmagic Design",
+    name: "Blackmagic HyperDeck Studio HD Mini",
+    category: "Live production",
+    tagline: "Record your live show to SD cards in broadcast quality.",
+    headline:
+      "The Blackmagic HyperDeck Studio HD Mini records SDI video to SD cards or a USB disk in ProRes, DNxHD or H.264, and plays clips back into your show.",
+    summary:
+      "A HyperDeck is a recorder for live production. Feed it the program from your switcher, or a single camera, and it records to SD cards in ProRes, DNxHD or H.264 up to 1080p60. When the first card fills it moves to the second without stopping, so long services and events are never cut short. It can also play clips back, which makes it a simple way to roll a video in the middle of a show. The HD Mini is the smallest model, a third of a rack wide, with 3G-SDI in and out, HDMI out for a monitor, a small LCD screen and a search dial on the front. A USB-C port records to an external disk or turns it into a webcam for your computer. It has a built-in AC power supply plus a 12 V DC input for battery or backup power.",
+    image: "/products/blackmagic-hyperdeck-studio-hd-mini/main.jpg",
+    hero: "/products/blackmagic-hyperdeck-studio-hd-mini/hero.jpg",
+    gallery: [
+      { src: "/products/blackmagic-hyperdeck-studio-hd-mini/main.jpg", alt: "Blackmagic HyperDeck Studio HD Mini" },
+      { src: "/products/blackmagic-hyperdeck-studio-hd-mini/g1.jpg", alt: "HyperDeck Studio HD Mini front panel" },
+      { src: "/products/blackmagic-hyperdeck-studio-hd-mini/g2.jpg", alt: "HyperDeck Studio HD Mini connections diagram" },
+      { src: "/products/blackmagic-hyperdeck-studio-hd-mini/g3.jpg", alt: "HyperDeck Studio HD Mini dimensions" },
+      { src: "/products/blackmagic-hyperdeck-studio-hd-mini/h1.jpg", alt: "HyperDeck LCD screen and search dial" },
+      { src: "/products/blackmagic-hyperdeck-studio-hd-mini/h2.jpg", alt: "HyperDeck Studio HD Mini AC and 12 V DC power inputs" },
+    ],
+    stats: [
+      { value: "2", label: "SD card slots" },
+      { value: "1080p60", label: "Recording" },
+      { value: "1/3", label: "Rack width" },
+      { value: "AC + DC", label: "Power" },
+    ],
+    highlights: [
+      {
+        title: "Screen and search dial",
+        body: "The LCD shows the picture, timecode and card status, and the search dial lets you jog and shuttle through clips to cue playback.",
+        image: "/products/blackmagic-hyperdeck-studio-hd-mini/h1.jpg",
+      },
+      {
+        title: "Two ways to power it",
+        body: "A built-in AC supply runs it from the wall, and a 12 V DC input takes a battery or backup supply.",
+        image: "/products/blackmagic-hyperdeck-studio-hd-mini/h2.jpg",
+      },
+      {
+        title: "Record every camera",
+        body: "Put one HyperDeck on each camera for ISO recordings you can edit later, while the switcher records the live cut.",
+        image: "/products/blackmagic-hyperdeck-studio-hd-mini/h3.jpg",
+      },
+      {
+        title: "Part of a range",
+        body: "The HD Mini is the smallest HyperDeck Studio. The HD Plus adds Ultra HD recording, HDMI in and a speaker.",
+        image: "/products/blackmagic-hyperdeck-studio-hd-mini/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Churches", body: "Record every service to SD card for later upload." },
+      { title: "Events", body: "Record the switcher's output or each camera on its own." },
+      { title: "Playback", body: "Roll videos and walk-in loops into a live show." },
+      { title: "Broadcast", body: "A compact recorder for a rack or flight case." },
+    ],
+    notFor:
+      "It records SDI only, so it has no HDMI input. If your sources are HDMI, or you need Ultra HD, look at the HyperDeck Studio HD Plus.",
+    specs: [
+      { label: "Video input", value: "1 × 3G-SDI" },
+      { label: "Video outputs", value: "1 × 3G-SDI; 1 × HDMI" },
+      { label: "Recording formats", value: "SD and HD up to 1080p60" },
+      { label: "Codecs", value: "ProRes HQ, 422, LT and Proxy; DNxHD 220x, 145 and 45; H.264" },
+      { label: "Media", value: "2 × SD card slots; USB-C 3.0 for external disks" },
+      { label: "Audio", value: "Up to 16 channels of SDI audio" },
+      { label: "Connections", value: "Timecode in, reference in, RS-422 remote, Ethernet" },
+      { label: "Screen", value: "2.2 inch LCD with search dial" },
+      { label: "USB-C", value: "External recording, or works as a webcam on a computer" },
+      { label: "Power", value: "Built-in AC supply; 12 V DC input; 50 W max" },
+      { label: "Size", value: "One third rack wide, 1 rack unit high" },
+      { label: "Warranty", value: "1 year (manufacturer)" },
+    ],
+    specsNote:
+      "Figures are Blackmagic Design's. SD cards and disks are not included. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "What SD cards should I use?",
+        a: "Use fast UHS-II cards for ProRes and DNxHD. H.264 is less demanding. Tell us your recording format and we'll suggest cards that suit.",
+      },
+      {
+        q: "Can I record from an ATEM switcher?",
+        a: "Yes. Connect the switcher's SDI program output and the HyperDeck records it. ATEM switchers can also start and stop HyperDecks over the network.",
+      },
+      {
+        q: "Does it record HDMI?",
+        a: "No, the HD Mini has an SDI input only. Use a Micro Converter HDMI to SDI, or choose the HD Plus, which has an HDMI input.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "Blackmagic HyperDeck Studio HD Mini",
+        price: 1_300_000,
+        includes: ["HyperDeck Studio HD Mini", "We confirm the full box contents on WhatsApp"],
+      },
+    ],
+  },
+  {
+    slug: "blackmagic-hyperdeck-studio-hd-plus",
+    brand: "Blackmagic Design",
+    name: "Blackmagic HyperDeck Studio HD Plus",
+    category: "Live production",
+    tagline: "A recorder with HDMI in, Ultra HD and fill-and-key playback.",
+    headline:
+      "The Blackmagic HyperDeck Studio HD Plus records SDI or HDMI to SD cards or a USB disk, up to Ultra HD 30p, and plays graphics back with fill and key.",
+    summary:
+      "The HD Plus does everything the HD Mini does and adds more connections. It has 6G-SDI, so it records and plays ProRes up to Ultra HD at 30 frames per second, plus an HDMI input for cameras and laptops. Two SDI outputs can play back graphics with fill and key into a switcher, which is how broadcasters run animated titles. A separate SDI monitor output shows the picture with timecode and status overlays, and can apply a LUT. It records to two SD card slots and switches cards without stopping, or to a USB disk. On the front there's a larger set of transport buttons, a built-in speaker and a headphone socket. Power comes from a built-in AC supply or a broadcast-style 4-pin XLR 12 V input.",
+    image: "/products/blackmagic-hyperdeck-studio-hd-plus/main.jpg",
+    hero: "/products/blackmagic-hyperdeck-studio-hd-plus/hero.jpg",
+    gallery: [
+      { src: "/products/blackmagic-hyperdeck-studio-hd-plus/main.jpg", alt: "Blackmagic HyperDeck Studio HD Plus" },
+      { src: "/products/blackmagic-hyperdeck-studio-hd-plus/g1.jpg", alt: "HyperDeck Studio HD Plus front panel" },
+      { src: "/products/blackmagic-hyperdeck-studio-hd-plus/g2.jpg", alt: "HyperDeck Studio HD Plus connections diagram" },
+      { src: "/products/blackmagic-hyperdeck-studio-hd-plus/g3.jpg", alt: "HyperDeck Studio HD Plus dimensions" },
+      { src: "/products/blackmagic-hyperdeck-studio-hd-plus/h1.jpg", alt: "HyperDeck LCD screen and search dial" },
+      { src: "/products/blackmagic-hyperdeck-studio-hd-plus/h2.jpg", alt: "HyperDeck Studio HD Plus AC and XLR DC power inputs" },
+    ],
+    stats: [
+      { value: "2160p30", label: "Max recording" },
+      { value: "HDMI + SDI", label: "Inputs" },
+      { value: "Fill + key", label: "Playback" },
+      { value: "1/2", label: "Rack width" },
+    ],
+    highlights: [
+      {
+        title: "Screen and search dial",
+        body: "The LCD shows the picture, timecode and card status. The search dial and transport buttons let you cue clips quickly.",
+        image: "/products/blackmagic-hyperdeck-studio-hd-plus/h1.jpg",
+      },
+      {
+        title: "Broadcast-style power",
+        body: "A built-in AC supply plus a 4-pin XLR 12 V input, the same connector used on broadcast batteries and backup supplies.",
+        image: "/products/blackmagic-hyperdeck-studio-hd-plus/h2.jpg",
+      },
+      {
+        title: "Hear what you record",
+        body: "Audio meters on screen, a built-in speaker and a headphone socket let you check the sound without another device.",
+        image: "/products/blackmagic-hyperdeck-studio-hd-plus/h3.jpg",
+      },
+      {
+        title: "Play out to screens",
+        body: "Loop clips for digital signage, walk-in videos or lobby screens, and control playback over the network.",
+        image: "/products/blackmagic-hyperdeck-studio-hd-plus/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Churches", body: "Record the service and roll videos into it." },
+      { title: "Graphics playback", body: "Play animated titles with fill and key into a switcher." },
+      { title: "Mixed sources", body: "Record from HDMI or SDI on the same unit." },
+      { title: "Signage", body: "Loop clips to lobby and venue screens." },
+    ],
+    notFor:
+      "If you only need to record HD from SDI and want the smallest unit, the HyperDeck Studio HD Mini costs less and is a third of a rack wide.",
+    specs: [
+      { label: "Video inputs", value: "1 × 6G-SDI; 1 × HDMI" },
+      { label: "Video outputs", value: "2 × 6G-SDI (fill and key); 1 × 3G-SDI monitor out with overlays and LUT; 1 × HDMI" },
+      { label: "Recording formats", value: "SD, HD and Ultra HD up to 2160p30" },
+      { label: "Codecs", value: "ProRes; DNxHD; DNxHR up to 2160p30; H.264 up to 1080p60; ProRes 4444 playback for fill and key" },
+      { label: "Media", value: "2 × SD card slots; USB-C 3.0 for external disks" },
+      { label: "Connections", value: "Timecode, reference, RS-422 in and out, Ethernet" },
+      { label: "Monitoring", value: "LCD with search dial, built-in speaker, headphone socket" },
+      { label: "Power", value: "Built-in AC supply; 4-pin XLR 12 V DC input; 100 W max" },
+      { label: "Size", value: "Half rack wide, 1 rack unit high" },
+      { label: "Warranty", value: "1 year (manufacturer)" },
+    ],
+    specsNote:
+      "Figures are Blackmagic Design's. SD cards and disks are not included. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "HD Plus or HD Mini?",
+        a: "Choose the HD Plus if you need an HDMI input, Ultra HD recording, fill and key playback or a speaker on the unit. The HD Mini is the smaller, cheaper choice for HD from SDI.",
+      },
+      {
+        q: "What SD cards should I use?",
+        a: "Use fast UHS-II cards for ProRes and Ultra HD. Tell us your recording format and we'll suggest cards that suit.",
+      },
+      {
+        q: "Can an ATEM switcher control it?",
+        a: "Yes. ATEM switchers can start, stop and cue HyperDecks over the network.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "Blackmagic HyperDeck Studio HD Plus",
+        price: 1_600_000,
+        includes: ["HyperDeck Studio HD Plus", "We confirm the full box contents on WhatsApp"],
+      },
+    ],
+  },
+  {
+    slug: "amaran-ray-60c",
+    brand: "Amaran",
+    name: "Amaran Ray 60c",
+    category: "Lighting",
+    tagline: "A full-colour COB light that runs from USB-C.",
+    headline:
+      "The Amaran Ray 60c is a 60 W full-colour COB light that weighs 528 g, is rated IP54 against dust and rain, and runs from a USB-C power bank, the mains or a battery grip.",
+    summary:
+      "Most COB lights of this size need a mains adapter or a V-mount battery. The Ray 60c runs from a USB-C PD power bank as well, which makes it easy to carry for interviews, vlogs and small product shoots. It is a full-colour light: white from 2,300K to 10,000K (1,800K to 20,000K in expanded mode), plus any colour you want, with a CRI of 95+ for accurate skin tones. It has a full-size Bowens Mount, so it takes ordinary softboxes and reflectors, and it comes with the Octa Dome 30 softbox. A FlowTurn knob and a TFT screen on the back handle the settings, or you can pair it to the amaran app by tapping your phone to it over NFC. It is rated IP54, so light rain on location won't stop it.",
+    image: "/products/amaran-ray-60c/main.jpg",
+    hero: "/products/amaran-ray-60c/hero.jpg",
+    gallery: [
+      { src: "/products/amaran-ray-60c/main.jpg", alt: "Amaran Ray 60c full-colour COB light" },
+      { src: "/products/amaran-ray-60c/g1.jpg", alt: "Amaran Ray 60c at an angle" },
+      { src: "/products/amaran-ray-60c/g2.jpg", alt: "Amaran Ray 60c rear panel" },
+      { src: "/products/amaran-ray-60c/g3.jpg", alt: "Amaran Ray 60c with the Octa Dome 30" },
+      { src: "/products/amaran-ray-60c/h1.jpg", alt: "Amaran Ray 60c from the back" },
+      { src: "/products/amaran-ray-60c/h2.jpg", alt: "Amaran Ray 60c front and back" },
+    ],
+    stats: [
+      { value: "60 W", label: "Output" },
+      { value: "528 g", label: "Weight" },
+      { value: "IP54", label: "Weather rating" },
+      { value: "USB-C", label: "Power" },
+    ],
+    highlights: [
+      {
+        title: "Runs from a power bank",
+        body: "It takes USB-C PD 3.0, so a laptop-grade power bank will run it on location. It also runs from the mains adapter in the box or an amaran battery grip.",
+        image: "/products/amaran-ray-60c/h1.jpg",
+      },
+      {
+        title: "Any colour, accurate white",
+        body: "Set white from 2,300K to 10,000K with a CRI of 95+, or dial in any colour for backgrounds and accents. Expanded mode stretches white from 1,800K to 20,000K.",
+        image: "/products/amaran-ray-60c/h2.jpg",
+      },
+      {
+        title: "Full-size Bowens Mount",
+        body: "It takes the same softboxes, domes and reflectors as bigger lights. The Octa Dome 30 softbox comes in the box.",
+        image: "/products/amaran-ray-60c/h3.jpg",
+      },
+      {
+        title: "Built for location work",
+        body: "It weighs 528 g, is 4.4 cm thick and is rated IP54 against dust and light rain. The fan runs at about 28 dBA, quiet enough for interviews.",
+        image: "/products/amaran-ray-60c/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Content creators", body: "A key light that packs into a camera bag." },
+      { title: "Interviews", body: "Soft, accurate light with a quiet fan." },
+      { title: "Product shots", body: "Colour accents for small sets." },
+      { title: "Run-and-gun", body: "USB-C power from a power bank." },
+    ],
+    notFor:
+      "At 60 W it is a small light. To light a large room or a group of people, look at the 150c or 300c, or a 200x S for white light only.",
+    specs: [
+      { label: "Light type", value: "Full-colour COB (OmniColor)" },
+      { label: "Output", value: "60 W (75 W draw)" },
+      { label: "Brightness", value: "4,021 lm; 3,910 lux at 1 m bare" },
+      { label: "White range", value: "2,300–10,000K (expanded 1,800–20,000K)" },
+      { label: "Colour accuracy", value: "CRI 95+, TLCI 95+, TM-30 Rf 94" },
+      { label: "Beam angle", value: "70°" },
+      { label: "Mount", value: "Bowens Mount" },
+      { label: "Power", value: "USB-C PD 3.0, DC 12–24V, or amaran Ace E-Lock battery grip" },
+      { label: "Control", value: "On-board knob and TFT screen; amaran app over Bluetooth (up to 80 m), NFC pairing" },
+      { label: "Weather rating", value: "IP54" },
+      { label: "Weight", value: "528 g" },
+      { label: "Noise", value: "About 28 dBA" },
+    ],
+    specsNote:
+      "Figures are Amaran's. Amaran rates the Peak 75 battery (sold separately) at about 46 minutes at full power. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Will my power bank run it?",
+        a: "It needs a USB-C PD 3.0 power bank that can supply enough power for the light. A small phone power bank may only run it at lower brightness. Ask us and we'll check your model.",
+      },
+      {
+        q: "Does it come with a softbox?",
+        a: "Yes. The Octa Dome 30 with its diffusion cloth and grid comes in the box, along with a mains adapter and a carry bag.",
+      },
+      {
+        q: "Is it bright enough for a key light?",
+        a: "For one person at a desk or in an interview, yes. For bigger scenes, the 150c or 300c gives you much more output.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "Amaran Ray 60c",
+        price: 300_000,
+        includes: [
+          "Amaran Ray 60c",
+          "Octa Dome 30 with diffusion cloth and grid",
+          "Ace Lock to baby pin adapter grip",
+          "90 W AC adapter and power cable",
+          "Carry bag",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "amaran-cob-60x-s",
+    brand: "Amaran",
+    name: "Amaran COB 60x S",
+    category: "Lighting",
+    tagline: "A compact bi-colour COB light for interviews and small sets.",
+    headline:
+      "The Amaran COB 60x S is a 65 W bi-colour COB light with a Bowens Mount, accurate white from 2,700K to 6,500K, and power from the mains, NP-F batteries or a V-mount.",
+    summary:
+      "The COB 60x S is a small, bright white light for people starting to light their videos properly. It is bi-colour, so you can set warm white for tungsten room lights or cool white to match daylight from a window, anywhere from 2,700K to 6,500K. Colour accuracy is high, with a CRI of 96+, so skin tones look natural. It has a Bowens Mount, which means it takes the same softboxes and reflectors as bigger lights. In the box you get a small Hyper Reflector with a diffusion cover, a stand adapter with an umbrella mount, a mains adapter, a dual NP-F battery plate for cordless use, and a carry case. You can control it from the back panel or from the Sidus Link app over Bluetooth.",
+    image: "/products/amaran-cob-60x-s/main.jpg",
+    hero: "/products/amaran-cob-60x-s/hero.jpg",
+    gallery: [
+      { src: "/products/amaran-cob-60x-s/main.jpg", alt: "Amaran COB 60x S bi-colour light" },
+      { src: "/products/amaran-cob-60x-s/g1.jpg", alt: "Amaran COB 60x S from the side" },
+      { src: "/products/amaran-cob-60x-s/g2.jpg", alt: "Amaran COB 60x S from the back" },
+      { src: "/products/amaran-cob-60x-s/g3.jpg", alt: "Amaran COB 60x S what's in the box" },
+      { src: "/products/amaran-cob-60x-s/h1.jpg", alt: "Amaran COB 60x S lighting a scene" },
+      { src: "/products/amaran-cob-60x-s/h2.jpg", alt: "Amaran COB 60x S on set" },
+    ],
+    stats: [
+      { value: "65 W", label: "Output" },
+      { value: "2,700–6,500K", label: "Bi-colour" },
+      { value: "CRI 96+", label: "Colour accuracy" },
+      { value: "Bowens", label: "Mount" },
+    ],
+    highlights: [
+      {
+        title: "Warm to cool white",
+        body: "Set the colour from 2,700K to 6,500K to match room lights or daylight, with a CRI of 96+ for natural skin tones.",
+        image: "/products/amaran-cob-60x-s/h1.jpg",
+      },
+      {
+        title: "Takes standard modifiers",
+        body: "The Bowens Mount takes ordinary softboxes, lanterns and reflectors. The small Hyper Reflector in the box narrows the beam to 13.5° for a much brighter spot.",
+        image: "/products/amaran-cob-60x-s/h2.jpg",
+      },
+      {
+        title: "Mains or battery",
+        body: "Run it from the mains adapter, from two NP-F batteries on the plate in the box, or from a V-mount battery for longer shoots away from a socket.",
+        image: "/products/amaran-cob-60x-s/h3.jpg",
+      },
+      {
+        title: "App control",
+        body: "Change brightness and colour from your phone with the Sidus Link app over Bluetooth, up to 80 m away, or use the screen and dials on the back.",
+        image: "/products/amaran-cob-60x-s/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "YouTube", body: "A key light for talking-head videos." },
+      { title: "Interviews", body: "Soft white light through a softbox." },
+      { title: "Small studios", body: "A first Bowens Mount light." },
+      { title: "Product shots", body: "A bright, accurate white light." },
+    ],
+    notFor:
+      "It only makes white light, so it can't do coloured backgrounds. For that, look at the Ray 60c or the 150c. For bigger rooms, the 100x S or 200x S gives you more output.",
+    specs: [
+      { label: "Light type", value: "Bi-colour COB" },
+      { label: "Output", value: "65 W (78 W draw)" },
+      { label: "Brightness", value: "6,000 lm; 2,545 lux at 1 m bare, 35,100 lux with the Mini Hyper Reflector" },
+      { label: "White range", value: "2,700–6,500K" },
+      { label: "Colour accuracy", value: "CRI 96+, TLCI 97+, TM-30 Rf 96" },
+      { label: "Beam angle", value: "109.4° bare, 13.5° with the Mini Hyper Reflector" },
+      { label: "Mount", value: "Bowens Mount" },
+      { label: "Power", value: "AC adapter (DC 19V), dual NP-F plate, or V-mount battery (12–16.8V)" },
+      { label: "Control", value: "On-board LCD and dials; Sidus Link app over Bluetooth (up to 80 m)" },
+      { label: "Cooling", value: "Active (fan)" },
+    ],
+    specsNote:
+      "Figures are Amaran's. Batteries are sold separately. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "Does it come with batteries?",
+        a: "No. The dual NP-F battery plate is in the box, but the batteries are sold separately. It also runs from the mains adapter that comes with it.",
+      },
+      {
+        q: "Will it work with my softbox?",
+        a: "If your softbox has a Bowens Mount, yes. Most studio softboxes do.",
+      },
+      {
+        q: "Can it make coloured light?",
+        a: "No, it makes white light only, from warm to cool. For colour, look at the Ray 60c or the 150c.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "Amaran COB 60x S",
+        price: 350_000,
+        includes: [
+          "Amaran COB 60x S",
+          "Mini Hyper Reflector with diffusion cover",
+          "Tilting stand adapter with umbrella mount",
+          "Dual NP-F battery plate",
+          "AC adapter and power cable",
+          "Carry case",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "amaran-100x-s",
+    brand: "Amaran",
+    name: "Amaran 100x S",
+    category: "Lighting",
+    tagline: "A 100 W bi-colour light for interviews and small studios.",
+    headline:
+      "The Amaran 100x S is a 100 W bi-colour COB light with a Bowens Mount, white from 2,700K to 6,500K, a CRI of 95+, and app control over Bluetooth.",
+    summary:
+      "The 100x S is a step up in brightness from the small 60 W lights. At 100 W it is bright enough to light a person through a large softbox, or to bounce off a ceiling to light a small room. It is bi-colour, so you can set warm white to match tungsten room lights or cool white to match daylight, anywhere from 2,700K to 6,500K. Colour accuracy is high, with a CRI of 95+ and a TLCI of 97+. It has a Bowens Mount for standard modifiers, and the Hyper Reflector in the box narrows the beam for a brighter, harder light. Control it from the LCD on the back or from the Sidus Link app over Bluetooth.",
+    image: "/products/amaran-100x-s/main.jpg",
+    hero: "/products/amaran-100x-s/hero.jpg",
+    gallery: [
+      { src: "/products/amaran-100x-s/main.jpg", alt: "Amaran 100x S bi-colour light" },
+      { src: "/products/amaran-100x-s/g1.jpg", alt: "Amaran 100x S from the side" },
+      { src: "/products/amaran-100x-s/g2.jpg", alt: "Amaran 100x S from the back" },
+      { src: "/products/amaran-100x-s/g3.jpg", alt: "Amaran 100x S what's in the box" },
+      { src: "/products/amaran-100x-s/h1.jpg", alt: "Amaran 100x S lighting a scene" },
+      { src: "/products/amaran-100x-s/h2.jpg", alt: "Amaran 100x S on set" },
+    ],
+    stats: [
+      { value: "100 W", label: "Output" },
+      { value: "2,700–6,500K", label: "Bi-colour" },
+      { value: "CRI 95+", label: "Colour accuracy" },
+      { value: "Bowens", label: "Mount" },
+    ],
+    highlights: [
+      {
+        title: "Bright enough for a softbox",
+        body: "100 W lights one person comfortably through a large softbox. With the Hyper Reflector it reaches 30,500 lux at 1 m.",
+        image: "/products/amaran-100x-s/h1.jpg",
+      },
+      {
+        title: "Warm to cool white",
+        body: "Set any white from 2,700K to 6,500K to match the room, with a CRI of 95+ for natural skin tones.",
+        image: "/products/amaran-100x-s/h2.jpg",
+      },
+      {
+        title: "Takes standard modifiers",
+        body: "The Bowens Mount takes the softboxes, lanterns and reflectors most studios already own.",
+        image: "/products/amaran-100x-s/h3.jpg",
+      },
+      {
+        title: "App control",
+        body: "Set brightness and colour from your phone with the Sidus Link app over Bluetooth, up to 80 m away, or from the LCD on the back.",
+        image: "/products/amaran-100x-s/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Interviews", body: "A key light through a large softbox." },
+      { title: "Small studios", body: "Main light for a desk or a set." },
+      { title: "Churches", body: "Light a speaker for the livestream." },
+      { title: "Photography", body: "Constant light for portraits and products." },
+    ],
+    notFor:
+      "It makes white light only. For coloured light, look at the 150c or 300c. It has no built-in battery plate; for cordless use it needs a separate 48V battery power station.",
+    specs: [
+      { label: "Light type", value: "Bi-colour COB" },
+      { label: "Output", value: "100 W (113 W draw)" },
+      { label: "Brightness", value: "8,788 lm; 3,640 lux at 1 m bare, 30,500 lux with the Hyper Reflector" },
+      { label: "White range", value: "2,700–6,500K" },
+      { label: "Colour accuracy", value: "CRI 95+, TLCI 97+, TM-30 Rf 96" },
+      { label: "Beam angle", value: "110.4° bare, 17.9° with the Hyper Reflector" },
+      { label: "Mount", value: "Bowens Mount" },
+      { label: "Power", value: "AC 100–240V adapter (48V DC); Aputure 2-Bay Battery Power Station (sold separately)" },
+      { label: "Control", value: "On-board LCD; Sidus Link app over Bluetooth (up to 80 m)" },
+      { label: "Cooling", value: "Active (fan)" },
+    ],
+    specsNote:
+      "Figures are Amaran's. A light stand and softbox are not included. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "100x S or 200x S?",
+        a: "The 100x S is enough for one person through a softbox in a small room. The 200x S has twice the power, for bigger softboxes, bouncing off walls or lighting a group.",
+      },
+      {
+        q: "Does it come with a softbox or stand?",
+        a: "No. It comes with the Hyper Reflector, a protection cover and the mains adapter. We can quote a softbox and stand with it.",
+      },
+      {
+        q: "Can it run on batteries?",
+        a: "Not directly. It needs a 48V source such as the Aputure 2-Bay Battery Power Station, which is sold separately.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "Amaran 100x S",
+        price: 390_000,
+        includes: [
+          "Amaran 100x S",
+          "Hyper Reflector",
+          "Protection cover",
+          "AC adapter and power cable",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "amaran-200x-s",
+    brand: "Amaran",
+    name: "Amaran 200x S",
+    category: "Lighting",
+    tagline: "A 200 W bi-colour light for bigger softboxes and bigger rooms.",
+    headline:
+      "The Amaran 200x S is a 200 W bi-colour COB light with a Bowens Mount, 17,000 lumens of output, white from 2,700K to 6,500K and a CRI of 95+.",
+    summary:
+      "The 200x S has twice the power of the 100x S. That means you can use a bigger softbox, bounce it off a wall or ceiling, or light a small group of people and still have plenty of brightness. It is bi-colour, from warm 2,700K to cool 6,500K, so it matches tungsten room lights or daylight from a window, and colour accuracy is high, with a CRI of 95+ and a TLCI of 98+. The Bowens Mount takes standard softboxes and reflectors, and the Hyper Reflector in the box gives a brighter, narrower beam of up to 45,400 lux at 1 m. You can set it from the LCD on the back or from the Sidus Link app over Bluetooth up to 100 m away.",
+    image: "/products/amaran-200x-s/main.jpg",
+    hero: "/products/amaran-200x-s/hero.jpg",
+    gallery: [
+      { src: "/products/amaran-200x-s/main.jpg", alt: "Amaran 200x S bi-colour light" },
+      { src: "/products/amaran-200x-s/g1.jpg", alt: "Amaran 200x S from the side" },
+      { src: "/products/amaran-200x-s/g2.jpg", alt: "Amaran 200x S from the back" },
+      { src: "/products/amaran-200x-s/g3.jpg", alt: "Amaran 200x S what's in the box" },
+      { src: "/products/amaran-200x-s/h1.jpg", alt: "Amaran 200x S lighting a scene" },
+      { src: "/products/amaran-200x-s/h2.jpg", alt: "Amaran 200x S on set" },
+    ],
+    stats: [
+      { value: "200 W", label: "Output" },
+      { value: "17,000 lm", label: "Brightness" },
+      { value: "CRI 95+", label: "Colour accuracy" },
+      { value: "Bowens", label: "Mount" },
+    ],
+    highlights: [
+      {
+        title: "Twice the 100x S",
+        body: "200 W and 17,000 lumens let you push light through a large softbox or bounce it off a ceiling and still have enough to work with.",
+        image: "/products/amaran-200x-s/h1.jpg",
+      },
+      {
+        title: "Warm to cool white",
+        body: "Set any white from 2,700K to 6,500K, with a CRI of 95+ and TLCI of 98+ for natural skin tones on camera.",
+        image: "/products/amaran-200x-s/h2.jpg",
+      },
+      {
+        title: "Takes standard modifiers",
+        body: "The Bowens Mount takes ordinary softboxes, lanterns and reflectors. The Hyper Reflector in the box narrows the beam to 26.1° for 45,400 lux at 1 m.",
+        image: "/products/amaran-200x-s/h3.jpg",
+      },
+      {
+        title: "App control",
+        body: "Set brightness and colour from the Sidus Link app over Bluetooth, up to 100 m away, or from the LCD on the back.",
+        image: "/products/amaran-200x-s/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Studios", body: "A main light for a large softbox." },
+      { title: "Churches", body: "Light the stage for the livestream." },
+      { title: "Groups", body: "Enough output for several people." },
+      { title: "Bounce light", body: "Fill a room off a wall or ceiling." },
+    ],
+    notFor:
+      "It makes white light only. For coloured light, look at the 150c or 300c. For one person at a desk the 100x S or 60x S is enough and costs less.",
+    specs: [
+      { label: "Light type", value: "Bi-colour COB" },
+      { label: "Output", value: "200 W (229 W draw)" },
+      { label: "Brightness", value: "17,000 lm; 6,400 lux at 1 m bare, 45,400 lux with the Hyper Reflector" },
+      { label: "White range", value: "2,700–6,500K" },
+      { label: "Colour accuracy", value: "CRI 95+, TLCI 98+, TM-30 Rf 97" },
+      { label: "Beam angle", value: "111.4° bare, 26.1° with the Hyper Reflector" },
+      { label: "Mount", value: "Bowens Mount" },
+      { label: "Power", value: "AC 100–240V adapter (48V DC)" },
+      { label: "Control", value: "On-board LCD; Sidus Link app over Bluetooth (up to 100 m)" },
+      { label: "Cooling", value: "Active (fan)" },
+    ],
+    specsNote:
+      "Figures are Amaran's. A light stand and softbox are not included. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "200x S or 300c?",
+        a: "The 200x S makes white light only and is cheaper. The 300c has more power and can make any colour, which is useful for backgrounds and stage effects.",
+      },
+      {
+        q: "Does it come with a softbox or stand?",
+        a: "No. It comes with the Hyper Reflector, a protection cover and the mains adapter. We can quote a softbox and stand with it.",
+      },
+      {
+        q: "Can it run on batteries?",
+        a: "Not directly. It runs on 48V DC, so away from the mains it needs a 48V battery power station, sold separately. Ask us and we'll suggest one.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "Amaran 200x S",
+        price: 490_000,
+        includes: [
+          "Amaran 200x S",
+          "Hyper Reflector",
+          "Protection cover",
+          "AC adapter and power cable",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "amaran-150c",
+    brand: "Amaran",
+    name: "Amaran 150c",
+    category: "Lighting",
+    tagline: "A 150 W full-colour light for creative sets.",
+    headline:
+      "The Amaran 150c is a 150 W full-colour COB light in an all-metal Bowens Mount body, with white from 2,500K to 7,500K, any colour you like, and built-in effects.",
+    summary:
+      "The 150c makes white light and colour. White runs from 2,500K to 7,500K with a green and magenta adjustment, so you can match almost any room light, and a full colour wheel lets you set any hue for backgrounds, accents or stage looks. A CRI of 95+ keeps skin tones accurate. There are nine built-in effects, such as lightning, a TV flicker and police lights, useful for music videos and short films. The body is metal with a Bowens Mount for standard softboxes and reflectors, and the cooling fan is designed to run quietly. You get a Hyper Reflector, a protection cover, the mains adapter and a carry case in the box. Control it from the back panel or the Sidus Link app over Bluetooth.",
+    image: "/products/amaran-150c/main.jpg",
+    hero: "/products/amaran-150c/hero.jpg",
+    gallery: [
+      { src: "/products/amaran-150c/main.jpg", alt: "Amaran 150c full-colour light" },
+      { src: "/products/amaran-150c/g1.jpg", alt: "Amaran 150c from the side" },
+      { src: "/products/amaran-150c/g2.jpg", alt: "Amaran 150c from the back" },
+      { src: "/products/amaran-150c/g3.jpg", alt: "Amaran 150c what's in the box" },
+      { src: "/products/amaran-150c/h1.jpg", alt: "Amaran 150c making coloured light on set" },
+      { src: "/products/amaran-150c/h2.jpg", alt: "Amaran 150c in use" },
+    ],
+    stats: [
+      { value: "150 W", label: "Output" },
+      { value: "Full colour", label: "RGBWW" },
+      { value: "CRI 95+", label: "Colour accuracy" },
+      { value: "9", label: "Built-in effects" },
+    ],
+    highlights: [
+      {
+        title: "White and colour in one light",
+        body: "Set white from 2,500K to 7,500K with green and magenta adjustment, or pick any colour on the wheel for backgrounds and accents.",
+        image: "/products/amaran-150c/h1.jpg",
+      },
+      {
+        title: "Built-in effects",
+        body: "Nine effects, including lightning, TV flicker and police lights, are built in, so you don't need extra gear for music videos and short films.",
+        image: "/products/amaran-150c/h2.jpg",
+      },
+      {
+        title: "Metal body, Bowens Mount",
+        body: "The all-metal body takes standard Bowens Mount softboxes and reflectors. The Hyper Reflector in the box comes with it.",
+        image: "/products/amaran-150c/h3.jpg",
+      },
+      {
+        title: "App control",
+        body: "Change colour, brightness and effects from the Sidus Link app over Bluetooth, up to 100 m away.",
+        image: "/products/amaran-150c/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Music videos", body: "Coloured light and built-in effects." },
+      { title: "Studios", body: "Coloured backgrounds and accents." },
+      { title: "Churches", body: "Stage colour for services and events." },
+      { title: "Short films", body: "Match any practical light on set." },
+    ],
+    notFor:
+      "If you only need white light, the 200x S is brighter for less money. For a lot more colour output, the 300c doubles the power.",
+    specs: [
+      { label: "Light type", value: "Full-colour RGBWW COB" },
+      { label: "Output", value: "150 W (180 W draw)" },
+      { label: "Brightness", value: "11,196 lm at 5,600K; 5,600 lux at 1 m bare, 16,510 lux with the reflector" },
+      { label: "White range", value: "2,500–7,500K with green and magenta adjustment" },
+      { label: "Colour", value: "Full 360° HSI colour wheel" },
+      { label: "Colour accuracy", value: "CRI 95+, TLCI 95+, TM-30 Rf 92" },
+      { label: "Beam angle", value: "85.9° bare, 63.4° with the reflector" },
+      { label: "Effects", value: "9 built-in" },
+      { label: "Mount", value: "Bowens Mount, all-metal body" },
+      { label: "Power", value: "AC 100–240V adapter (48V DC)" },
+      { label: "Control", value: "On-board; Sidus Link app over Bluetooth (up to 100 m)" },
+    ],
+    specsNote:
+      "Figures are Amaran's. A light stand and softbox are not included. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "150c or 300c?",
+        a: "The 150c is enough for coloured backgrounds and a key light in a small studio. The 300c has twice the power for bigger rooms, stages and large softboxes.",
+      },
+      {
+        q: "Does it come with a softbox or stand?",
+        a: "No. It comes with a Hyper Reflector, a protection cover, the mains adapter and a carry case. We can quote a softbox and stand with it.",
+      },
+      {
+        q: "Can I use it as a normal white light?",
+        a: "Yes. White from 2,500K to 7,500K is accurate, with a CRI of 95+, so it works as a key light too.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "Amaran 150c",
+        price: 650_000,
+        includes: [
+          "Amaran 150c",
+          "Hyper Reflector",
+          "Protection cover",
+          "AC adapter and power cable",
+          "Carry case",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "amaran-300c",
+    brand: "Amaran",
+    name: "Amaran 300c",
+    category: "Lighting",
+    tagline: "A 300 W full-colour light for stages and big rooms.",
+    headline:
+      "The Amaran 300c is a 300 W full-colour COB light with 19,389 lumens, white from 2,500K to 7,500K, any colour on the wheel, and nine built-in effects.",
+    summary:
+      "The 300c has twice the power of the 150c in the same kind of all-metal Bowens Mount body. That is enough to light a stage, push colour across a large wall, or use a big softbox as a key light and still have output to spare. White runs from 2,500K to 7,500K with green and magenta adjustment, and the full colour wheel lets you set any hue. A CRI of 95+ keeps skin tones accurate. Nine built-in effects, such as lightning, fire and police lights, cover music videos and events without extra gear. You get a Hyper Reflector, a protection cover, the mains adapter and a carry case in the box. Control it from the back panel or the Sidus Link app over Bluetooth.",
+    image: "/products/amaran-300c/main.jpg",
+    hero: "/products/amaran-300c/hero.jpg",
+    gallery: [
+      { src: "/products/amaran-300c/main.jpg", alt: "Amaran 300c full-colour light" },
+      { src: "/products/amaran-300c/g1.jpg", alt: "Amaran 300c from the side" },
+      { src: "/products/amaran-300c/g2.jpg", alt: "Amaran 300c from the back" },
+      { src: "/products/amaran-300c/g3.jpg", alt: "Amaran 300c what's in the box" },
+      { src: "/products/amaran-300c/h1.jpg", alt: "Amaran 300c making coloured light on set" },
+      { src: "/products/amaran-300c/h2.jpg", alt: "Amaran 300c in use" },
+    ],
+    stats: [
+      { value: "300 W", label: "Output" },
+      { value: "19,389 lm", label: "Brightness" },
+      { value: "Full colour", label: "RGBWW" },
+      { value: "CRI 95+", label: "Colour accuracy" },
+    ],
+    highlights: [
+      {
+        title: "Power for big spaces",
+        body: "300 W lights a stage, a large wall or a big softbox, with 9,370 lux at 1 m bare and 26,580 lux with the reflector.",
+        image: "/products/amaran-300c/h1.jpg",
+      },
+      {
+        title: "White and colour in one light",
+        body: "Set white from 2,500K to 7,500K with green and magenta adjustment, or pick any colour on the wheel.",
+        image: "/products/amaran-300c/h2.jpg",
+      },
+      {
+        title: "Built-in effects",
+        body: "Nine effects are built in, including lightning, fire and police lights, for music videos, events and short films.",
+        image: "/products/amaran-300c/h3.jpg",
+      },
+      {
+        title: "App control",
+        body: "Change colour, brightness and effects from the Sidus Link app over Bluetooth, up to 100 m away.",
+        image: "/products/amaran-300c/h4.jpg",
+      },
+    ],
+    idealFor: [
+      { title: "Churches", body: "Colour and key light for the stage." },
+      { title: "Events", body: "Coloured washes on walls and stages." },
+      { title: "Studios", body: "A powerful main or background light." },
+      { title: "Music videos", body: "Bright colour and built-in effects." },
+    ],
+    notFor:
+      "It is a big, powerful light. For a desk or a small room the 150c or Ray 60c is easier to use and costs less. If you only need white light, the 200x S is cheaper.",
+    specs: [
+      { label: "Light type", value: "Full-colour RGBWW COB" },
+      { label: "Output", value: "300 W (360 W draw)" },
+      { label: "Brightness", value: "19,389 lm; 9,370 lux at 1 m bare, 26,580 lux with the reflector" },
+      { label: "White range", value: "2,500–7,500K with green and magenta adjustment" },
+      { label: "Colour", value: "Full 360° HSI colour wheel" },
+      { label: "Colour accuracy", value: "CRI 95+, TLCI 95+, TM-30 Rf 92" },
+      { label: "Beam angle", value: "89.6° bare, 64.8° with the reflector" },
+      { label: "Effects", value: "9 built-in" },
+      { label: "Mount", value: "Bowens Mount, all-metal body" },
+      { label: "Power", value: "AC 100–240V adapter (48V DC)" },
+      { label: "Control", value: "On-board; Sidus Link app over Bluetooth (up to 100 m)" },
+    ],
+    specsNote:
+      "Figures are Amaran's. A light stand and softbox are not included. We confirm the box contents before you pay.",
+    faqs: [
+      {
+        q: "300c or 150c?",
+        a: "The 300c has twice the power, for stages, big rooms and large softboxes. For a small studio or a background light, the 150c is enough and costs less.",
+      },
+      {
+        q: "Does it come with a softbox or stand?",
+        a: "No. It comes with a Hyper Reflector, a protection cover, the mains adapter and a carry case. We can quote a softbox and a heavy-duty stand with it.",
+      },
+      {
+        q: "Can I control several lights together?",
+        a: "Yes. The Sidus Link app can group several Amaran and Aputure lights and change them together.",
+      },
+      {
+        q: "How do I order?",
+        a: "Tap the WhatsApp button. Your order details go straight to us, and we'll confirm availability and delivery.",
+      },
+    ],
+    variants: [
+      {
+        id: "standard",
+        name: "Amaran 300c",
+        price: 750_000,
+        includes: [
+          "Amaran 300c",
+          "Hyper Reflector",
+          "Protection cover",
+          "AC adapter and power cable",
+          "Carry case",
+          "We confirm the full box contents on WhatsApp",
+        ],
+      },
+    ],
+  },
+  {
     slug: "dji-rs-4-mini",
     brand: "DJI",
     name: "DJI RS 4 Mini",

@@ -23,6 +23,9 @@ const readyLabel: Record<string, string> = {
   Camcorders: "Ready to shoot",
   Batteries: "Ready to power up",
   Gimbals: "Ready to roll",
+  "Wireless video": "Ready to go live",
+  "Live production": "Ready for the show",
+  "Lighting": "Ready to light the set",
 };
 
 export function generateStaticParams() {

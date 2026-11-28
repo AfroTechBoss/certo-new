@@ -6,6 +6,9 @@ export const productCategories = [
   { id: "drones", name: "Drones", title: "Drones", blurb: "Camera drones from first flights to pro aerial work." },
   { id: "camcorders", name: "Camcorders", title: "Camcorders", blurb: "Handheld and pro camcorders for events and broadcast." },
   { id: "gimbals", name: "Gimbals", title: "Gimbals and pocket cameras", blurb: "Stabilisers for cameras and phones, and pocket gimbal cameras." },
+  { id: "video", name: "Wireless video", title: "Wireless video", blurb: "Wireless video transmitters for monitoring and live production." },
+  { id: "live", name: "Live production", title: "Live production", blurb: "Video switchers for live streams, churches and events." },
+  { id: "lighting", name: "Lighting", title: "Lighting", blurb: "Video lights for studios, interviews and stages." },
   { id: "audio", name: "Audio", title: "Microphones and audio", blurb: "Wireless mics, lavaliers and on-camera audio." },
   { id: "batteries", name: "Batteries", title: "Drone batteries", blurb: "Spare flight batteries for longer days out." },
 ] as const;

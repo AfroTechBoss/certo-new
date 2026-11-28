@@ -13,6 +13,9 @@ const audio = inCategory("Audio");
 const batteries = inCategory("Batteries");
 const camcorders = inCategory("Camcorders");
 const gimbals = inCategory("Gimbals");
+const video = inCategory("Wireless video");
+const live = inCategory("Live production");
+const lighting = inCategory("Lighting");
 
 const categories = [
   { name: "Cameras", body: "Mirrorless, cinema and action cameras." },
@@ -61,6 +64,9 @@ export default function Home() {
     { href: "#drones", name: "Drones", n: drones.length },
     { href: "#camcorders", name: "Camcorders", n: camcorders.length },
     { href: "#gimbals", name: "Gimbals", n: gimbals.length },
+    { href: "#video", name: "Wireless video", n: video.length },
+    { href: "#live", name: "Live production", n: live.length },
+    { href: "#lighting", name: "Lighting", n: lighting.length },
     { href: "#audio", name: "Audio", n: audio.length },
     { href: "#batteries", name: "Batteries", n: batteries.length },
   ].filter((s) => s.n > 0);
@@ -205,6 +211,9 @@ export default function Home() {
       <ProductSection id="drones" label="Drones" title="Every drone we stock" items={drones} />
       <ProductSection id="camcorders" label="Camcorders" title="Cinema cameras and camcorders" items={camcorders} />
       <ProductSection id="gimbals" label="Gimbals" title="Gimbals and pocket cameras" items={gimbals} />
+      <ProductSection id="video" label="Wireless video" title="Wireless video transmitters" items={video} />
+      <ProductSection id="live" label="Live production" title="Live production switchers" items={live} />
+      <ProductSection id="lighting" label="Lighting" title="Video lights" items={lighting} />
       <ProductSection id="audio" label="Audio" title="Audio and intercoms" items={audio} />
       <ProductSection id="batteries" label="Batteries" title="Camera batteries" items={batteries} />
 
